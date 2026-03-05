@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>ソフィスティケーティッド</name>
+    <group>アスパイア</group>
+    <cssfile>sophisticated_ja.css</cssfile>
+    <metadata>
+        <namedstyles>
+            <navigation_button>ナビゲーションボタン</navigation_button>
+            <accent_button_1>アクセントボタン 1</accent_button_1>
+            <accent_button_2>アクセントボタン 2</accent_button_2>
+            <accent_button_3>アクセントボタン 3</accent_button_3>
+            <navigation_checkbox_set>ナビゲーションチェックボックスセット</navigation_checkbox_set>
+            <navigation_radio_button_set>ナビゲーションラジオボタンセット</navigation_radio_button_set>
+            <slide_control_alternate>スライドコントロール代替</slide_control_alternate>
+            <minimal_slide_control>最小スライドコントロール</minimal_slide_control>
+            <navigation_drop-down_calendar>ナビゲーションドロップダウンカレンダー</navigation_drop-down_calendar>
+            <navigation_drop-down_list>ナビゲーションドロップダウンリスト</navigation_drop-down_list>
+            <navigation_pop-up_menu>ナビゲーションポップアップメニュー</navigation_pop-up_menu>
+            <minimal_edit_box>最小編集ボックス</minimal_edit_box>
+            <popover_alternate_1>ポップオーバー代替 1</popover_alternate_1>
+            <popover_alternate_2>ポップオーバー代替 2</popover_alternate_2>
+            <minimal_container>最小オブジェクト</minimal_container>
+            <minimal_drop-down_calendar>最小ドロップダウンカレンダー</minimal_drop-down_calendar>
+            <navigation_region>ナビゲーション領域</navigation_region>
+            <column_header_region>列タイトル領域</column_header_region>
+            <title_bar_region>タイトルバー領域</title_bar_region>
+            <content_region>コンテンツ領域</content_region>
+            <accent_color_1>アクセントカラー 1</accent_color_1>
+            <accent_color_2>アクセントカラー 2</accent_color_2>
+            <accent_color_3>アクセントカラー 3</accent_color_3>
+            <gradient_1>グラデーション 1</gradient_1>
+            <gradient_2>グラデーション 2</gradient_2>
+            <minimal_drop-down_list>最小ドロップダウンリスト</minimal_drop-down_list>
+            <minimal_pop-up_menu>最小ポップアップメニュー</minimal_pop-up_menu>
+            <column_header_text>列タイトルテキスト</column_header_text>
+            <title_text_1>タイトルテキスト１</title_text_1>
+            <title_text_2>タイトルテキスト２</title_text_2>
+            <accent_text_1>アクセントテキスト 1</accent_text_1>
+            <accent_text_2>アクセントテキスト 2</accent_text_2>
+            <navigation_text>ナビゲーションテキスト</navigation_text>
+            <form_body>フォームボディ</form_body>
+            <navigation_part>ナビゲーションパート</navigation_part>
+            <accent_text_3>アクセントテキスト 3</accent_text_3>
+            <title_header_text>• タイトルヘッダテキスト</title_header_text>
+            <leading_grand_summary_text>• 前部総計テキスト</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• 前部小計 1 テキスト</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• 前部小計 2 テキスト</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• 前部小計追加テキスト</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• 後部小計追加テキスト</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• 後部小計 2 テキスト</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• 後部小計 1 テキスト</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• 後部総計テキスト</trailing_grand_summary_text>
+            <footer_text>• フッタテキスト</footer_text>
+            <title_footer_text>• タイトルフッタテキスト</title_footer_text>
+            <header_text>• ヘッダテキスト</header_text>
+            <navigation_part_text>• ナビゲーションパートテキスト</navigation_part_text>
+            <body_button_bar>ボディボタンバー</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

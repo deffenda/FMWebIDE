@@ -1,0 +1,77 @@
+{
+  "id": "fm-cm-preferences-UHJvamVj",
+  "name": "CM.PREFERENCES",
+  "defaultTableOccurrence": "CM.PREFERENCES",
+  "canvas": {
+    "width": 612,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-cm-preferences-UHJvamVj-109",
+      "position": {
+        "x": 114,
+        "y": 33,
+        "width": 363,
+        "height": 143,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "109",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "company_logo",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "company_logo",
+        "tableOccurrence": "CM.PREFERENCES"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-preferences-UHJvamVj-110",
+      "position": {
+        "x": 31,
+        "y": 90,
+        "width": 224,
+        "height": 67,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "110",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "company_address",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "company_address",
+        "tableOccurrence": "CM.PREFERENCES"
+      }
+    }
+  ],
+  "actions": []
+}

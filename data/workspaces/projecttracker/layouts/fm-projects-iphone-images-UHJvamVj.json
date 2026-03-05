@@ -1,0 +1,307 @@
+{
+  "id": "fm-projects-iphone-images-UHJvamVj",
+  "name": "Projects | iPhone - Images",
+  "defaultTableOccurrence": "Projects | iPhone - Images",
+  "canvas": {
+    "width": 1126,
+    "height": 679,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-projects-iphone-images-UHJvamVj-6358",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 400,
+        "height": 60,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Header Text",
+        "ddrObjectPath": "6358",
+        "rotation": 0,
+        "label": "Products",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-projects-iphone-images-UHJvamVj-6888",
+      "position": {
+        "x": 10,
+        "y": 86,
+        "width": 392,
+        "height": 553,
+        "z": 2
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "6888",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "container",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "container",
+        "tableOccurrence": "pt.projects_CM.CONTAINERS"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]",
+          "parameter": "Get ( WindowMode ) = 1"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-projects-iphone-images-UHJvamVj-6888-6889-6890",
+      "position": {
+        "x": 51,
+        "y": 349,
+        "width": 352,
+        "height": 440,
+        "z": 3
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "6888.6889.6890",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 2,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "container",
+          "_kfgm_status_selected_IDs",
+          "_kfc_status_ID"
+        ],
+        "groupId": "ddr-group-fm-projects-iphone-images-UHJvamVj-6888-6889",
+        "ddrArrangeOrder": 3
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "pt.projects_CM.CONTAINERS"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]",
+          "parameter": "Get ( WindowMode ) = 1"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-projects-iphone-images-UHJvamVj-6888-6889-6890-6932",
+      "position": {
+        "x": 97,
+        "y": 537,
+        "width": 264,
+        "height": 193,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "6888.6889.6890.6932",
+        "portalParentComponentId": "ddr-fm-projects-iphone-images-UHJvamVj-6888-6889-6890",
+        "portalParentDdrPath": "6888.6889.6890",
+        "portalParentTableOccurrence": "pt.projects_CM.CONTAINERS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "container",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-projects-iphone-images-UHJvamVj-6888-6889",
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "container",
+        "tableOccurrence": "pt.projects_CM.CONTAINERS"
+      }
+    },
+    {
+      "id": "ddr-fm-projects-iphone-images-UHJvamVj-6888-6889-6890-6910",
+      "position": {
+        "x": 382,
+        "y": 537,
+        "width": 36,
+        "height": 36,
+        "z": 5
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6888.6889.6890.6910",
+        "portalParentComponentId": "ddr-fm-projects-iphone-images-UHJvamVj-6888-6889-6890",
+        "portalParentDdrPath": "6888.6889.6890",
+        "portalParentTableOccurrence": "pt.projects_CM.CONTAINERS",
+        "rotation": 0,
+        "label": "Go To Details",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-projects-iphone-images-UHJvamVj-6888-6889",
+        "ddrArrangeOrder": 5
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]",
+          "parameter": "Get ( WindowMode ) = 1"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-projects-iphone-images-UHJvamVj-6888-6889-6912",
+      "position": {
+        "x": 51,
+        "y": 286,
+        "width": 350,
+        "height": 20,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Accent Text 1",
+        "ddrObjectPath": "6888.6889.6912",
+        "rotation": 0,
+        "label": "<<name_display>>",
+        "groupId": "ddr-group-fm-projects-iphone-images-UHJvamVj-6888-6889",
+        "ddrArrangeOrder": 6
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-projects-iphone-images-UHJvamVj-6913",
+      "position": {
+        "x": 296,
+        "y": 13,
+        "width": 105,
+        "height": 36,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Accent Button 1",
+        "ddrObjectPath": "6913",
+        "rotation": 0,
+        "label": "Back",
+        "variant": "secondary",
+        "ddrArrangeOrder": 7
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Home | iPhone"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-projects-iphone-images-UHJvamVj-6920",
+      "position": {
+        "x": 656,
+        "y": 208,
+        "width": 114,
+        "height": 122,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6920",
+        "rotation": 0,
+        "label": "// 10 = Not Started&#13;// 03 = In Progress&#13;// 06 = On Hold&#13;// 07 = Cancelled&#13;// 05 = Completed&#13;// 07 = At Risk&#13;// 12 = Due&#13;// 08 = Overdue&#13;// 09 = Ongoing",
+        "ddrArrangeOrder": 8
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-projects-iphone-images-UHJvamVj-6921",
+      "position": {
+        "x": 753,
+        "y": 33,
+        "width": 349,
+        "height": 135,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "6921",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kfgm_status_selected_IDs",
+        "controlType": "checkbox",
+        "valueList": "Statuses",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kfgm_status_selected_IDs",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-projects-iphone-images-UHJvamVj-6915",
+      "position": {
+        "x": 539,
+        "y": 71,
+        "width": 36,
+        "height": 36,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Accent Button 1",
+        "ddrObjectPath": "6915",
+        "rotation": 0,
+        "label": "Refresh",
+        "variant": "secondary",
+        "ddrArrangeOrder": 10
+      },
+      "type": "button"
+    }
+  ],
+  "actions": []
+}

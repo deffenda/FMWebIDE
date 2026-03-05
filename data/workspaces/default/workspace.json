@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "id": "default",
+  "name": "Assets",
+  "filemaker": {
+    "database": "Assets",
+    "ddrPath": "/Users/deffenda/Downloads/Assets.xml"
+  }
+}

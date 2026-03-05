@@ -1,0 +1,374 @@
+{
+  "id": "fm-cm-archives-Q29tbW9u",
+  "name": "CM.ARCHIVES",
+  "defaultTableOccurrence": "CM.ARCHIVES",
+  "canvas": {
+    "width": 1344,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-cm-archives-Q29tbW9u-51",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 259,
+        "height": 135,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "51",
+        "rotation": 0,
+        "label": "{{LayoutName}}&#13;{{AccountName}}&#13;{{UserName}}&#13;{{SystemIPAddress}}&#13;{{CurrentHostTimestamp}}&#13;{{SystemNICAddress}}",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-archives-Q29tbW9u-59",
+      "position": {
+        "x": 0,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "59",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "__kp_archive_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "__kp_archive_ID",
+        "tableOccurrence": "CM.ARCHIVES"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-archives-Q29tbW9u-61",
+      "position": {
+        "x": 120,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "61",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_person_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_person_ID",
+        "tableOccurrence": "CM.ARCHIVES"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-archives-Q29tbW9u-69",
+      "position": {
+        "x": 240,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "69",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "change_log",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "change_log",
+        "tableOccurrence": "CM.ARCHIVES"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-archives-Q29tbW9u-70",
+      "position": {
+        "x": 360,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "70",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "debug",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "debug",
+        "tableOccurrence": "CM.ARCHIVES"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-archives-Q29tbW9u-71",
+      "position": {
+        "x": 480,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "71",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "file_name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "file_name",
+        "tableOccurrence": "CM.ARCHIVES"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-archives-Q29tbW9u-73",
+      "position": {
+        "x": 600,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "73",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "table_name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "table_name",
+        "tableOccurrence": "CM.ARCHIVES"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-archives-Q29tbW9u-74",
+      "position": {
+        "x": 720,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "74",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "uuid",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "uuid",
+        "tableOccurrence": "CM.ARCHIVES"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-archives-Q29tbW9u-76",
+      "position": {
+        "x": 840,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "76",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_account_modify",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_account_modify",
+        "tableOccurrence": "CM.ARCHIVES"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-archives-Q29tbW9u-78",
+      "position": {
+        "x": 960,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "78",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_change_log",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_change_log",
+        "tableOccurrence": "CM.ARCHIVES"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-archives-Q29tbW9u-85",
+      "position": {
+        "x": 1080,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "85",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_timestamp_create",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 11
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_timestamp_create",
+        "tableOccurrence": "CM.ARCHIVES"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-archives-Q29tbW9u-86",
+      "position": {
+        "x": 1200,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "86",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_timestamp_modify",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_timestamp_modify",
+        "tableOccurrence": "CM.ARCHIVES"
+      }
+    }
+  ],
+  "actions": []
+}

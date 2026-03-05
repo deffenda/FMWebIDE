@@ -1,0 +1,33 @@
+{
+  "id": "fm-dev-webview-UHJvamVj",
+  "name": "DEV-Webview",
+  "defaultTableOccurrence": "DEV-Webview",
+  "canvas": {
+    "width": 1989,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-dev-webview-UHJvamVj-231",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 881,
+        "height": 492,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "231",
+        "rotation": 0,
+        "label": "ExternalObject: web_developer",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

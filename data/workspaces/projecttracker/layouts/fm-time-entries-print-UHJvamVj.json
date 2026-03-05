@@ -1,0 +1,656 @@
+{
+  "id": "fm-time-entries-print-UHJvamVj",
+  "name": "Time Entries|Print",
+  "defaultTableOccurrence": "Time Entries|Print",
+  "canvas": {
+    "width": 597,
+    "height": 647,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3697",
+      "position": {
+        "x": 0,
+        "y": 159,
+        "width": 66,
+        "height": 21,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3697",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "date",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3698",
+      "position": {
+        "x": 0,
+        "y": 135,
+        "width": 66,
+        "height": 16,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3698",
+        "rotation": 0,
+        "label": "Date",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3735",
+      "position": {
+        "x": 560,
+        "y": 159,
+        "width": 12,
+        "height": 14,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "3735",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_billable",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_billable",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3736",
+      "position": {
+        "x": 551,
+        "y": 135,
+        "width": 22,
+        "height": 16,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3736",
+        "rotation": 0,
+        "label": "Bill",
+        "ddrArrangeOrder": 4
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3737",
+      "position": {
+        "x": 422,
+        "y": 159,
+        "width": 42,
+        "height": 21,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Invisible",
+        "ddrObjectPath": "3737",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3738",
+      "position": {
+        "x": 422,
+        "y": 135,
+        "width": 42,
+        "height": 16,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3738",
+        "rotation": 0,
+        "label": "Hours",
+        "ddrArrangeOrder": 6
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3739",
+      "position": {
+        "x": 65,
+        "y": 159,
+        "width": 177,
+        "height": 404,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3739",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "description",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3740",
+      "position": {
+        "x": 65,
+        "y": 135,
+        "width": 177,
+        "height": 16,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3740",
+        "rotation": 0,
+        "label": "Description",
+        "ddrArrangeOrder": 8
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3741",
+      "position": {
+        "x": 244,
+        "y": 161,
+        "width": 94,
+        "height": 31,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Pop-up Menu",
+        "ddrObjectPath": "3741",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_person_ID",
+        "controlType": "popup",
+        "valueList": "Persons__All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_person_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3742",
+      "position": {
+        "x": 244,
+        "y": 135,
+        "width": 94,
+        "height": 16,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3742",
+        "rotation": 0,
+        "label": "Person",
+        "ddrArrangeOrder": 10
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3745",
+      "position": {
+        "x": 10,
+        "y": 101,
+        "width": 354,
+        "height": 21,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3745",
+        "rotation": 0,
+        "label": "<<pt.time_entries_PT.PROJECTS::name>>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 11
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3745-3743",
+      "position": {
+        "x": 20,
+        "y": 202,
+        "width": 354,
+        "height": 21,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3745.3743",
+        "rotation": 0,
+        "label": "<<pt.time_entries_PT.PROJECTS::name>>",
+        "ddrArrangeOrder": 12
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3746",
+      "position": {
+        "x": 12,
+        "y": 120,
+        "width": 352,
+        "height": 18,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 2 Text",
+        "ddrObjectPath": "3746",
+        "rotation": 0,
+        "label": "<<pt.time_entries_CM.ORGANIZATIONS::name_display>>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 13
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3746-3744",
+      "position": {
+        "x": 24,
+        "y": 240,
+        "width": 352,
+        "height": 18,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 2 Text",
+        "ddrObjectPath": "3746.3744",
+        "rotation": 0,
+        "label": "<<pt.time_entries_CM.ORGANIZATIONS::name_display>>",
+        "ddrArrangeOrder": 14
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3747",
+      "position": {
+        "x": 338,
+        "y": 161,
+        "width": 99,
+        "height": 31,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Pop-up Menu",
+        "ddrObjectPath": "3747",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_category_ID",
+        "controlType": "popup",
+        "valueList": "Categories__byTimeEntries",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 15
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_category_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3748",
+      "position": {
+        "x": 338,
+        "y": 135,
+        "width": 99,
+        "height": 16,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3748",
+        "rotation": 0,
+        "label": "Category",
+        "ddrArrangeOrder": 16
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3762",
+      "position": {
+        "x": 356,
+        "y": 576,
+        "width": 206,
+        "height": 20,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3762",
+        "rotation": 0,
+        "label": "Total: <<amount_sum>>",
+        "ddrArrangeOrder": 17
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3766",
+      "position": {
+        "x": 462,
+        "y": 159,
+        "width": 43,
+        "height": 21,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Invisible",
+        "ddrObjectPath": "3766",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "rate",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "rate",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3767",
+      "position": {
+        "x": 462,
+        "y": 135,
+        "width": 43,
+        "height": 16,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3767",
+        "rotation": 0,
+        "label": "Rate",
+        "ddrArrangeOrder": 19
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3768",
+      "position": {
+        "x": 503,
+        "y": 159,
+        "width": 53,
+        "height": 21,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Invisible",
+        "ddrObjectPath": "3768",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "amount",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "amount",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3769",
+      "position": {
+        "x": 503,
+        "y": 135,
+        "width": 53,
+        "height": 16,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3769",
+        "rotation": 0,
+        "label": "Amt",
+        "ddrArrangeOrder": 21
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3772",
+      "position": {
+        "x": 18,
+        "y": 17,
+        "width": 79,
+        "height": 70,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "3772",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "company_logo_display",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 22
+      },
+      "type": "field",
+      "binding": {
+        "field": "company_logo_display",
+        "tableOccurrence": "CM.PREFERENCES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3773",
+      "position": {
+        "x": 107,
+        "y": 35,
+        "width": 173,
+        "height": 35,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Title Text 1",
+        "ddrObjectPath": "3773",
+        "rotation": 0,
+        "label": "Time Details",
+        "ddrArrangeOrder": 23
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3774",
+      "position": {
+        "x": 198,
+        "y": 586,
+        "width": 79,
+        "height": 21,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Invisible",
+        "ddrObjectPath": "3774",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_sum",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 24
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_sum",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3775",
+      "position": {
+        "x": 198,
+        "y": 571,
+        "width": 37,
+        "height": 16,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3775",
+        "rotation": 0,
+        "label": "Hours",
+        "ddrArrangeOrder": 25
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-print-UHJvamVj-3781",
+      "position": {
+        "x": 248,
+        "y": 192,
+        "width": 306,
+        "height": 16,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Pop-up Menu",
+        "ddrObjectPath": "3781",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "module_name",
+        "controlType": "popup",
+        "valueList": "Items_All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 26
+      },
+      "type": "field",
+      "binding": {
+        "field": "module_name",
+        "tableOccurrence": "pt.time_entries_PT.ITEMS"
+      }
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Kühl grau</name>
+    <group>FileMaker Millennium</group>
+    <metadata>
+        <namedstyles>
+            <minimal_edit_box>Minimales Bearbeitungsfeld</minimal_edit_box>
+            <minimal_drop-down_calendar>Minimaler Einblendkalender</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Minimale Einblendliste</minimal_drop-down_list>
+            <minimal_pop-up_menu>Minimales Einblendmenü</minimal_pop-up_menu>
+            <simple_popover>Einfaches Popover</simple_popover>
+            <dots_outside>Punkte außen</dots_outside>
+            <header_button>Kopfbereich-Taste</header_button>
+            <header_edit_box>Kopfbereich-Bearbeitungsfeld</header_edit_box>
+            <header_drop-down_list>Kopfbereich-Einblendliste</header_drop-down_list>
+            <header_pop-up_menu>Kopfbereich-Einblendmenü</header_pop-up_menu>
+            <header_drop-down_calendar>Kopfbereich-Einblendkalender</header_drop-down_calendar>
+            <header_checkbox_set>Kopfbereich-Markierungsfelder</header_checkbox_set>
+            <header_radio_button_set>Kopfbereich-Optionsfelder</header_radio_button_set>
+            <title_text_1>Titeltext 1</title_text_1>
+            <title_text_2>Titeltext 2</title_text_2>
+            <title_bar_rectangle>Titelleistenform</title_bar_rectangle>
+            <region_rectangle>Regionsform</region_rectangle>
+            <minimal_container>Minimaler Container</minimal_container>
+            <title_header_text>• Kopf 1. Seite - Text</title_header_text>
+            <leading_grand_summary_text>• Vorangestelltes Gesamtergebnis - Text</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Vorangestelltes Zwischenergebnis 1 - Text</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Vorangestelltes Zwischenergebnis 2 - Text</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Vorangestelltes Zwischenergebnis - Zusatztext</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Nachgestelltes Zwischenergebnis - Zusatztext</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Nachgestelltes Zwischenergebnis 2 - Text</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Nachgestelltes Zwischenergebnis 1 - Text</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Nachgestelltes Gesamtergebnis - Text</trailing_grand_summary_text>
+            <footer_text>• Fußbereich - Text</footer_text>
+            <title_footer_text>• Fuß 1. Seite - Text</title_footer_text>
+            <header_text>• Kopfbereich - Text</header_text>
+            <navigation_part_text>• Navigationsbereich - Text</navigation_part_text>
+            <body_button_bar>Datenbereich-Tastenleiste</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

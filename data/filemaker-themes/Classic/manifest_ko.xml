@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>클래식</name>
+    <group>기본</group>
+    <cssfile>classic_ko.css</cssfile>
+</theme>

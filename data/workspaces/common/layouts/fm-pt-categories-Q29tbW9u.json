@@ -1,0 +1,77 @@
+{
+  "id": "fm-pt-categories-Q29tbW9u",
+  "name": "PT.CATEGORIES",
+  "defaultTableOccurrence": "PT.CATEGORIES",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-pt-categories-Q29tbW9u-14",
+      "position": {
+        "x": 0,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "14",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "PT.CATEGORIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-categories-Q29tbW9u-15",
+      "position": {
+        "x": 120,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "15",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "order",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "order",
+        "tableOccurrence": "PT.CATEGORIES"
+      }
+    }
+  ],
+  "actions": []
+}

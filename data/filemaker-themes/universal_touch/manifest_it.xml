@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Universale - Touch</name>
+    <group>Universale</group>
+    <metadata>
+        <namedstyles>
+            <array-highlight-buttonbar>Matrice | Evidenziato</array-highlight-buttonbar>
+            <array-inverted-buttonbar>Matrice | Forato</array-inverted-buttonbar>
+            <bold-inverted-text>Enfasi | Forato</bold-inverted-text>
+            <border-edit>Bordo | Secondario</border-edit>
+            <border-highlight-button>Bordo | Evidenziato</border-highlight-button>
+            <border-inverted-buttonbar>Bordo | Secondario</border-inverted-buttonbar>
+            <border-inverted-calendar>Bordo | Forato</border-inverted-calendar>
+            <border-inverted-checkbox>Bordo | Invertito</border-inverted-checkbox>
+            <border-inverted-container>Bordo | Invertito</border-inverted-container>
+            <border-inverted-dropdown>Bordo | Forato</border-inverted-dropdown>
+            <border-inverted-edit>Bordo | Invertito</border-inverted-edit>
+            <border-inverted-popup>Bordo | Forato</border-inverted-popup>
+            <border-inverted-portal>Bordo | Invertito</border-inverted-portal>
+            <border-inverted-radio>Bordo | Forato</border-inverted-radio>
+            <border-inverted-slide>Bordo | Invertito</border-inverted-slide>
+            <border-inverted-tab>Bordo | Invertito</border-inverted-tab>
+            <border-popover>Bordo | Forato</border-popover>
+            <border-secondary-button-bar>Bordo | Invertito</border-secondary-button-bar>
+            <border-secondary-calendar>Bordo | Secondario</border-secondary-calendar>
+            <border-secondary-dropdown>Bordo | Secondario</border-secondary-dropdown>
+            <border-secondary-popup>Bordo | Secondario</border-secondary-popup>
+            <emphasis-primary-text>Enfasi | Principale</emphasis-primary-text>
+            <fill-checkbox>Riempimento | Secondario</fill-checkbox>
+            <fill-container>Riempimento | Secondario</fill-container>
+            <fill-edit>Riempimento | Secondario</fill-edit>
+            <fill-highlight-button>Riempimento | Evidenziato</fill-highlight-button>
+            <fill-inverted-button>Riempimento | Invertito</fill-inverted-button>
+            <fill-inverted-calendar>Riempimento | Invertito</fill-inverted-calendar>
+            <fill-inverted-checkbox>Riempimento | Invertito</fill-inverted-checkbox>
+            <fill-inverted-container>Riempimento | Invertito</fill-inverted-container>
+            <fill-inverted-dropdown>Riempimento | Invertito</fill-inverted-dropdown>
+            <fill-inverted-edit>Riempimento | Invertito</fill-inverted-edit>
+            <fill-inverted-popover>Riempimento | Invertito</fill-inverted-popover>
+            <fill-inverted-popup>Riempimento | Invertito</fill-inverted-popup>
+            <fill-inverted-radio>Riempimento | Invertito</fill-inverted-radio>
+            <fill-knockout-container>Riempimento | Forato</fill-knockout-container>
+            <fill-low-shadow-inverted-calendar>Riempimento | Ombra bassa | Invertito</fill-low-shadow-inverted-calendar>
+            <fill-low-shadow-inverted-container>Riempimento | Ombra bassa | Invertito</fill-low-shadow-inverted-container>
+            <fill-low-shadow-inverted-dropdown>Riempimento | Ombra bassa | Invertito</fill-low-shadow-inverted-dropdown>
+            <fill-low-shadow-inverted-edit>Riempimento | Ombra bassa | Invertito</fill-low-shadow-inverted-edit>
+            <fill-low-shadow-inverted-popup>Riempimento | Ombra bassa | Invertito</fill-low-shadow-inverted-popup>
+            <fill-secondary-calendar>Riempimento | Secondario</fill-secondary-calendar>
+            <fill-secondary-dropdown>Riempimento | Secondario</fill-secondary-dropdown>
+            <fill-secondary-popup>Riempimento | Secondario</fill-secondary-popup>
+            <fill-secondary-radio>Riempimento | Secondario</fill-secondary-radio>
+            <high-shadow-inverted-shape>Ombra alta | Invertito</high-shadow-inverted-shape>
+            <high-shadow-inverted-slide>Ombra alta | Invertito</high-shadow-inverted-slide>
+            <high-shadow-knockout-shape>Ombra alta | Forato</high-shadow-knockout-shape>
+            <high-shadow-knockout-slide>Ombra alta | Forato</high-shadow-knockout-slide>
+            <highlight-shape>Evidenziato</highlight-shape>
+            <highlight-text>Evidenziato</highlight-text>
+            <inverted-background>Invertito</inverted-background>
+            <inverted-button>Forato</inverted-button>
+            <inverted-chart>Invertito</inverted-chart>
+            <inverted-line>Forato</inverted-line>
+            <inverted-navigation>Navigazione | Invertito</inverted-navigation>
+            <inverted-part>Invertito</inverted-part>
+            <inverted-shape>Invertito</inverted-shape>
+            <inverted-subsummary>Riassunto parziale | Invertito</inverted-subsummary>
+            <inverted-text>Forato</inverted-text>
+            <inverted-web>Invertito</inverted-web>
+            <knockout-shape>Forato</knockout-shape>
+            <large-inverted-text>Grande | Forato</large-inverted-text>
+            <large-primary-text>Grande | Principale</large-primary-text>
+            <light-secondary-part>Secondario</light-secondary-part>
+            <light-secondary-subsummary>Riassunto parziale | Secondario</light-secondary-subsummary>
+            <line-inverted-portal>Linea | Invertito</line-inverted-portal>
+            <line-secondary-portal>Linea | Secondario</line-secondary-portal>
+            <link-button>Collegamento</link-button>
+            <low-shadow-inverted-shape>Ombra bassa | Invertito</low-shadow-inverted-shape>
+            <low-shadow-inverted-slide>Ombra bassa | Invertito</low-shadow-inverted-slide>
+            <low-shadow-knockout-shape>Ombra bassa | Forato</low-shadow-knockout-shape>
+            <low-shadow-knockout-slide>Ombra bassa | Forato</low-shadow-knockout-slide>
+            <minimum-button>Minimo | Invertito</minimum-button>
+            <minimum-highlight-button>Minimo | Evidenziato</minimum-highlight-button>
+            <minimum-inverted-button>Minimo | Forato</minimum-inverted-button>
+            <minimum-secondary-button>Minimo | Secondario</minimum-secondary-button>
+            <minimum-secondary-highlight-button>Minimo | Secondario Evidenziato</minimum-secondary-highlight-button>
+            <pill-highlight-button>Pillola | Evidenziato</pill-highlight-button>
+            <pill-secondary-button>Pillola | Secondario</pill-secondary-button>
+            <primary-line>Invertito</primary-line>
+            <round-green-button>Rotondo | Verde</round-green-button>
+            <round-highlight-button>Rotondo | Evidenziato</round-highlight-button>
+            <round-inverted-button>Rotondo | Invertito</round-inverted-button>
+            <round-orange-button>Rotondo | Arancione</round-orange-button>
+            <round-red-button>Rotondo | Rosso</round-red-button>
+            <round-yellow-button>Rotondo | Giallo</round-yellow-button>
+            <rounded-border-highlight-button>Bordo arrotondato | Evidenziato</rounded-border-highlight-button>
+            <rounded-fill-highlight-button>Riempimento arrotondato | Evidenziato</rounded-fill-highlight-button>
+            <rounded-fill-inverted-button>Riempimento arrotondato | Invertito</rounded-fill-inverted-button>
+            <secondary-background>Secondario</secondary-background>
+            <secondary-highlight-button>Secondario Evidenziato</secondary-highlight-button>
+            <secondary-text>Secondario</secondary-text>
+            <separator-highlight-buttonbar>Separatore | Evidenziato</separator-highlight-buttonbar>
+            <separator-inverted-buttonbar>Separatore | Forato</separator-inverted-buttonbar>
+            <separator-uppercase-highlight-buttonbar>Separatore | Maiuscolo | Evidenziato</separator-uppercase-highlight-buttonbar>
+            <separator-uppercase-inverted-buttonbar>Separatore | Maiuscolo | Forato</separator-uppercase-inverted-buttonbar>
+            <small-inverted-text>Piccolo | Forato</small-inverted-text>
+            <small-primary-text>Piccolo | Principale</small-primary-text>
+            <small-secondary-text>Piccolo | Secondario</small-secondary-text>
+            <tab-bar-buttonbar>Barra schede</tab-bar-buttonbar>
+            <underline-container>Sottolineatura | Secondario</underline-container>
+            <underline-highlight-buttonbar>Sottolineatura | Evidenziato</underline-highlight-buttonbar>
+            <underline-inverted-buttonbar>Sottolineatura | Forato</underline-inverted-buttonbar>
+            <underline-inverted-calendar>Sottolineatura | Forato</underline-inverted-calendar>
+            <underline-inverted-container>Sottolineatura | Invertito</underline-inverted-container>
+            <underline-inverted-dropdown>Sottolineatura | Forato</underline-inverted-dropdown>
+            <underline-inverted-edit>Sottolineatura | Invertito</underline-inverted-edit>
+            <underline-inverted-popup>Sottolineatura | Forato</underline-inverted-popup>
+            <underline-uppercase-highlight-buttonbar>Sottolineatura | Maiuscolo | Evidenziato</underline-uppercase-highlight-buttonbar>
+            <underline-uppercase-inverted-buttonbar>Sottolineatura | Maiuscolo | Forato</underline-uppercase-inverted-buttonbar>
+            <uppercase-secondary-text>Maiuscolo | Secondario</uppercase-secondary-text>
+        </namedstyles>
+    </metadata>
+</theme>

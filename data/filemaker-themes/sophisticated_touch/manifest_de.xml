@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Raffiniert Touch</name>
+    <group>Aufstrebend Touch</group>
+    <metadata>
+        <namedstyles>
+            <navigation_button>Navigationstaste</navigation_button>
+            <navigation_checkbox_set>Navigations-Markierungsfelder</navigation_checkbox_set>
+            <navigation_drop-down_calendar>Navigations-Einblendkalender</navigation_drop-down_calendar>
+            <navigation_drop-down_list>Navigations-Einblendliste</navigation_drop-down_list>
+            <navigation_radio_button_set>Navigations-Optionsfelder</navigation_radio_button_set>
+            <navigation_pop-up_menu>Navigations-Einblendmenü</navigation_pop-up_menu>
+            <accent_button_1>Akzenttaste 1</accent_button_1>
+            <accent_button_2>Akzenttaste 2</accent_button_2>
+            <accent_button_3>Akzenttaste 3</accent_button_3>
+            <navigation_region>Navigationsregion</navigation_region>
+            <column_header_region>Spaltentitelbereich</column_header_region>
+            <column_header_text>Spaltentiteltext</column_header_text>
+            <popover_alternate_1>Popover alternativ 1</popover_alternate_1>
+            <popover_alternate_2>Popover alternativ 2</popover_alternate_2>
+            <title_bar_region>Titelleistenregion</title_bar_region>
+            <content_region>Inhaltsbereich</content_region>
+            <slide_control_alternate>Seitensteuerelement alternativ</slide_control_alternate>
+            <minimal_slide_control>Minimales Seitensteuerelement</minimal_slide_control>
+            <accent_color_1>Akzentfarbe 1</accent_color_1>
+            <accent_color_2>Akzentfarbe 2</accent_color_2>
+            <accent_color_3>Akzentfarbe 3</accent_color_3>
+            <gradient_1>Verlauf 1</gradient_1>
+            <gradient_2>Verlauf 2</gradient_2>
+            <title_text_1>Titeltext 1</title_text_1>
+            <title_text_2>Titeltext 2</title_text_2>
+            <accent_text_1>Akzenttext 1</accent_text_1>
+            <accent_text_2>Akzenttext 2</accent_text_2>
+            <navigation_text>Navigationstext</navigation_text>
+            <minimal_edit_box>Minimales Bearbeitungsfeld</minimal_edit_box>
+            <minimal_container>Minimaler Container</minimal_container>
+            <minimal_drop-down_calendar>Minimaler Einblendkalender</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Minimale Einblendliste</minimal_drop-down_list>
+            <minimal_pop-up_menu>Minimales Einblendmenü</minimal_pop-up_menu>
+            <form_body>Formularkörper</form_body>
+            <navigation_part>Navigationsbereich</navigation_part>
+            <accent_text_3>Akzenttext 3</accent_text_3>
+            <title_header_text>• Kopf 1. Seite - Text</title_header_text>
+            <leading_grand_summary_text>• Vorangestelltes Gesamtergebnis - Text</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Vorangestelltes Zwischenergebnis 1 - Text</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Vorangestelltes Zwischenergebnis 2 - Text</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Vorangestelltes Zwischenergebnis - Zusatztext</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Nachgestelltes Zwischenergebnis - Zusatztext</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Nachgestelltes Zwischenergebnis 2 - Text</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Nachgestelltes Zwischenergebnis 1 - Text</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Nachgestelltes Gesamtergebnis - Text</trailing_grand_summary_text>
+            <footer_text>• Fußbereich - Text</footer_text>
+            <title_footer_text>• Fuß 1. Seite - Text</title_footer_text>
+            <header_text>• Kopfbereich - Text</header_text>
+            <navigation_part_text>• Navigationsbereich - Text</navigation_part_text>
+            <body_button_bar>Datenbereich-Tastenleiste</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

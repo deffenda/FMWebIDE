@@ -1,0 +1,85 @@
+{
+  "id": "fm-kanban-UHJvamVj",
+  "name": "KANBAN",
+  "defaultTableOccurrence": "KANBAN",
+  "canvas": {
+    "width": 1202,
+    "height": 829,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-kanban-UHJvamVj-1",
+      "position": {
+        "x": 15,
+        "y": 73,
+        "width": 1163,
+        "height": 716,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "label": "Configurator",
+        "variant": "secondary",
+        "ddrArrangeOrder": 1
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Kanban Show Configurator",
+          "parameter": "JSONSetElement ( \"\"; \n\n  [\"AddonUUID\" ; \"FEF8DA86-EED5-48CA-A3EC-4A7034CE6CD4\" ; JSONString]\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-kanban-UHJvamVj-1-2",
+      "position": {
+        "x": 30,
+        "y": 218,
+        "width": 1163,
+        "height": 644,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "1.2",
+        "rotation": 0,
+        "label": "ExternalObject: KanbanWV_FEF8DA86-EED5-48CA-A3EC-4A7034CE6CD4",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-kanban-UHJvamVj-1-3",
+      "position": {
+        "x": 1130,
+        "y": 146,
+        "width": 62,
+        "height": 58,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "1.3",
+        "rotation": 0,
+        "label": "Configurator",
+        "variant": "secondary",
+        "ddrArrangeOrder": 3
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Kanban Show Configurator",
+          "parameter": "JSONSetElement ( \"\"; \n\n  [\"AddonUUID\" ; \"FEF8DA86-EED5-48CA-A3EC-4A7034CE6CD4\" ; JSONString]\n\n)"
+        }
+      }
+    }
+  ],
+  "actions": []
+}

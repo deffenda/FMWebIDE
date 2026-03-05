@@ -1,0 +1,309 @@
+{
+  "id": "fm-setup-UHJvamVj",
+  "name": "Setup",
+  "defaultTableOccurrence": "Setup",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-setup-UHJvamVj-13",
+      "position": {
+        "x": 378,
+        "y": 226,
+        "width": 567,
+        "height": 31,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "ddrObjectPath": "13",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "ConfigStore",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "ConfigStore",
+        "tableOccurrence": "Kanban"
+      }
+    },
+    {
+      "id": "ddr-fm-setup-UHJvamVj-14",
+      "position": {
+        "x": 150,
+        "y": 231,
+        "width": 205,
+        "height": 20,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "ddrObjectPath": "14",
+        "rotation": 0,
+        "label": "ConfigStore",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-setup-UHJvamVj-15",
+      "position": {
+        "x": 378,
+        "y": 261,
+        "width": 567,
+        "height": 31,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "ddrObjectPath": "15",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "CurrentAddonUUID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "CurrentAddonUUID",
+        "tableOccurrence": "Kanban"
+      }
+    },
+    {
+      "id": "ddr-fm-setup-UHJvamVj-16",
+      "position": {
+        "x": 30,
+        "y": 266,
+        "width": 325,
+        "height": 20,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "ddrObjectPath": "16",
+        "rotation": 0,
+        "label": "CurrentAddonUUID",
+        "ddrArrangeOrder": 4
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-setup-UHJvamVj-17",
+      "position": {
+        "x": 378,
+        "y": 296,
+        "width": 567,
+        "height": 31,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "ddrObjectPath": "17",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "HTML",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "HTML",
+        "tableOccurrence": "Kanban"
+      }
+    },
+    {
+      "id": "ddr-fm-setup-UHJvamVj-18",
+      "position": {
+        "x": 244,
+        "y": 301,
+        "width": 111,
+        "height": 20,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "ddrObjectPath": "18",
+        "rotation": 0,
+        "label": "HTML",
+        "ddrArrangeOrder": 6
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-setup-UHJvamVj-19",
+      "position": {
+        "x": 378,
+        "y": 331,
+        "width": 567,
+        "height": 31,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "ddrObjectPath": "19",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "OriginalLayout",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "OriginalLayout",
+        "tableOccurrence": "Kanban"
+      }
+    },
+    {
+      "id": "ddr-fm-setup-UHJvamVj-20",
+      "position": {
+        "x": 110,
+        "y": 336,
+        "width": 245,
+        "height": 20,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "ddrObjectPath": "20",
+        "rotation": 0,
+        "label": "OriginalLayout",
+        "ddrArrangeOrder": 8
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-setup-UHJvamVj-21",
+      "position": {
+        "x": 378,
+        "y": 366,
+        "width": 567,
+        "height": 31,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "ddrObjectPath": "21",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "OriginalTable",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "OriginalTable",
+        "tableOccurrence": "Kanban"
+      }
+    },
+    {
+      "id": "ddr-fm-setup-UHJvamVj-22",
+      "position": {
+        "x": 135,
+        "y": 371,
+        "width": 220,
+        "height": 20,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "ddrObjectPath": "22",
+        "rotation": 0,
+        "label": "OriginalTable",
+        "ddrArrangeOrder": 10
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-setup-UHJvamVj-23",
+      "position": {
+        "x": 378,
+        "y": 401,
+        "width": 567,
+        "height": 31,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "ddrObjectPath": "23",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "QueryField",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 11
+      },
+      "type": "field",
+      "binding": {
+        "field": "QueryField",
+        "tableOccurrence": "Kanban"
+      }
+    },
+    {
+      "id": "ddr-fm-setup-UHJvamVj-24",
+      "position": {
+        "x": 168,
+        "y": 406,
+        "width": 187,
+        "height": 20,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "ddrObjectPath": "24",
+        "rotation": 0,
+        "label": "QueryField",
+        "ddrArrangeOrder": 12
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

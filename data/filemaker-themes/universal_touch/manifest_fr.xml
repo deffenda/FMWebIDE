@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Universel tactile</name>
+    <group>Universel</group>
+    <metadata>
+        <namedstyles>
+            <array-highlight-buttonbar>Tableau | Mise en surbrillance</array-highlight-buttonbar>
+            <array-inverted-buttonbar>Tableau | Masquage</array-inverted-buttonbar>
+            <bold-inverted-text>Mise en valeur | Masquage</bold-inverted-text>
+            <border-edit>Bordure | Secondaire</border-edit>
+            <border-highlight-button>Bordure | Mise en surbrillance</border-highlight-button>
+            <border-inverted-buttonbar>Bordure | Secondaire</border-inverted-buttonbar>
+            <border-inverted-calendar>Bordure | Masquage</border-inverted-calendar>
+            <border-inverted-checkbox>Bordure | Inversé</border-inverted-checkbox>
+            <border-inverted-container>Bordure | Inversé</border-inverted-container>
+            <border-inverted-dropdown>Bordure | Masquage</border-inverted-dropdown>
+            <border-inverted-edit>Bordure | Inversé</border-inverted-edit>
+            <border-inverted-popup>Bordure | Masquage</border-inverted-popup>
+            <border-inverted-portal>Bordure | Inversé</border-inverted-portal>
+            <border-inverted-radio>Bordure | Masquage</border-inverted-radio>
+            <border-inverted-slide>Bordure | Inversé</border-inverted-slide>
+            <border-inverted-tab>Bordure | Inversé</border-inverted-tab>
+            <border-popover>Bordure | Masquage</border-popover>
+            <border-secondary-button-bar>Bordure | Inversé</border-secondary-button-bar>
+            <border-secondary-calendar>Bordure | Secondaire</border-secondary-calendar>
+            <border-secondary-dropdown>Bordure | Secondaire</border-secondary-dropdown>
+            <border-secondary-popup>Bordure | Secondaire</border-secondary-popup>
+            <emphasis-primary-text>Mise en valeur | Principale</emphasis-primary-text>
+            <fill-checkbox>Fond | Secondaire</fill-checkbox>
+            <fill-container>Fond | Secondaire</fill-container>
+            <fill-edit>Fond | Secondaire</fill-edit>
+            <fill-highlight-button>Fond | Mise en surbrillance</fill-highlight-button>
+            <fill-inverted-button>Fond | Inversé</fill-inverted-button>
+            <fill-inverted-calendar>Fond | Inversé</fill-inverted-calendar>
+            <fill-inverted-checkbox>Fond | Inversé</fill-inverted-checkbox>
+            <fill-inverted-container>Fond | Inversé</fill-inverted-container>
+            <fill-inverted-dropdown>Fond | Inversé</fill-inverted-dropdown>
+            <fill-inverted-edit>Fond | Inversé</fill-inverted-edit>
+            <fill-inverted-popover>Fond | Inversé</fill-inverted-popover>
+            <fill-inverted-popup>Fond | Inversé</fill-inverted-popup>
+            <fill-inverted-radio>Fond | Inversé</fill-inverted-radio>
+            <fill-knockout-container>Fond | Masquage</fill-knockout-container>
+            <fill-low-shadow-inverted-calendar>Fond | Ombre faible | Inversé</fill-low-shadow-inverted-calendar>
+            <fill-low-shadow-inverted-container>Fond | Ombre faible | Inversé</fill-low-shadow-inverted-container>
+            <fill-low-shadow-inverted-dropdown>Fond | Ombre faible | Inversé</fill-low-shadow-inverted-dropdown>
+            <fill-low-shadow-inverted-edit>Fond | Ombre faible | Inversé</fill-low-shadow-inverted-edit>
+            <fill-low-shadow-inverted-popup>Fond | Ombre faible | Inversé</fill-low-shadow-inverted-popup>
+            <fill-secondary-calendar>Fond | Secondaire</fill-secondary-calendar>
+            <fill-secondary-dropdown>Fond | Secondaire</fill-secondary-dropdown>
+            <fill-secondary-popup>Fond | Secondaire</fill-secondary-popup>
+            <fill-secondary-radio>Fond | Secondaire</fill-secondary-radio>
+            <high-shadow-inverted-shape>Ombre forte | Inversé</high-shadow-inverted-shape>
+            <high-shadow-inverted-slide>Ombre forte | Inversé</high-shadow-inverted-slide>
+            <high-shadow-knockout-shape>Ombre forte | Masquage</high-shadow-knockout-shape>
+            <high-shadow-knockout-slide>Ombre forte | Masquage</high-shadow-knockout-slide>
+            <highlight-shape>Mise en surbrillance</highlight-shape>
+            <highlight-text>Mise en surbrillance</highlight-text>
+            <inverted-background>Inversé</inverted-background>
+            <inverted-button>Masquage</inverted-button>
+            <inverted-chart>Inversé</inverted-chart>
+            <inverted-line>Masquage</inverted-line>
+            <inverted-navigation>Navigation | Inversé</inverted-navigation>
+            <inverted-part>Inversé</inverted-part>
+            <inverted-shape>Inversé</inverted-shape>
+            <inverted-subsummary>Sous-récapitulatif | Inversé</inverted-subsummary>
+            <inverted-text>Masquage</inverted-text>
+            <inverted-web>Inversé</inverted-web>
+            <knockout-shape>Masquage</knockout-shape>
+            <large-inverted-text>Large | Masquage</large-inverted-text>
+            <large-primary-text>Large | Principal</large-primary-text>
+            <light-secondary-part>Secondaire</light-secondary-part>
+            <light-secondary-subsummary>Sous-récapitulatif | Secondaire</light-secondary-subsummary>
+            <line-inverted-portal>Ligne | Inversé</line-inverted-portal>
+            <line-secondary-portal>Ligne | Secondaire</line-secondary-portal>
+            <link-button>Lien</link-button>
+            <low-shadow-inverted-shape>Ombre faible | Inversé</low-shadow-inverted-shape>
+            <low-shadow-inverted-slide>Ombre faible | Inversé</low-shadow-inverted-slide>
+            <low-shadow-knockout-shape>Ombre faible | Masquage</low-shadow-knockout-shape>
+            <low-shadow-knockout-slide>Ombre faible | Masquage</low-shadow-knockout-slide>
+            <minimum-button>Minimum | Inversé</minimum-button>
+            <minimum-highlight-button>Minimum | Mise en surbrillance</minimum-highlight-button>
+            <minimum-inverted-button>Minimum | Masquage</minimum-inverted-button>
+            <minimum-secondary-button>Minimum | Secondaire</minimum-secondary-button>
+            <minimum-secondary-highlight-button>Minimum | Mise en surbrillance secondaire</minimum-secondary-highlight-button>
+            <pill-highlight-button>Epurer | Mise en surbrillance</pill-highlight-button>
+            <pill-secondary-button>Epurer | Secondaire</pill-secondary-button>
+            <primary-line>Inversé</primary-line>
+            <round-green-button>Arrondi | Vert</round-green-button>
+            <round-highlight-button>Arrondi | Mise en surbrillance</round-highlight-button>
+            <round-inverted-button>Arrondi | Inversé</round-inverted-button>
+            <round-orange-button>Arrondi | Orange</round-orange-button>
+            <round-red-button>Arrondi | Rouge</round-red-button>
+            <round-yellow-button>Arrondi | Jaune</round-yellow-button>
+            <rounded-border-highlight-button>Bordure arrondie | Mise en surbrillance</rounded-border-highlight-button>
+            <rounded-fill-highlight-button>Fond arrondi | Mise en surbrillance</rounded-fill-highlight-button>
+            <rounded-fill-inverted-button>Fond arrondi | Inversé</rounded-fill-inverted-button>
+            <secondary-background>Secondaire</secondary-background>
+            <secondary-highlight-button>Mise en surbrillance secondaire</secondary-highlight-button>
+            <secondary-text>Secondaire</secondary-text>
+            <separator-highlight-buttonbar>Séparateur | Mise en surbrillance</separator-highlight-buttonbar>
+            <separator-inverted-buttonbar>Séparateur | Masquage</separator-inverted-buttonbar>
+            <separator-uppercase-highlight-buttonbar>Séparateur | Majuscule | Mettre en surbrillance</separator-uppercase-highlight-buttonbar>
+            <separator-uppercase-inverted-buttonbar>Séparateur | Majuscule | Masquage</separator-uppercase-inverted-buttonbar>
+            <small-inverted-text>Petit | Masquage</small-inverted-text>
+            <small-primary-text>Petit | Principal</small-primary-text>
+            <small-secondary-text>Petit | Secondaire</small-secondary-text>
+            <tab-bar-buttonbar>Barre onglets</tab-bar-buttonbar>
+            <underline-container>Souligné | Secondaire</underline-container>
+            <underline-highlight-buttonbar>Souligné | Mise en surbrillance</underline-highlight-buttonbar>
+            <underline-inverted-buttonbar>Souligné | Masquage</underline-inverted-buttonbar>
+            <underline-inverted-calendar>Souligné | Masquage</underline-inverted-calendar>
+            <underline-inverted-container>Souligné | Inversé</underline-inverted-container>
+            <underline-inverted-dropdown>Souligné | Masquage</underline-inverted-dropdown>
+            <underline-inverted-edit>Souligné | Inversé</underline-inverted-edit>
+            <underline-inverted-popup>Souligné | Masquage</underline-inverted-popup>
+            <underline-uppercase-highlight-buttonbar>Souligné | Majuscule | Mise en surbrillance</underline-uppercase-highlight-buttonbar>
+            <underline-uppercase-inverted-buttonbar>Souligné | Majuscule | Masquage</underline-uppercase-inverted-buttonbar>
+            <uppercase-secondary-text>Majuscule | Secondaire</uppercase-secondary-text>
+        </namedstyles>
+    </metadata>
+</theme>

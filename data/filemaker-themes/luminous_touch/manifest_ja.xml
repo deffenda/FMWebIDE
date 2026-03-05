@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>ルミナスタッチ</name>
+    <group>アスパイアタッチ</group>
+    <cssfile>luminous_touch_ja.css</cssfile>
+    <metadata>
+        <namedstyles>
+            <accent_button_1>アクセントボタン 1</accent_button_1>
+            <accent_button_2>アクセントボタン 2</accent_button_2>
+            <column_header_text>列タイトルテキスト</column_header_text>
+            <content_region>コンテンツ領域</content_region>
+            <accent_color_1>アクセントカラー 1</accent_color_1>
+            <accent_color_2>アクセントカラー 2</accent_color_2>
+            <accent_color_3>アクセントカラー 3</accent_color_3>
+            <gradient_1>グラデーション 1</gradient_1>
+            <gradient_2>グラデーション 2</gradient_2>
+            <accent_text_1>アクセントテキスト 1</accent_text_1>
+            <accent_text_2>アクセントテキスト 2</accent_text_2>
+            <title_text_1>タイトルテキスト１</title_text_1>
+            <title_text_2>タイトルテキスト２</title_text_2>
+            <minimal_slide_control>最小スライドコントロール</minimal_slide_control>
+            <slide_control_alternate>スライドコントロール代替</slide_control_alternate>
+            <photo_layout_background>写真レイアウト背景 </photo_layout_background>
+            <graphic_layout_background>グラフィックレイアウト背景</graphic_layout_background>
+            <minimal_edit_box>最小編集ボックス</minimal_edit_box>
+            <minimal_container>最小オブジェクト</minimal_container>
+            <minimal_drop-down_calendar>最小ドロップダウンカレンダー</minimal_drop-down_calendar>
+            <minimal_drop-down_list>最小ドロップダウンリスト</minimal_drop-down_list>
+            <minimal_pop-up_menu>最小ポップアップメニュー</minimal_pop-up_menu>
+            <column_header_region>列タイトル領域</column_header_region>
+            <texture_layout_background>テクスチャレイアウト背景</texture_layout_background>
+            <title_header_text>• タイトルヘッダテキスト</title_header_text>
+            <leading_grand_summary_text>• 前部総計テキスト</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• 前部小計 1 テキスト</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• 前部小計 2 テキスト</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• 前部小計追加テキスト</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• 後部小計追加テキスト</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• 後部小計 2 テキスト</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• 後部小計 1 テキスト</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• 後部総計テキスト</trailing_grand_summary_text>
+            <footer_text>• フッタテキスト</footer_text>
+            <title_footer_text>• タイトルフッタテキスト</title_footer_text>
+            <header_text>• ヘッダテキスト</header_text>
+            <navigation_part_text>• ナビゲーションパートテキスト</navigation_part_text>
+            <body_button_bar>ボディボタンバー</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

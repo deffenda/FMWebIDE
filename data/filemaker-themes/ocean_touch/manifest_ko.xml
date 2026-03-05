@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>바다(터치)</name>
+    <group>둥근 모양</group>
+    <cssfile>ocean_touch_ko.css</cssfile>
+    <metadata>
+        <namedstyles>
+            <minimal_drop-down_calendar>최소 드롭다운 캘린더</minimal_drop-down_calendar>
+            <minimal_drop-down_list>최소 드롭다운 목록</minimal_drop-down_list>
+            <minimal_edit_box>최소 편집 상자</minimal_edit_box>
+            <minimal_pop-up_menu>최소 팝업 메뉴</minimal_pop-up_menu>
+            <simple_popover>단순 팝오버</simple_popover>
+            <dots_outside>바깥쪽 점</dots_outside>
+            <header_button>머리말 버튼</header_button>
+            <header_edit_box>머리말 편집 상자</header_edit_box>
+            <header_drop-down_list>머리말 드롭다운 목록</header_drop-down_list>
+            <header_pop-up_menu>머리말 팝업 메뉴</header_pop-up_menu>
+            <header_drop-down_calendar>머리말 드롭다운 캘린더</header_drop-down_calendar>
+            <header_checkbox_set>머리말 체크상자 세트</header_checkbox_set>
+            <header_radio_button_set>머리말 라디오 버튼 세트</header_radio_button_set>
+            <title_text_1>제목 텍스트 1</title_text_1>
+            <title_text_2>제목 텍스트 2</title_text_2>
+            <title_bar_rectangle>제목 표시줄 모양</title_bar_rectangle>
+            <region_rectangle>영역 모양</region_rectangle>
+            <minimal_container>최소 컨테이너</minimal_container>
+            <title_header_text>• 제목 머리말 텍스트</title_header_text>
+            <leading_grand_summary_text>• 선행 총계 텍스트</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• 선행 소계 1 텍스트</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• 선행 소계 2 텍스트</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• 선행 소계 추가 텍스트</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• 후행 소계 추가 텍스트</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• 후행 소계 2 텍스트</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• 후행 소계 1 텍스트</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• 후행 총계 텍스트</trailing_grand_summary_text>
+            <footer_text>• 꼬리말 텍스트</footer_text>
+            <title_footer_text>• 제목 꼬리말 텍스트</title_footer_text>
+            <header_text>• 머리말 텍스트</header_text>
+            <navigation_part_text>• 탐색 부분 텍스트</navigation_part_text>
+            <body_button_bar>본문 버튼 막대</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

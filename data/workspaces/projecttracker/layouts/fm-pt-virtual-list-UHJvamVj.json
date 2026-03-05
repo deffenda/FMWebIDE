@@ -1,0 +1,1044 @@
+{
+  "id": "fm-pt-virtual-list-UHJvamVj",
+  "name": "PT.VIRTUAL_LIST",
+  "defaultTableOccurrence": "PT.VIRTUAL_LIST",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-1",
+      "position": {
+        "x": 63,
+        "y": 55,
+        "width": 64,
+        "height": 17,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "label": "column_01",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-2",
+      "position": {
+        "x": 138,
+        "y": 52,
+        "width": 253,
+        "height": 21,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "column_01",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "column_01",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-3",
+      "position": {
+        "x": 63,
+        "y": 78,
+        "width": 64,
+        "height": 17,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "3",
+        "rotation": 0,
+        "label": "column_02",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-4",
+      "position": {
+        "x": 138,
+        "y": 75,
+        "width": 253,
+        "height": 21,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "4",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "column_02",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "column_02",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-5",
+      "position": {
+        "x": 63,
+        "y": 101,
+        "width": 64,
+        "height": 17,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "5",
+        "rotation": 0,
+        "label": "column_03",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-6",
+      "position": {
+        "x": 138,
+        "y": 98,
+        "width": 253,
+        "height": 21,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "6",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "column_03",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "column_03",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-7",
+      "position": {
+        "x": 63,
+        "y": 124,
+        "width": 64,
+        "height": 17,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "7",
+        "rotation": 0,
+        "label": "column_04",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-8",
+      "position": {
+        "x": 138,
+        "y": 121,
+        "width": 253,
+        "height": 21,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "8",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "column_04",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "column_04",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-9",
+      "position": {
+        "x": 63,
+        "y": 147,
+        "width": 64,
+        "height": 17,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "9",
+        "rotation": 0,
+        "label": "column_05",
+        "ddrArrangeOrder": 9
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-10",
+      "position": {
+        "x": 138,
+        "y": 144,
+        "width": 253,
+        "height": 21,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "10",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "column_05",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "column_05",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-11",
+      "position": {
+        "x": 63,
+        "y": 170,
+        "width": 64,
+        "height": 17,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "11",
+        "rotation": 0,
+        "label": "column_06",
+        "ddrArrangeOrder": 11
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-12",
+      "position": {
+        "x": 138,
+        "y": 167,
+        "width": 253,
+        "height": 21,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "12",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "column_06",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "column_06",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-13",
+      "position": {
+        "x": 63,
+        "y": 193,
+        "width": 64,
+        "height": 17,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "13",
+        "rotation": 0,
+        "label": "column_07",
+        "ddrArrangeOrder": 13
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-14",
+      "position": {
+        "x": 138,
+        "y": 190,
+        "width": 253,
+        "height": 21,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "14",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "column_07",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "column_07",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-15",
+      "position": {
+        "x": 63,
+        "y": 216,
+        "width": 64,
+        "height": 17,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "15",
+        "rotation": 0,
+        "label": "column_08",
+        "ddrArrangeOrder": 15
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-16",
+      "position": {
+        "x": 138,
+        "y": 213,
+        "width": 253,
+        "height": 21,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "16",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "column_08",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 16
+      },
+      "type": "field",
+      "binding": {
+        "field": "column_08",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-17",
+      "position": {
+        "x": 63,
+        "y": 239,
+        "width": 64,
+        "height": 17,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "17",
+        "rotation": 0,
+        "label": "column_09",
+        "ddrArrangeOrder": 17
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-18",
+      "position": {
+        "x": 138,
+        "y": 236,
+        "width": 253,
+        "height": 21,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "18",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "column_09",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "column_09",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-19",
+      "position": {
+        "x": 63,
+        "y": 262,
+        "width": 64,
+        "height": 17,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "19",
+        "rotation": 0,
+        "label": "column_10",
+        "ddrArrangeOrder": 19
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-20",
+      "position": {
+        "x": 138,
+        "y": 259,
+        "width": 253,
+        "height": 21,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "20",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "column_10",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "column_10",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-21",
+      "position": {
+        "x": 19,
+        "y": 285,
+        "width": 108,
+        "height": 17,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "21",
+        "rotation": 0,
+        "label": "__kp_virtual_list_ID",
+        "ddrArrangeOrder": 21
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-22",
+      "position": {
+        "x": 138,
+        "y": 282,
+        "width": 79,
+        "height": 21,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "22",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "__kp_virtual_list_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 22
+      },
+      "type": "field",
+      "binding": {
+        "field": "__kp_virtual_list_ID",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-23",
+      "position": {
+        "x": 58,
+        "y": 308,
+        "width": 69,
+        "height": 17,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "23",
+        "rotation": 0,
+        "label": "valuelist_01",
+        "ddrArrangeOrder": 23
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-24",
+      "position": {
+        "x": 138,
+        "y": 305,
+        "width": 253,
+        "height": 21,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "24",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "valuelist_01",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 24
+      },
+      "type": "field",
+      "binding": {
+        "field": "valuelist_01",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-25",
+      "position": {
+        "x": 58,
+        "y": 331,
+        "width": 69,
+        "height": 17,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "25",
+        "rotation": 0,
+        "label": "valuelist_02",
+        "ddrArrangeOrder": 25
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-26",
+      "position": {
+        "x": 138,
+        "y": 328,
+        "width": 253,
+        "height": 21,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "26",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "valuelist_02",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 26
+      },
+      "type": "field",
+      "binding": {
+        "field": "valuelist_02",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-27",
+      "position": {
+        "x": 58,
+        "y": 354,
+        "width": 69,
+        "height": 17,
+        "z": 27
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "27",
+        "rotation": 0,
+        "label": "valuelist_03",
+        "ddrArrangeOrder": 27
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-28",
+      "position": {
+        "x": 138,
+        "y": 351,
+        "width": 253,
+        "height": 21,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "28",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "valuelist_03",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 28
+      },
+      "type": "field",
+      "binding": {
+        "field": "valuelist_03",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-29",
+      "position": {
+        "x": 14,
+        "y": 377,
+        "width": 113,
+        "height": 17,
+        "z": 29
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "29",
+        "rotation": 0,
+        "label": "valuelist_display_01",
+        "ddrArrangeOrder": 29
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-30",
+      "position": {
+        "x": 138,
+        "y": 374,
+        "width": 253,
+        "height": 21,
+        "z": 30
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "30",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "valuelist_display_01",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 30
+      },
+      "type": "field",
+      "binding": {
+        "field": "valuelist_display_01",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-31",
+      "position": {
+        "x": 14,
+        "y": 400,
+        "width": 113,
+        "height": 17,
+        "z": 31
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "31",
+        "rotation": 0,
+        "label": "valuelist_display_02",
+        "ddrArrangeOrder": 31
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-32",
+      "position": {
+        "x": 138,
+        "y": 397,
+        "width": 253,
+        "height": 21,
+        "z": 32
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "32",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "valuelist_display_02",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 32
+      },
+      "type": "field",
+      "binding": {
+        "field": "valuelist_display_02",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-33",
+      "position": {
+        "x": 14,
+        "y": 423,
+        "width": 113,
+        "height": 17,
+        "z": 33
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "33",
+        "rotation": 0,
+        "label": "valuelist_display_03",
+        "ddrArrangeOrder": 33
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-34",
+      "position": {
+        "x": 138,
+        "y": 420,
+        "width": 253,
+        "height": 21,
+        "z": 34
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "34",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "valuelist_display_03",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 34
+      },
+      "type": "field",
+      "binding": {
+        "field": "valuelist_display_03",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-35",
+      "position": {
+        "x": 42,
+        "y": 446,
+        "width": 85,
+        "height": 17,
+        "z": 35
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "35",
+        "rotation": 0,
+        "label": "valuelist_id_01",
+        "ddrArrangeOrder": 35
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-36",
+      "position": {
+        "x": 138,
+        "y": 443,
+        "width": 253,
+        "height": 21,
+        "z": 36
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "36",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "valuelist_id_01",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 36
+      },
+      "type": "field",
+      "binding": {
+        "field": "valuelist_id_01",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-37",
+      "position": {
+        "x": 42,
+        "y": 469,
+        "width": 85,
+        "height": 17,
+        "z": 37
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "37",
+        "rotation": 0,
+        "label": "valuelist_id_02",
+        "ddrArrangeOrder": 37
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-38",
+      "position": {
+        "x": 138,
+        "y": 466,
+        "width": 253,
+        "height": 21,
+        "z": 38
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "38",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "valuelist_id_02",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 38
+      },
+      "type": "field",
+      "binding": {
+        "field": "valuelist_id_02",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-39",
+      "position": {
+        "x": 42,
+        "y": 492,
+        "width": 85,
+        "height": 17,
+        "z": 39
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "39",
+        "rotation": 0,
+        "label": "valuelist_id_03",
+        "ddrArrangeOrder": 39
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-40",
+      "position": {
+        "x": 138,
+        "y": 489,
+        "width": 253,
+        "height": 21,
+        "z": 40
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "40",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "valuelist_id_03",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 40
+      },
+      "type": "field",
+      "binding": {
+        "field": "valuelist_id_03",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-41",
+      "position": {
+        "x": 65,
+        "y": 515,
+        "width": 62,
+        "height": 17,
+        "z": 41
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "41",
+        "rotation": 0,
+        "label": "zz_refresh",
+        "ddrArrangeOrder": 41
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-virtual-list-UHJvamVj-42",
+      "position": {
+        "x": 138,
+        "y": 512,
+        "width": 253,
+        "height": 21,
+        "z": 42
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "42",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_refresh",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 42
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_refresh",
+        "tableOccurrence": "PT.VIRTUAL_LIST"
+      }
+    }
+  ],
+  "actions": []
+}

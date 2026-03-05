@@ -1,0 +1,3762 @@
+{
+  "id": "fm-organizations-form-UHJvamVj",
+  "name": "Organizations|Form",
+  "defaultTableOccurrence": "Organizations|Form",
+  "canvas": {
+    "width": 1578,
+    "height": 732,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185",
+      "position": {
+        "x": 24,
+        "y": 266,
+        "width": 1230,
+        "height": 384,
+        "z": 1
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Blue",
+        "ddrObjectPath": "6185",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Role",
+        "controlType": "dropdown",
+        "valueList": "Roles",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "role",
+        "tableOccurrence": "cm.organizations_CM.ORGANIZATION_PERSONS"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Feature Not Yet Implemented",
+          "parameter": "Get ( WindowMode ) = 1"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-6882",
+      "position": {
+        "x": 90,
+        "y": 880,
+        "width": 522,
+        "height": 170,
+        "z": 2
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Blue",
+        "ddrObjectPath": "6185.6881.6882",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 6,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "role",
+          "name_first",
+          "name_last",
+          "_kfgm_status_selected_IDs",
+          "_kfgm_category_selected_IDs",
+          "_kfgm_sprint_selected_IDs",
+          "_kfgm_module_selected_IDs",
+          "_kfgm_person_IDs",
+          "_kf_status_ID",
+          "_kf_category_ID",
+          "_kf_sprint_ID",
+          "module",
+          "_kf_person_ID"
+        ],
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 2
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "cm.organizations_CM.ORGANIZATION_PERSONS"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Feature Not Yet Implemented",
+          "parameter": "Get ( WindowMode ) = 1"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-6882-6884",
+      "position": {
+        "x": 139,
+        "y": 1233,
+        "width": 21,
+        "height": 21,
+        "z": 3
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Blue",
+        "ddrObjectPath": "6185.6881.6882.6884",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-6882",
+        "portalParentDdrPath": "6185.6881.6882",
+        "portalParentTableOccurrence": "cm.organizations_CM.ORGANIZATION_PERSONS",
+        "rotation": 0,
+        "label": "Go To Details",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 3
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Feature Not Yet Implemented",
+          "parameter": "Get ( WindowMode ) = 1"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-6882-7042",
+      "position": {
+        "x": 610,
+        "y": 1233,
+        "width": 21,
+        "height": 21,
+        "z": 4
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6185.6881.6882.7042",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-6882",
+        "portalParentDdrPath": "6185.6881.6882",
+        "portalParentTableOccurrence": "cm.organizations_CM.ORGANIZATION_PERSONS",
+        "rotation": 0,
+        "label": "Delete",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 4
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-6882-7043",
+      "position": {
+        "x": 169,
+        "y": 1233,
+        "width": 144,
+        "height": 21,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6881.6882.7043",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-6882",
+        "portalParentDdrPath": "6185.6881.6882",
+        "portalParentTableOccurrence": "cm.organizations_CM.ORGANIZATION_PERSONS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Role",
+        "controlType": "dropdown",
+        "valueList": "Roles",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "role",
+        "tableOccurrence": "cm.organizations_CM.ORGANIZATION_PERSONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-6882-6883",
+      "position": {
+        "x": 319,
+        "y": 1233,
+        "width": 120,
+        "height": 21,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6881.6882.6883",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-6882",
+        "portalParentDdrPath": "6185.6881.6882",
+        "portalParentTableOccurrence": "cm.organizations_CM.ORGANIZATION_PERSONS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "First Name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "name_first",
+        "tableOccurrence": "cm.organizations_cm.organization_persons_CM.PERSONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-6882-7065",
+      "position": {
+        "x": 442,
+        "y": 1233,
+        "width": 159,
+        "height": 21,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6881.6882.7065",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-6882",
+        "portalParentDdrPath": "6185.6881.6882",
+        "portalParentTableOccurrence": "cm.organizations_CM.ORGANIZATION_PERSONS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Last Name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "name_last",
+        "tableOccurrence": "cm.organizations_cm.organization_persons_CM.PERSONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7028",
+      "position": {
+        "x": 90,
+        "y": 1078,
+        "width": 522,
+        "height": 86,
+        "z": 8
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6185.6881.7028",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 3,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "type",
+          "value"
+        ],
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 8
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "cm.organizations_CM.COMMUNICATIONS"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7028-7029",
+      "position": {
+        "x": 135,
+        "y": 1627,
+        "width": 184,
+        "height": 25,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6881.7028.7029",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7028",
+        "portalParentDdrPath": "6185.6881.7028",
+        "portalParentTableOccurrence": "cm.organizations_CM.COMMUNICATIONS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "type",
+        "controlType": "dropdown",
+        "valueList": "CommunicationTypes",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "type",
+        "tableOccurrence": "cm.organizations_CM.COMMUNICATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7028-7030",
+      "position": {
+        "x": 324,
+        "y": 1627,
+        "width": 277,
+        "height": 25,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6881.7028.7030",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7028",
+        "portalParentDdrPath": "6185.6881.7028",
+        "portalParentTableOccurrence": "cm.organizations_CM.COMMUNICATIONS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "value",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "value",
+        "tableOccurrence": "cm.organizations_CM.COMMUNICATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7028-7041",
+      "position": {
+        "x": 610,
+        "y": 1629,
+        "width": 21,
+        "height": 21,
+        "z": 11
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6185.6881.7028.7041",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7028",
+        "portalParentDdrPath": "6185.6881.7028",
+        "portalParentTableOccurrence": "cm.organizations_CM.COMMUNICATIONS",
+        "rotation": 0,
+        "label": "Delete",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 11
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046",
+      "position": {
+        "x": 694,
+        "y": 880,
+        "width": 330,
+        "height": 284,
+        "z": 12
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6185.6881.7046",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 2,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "address_01",
+          "address_02",
+          "city",
+          "state",
+          "postal_code",
+          "country"
+        ],
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 12
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "cm.organizations_CM.ADDRESSES"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]",
+          "parameter": "Address 1"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046-7049",
+      "position": {
+        "x": 1620,
+        "y": 1235,
+        "width": 21,
+        "height": 21,
+        "z": 13
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6185.6881.7046.7049",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046",
+        "portalParentDdrPath": "6185.6881.7046",
+        "portalParentTableOccurrence": "cm.organizations_CM.ADDRESSES",
+        "rotation": 0,
+        "label": "Delete",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 13
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046-7016",
+      "position": {
+        "x": 1348,
+        "y": 1239,
+        "width": 255,
+        "height": 25,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Outline",
+        "ddrObjectPath": "6185.6881.7046.7016",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046",
+        "portalParentDdrPath": "6185.6881.7046",
+        "portalParentTableOccurrence": "cm.organizations_CM.ADDRESSES",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Address 1",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "address_01",
+        "tableOccurrence": "cm.organizations_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046-7018",
+      "position": {
+        "x": 1348,
+        "y": 1263,
+        "width": 255,
+        "height": 25,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Outline",
+        "ddrObjectPath": "6185.6881.7046.7018",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046",
+        "portalParentDdrPath": "6185.6881.7046",
+        "portalParentTableOccurrence": "cm.organizations_CM.ADDRESSES",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Address 2",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 15
+      },
+      "type": "field",
+      "binding": {
+        "field": "address_02",
+        "tableOccurrence": "cm.organizations_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046-7019",
+      "position": {
+        "x": 1348,
+        "y": 1287,
+        "width": 255,
+        "height": 25,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Outline",
+        "ddrObjectPath": "6185.6881.7046.7019",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046",
+        "portalParentDdrPath": "6185.6881.7046",
+        "portalParentTableOccurrence": "cm.organizations_CM.ADDRESSES",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "City",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 16
+      },
+      "type": "field",
+      "binding": {
+        "field": "city",
+        "tableOccurrence": "cm.organizations_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046-7020",
+      "position": {
+        "x": 1348,
+        "y": 1311,
+        "width": 112,
+        "height": 25,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Outline",
+        "ddrObjectPath": "6185.6881.7046.7020",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046",
+        "portalParentDdrPath": "6185.6881.7046",
+        "portalParentTableOccurrence": "cm.organizations_CM.ADDRESSES",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "State",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 17
+      },
+      "type": "field",
+      "binding": {
+        "field": "state",
+        "tableOccurrence": "cm.organizations_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046-7021",
+      "position": {
+        "x": 1459,
+        "y": 1311,
+        "width": 144,
+        "height": 25,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Outline",
+        "ddrObjectPath": "6185.6881.7046.7021",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046",
+        "portalParentDdrPath": "6185.6881.7046",
+        "portalParentTableOccurrence": "cm.organizations_CM.ADDRESSES",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Zip",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "postal_code",
+        "tableOccurrence": "cm.organizations_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046-7022",
+      "position": {
+        "x": 1348,
+        "y": 1335,
+        "width": 255,
+        "height": 25,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Outline",
+        "ddrObjectPath": "6185.6881.7046.7022",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7046",
+        "portalParentDdrPath": "6185.6881.7046",
+        "portalParentTableOccurrence": "cm.organizations_CM.ADDRESSES",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Country",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 19
+      },
+      "type": "field",
+      "binding": {
+        "field": "country",
+        "tableOccurrence": "cm.organizations_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7051",
+      "position": {
+        "x": 127,
+        "y": 861,
+        "width": 144,
+        "height": 19,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6881.7051",
+        "rotation": 0,
+        "label": "Role",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 20
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7052",
+      "position": {
+        "x": 98,
+        "y": 1056,
+        "width": 179,
+        "height": 19,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6881.7052",
+        "rotation": 0,
+        "label": "Type",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 21
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7053",
+      "position": {
+        "x": 282,
+        "y": 1056,
+        "width": 277,
+        "height": 19,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6881.7053",
+        "rotation": 0,
+        "label": "Value",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 22
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7055",
+      "position": {
+        "x": 702,
+        "y": 859,
+        "width": 255,
+        "height": 19,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6881.7055",
+        "rotation": 0,
+        "label": "Address",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 23
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6881-7050",
+      "position": {
+        "x": 277,
+        "y": 861,
+        "width": 282,
+        "height": 19,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6881.7050",
+        "rotation": 0,
+        "label": "Name",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6881",
+        "ddrArrangeOrder": 24
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6209",
+      "position": {
+        "x": 90,
+        "y": 880,
+        "width": 1194,
+        "height": 282,
+        "z": 25
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Blue",
+        "ddrObjectPath": "6185.6208.6209",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 10,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "name",
+          "status_display",
+          "zz_timestamp_create",
+          "_kfgm_status_selected_IDs",
+          "_kfgm_category_selected_IDs",
+          "_kfgm_sprint_selected_IDs",
+          "_kfgm_module_selected_IDs",
+          "_kfgm_person_IDs",
+          "_kf_status_ID",
+          "_kf_category_ID",
+          "_kf_sprint_ID",
+          "module",
+          "_kf_person_ID"
+        ],
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 25
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "cm.organizations_PT.PROJECTS"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]",
+          "parameter": "Get ( WindowMode ) = 1"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6209-6292",
+      "position": {
+        "x": 163,
+        "y": 1233,
+        "width": 229,
+        "height": 21,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6292",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "cm.organizations_PT.PROJECTS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 26
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "cm.organizations_PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6209-6687",
+      "position": {
+        "x": 139,
+        "y": 1233,
+        "width": 21,
+        "height": 21,
+        "z": 27
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Blue",
+        "ddrObjectPath": "6185.6208.6209.6687",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "cm.organizations_PT.PROJECTS",
+        "rotation": 0,
+        "label": "Go To Details",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 27
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6209-6879",
+      "position": {
+        "x": 396,
+        "y": 1233,
+        "width": 150,
+        "height": 21,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6879",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "cm.organizations_PT.PROJECTS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "status_display",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 28
+      },
+      "type": "field",
+      "binding": {
+        "field": "status_display",
+        "tableOccurrence": "cm.organizations_PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6209-6962",
+      "position": {
+        "x": 1282,
+        "y": 1233,
+        "width": 21,
+        "height": 21,
+        "z": 29
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6185.6208.6209.6962",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "cm.organizations_PT.PROJECTS",
+        "rotation": 0,
+        "label": "Delete",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 29
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6273",
+      "position": {
+        "x": 121,
+        "y": 863,
+        "width": 229,
+        "height": 17,
+        "z": 30
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6208.6273",
+        "rotation": 0,
+        "label": "Name",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 30
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6880",
+      "position": {
+        "x": 354,
+        "y": 863,
+        "width": 150,
+        "height": 17,
+        "z": 31
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6208.6880",
+        "rotation": 0,
+        "label": "Status",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 31
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6952",
+      "position": {
+        "x": 1174,
+        "y": 839,
+        "width": 110,
+        "height": 24,
+        "z": 32
+      },
+      "props": {
+        "tooltip": "Add",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6952",
+        "rotation": 0,
+        "label": "Add Project",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 32
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( CM.ORGANIZATIONS::zz_pivot ) ; Get ( UUID ) ) ;\n\ncf_Dictionary ( GetFieldName ( cm.organizations_PT.PROJECTS__Pivot::name ) ; SYSTEM::usr_text_01 ) ;\ncf_Dictionary ( GetFieldName ( cm.organizations_PT.PROJECTS__Pivot::_kf_organization_ID ) ; CM.ORGANIZATIONS::__kp_organization_ID ) ;\n\ncf_Dictionary ( GetFieldName ( CM.ORGANIZATIONS::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6952-6953",
+      "position": {
+        "x": 1993,
+        "y": 1027,
+        "width": 296,
+        "height": 264,
+        "z": 33
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6952.6953",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_01",
+        "controlType": "text",
+        "valueList": "Persons__All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 33
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_01",
+        "tableOccurrence": "SYSTEM"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( CM.ORGANIZATIONS::zz_pivot ) ; Get ( UUID ) ) ;\n\ncf_Dictionary ( GetFieldName ( cm.organizations_PT.PROJECTS__Pivot::name ) ; SYSTEM::usr_text_01 ) ;\ncf_Dictionary ( GetFieldName ( cm.organizations_PT.PROJECTS__Pivot::_kf_organization_ID ) ; CM.ORGANIZATIONS::__kp_organization_ID ) ;\n\ncf_Dictionary ( GetFieldName ( CM.ORGANIZATIONS::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6952-6953-6954",
+      "position": {
+        "x": 2838,
+        "y": 1264,
+        "width": 240,
+        "height": 20,
+        "z": 34
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6952.6953.6954",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_01",
+        "controlType": "text",
+        "valueList": "Persons__All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 34
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_01",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6952-6953-6955",
+      "position": {
+        "x": 2838,
+        "y": 1245,
+        "width": 240,
+        "height": 19,
+        "z": 35
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6952.6953.6955",
+        "rotation": 0,
+        "label": "Name",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 35
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6952-6953-6956",
+      "position": {
+        "x": 3008,
+        "y": 1438,
+        "width": 70,
+        "height": 21,
+        "z": 36
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6952.6953.6956",
+        "rotation": 0,
+        "label": "Save",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 36
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( CM.ORGANIZATIONS::zz_pivot ) ; Get ( UUID ) ) ;\n\ncf_Dictionary ( GetFieldName ( cm.organizations_PT.PROJECTS__Pivot::name ) ; SYSTEM::usr_text_01 ) ;\ncf_Dictionary ( GetFieldName ( cm.organizations_PT.PROJECTS__Pivot::_kf_organization_ID ) ; CM.ORGANIZATIONS::__kp_organization_ID ) ;\n\ncf_Dictionary ( GetFieldName ( CM.ORGANIZATIONS::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6208-6952-6953-6957",
+      "position": {
+        "x": 2838,
+        "y": 1438,
+        "width": 70,
+        "height": 21,
+        "z": 37
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6952.6953.6957",
+        "rotation": 0,
+        "label": "Exit",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 37
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Close Popover (e)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6994",
+      "position": {
+        "x": 188,
+        "y": 863,
+        "width": 596,
+        "height": 17,
+        "z": 38
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6963.6994",
+        "rotation": 0,
+        "label": "Description",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 38
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6995",
+      "position": {
+        "x": 1109,
+        "y": 863,
+        "width": 62,
+        "height": 17,
+        "z": 39
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "6185.6963.6995",
+        "rotation": 0,
+        "label": "Hours",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 39
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6996",
+      "position": {
+        "x": 1165,
+        "y": 863,
+        "width": 46,
+        "height": 17,
+        "z": 40
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "6185.6963.6996",
+        "rotation": 0,
+        "label": "Billable",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 40
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6997",
+      "position": {
+        "x": 789,
+        "y": 863,
+        "width": 154,
+        "height": 17,
+        "z": 41
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6963.6997",
+        "rotation": 0,
+        "label": "Person",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 41
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6998",
+      "position": {
+        "x": 96,
+        "y": 863,
+        "width": 87,
+        "height": 17,
+        "z": 42
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6963.6998",
+        "rotation": 0,
+        "label": "Date",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 42
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6999",
+      "position": {
+        "x": 949,
+        "y": 863,
+        "width": 154,
+        "height": 17,
+        "z": 43
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6963.6999",
+        "rotation": 0,
+        "label": "Category",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 43
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+      "position": {
+        "x": 90,
+        "y": 880,
+        "width": 1194,
+        "height": 282,
+        "z": 44
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "6185.6963.6970",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 10,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "description",
+          "hours",
+          "is_billable",
+          "_kf_person_ID",
+          "date",
+          "_kf_category_ID",
+          "_kfgm_status_selected_IDs",
+          "_kfgm_category_selected_IDs",
+          "_kfgm_sprint_selected_IDs",
+          "_kfgm_module_selected_IDs",
+          "_kf_status_ID",
+          "_kf_sprint_ID",
+          "module",
+          "name",
+          "_kf_project_ID",
+          "rate",
+          "amount",
+          "_kf_item_ID"
+        ],
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 44
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]",
+          "parameter": "Edit Item"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6971",
+      "position": {
+        "x": 230,
+        "y": 1233,
+        "width": 596,
+        "height": 21,
+        "z": 45
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6971",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 45
+      },
+      "type": "field",
+      "binding": {
+        "field": "description",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6972",
+      "position": {
+        "x": 1151,
+        "y": 1233,
+        "width": 62,
+        "height": 21,
+        "z": 46
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "6185.6963.6970.6972",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 46
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6973",
+      "position": {
+        "x": 1219,
+        "y": 1231,
+        "width": 21,
+        "height": 24,
+        "z": 47
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "6185.6963.6970.6973",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_billable",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 47
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_billable",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6974",
+      "position": {
+        "x": 1283,
+        "y": 1233,
+        "width": 21,
+        "height": 21,
+        "z": 48
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6185.6963.6970.6974",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "Delete",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 48
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6975",
+      "position": {
+        "x": 831,
+        "y": 1233,
+        "width": 154,
+        "height": 21,
+        "z": 49
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6975",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_person_ID",
+        "controlType": "popup",
+        "valueList": "Persons__All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 49
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_person_ID",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6976",
+      "position": {
+        "x": 138,
+        "y": 1233,
+        "width": 87,
+        "height": 21,
+        "z": 50
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "6185.6963.6970.6976",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date",
+        "controlType": "date",
+        "valueList": "Modules__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 50
+      },
+      "type": "field",
+      "binding": {
+        "field": "date",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6977",
+      "position": {
+        "x": 991,
+        "y": 1233,
+        "width": 154,
+        "height": 21,
+        "z": 51
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6977",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_category_ID",
+        "controlType": "popup",
+        "valueList": "ProjectCatefories",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 51
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_category_ID",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978",
+      "position": {
+        "x": 1246,
+        "y": 1233,
+        "width": 30,
+        "height": 21,
+        "z": 52
+      },
+      "props": {
+        "tooltip": "Edit Item",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Edit Popover Blue",
+        "ddrObjectPath": "6185.6963.6970.6978",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "More",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 52
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979",
+      "position": {
+        "x": 2101,
+        "y": 1373,
+        "width": 290,
+        "height": 449,
+        "z": 53
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_category_ID",
+        "controlType": "popup",
+        "valueList": "Categories__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 53
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_category_ID",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6980",
+      "position": {
+        "x": 2980,
+        "y": 1603,
+        "width": 240,
+        "height": 20,
+        "z": 54
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6980",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_category_ID",
+        "controlType": "popup",
+        "valueList": "Categories__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 54
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_category_ID",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6981",
+      "position": {
+        "x": 2980,
+        "y": 1560,
+        "width": 240,
+        "height": 20,
+        "z": 55
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6981",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 55
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6982",
+      "position": {
+        "x": 2980,
+        "y": 1584,
+        "width": 240,
+        "height": 19,
+        "z": 56
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6982",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "Category",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 56
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6983",
+      "position": {
+        "x": 2980,
+        "y": 1541,
+        "width": 240,
+        "height": 19,
+        "z": 57
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6983",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "Project",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 57
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6984",
+      "position": {
+        "x": 2983,
+        "y": 1799,
+        "width": 237,
+        "height": 141,
+        "z": 58
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6984",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 58
+      },
+      "type": "field",
+      "binding": {
+        "field": "description",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6985",
+      "position": {
+        "x": 2983,
+        "y": 1779,
+        "width": 240,
+        "height": 19,
+        "z": 59
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6985",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "Description",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 59
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6986",
+      "position": {
+        "x": 2980,
+        "y": 1646,
+        "width": 237,
+        "height": 20,
+        "z": 60
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6986",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_person_ID",
+        "controlType": "popup",
+        "valueList": "Persons__byProject_Available",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 60
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_person_ID",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6987",
+      "position": {
+        "x": 2980,
+        "y": 1627,
+        "width": 240,
+        "height": 19,
+        "z": 61
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6987",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "Person",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 61
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6988",
+      "position": {
+        "x": 2980,
+        "y": 1732,
+        "width": 92,
+        "height": 20,
+        "z": 62
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6988",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "rate",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 62
+      },
+      "type": "field",
+      "binding": {
+        "field": "rate",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6989",
+      "position": {
+        "x": 2980,
+        "y": 1713,
+        "width": 92,
+        "height": 19,
+        "z": 63
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6989",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "Rate",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 63
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6990",
+      "position": {
+        "x": 3088,
+        "y": 1732,
+        "width": 129,
+        "height": 20,
+        "z": 64
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6990",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "amount",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 64
+      },
+      "type": "field",
+      "binding": {
+        "field": "amount",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6991",
+      "position": {
+        "x": 3088,
+        "y": 1713,
+        "width": 129,
+        "height": 19,
+        "z": 65
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6991",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "Amount",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 65
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6992",
+      "position": {
+        "x": 2980,
+        "y": 1689,
+        "width": 237,
+        "height": 20,
+        "z": 66
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6992",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_item_ID",
+        "controlType": "popup",
+        "valueList": "Items__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 66
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_item_ID",
+        "tableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970-6978-6979-6993",
+      "position": {
+        "x": 2980,
+        "y": 1670,
+        "width": 240,
+        "height": 19,
+        "z": 67
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.6970.6978.6979.6993",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-6963-6970",
+        "portalParentDdrPath": "6185.6963.6970",
+        "portalParentTableOccurrence": "cm.organizations_PT.TIME_ENTRIES_UnInvoiced",
+        "rotation": 0,
+        "label": "Item",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 67
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000",
+      "position": {
+        "x": 1197,
+        "y": 828,
+        "width": 87,
+        "height": 23,
+        "z": 68
+      },
+      "props": {
+        "tooltip": "Add Time",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "6185.6963.7000",
+        "rotation": 0,
+        "label": "Add Time",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 68
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; Get ( UUID ) ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::_kf_project_ID ) ; PT.PROJECTS::__kp_project_ID ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::_kf_organization_ID ) ; PT.PROJECTS::_kf_organization_ID ) ;\n\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::_kf_person_ID ) ; SYSTEM::usr_text_01 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::_kf_category_ID ) ; SYSTEM::usr_text_02 ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::date ) ; SYSTEM::usr_date_01 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::description ) ; SYSTEM::usr_text_03 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::hours ) ; SYSTEM::usr_number_01 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::is_billable ) ; SYSTEM::usr_number_02 ) ;\n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001",
+      "position": {
+        "x": 2045,
+        "y": 922,
+        "width": 290,
+        "height": 430,
+        "z": 69
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "6185.6963.7000.7001",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_date_01",
+        "controlType": "date",
+        "valueList": "TimeBoxes__byProject_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 69
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_date_01",
+        "tableOccurrence": "SYSTEM"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; Get ( UUID ) ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::_kf_project_ID ) ; PT.PROJECTS::__kp_project_ID ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::_kf_organization_ID ) ; PT.PROJECTS::_kf_organization_ID ) ;\n\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::_kf_person_ID ) ; SYSTEM::usr_text_01 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::_kf_category_ID ) ; SYSTEM::usr_text_02 ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::date ) ; SYSTEM::usr_date_01 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::description ) ; SYSTEM::usr_text_03 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::hours ) ; SYSTEM::usr_number_01 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::is_billable ) ; SYSTEM::usr_number_02 ) ;\n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7002",
+      "position": {
+        "x": 2917,
+        "y": 1063,
+        "width": 92,
+        "height": 20,
+        "z": 70
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.7000.7001.7002",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_date_01",
+        "controlType": "date",
+        "valueList": "TimeBoxes__byProject_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 70
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_date_01",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7003",
+      "position": {
+        "x": 2917,
+        "y": 1043,
+        "width": 92,
+        "height": 19,
+        "z": 71
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.7000.7001.7003",
+        "rotation": 0,
+        "label": "Date",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 71
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7004",
+      "position": {
+        "x": 2920,
+        "y": 1248,
+        "width": 237,
+        "height": 141,
+        "z": 72
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.7000.7001.7004",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_03",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 72
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_03",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7005",
+      "position": {
+        "x": 2920,
+        "y": 1226,
+        "width": 240,
+        "height": 19,
+        "z": 73
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.7000.7001.7005",
+        "rotation": 0,
+        "label": "Description",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 73
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7006",
+      "position": {
+        "x": 2917,
+        "y": 1105,
+        "width": 92,
+        "height": 20,
+        "z": 74
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.7000.7001.7006",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_number_01",
+        "controlType": "text",
+        "valueList": "TimeBoxes__byProject_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 74
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_number_01",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7007",
+      "position": {
+        "x": 2917,
+        "y": 1084,
+        "width": 92,
+        "height": 19,
+        "z": 75
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.7000.7001.7007",
+        "rotation": 0,
+        "label": "Hours",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 75
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7008",
+      "position": {
+        "x": 2920,
+        "y": 1203,
+        "width": 237,
+        "height": 20,
+        "z": 76
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.7000.7001.7008",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_02",
+        "controlType": "popup",
+        "valueList": "Categories__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 76
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_02",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7009",
+      "position": {
+        "x": 2920,
+        "y": 1184,
+        "width": 240,
+        "height": 19,
+        "z": 77
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.7000.7001.7009",
+        "rotation": 0,
+        "label": "Category",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 77
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7010",
+      "position": {
+        "x": 3087,
+        "y": 1409,
+        "width": 70,
+        "height": 21,
+        "z": 78
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.7000.7001.7010",
+        "rotation": 0,
+        "label": "Save",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 78
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; Get ( UUID ) ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::_kf_project_ID ) ; PT.PROJECTS::__kp_project_ID ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::_kf_organization_ID ) ; PT.PROJECTS::_kf_organization_ID ) ;\n\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::_kf_person_ID ) ; SYSTEM::usr_text_01 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::_kf_category_ID ) ; SYSTEM::usr_text_02 ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::date ) ; SYSTEM::usr_date_01 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::description ) ; SYSTEM::usr_text_03 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::hours ) ; SYSTEM::usr_number_01 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.TIME_ENTRIES__Pivot::is_billable ) ; SYSTEM::usr_number_02 ) ;\n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7011",
+      "position": {
+        "x": 3028,
+        "y": 1103,
+        "width": 21,
+        "height": 24,
+        "z": 79
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "6185.6963.7000.7001.7011",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_number_02",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 79
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_number_02",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7012",
+      "position": {
+        "x": 3019,
+        "y": 1084,
+        "width": 92,
+        "height": 19,
+        "z": 80
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.7000.7001.7012",
+        "rotation": 0,
+        "label": "Billable",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 80
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7013",
+      "position": {
+        "x": 2920,
+        "y": 1158,
+        "width": 237,
+        "height": 20,
+        "z": 81
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.7000.7001.7013",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_01",
+        "controlType": "popup",
+        "valueList": "Persons__byProject_Available",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 81
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_01",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7014",
+      "position": {
+        "x": 2920,
+        "y": 1139,
+        "width": 240,
+        "height": 19,
+        "z": 82
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.7000.7001.7014",
+        "rotation": 0,
+        "label": "Person",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 82
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-6963-7000-7001-7015",
+      "position": {
+        "x": 2922,
+        "y": 1409,
+        "width": 70,
+        "height": 21,
+        "z": 83
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6963.7000.7001.7015",
+        "rotation": 0,
+        "label": "Exit",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-6963",
+        "ddrArrangeOrder": 83
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Close Popover (e)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7031-7037",
+      "position": {
+        "x": 97,
+        "y": 863,
+        "width": 174,
+        "height": 17,
+        "z": 84
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.7031.7037",
+        "rotation": 0,
+        "label": "Type",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7031",
+        "ddrArrangeOrder": 84
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7031-7038",
+      "position": {
+        "x": 278,
+        "y": 863,
+        "width": 350,
+        "height": 17,
+        "z": 85
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.7031.7038",
+        "rotation": 0,
+        "label": "Value",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7031",
+        "ddrArrangeOrder": 85
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7031-7032",
+      "position": {
+        "x": 90,
+        "y": 880,
+        "width": 1194,
+        "height": 282,
+        "z": 86
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6185.7031.7032",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 10,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "type",
+          "value",
+          "comment",
+          "_kfgm_status_selected_IDs",
+          "_kfgm_category_selected_IDs",
+          "_kfgm_sprint_selected_IDs",
+          "_kfgm_module_selected_IDs",
+          "_kfgm_person_IDs",
+          "_kf_status_ID",
+          "_kf_category_ID",
+          "_kf_sprint_ID",
+          "module",
+          "_kf_person_ID"
+        ],
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7031",
+        "ddrArrangeOrder": 86
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "cm.organizations_CM.CONFIGURATIONS"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7031-7032-7033",
+      "position": {
+        "x": 139,
+        "y": 1233,
+        "width": 174,
+        "height": 21,
+        "z": 87
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.7031.7032.7033",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-7031-7032",
+        "portalParentDdrPath": "6185.7031.7032",
+        "portalParentTableOccurrence": "cm.organizations_CM.CONFIGURATIONS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "type",
+        "controlType": "dropdown",
+        "valueList": "Configuration Types",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7031",
+        "ddrArrangeOrder": 87
+      },
+      "type": "field",
+      "binding": {
+        "field": "type",
+        "tableOccurrence": "cm.organizations_CM.CONFIGURATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7031-7032-7035",
+      "position": {
+        "x": 320,
+        "y": 1233,
+        "width": 350,
+        "height": 21,
+        "z": 88
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.7031.7032.7035",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-7031-7032",
+        "portalParentDdrPath": "6185.7031.7032",
+        "portalParentTableOccurrence": "cm.organizations_CM.CONFIGURATIONS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "value",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7031",
+        "ddrArrangeOrder": 88
+      },
+      "type": "field",
+      "binding": {
+        "field": "value",
+        "tableOccurrence": "cm.organizations_CM.CONFIGURATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7031-7032-7036",
+      "position": {
+        "x": 1282,
+        "y": 1233,
+        "width": 21,
+        "height": 21,
+        "z": 89
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6185.7031.7032.7036",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-7031-7032",
+        "portalParentDdrPath": "6185.7031.7032",
+        "portalParentTableOccurrence": "cm.organizations_CM.CONFIGURATIONS",
+        "rotation": 0,
+        "label": "Delete",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7031",
+        "ddrArrangeOrder": 89
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7031-7032-7040",
+      "position": {
+        "x": 675,
+        "y": 1233,
+        "width": 596,
+        "height": 21,
+        "z": 90
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.7031.7032.7040",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-7031-7032",
+        "portalParentDdrPath": "6185.7031.7032",
+        "portalParentTableOccurrence": "cm.organizations_CM.CONFIGURATIONS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "comment",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7031",
+        "ddrArrangeOrder": 90
+      },
+      "type": "field",
+      "binding": {
+        "field": "comment",
+        "tableOccurrence": "cm.organizations_CM.CONFIGURATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7031-7039",
+      "position": {
+        "x": 633,
+        "y": 863,
+        "width": 596,
+        "height": 17,
+        "z": 91
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.7031.7039",
+        "rotation": 0,
+        "label": "Comment",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7031",
+        "ddrArrangeOrder": 91
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7056-7057",
+      "position": {
+        "x": 121,
+        "y": 863,
+        "width": 199,
+        "height": 17,
+        "z": 92
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.7056.7057",
+        "rotation": 0,
+        "label": "Type",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7056",
+        "ddrArrangeOrder": 92
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7056-7064",
+      "position": {
+        "x": 328,
+        "y": 863,
+        "width": 901,
+        "height": 17,
+        "z": 93
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.7056.7064",
+        "rotation": 0,
+        "label": "Activity",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7056",
+        "ddrArrangeOrder": 93
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7056-7059",
+      "position": {
+        "x": 90,
+        "y": 880,
+        "width": 1194,
+        "height": 287,
+        "z": 94
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6185.7056.7059",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 5,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "_kf_person_ID",
+          "_kf_project_ID",
+          "activity",
+          "_kfgm_status_selected_IDs",
+          "_kfgm_category_selected_IDs",
+          "_kfgm_sprint_selected_IDs",
+          "_kfgm_module_selected_IDs",
+          "_kfgm_person_IDs",
+          "_kf_status_ID",
+          "_kf_category_ID",
+          "_kf_sprint_ID",
+          "module"
+        ],
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7056",
+        "ddrArrangeOrder": 94
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "cm.organizations_PT.ACTIVITIES"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7056-7059-7060",
+      "position": {
+        "x": 163,
+        "y": 1233,
+        "width": 199,
+        "height": 21,
+        "z": 95
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.7056.7059.7060",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-7056-7059",
+        "portalParentDdrPath": "6185.7056.7059",
+        "portalParentTableOccurrence": "cm.organizations_PT.ACTIVITIES",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_person_ID",
+        "controlType": "popup",
+        "valueList": "Persons__All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7056",
+        "ddrArrangeOrder": 95
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_person_ID",
+        "tableOccurrence": "cm.organizations_PT.ACTIVITIES"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7056-7059-7061",
+      "position": {
+        "x": 163,
+        "y": 1261,
+        "width": 199,
+        "height": 21,
+        "z": 96
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.7056.7059.7061",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-7056-7059",
+        "portalParentDdrPath": "6185.7056.7059",
+        "portalParentTableOccurrence": "cm.organizations_PT.ACTIVITIES",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7056",
+        "ddrArrangeOrder": 96
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "cm.organizations_PT.ACTIVITIES"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7056-7059-7062",
+      "position": {
+        "x": 1282,
+        "y": 1233,
+        "width": 21,
+        "height": 21,
+        "z": 97
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6185.7056.7059.7062",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-7056-7059",
+        "portalParentDdrPath": "6185.7056.7059",
+        "portalParentTableOccurrence": "cm.organizations_PT.ACTIVITIES",
+        "rotation": 0,
+        "label": "Delete",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7056",
+        "ddrArrangeOrder": 97
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6185-7056-7059-7063",
+      "position": {
+        "x": 370,
+        "y": 1233,
+        "width": 901,
+        "height": 47,
+        "z": 98
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.7056.7059.7063",
+        "portalParentComponentId": "ddr-fm-organizations-form-UHJvamVj-6185-7056-7059",
+        "portalParentDdrPath": "6185.7056.7059",
+        "portalParentTableOccurrence": "cm.organizations_PT.ACTIVITIES",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "activity",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-6185-7056",
+        "ddrArrangeOrder": 98
+      },
+      "type": "field",
+      "binding": {
+        "field": "activity",
+        "tableOccurrence": "cm.organizations_PT.ACTIVITIES"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6318",
+      "position": {
+        "x": 24,
+        "y": 86,
+        "width": 432,
+        "height": 25,
+        "z": 99
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6318",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Please Enter a Name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 99
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "CM.ORGANIZATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6393",
+      "position": {
+        "x": 270,
+        "y": 674,
+        "width": 984,
+        "height": 18,
+        "z": 100
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Navigation Part Text",
+        "ddrObjectPath": "6393",
+        "rotation": 0,
+        "label": "Created by <<zz_account_create>> on <<zz_timestamp_create>> | Last Modified by <<zz_account_modify>> on <<zz_timestamp_modify>>",
+        "ddrArrangeOrder": 100
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6317",
+      "position": {
+        "x": 24,
+        "y": 173,
+        "width": 110,
+        "height": 25,
+        "z": 101
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6317",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "acronym",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 101
+      },
+      "type": "field",
+      "binding": {
+        "field": "acronym",
+        "tableOccurrence": "CM.ORGANIZATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6486",
+      "position": {
+        "x": 24,
+        "y": 68,
+        "width": 40,
+        "height": 18,
+        "z": 102
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6486",
+        "rotation": 0,
+        "label": "Name",
+        "ddrArrangeOrder": 102
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6487",
+      "position": {
+        "x": 24,
+        "y": 111,
+        "width": 68,
+        "height": 19,
+        "z": 103
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6487",
+        "rotation": 0,
+        "label": "Type",
+        "ddrArrangeOrder": 103
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6488",
+      "position": {
+        "x": 24,
+        "y": 154,
+        "width": 63,
+        "height": 19,
+        "z": 104
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6488",
+        "rotation": 0,
+        "label": "Acronym",
+        "ddrArrangeOrder": 104
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6878",
+      "position": {
+        "x": 24,
+        "y": 130,
+        "width": 432,
+        "height": 25,
+        "z": 105
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6878",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Please Select a Type",
+        "controlType": "popup",
+        "valueList": "OrganizationTypes",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 105
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_organization_type_ID",
+        "tableOccurrence": "CM.ORGANIZATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6936",
+      "position": {
+        "x": 1444,
+        "y": 156,
+        "width": 110,
+        "height": 24,
+        "z": 106
+      },
+      "props": {
+        "tooltip": "Add",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6936",
+        "rotation": 0,
+        "label": "Add Contact",
+        "variant": "secondary",
+        "ddrArrangeOrder": 106
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( CM.ORGANIZATIONS::zz_pivot ) ; Get ( UUID ) ) ;\n\ncf_Dictionary ( GetFieldName ( cm.organizations_CM.ORGANIZATION_PERSONS__Pivot::_kf_person_ID ) ; SYSTEM::usr_text_01 ) ;\ncf_Dictionary ( GetFieldName ( cm.organizations_CM.ORGANIZATION_PERSONS__Pivot::_kf_organization_ID ) ; CM.ORGANIZATIONS::__kp_organization_ID ) ;\n\ncf_Dictionary ( GetFieldName ( CM.ORGANIZATIONS::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6936-6937",
+      "position": {
+        "x": 1547,
+        "y": 352,
+        "width": 296,
+        "height": 264,
+        "z": 107
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6936.6937",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_01",
+        "controlType": "popup",
+        "valueList": "Persons__All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 107
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_01",
+        "tableOccurrence": "SYSTEM"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( CM.ORGANIZATIONS::zz_pivot ) ; Get ( UUID ) ) ;\n\ncf_Dictionary ( GetFieldName ( cm.organizations_CM.ORGANIZATION_PERSONS__Pivot::_kf_person_ID ) ; SYSTEM::usr_text_01 ) ;\ncf_Dictionary ( GetFieldName ( cm.organizations_CM.ORGANIZATION_PERSONS__Pivot::_kf_organization_ID ) ; CM.ORGANIZATIONS::__kp_organization_ID ) ;\n\ncf_Dictionary ( GetFieldName ( CM.ORGANIZATIONS::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6936-6937-6939",
+      "position": {
+        "x": 1676,
+        "y": 597,
+        "width": 240,
+        "height": 20,
+        "z": 108
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6936.6937.6939",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_01",
+        "controlType": "popup",
+        "valueList": "Persons__All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 108
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_01",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6936-6937-6941",
+      "position": {
+        "x": 1676,
+        "y": 578,
+        "width": 240,
+        "height": 19,
+        "z": 109
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6936.6937.6941",
+        "rotation": 0,
+        "label": "Person",
+        "ddrArrangeOrder": 109
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6936-6937-6946",
+      "position": {
+        "x": 1846,
+        "y": 771,
+        "width": 70,
+        "height": 21,
+        "z": 110
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6936.6937.6946",
+        "rotation": 0,
+        "label": "Save",
+        "variant": "secondary",
+        "ddrArrangeOrder": 110
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( CM.ORGANIZATIONS::zz_pivot ) ; Get ( UUID ) ) ;\n\ncf_Dictionary ( GetFieldName ( cm.organizations_CM.ORGANIZATION_PERSONS__Pivot::_kf_person_ID ) ; SYSTEM::usr_text_01 ) ;\ncf_Dictionary ( GetFieldName ( cm.organizations_CM.ORGANIZATION_PERSONS__Pivot::_kf_organization_ID ) ; CM.ORGANIZATIONS::__kp_organization_ID ) ;\n\ncf_Dictionary ( GetFieldName ( CM.ORGANIZATIONS::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6936-6937-6947",
+      "position": {
+        "x": 1676,
+        "y": 771,
+        "width": 70,
+        "height": 21,
+        "z": 111
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6936.6937.6947",
+        "rotation": 0,
+        "label": "Exit",
+        "variant": "secondary",
+        "ddrArrangeOrder": 111
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Close Popover (e)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6936-6937-6948",
+      "position": {
+        "x": 1676,
+        "y": 646,
+        "width": 240,
+        "height": 21,
+        "z": 112
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6936.6937.6948",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name_first",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 112
+      },
+      "type": "field",
+      "binding": {
+        "field": "name_first",
+        "tableOccurrence": "cm.organizations_cm.organization_persons_CM.PERSONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6936-6937-6949",
+      "position": {
+        "x": 1676,
+        "y": 626,
+        "width": 240,
+        "height": 19,
+        "z": 113
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6936.6937.6949",
+        "rotation": 0,
+        "label": "First",
+        "ddrArrangeOrder": 113
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6936-6937-6950",
+      "position": {
+        "x": 1676,
+        "y": 689,
+        "width": 240,
+        "height": 21,
+        "z": 114
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6936.6937.6950",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name_last",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 114
+      },
+      "type": "field",
+      "binding": {
+        "field": "name_last",
+        "tableOccurrence": "cm.organizations_cm.organization_persons_CM.PERSONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-6936-6937-6951",
+      "position": {
+        "x": 1676,
+        "y": 669,
+        "width": 240,
+        "height": 19,
+        "z": 115
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6936.6937.6951",
+        "rotation": 0,
+        "label": "Last",
+        "ddrArrangeOrder": 115
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-7067",
+      "position": {
+        "x": 171,
+        "y": 0,
+        "width": 400,
+        "height": 60,
+        "z": 116
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Header Text",
+        "ddrObjectPath": "7067",
+        "rotation": 0,
+        "label": "Organizations",
+        "ddrArrangeOrder": 116
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-7080-7081",
+      "position": {
+        "x": 17,
+        "y": 21,
+        "width": 51,
+        "height": 38,
+        "z": 117
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "hideObjectWhen": "cf_BrowserNavigation",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7080.7081",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-7080",
+        "ddrArrangeOrder": 117
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Backward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-7080-7082",
+      "position": {
+        "x": 68,
+        "y": 21,
+        "width": 52,
+        "height": 38,
+        "z": 118
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7080.7082",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-7080",
+        "ddrArrangeOrder": 118
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-7080-7082-7083",
+      "position": {
+        "x": 73,
+        "y": 77,
+        "width": 241,
+        "height": 363,
+        "z": 119
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7080.7082.7083",
+        "rotation": 0,
+        "label": "[Popover]",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-7080",
+        "ddrArrangeOrder": 119
+      },
+      "type": "label",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-7080-7082-7083-7084-7085",
+      "position": {
+        "x": 128,
+        "y": 252,
+        "width": 195,
+        "height": 54,
+        "z": 120
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7080.7082.7083.7084.7085",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-7080-7082-7083-7084",
+        "ddrArrangeOrder": 120
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-7080-7082-7083-7084-7086",
+      "position": {
+        "x": 128,
+        "y": 306,
+        "width": 195,
+        "height": 53,
+        "z": 121
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7080.7082.7083.7084.7086",
+        "rotation": 0,
+        "label": "Organizations",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-7080-7082-7083-7084",
+        "ddrArrangeOrder": 121
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Organizations",
+          "parameter": "Organizations"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-7080-7082-7083-7084-7087",
+      "position": {
+        "x": 128,
+        "y": 359,
+        "width": 195,
+        "height": 54,
+        "z": 122
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7080.7082.7083.7084.7087",
+        "rotation": 0,
+        "label": "Invoices",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-7080-7082-7083-7084",
+        "ddrArrangeOrder": 122
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Invoices",
+          "parameter": "Invoices"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-7080-7082-7083-7084-7088",
+      "position": {
+        "x": 128,
+        "y": 413,
+        "width": 195,
+        "height": 53,
+        "z": 123
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7080.7082.7083.7084.7088",
+        "rotation": 0,
+        "label": "Preferences",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-7080-7082-7083-7084",
+        "ddrArrangeOrder": 123
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Preferences",
+          "parameter": "Preferences"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-7080-7082-7083-7089-7090",
+      "position": {
+        "x": 128,
+        "y": 750,
+        "width": 195,
+        "height": 52,
+        "z": 124
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7080.7082.7083.7089.7090",
+        "rotation": 0,
+        "label": "Exit Application",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-7080-7082-7083-7089",
+        "ddrArrangeOrder": 124
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-7080-7091",
+      "position": {
+        "x": 120,
+        "y": 21,
+        "width": 51,
+        "height": 38,
+        "z": 125
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7080.7091",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-form-UHJvamVj-7080",
+        "ddrArrangeOrder": 125
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Forward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-form-UHJvamVj-7092",
+      "position": {
+        "x": 1147,
+        "y": 17,
+        "width": 104,
+        "height": 25,
+        "z": 126
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7092",
+        "rotation": 0,
+        "label": "List View",
+        "variant": "secondary",
+        "ddrArrangeOrder": 126
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to List View from Form View",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    }
+  ],
+  "actions": []
+}

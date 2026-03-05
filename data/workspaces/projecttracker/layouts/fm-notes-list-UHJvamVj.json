@@ -1,0 +1,676 @@
+{
+  "id": "fm-notes-list-UHJvamVj",
+  "name": "Notes|List",
+  "defaultTableOccurrence": "Notes|List",
+  "canvas": {
+    "width": 1298,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3697",
+      "position": {
+        "x": 100,
+        "y": 164,
+        "width": 110,
+        "height": 21,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3697",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "date",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3698",
+      "position": {
+        "x": 100,
+        "y": 82,
+        "width": 110,
+        "height": 18,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3698",
+        "rotation": 0,
+        "label": "Date",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3699",
+      "position": {
+        "x": 6,
+        "y": 190,
+        "width": 21,
+        "height": 21,
+        "z": 3
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Blue",
+        "ddrObjectPath": "3699",
+        "rotation": 0,
+        "label": "Go To Details",
+        "variant": "secondary",
+        "ddrArrangeOrder": 3
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3719",
+      "position": {
+        "x": 1244,
+        "y": 164,
+        "width": 30,
+        "height": 21,
+        "z": 4
+      },
+      "props": {
+        "tooltip": "Edit",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Edit Popover Blue",
+        "ddrObjectPath": "3719",
+        "rotation": 0,
+        "label": "More",
+        "variant": "secondary",
+        "ddrArrangeOrder": 4
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3719-3720",
+      "position": {
+        "x": 2187,
+        "y": 169,
+        "width": 290,
+        "height": 449,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3719.3720",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3719-3720-3746",
+      "position": {
+        "x": 3157,
+        "y": 209,
+        "width": 243,
+        "height": 20,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3719.3720.3746",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3735",
+      "position": {
+        "x": 215,
+        "y": 163,
+        "width": 21,
+        "height": 24,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "3735",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_done",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_done",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3736",
+      "position": {
+        "x": 210,
+        "y": 81,
+        "width": 37,
+        "height": 18,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3736",
+        "rotation": 0,
+        "label": "Done",
+        "ddrArrangeOrder": 8
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3737",
+      "position": {
+        "x": 6,
+        "y": 165,
+        "width": 86,
+        "height": 21,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3737",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_record_number",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_record_number",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3738",
+      "position": {
+        "x": 254,
+        "y": 164,
+        "width": 980,
+        "height": 46,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3738",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "note",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "note",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3739",
+      "position": {
+        "x": 254,
+        "y": 82,
+        "width": 110,
+        "height": 18,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3739",
+        "rotation": 0,
+        "label": "Note",
+        "ddrArrangeOrder": 11
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3740",
+      "position": {
+        "x": 34,
+        "y": 190,
+        "width": 202,
+        "height": 20,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3740",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_item_ID",
+        "controlType": "popup",
+        "valueList": "Items_All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_item_ID",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3743",
+      "position": {
+        "x": 26,
+        "y": 135,
+        "width": 335,
+        "height": 20,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3743",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_item_ID",
+        "controlType": "popup",
+        "valueList": "Items_All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_item_ID",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3744",
+      "position": {
+        "x": 9,
+        "y": 105,
+        "width": 335,
+        "height": 20,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3744",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3745",
+      "position": {
+        "x": 9,
+        "y": 82,
+        "width": 110,
+        "height": 18,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3745",
+        "rotation": 0,
+        "label": "Record #",
+        "ddrArrangeOrder": 15
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3747",
+      "position": {
+        "x": 171,
+        "y": 0,
+        "width": 400,
+        "height": 60,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Header Text",
+        "ddrObjectPath": "3747",
+        "rotation": 0,
+        "label": "Notes",
+        "ddrArrangeOrder": 16
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3748-3749",
+      "position": {
+        "x": 17,
+        "y": 21,
+        "width": 51,
+        "height": 38,
+        "z": 17
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "hideObjectWhen": "/*cf_BrowserNavigation*/",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3748.3749",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-notes-list-UHJvamVj-3748",
+        "ddrArrangeOrder": 17
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Backward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3748-3750",
+      "position": {
+        "x": 68,
+        "y": 21,
+        "width": 52,
+        "height": 38,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3748.3750",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-notes-list-UHJvamVj-3748",
+        "ddrArrangeOrder": 18
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3748-3750-3751",
+      "position": {
+        "x": 65,
+        "y": 81,
+        "width": 241,
+        "height": 363,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3748.3750.3751",
+        "rotation": 0,
+        "label": "[Popover]",
+        "groupId": "ddr-group-fm-notes-list-UHJvamVj-3748",
+        "ddrArrangeOrder": 19
+      },
+      "type": "label",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3748-3750-3751-3752-3753",
+      "position": {
+        "x": 104,
+        "y": 264,
+        "width": 195,
+        "height": 54,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3748.3750.3751.3752.3753",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-notes-list-UHJvamVj-3748-3750-3751-3752",
+        "ddrArrangeOrder": 20
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3748-3750-3751-3752-3754",
+      "position": {
+        "x": 104,
+        "y": 318,
+        "width": 195,
+        "height": 53,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3748.3750.3751.3752.3754",
+        "rotation": 0,
+        "label": "Organizations",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-notes-list-UHJvamVj-3748-3750-3751-3752",
+        "ddrArrangeOrder": 21
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Organizations",
+          "parameter": "Organizations"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3748-3750-3751-3752-3755",
+      "position": {
+        "x": 104,
+        "y": 371,
+        "width": 195,
+        "height": 54,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3748.3750.3751.3752.3755",
+        "rotation": 0,
+        "label": "Invoices",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-notes-list-UHJvamVj-3748-3750-3751-3752",
+        "ddrArrangeOrder": 22
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Invoices",
+          "parameter": "Invoices"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3748-3750-3751-3752-3756",
+      "position": {
+        "x": 104,
+        "y": 425,
+        "width": 195,
+        "height": 53,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3748.3750.3751.3752.3756",
+        "rotation": 0,
+        "label": "Preferences",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-notes-list-UHJvamVj-3748-3750-3751-3752",
+        "ddrArrangeOrder": 23
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Preferences",
+          "parameter": "Preferences"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3748-3750-3751-3757-3758",
+      "position": {
+        "x": 104,
+        "y": 762,
+        "width": 195,
+        "height": 52,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3748.3750.3751.3757.3758",
+        "rotation": 0,
+        "label": "Exit Application",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-notes-list-UHJvamVj-3748-3750-3751-3757",
+        "ddrArrangeOrder": 24
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-notes-list-UHJvamVj-3748-3759",
+      "position": {
+        "x": 120,
+        "y": 21,
+        "width": 51,
+        "height": 38,
+        "z": 25
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3748.3759",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-notes-list-UHJvamVj-3748",
+        "ddrArrangeOrder": 25
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Forward"
+        }
+      }
+    }
+  ],
+  "actions": []
+}

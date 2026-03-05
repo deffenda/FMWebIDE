@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Bronce cálido</name>
+    <group>FileMaker Millennium</group>
+    <metadata>
+        <namedstyles>
+            <minimal_drop-down_calendar>Calendario desplegable mínimo</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Lista desplegable mínima</minimal_drop-down_list>
+            <minimal_edit_box>Cuadro de edición mínimo</minimal_edit_box>
+            <minimal_pop-up_menu>Menú emergente mínimo</minimal_pop-up_menu>
+            <minimal_container>Contenedor mínimo</minimal_container>
+            <title_header_text>• Texto de la cabecera inicial</title_header_text>
+            <leading_grand_summary_text>• Texto del sumario general principal</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Texto del sub-sumario principal 1 </leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Texto del sub-sumario principal 2 </leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Texto adicional del sub-sumario principal</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Texto adicional del sub-sumario continuo </trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Texto del sub-sumario continuo 2</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Texto del sub-sumario continuo 1 </trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Texto del sumario general continuo</trailing_grand_summary_text>
+            <footer_text>• Texto del pie de página</footer_text>
+            <title_footer_text>• Texto del pie de página inicial</title_footer_text>
+            <header_text>• Texto de la cabecera</header_text>
+            <navigation_part_text>• Texto del área de navegación</navigation_part_text>
+        </namedstyles>
+    </metadata>
+</theme>

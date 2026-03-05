@@ -1,0 +1,33 @@
+{
+  "id": "fm-startup-UHJvamVj",
+  "name": "Startup",
+  "defaultTableOccurrence": "Startup",
+  "canvas": {
+    "width": 1079,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-startup-UHJvamVj-582",
+      "position": {
+        "x": 52,
+        "y": 118,
+        "width": 563,
+        "height": 89,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "582",
+        "rotation": 0,
+        "label": "Please Wait ...",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

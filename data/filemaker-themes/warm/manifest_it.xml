@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Caldo</name>
+    <group>Raffinato classico</group>
+    <metadata>
+        <namedstyles>
+            <minimal_edit_box>Casella modifica minimo</minimal_edit_box>
+            <minimal_drop-down_calendar>Calendario a discesa minimo</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Elenco a discesa minimo</minimal_drop-down_list>
+            <minimal_pop-up_menu>Menu a comparsa minimo</minimal_pop-up_menu>
+            <minimal_container>Contenitore minimo</minimal_container>
+            <title_header_text>• Testo Titolo nell'intestazione</title_header_text>
+            <leading_grand_summary_text>• Testo Riassunto iniziale</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Testo Riassunto parziale iniziale 1</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Testo Riassunto parziale iniziale 2</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Testo aggiuntivo Riassunto parziale iniziale</leading_sub_summary_additional_text>
+            <trailing_grand_summary_text>• Testo Riassunto finale</trailing_grand_summary_text>
+            <footer_text>• Testo Piè di pagina</footer_text>
+            <title_footer_text>• Testo Titolo nel piè di pagina</title_footer_text>
+            <header_text>• Testo Intestazione</header_text>
+            <navigation_part_text>• Testo sezione Navigazione</navigation_part_text>
+            <trailing_sub_summary_additional_text>• Testo aggiuntivo Riassunto parziale finale</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_1_text>• Testo Riassunto parziale finale 1</trailing_sub_summary_1_text>
+            <trailing_sub_summary_2_text>• Testo Riassunto parziale finale 2</trailing_sub_summary_2_text>
+        </namedstyles>
+    </metadata>
+</theme>

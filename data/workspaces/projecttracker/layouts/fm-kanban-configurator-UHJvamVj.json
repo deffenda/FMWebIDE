@@ -1,0 +1,71 @@
+{
+  "id": "fm-kanban-configurator-UHJvamVj",
+  "name": "Kanban Configurator",
+  "defaultTableOccurrence": "Kanban Configurator",
+  "canvas": {
+    "width": 1402,
+    "height": 690,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-kanban-configurator-UHJvamVj-1",
+      "position": {
+        "x": 1201,
+        "y": 32,
+        "width": 177,
+        "height": 86,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "styleName": "Developer Note",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "label": "anchored to expand",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-kanban-configurator-UHJvamVj-2",
+      "position": {
+        "x": 0,
+        "y": 34,
+        "width": 900,
+        "height": 616,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "styleName": "Transparent",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "label": "ExternalObject: KanabanWV_Configurator",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-kanban-configurator-UHJvamVj-3",
+      "position": {
+        "x": 250,
+        "y": 2,
+        "width": 400,
+        "height": 30,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Apex Blue",
+        "ddrObjectPath": "3",
+        "rotation": 0,
+        "label": "Kanban Configurator",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

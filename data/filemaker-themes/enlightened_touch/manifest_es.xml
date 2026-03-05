@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Iluminado Táctil</name>
+    <group>Ambicioso Táctil</group>
+    <metadata>
+        <namedstyles>
+            <accent_button_2>Botón de decoración 2</accent_button_2>
+            <accent_button_3>Botón de decoración 3</accent_button_3>
+            <column_header_region>Región de la cabecera de columna</column_header_region>
+            <title_bar_region>Región de la barra de título</title_bar_region>
+            <content_region>Región del contenido</content_region>
+            <accent_color_1>Color de decoración 1</accent_color_1>
+            <accent_color_2>Color de decoración 2</accent_color_2>
+            <accent_color_3>Color de decoración 3</accent_color_3>
+            <title_text_1>Texto del título 1</title_text_1>
+            <title_text_2>Texto del título 2</title_text_2>
+            <accent_text_1>Texto de decoración 1</accent_text_1>
+            <accent_text_2>Texto de decoración 2</accent_text_2>
+            <accent_text_3>Texto de decoración 3</accent_text_3>
+            <minimal_container>Contenedor mínimo</minimal_container>
+            <minimal_edit_box>Cuadro de edición mínimo</minimal_edit_box>
+            <minimal_drop-down_calendar>Calendario desplegable mínimo</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Lista desplegable mínima</minimal_drop-down_list>
+            <minimal_pop-up_menu>Menú emergente mínimo</minimal_pop-up_menu>
+            <accent_button_4>Botón de decoración 4</accent_button_4>
+            <slide_control_alternate>Control deslizable alternativo</slide_control_alternate>
+            <minimal_slide_control>Control deslizable mínimo</minimal_slide_control>
+            <column_header_text>Texto de la cabecera de columna</column_header_text>
+            <accent_text_4>Texto de decoración 4</accent_text_4>
+            <popover_alternate_1>Panel flotante alternativo 1</popover_alternate_1>
+            <popover_alternate_2>Panel flotante alternativo 2</popover_alternate_2>
+            <form_body>Cuerpo del formulario</form_body>
+            <navigation_region>Región de navegación</navigation_region>
+            <navigation_part>Parte de navegación</navigation_part>
+            <navigation_radio_button_set>Juego de botones circulares de navegación</navigation_radio_button_set>
+            <navigation_checkbox_set>Juego de casillas de verificación de navegación</navigation_checkbox_set>
+            <navigation_drop-down_list>Lista desplegable de navegación</navigation_drop-down_list>
+            <navigation_drop-down_calendar>Calendario desplegable de navegación</navigation_drop-down_calendar>
+            <navigation_edit_box>Cuadro de edición de navegación</navigation_edit_box>
+            <navigation_pop-up_menu>Menú emergente de navegación</navigation_pop-up_menu>
+            <navigation_button>Botón de navegación</navigation_button>
+            <gradient_1>Degradado 1</gradient_1>
+            <accent_button_1>Botón de decoración 1</accent_button_1>
+            <gradient_2>Degradado 2</gradient_2>
+            <accent_color_4>Color de decoración 4</accent_color_4>
+            <navigation_text>Texto de navegación</navigation_text>
+            <title_header_text>• Texto de la cabecera inicial</title_header_text>
+            <leading_grand_summary_text>• Texto del sumario general principal</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Texto del sub-sumario principal 1 </leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Texto del sub-sumario principal 2 </leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Texto adicional del sub-sumario principal</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Texto adicional del sub-sumario continuo </trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Texto del sub-sumario continuo 2</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Texto del sub-sumario continuo 1 </trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Texto del sumario general continuo</trailing_grand_summary_text>
+            <footer_text>• Texto del pie de página</footer_text>
+            <title_footer_text>• Texto del pie de página inicial</title_footer_text>
+            <header_text>• Texto de la cabecera</header_text>
+            <navigation_part_text>• Texto del área de navegación</navigation_part_text>
+            <body_button_bar>Barra de botones de cuerpo</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

@@ -1,0 +1,865 @@
+{
+  "id": "fm-items-report-UHJvamVj",
+  "name": "Items|Report",
+  "defaultTableOccurrence": "Items|Report",
+  "canvas": {
+    "width": 1279,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3697",
+      "position": {
+        "x": 37,
+        "y": 168,
+        "width": 240,
+        "height": 17,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Invisible",
+        "ddrObjectPath": "3697",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3698",
+      "position": {
+        "x": 37,
+        "y": 82,
+        "width": 240,
+        "height": 18,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header Text",
+        "ddrObjectPath": "3698",
+        "rotation": 0,
+        "label": "Name",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3700",
+      "position": {
+        "x": 2,
+        "y": 0,
+        "width": 400,
+        "height": 60,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Header Text",
+        "ddrObjectPath": "3700",
+        "rotation": 0,
+        "label": "Project Feature Report",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3739",
+      "position": {
+        "x": 420,
+        "y": 168,
+        "width": 145,
+        "height": 17,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "3739",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "item_percent_complete_bar",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "item_percent_complete_bar",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3740",
+      "position": {
+        "x": 501,
+        "y": 168,
+        "width": 64,
+        "height": 17,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 11 CJ",
+        "ddrObjectPath": "3740",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "item_percent_complete",
+        "controlType": "dropdown",
+        "valueList": "PercentComplete",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "item_percent_complete",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3760",
+      "position": {
+        "x": 372,
+        "y": 168,
+        "width": 43,
+        "height": 17,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Invisible",
+        "ddrObjectPath": "3760",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_estimate",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_estimate",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3779",
+      "position": {
+        "x": 326,
+        "y": 168,
+        "width": 45,
+        "height": 17,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Invisible",
+        "ddrObjectPath": "3779",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_actual",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_actual",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3780",
+      "position": {
+        "x": 281,
+        "y": 168,
+        "width": 43,
+        "height": 17,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Invisible",
+        "ddrObjectPath": "3780",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_remaining",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_remaining",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3782",
+      "position": {
+        "x": 420,
+        "y": 168,
+        "width": 104,
+        "height": 17,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Pop-up Menu",
+        "ddrObjectPath": "3782",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_status_ID",
+        "controlType": "popup",
+        "valueList": "Statuses",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_status_ID",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3785",
+      "position": {
+        "x": 495,
+        "y": 82,
+        "width": 61,
+        "height": 17,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header Text",
+        "ddrObjectPath": "3785",
+        "rotation": 0,
+        "label": "% Spent",
+        "ddrArrangeOrder": 10
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3786",
+      "position": {
+        "x": 371,
+        "y": 82,
+        "width": 44,
+        "height": 17,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header Text",
+        "ddrObjectPath": "3786",
+        "rotation": 0,
+        "label": "Estimate",
+        "ddrArrangeOrder": 11
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3789",
+      "position": {
+        "x": 420,
+        "y": 82,
+        "width": 45,
+        "height": 17,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header Text",
+        "ddrObjectPath": "3789",
+        "rotation": 0,
+        "label": "Status",
+        "ddrArrangeOrder": 12
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3790",
+      "position": {
+        "x": 325,
+        "y": 82,
+        "width": 45,
+        "height": 17,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header Text",
+        "ddrObjectPath": "3790",
+        "rotation": 0,
+        "label": "Actual",
+        "ddrArrangeOrder": 13
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3792",
+      "position": {
+        "x": 273,
+        "y": 82,
+        "width": 60,
+        "height": 17,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header Text",
+        "ddrObjectPath": "3792",
+        "rotation": 0,
+        "label": "Remaining",
+        "ddrArrangeOrder": 14
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3810",
+      "position": {
+        "x": 2,
+        "y": 107,
+        "width": 228,
+        "height": 20,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3810",
+        "rotation": 0,
+        "label": "<<pt.items_PT.PROJECTS::name>>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 15
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3810-3796",
+      "position": {
+        "x": 4,
+        "y": 214,
+        "width": 228,
+        "height": 20,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3810.3796",
+        "rotation": 0,
+        "label": "<<pt.items_PT.PROJECTS::name>>",
+        "ddrArrangeOrder": 16
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3797",
+      "position": {
+        "x": 437,
+        "y": 106,
+        "width": 136,
+        "height": 20,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3797",
+        "rotation": 0,
+        "label": "Count: <<zz_count>>",
+        "ddrArrangeOrder": 17
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3803",
+      "position": {
+        "x": 372,
+        "y": 104,
+        "width": 43,
+        "height": 21,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 12 CJ",
+        "ddrObjectPath": "3803",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_estimate_sum",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_estimate_sum",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3804",
+      "position": {
+        "x": 326,
+        "y": 104,
+        "width": 45,
+        "height": 21,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 12 CJ",
+        "ddrObjectPath": "3804",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_actual_sum",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 19
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_actual_sum",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3805",
+      "position": {
+        "x": 281,
+        "y": 104,
+        "width": 43,
+        "height": 21,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 12 CJ",
+        "ddrObjectPath": "3805",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_remaining_sum",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_remaining_sum",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3808",
+      "position": {
+        "x": 216,
+        "y": 107,
+        "width": 64,
+        "height": 20,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3808",
+        "rotation": 0,
+        "label": "Totals:",
+        "ddrArrangeOrder": 21
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3811",
+      "position": {
+        "x": 16,
+        "y": 139,
+        "width": 195,
+        "height": 20,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3811",
+        "rotation": 0,
+        "label": "<<module>>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 22
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3811-3812",
+      "position": {
+        "x": 32,
+        "y": 278,
+        "width": 195,
+        "height": 20,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3811.3812",
+        "rotation": 0,
+        "label": "<<module>>",
+        "ddrArrangeOrder": 23
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3813",
+      "position": {
+        "x": 437,
+        "y": 138,
+        "width": 136,
+        "height": 20,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3813",
+        "rotation": 0,
+        "label": "Count: <<zz_count>>",
+        "ddrArrangeOrder": 24
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3814",
+      "position": {
+        "x": 372,
+        "y": 136,
+        "width": 43,
+        "height": 21,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 12 CJ",
+        "ddrObjectPath": "3814",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_estimate_sum",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 25
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_estimate_sum",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3815",
+      "position": {
+        "x": 326,
+        "y": 136,
+        "width": 45,
+        "height": 21,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 12 CJ",
+        "ddrObjectPath": "3815",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_actual_sum",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 26
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_actual_sum",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3816",
+      "position": {
+        "x": 281,
+        "y": 136,
+        "width": 43,
+        "height": 21,
+        "z": 27
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 12 CJ",
+        "ddrObjectPath": "3816",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_remaining_sum",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 27
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_remaining_sum",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3817",
+      "position": {
+        "x": 216,
+        "y": 139,
+        "width": 64,
+        "height": 20,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3817",
+        "rotation": 0,
+        "label": "Totals:",
+        "ddrArrangeOrder": 28
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3818",
+      "position": {
+        "x": 37,
+        "y": 187,
+        "width": 240,
+        "height": 353,
+        "z": 29
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Invisible",
+        "ddrObjectPath": "3818",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 29
+      },
+      "type": "field",
+      "binding": {
+        "field": "description",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3820",
+      "position": {
+        "x": 371,
+        "y": 69,
+        "width": 44,
+        "height": 17,
+        "z": 30
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header Text",
+        "ddrObjectPath": "3820",
+        "rotation": 0,
+        "label": "Original",
+        "ddrArrangeOrder": 30
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3822",
+      "position": {
+        "x": 277,
+        "y": 69,
+        "width": 52,
+        "height": 17,
+        "z": 31
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header Text",
+        "ddrObjectPath": "3822",
+        "rotation": 0,
+        "label": "Estimated",
+        "ddrArrangeOrder": 31
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3823",
+      "position": {
+        "x": 0,
+        "y": 163,
+        "width": 575,
+        "height": 8,
+        "z": 32
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3823",
+        "rotation": 0,
+        "label": "",
+        "shapeType": "line",
+        "fillType": "none",
+        "fillColor": "transparent",
+        "lineStyle": "solid",
+        "lineWidth": 2,
+        "lineColor": "#94a3b8",
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 32
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3824",
+      "position": {
+        "x": 0,
+        "y": 132,
+        "width": 575,
+        "height": 8,
+        "z": 33
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3824",
+        "rotation": 0,
+        "label": "",
+        "shapeType": "line",
+        "fillType": "none",
+        "fillColor": "transparent",
+        "lineStyle": "solid",
+        "lineWidth": 2,
+        "lineColor": "#94a3b8",
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 33
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-fm-items-report-UHJvamVj-3825",
+      "position": {
+        "x": 1,
+        "y": 100,
+        "width": 575,
+        "height": 8,
+        "z": 34
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3825",
+        "rotation": 0,
+        "label": "",
+        "shapeType": "line",
+        "fillType": "none",
+        "fillColor": "transparent",
+        "lineStyle": "solid",
+        "lineWidth": 2,
+        "lineColor": "#94a3b8",
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 34
+      },
+      "type": "shape"
+    }
+  ],
+  "actions": []
+}

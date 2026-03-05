@@ -1,0 +1,684 @@
+{
+  "id": "fm-people-form-UHJvamVj",
+  "name": "People|Form",
+  "defaultTableOccurrence": "People|Form",
+  "canvas": {
+    "width": 1279,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-1",
+      "position": {
+        "x": 171,
+        "y": 0,
+        "width": 400,
+        "height": 60,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Header Text",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "label": "Persons",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-2-3",
+      "position": {
+        "x": 17,
+        "y": 21,
+        "width": 51,
+        "height": 38,
+        "z": 2
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "hideObjectWhen": "/*cf_BrowserNavigation*/",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "2.3",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-people-form-UHJvamVj-2",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Backward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-2-4",
+      "position": {
+        "x": 68,
+        "y": 21,
+        "width": 52,
+        "height": 38,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "2.4",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-people-form-UHJvamVj-2",
+        "ddrArrangeOrder": 3
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-2-4-5",
+      "position": {
+        "x": 65,
+        "y": 91,
+        "width": 241,
+        "height": 363,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "2.4.5",
+        "rotation": 0,
+        "label": "[Popover]",
+        "groupId": "ddr-group-fm-people-form-UHJvamVj-2",
+        "ddrArrangeOrder": 4
+      },
+      "type": "label",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-2-4-5-6-7",
+      "position": {
+        "x": 104,
+        "y": 294,
+        "width": 195,
+        "height": 54,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "2.4.5.6.7",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-people-form-UHJvamVj-2-4-5-6",
+        "ddrArrangeOrder": 5
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-2-4-5-6-8",
+      "position": {
+        "x": 104,
+        "y": 348,
+        "width": 195,
+        "height": 53,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "2.4.5.6.8",
+        "rotation": 0,
+        "label": "Organizations",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-people-form-UHJvamVj-2-4-5-6",
+        "ddrArrangeOrder": 6
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Organizations",
+          "parameter": "Organizations"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-2-4-5-6-9",
+      "position": {
+        "x": 104,
+        "y": 401,
+        "width": 195,
+        "height": 54,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "2.4.5.6.9",
+        "rotation": 0,
+        "label": "Invoices",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-people-form-UHJvamVj-2-4-5-6",
+        "ddrArrangeOrder": 7
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Invoices",
+          "parameter": "Invoices"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-2-4-5-6-10",
+      "position": {
+        "x": 104,
+        "y": 455,
+        "width": 195,
+        "height": 53,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "2.4.5.6.10",
+        "rotation": 0,
+        "label": "Preferences",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-people-form-UHJvamVj-2-4-5-6",
+        "ddrArrangeOrder": 8
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Preferences",
+          "parameter": "Preferences"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-2-4-5-11-12",
+      "position": {
+        "x": 104,
+        "y": 792,
+        "width": 195,
+        "height": 52,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "2.4.5.11.12",
+        "rotation": 0,
+        "label": "Exit Application",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-people-form-UHJvamVj-2-4-5-11",
+        "ddrArrangeOrder": 9
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-2-13",
+      "position": {
+        "x": 120,
+        "y": 21,
+        "width": 51,
+        "height": 38,
+        "z": 10
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "2.13",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-people-form-UHJvamVj-2",
+        "ddrArrangeOrder": 10
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Forward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-14",
+      "position": {
+        "x": 1147,
+        "y": 17,
+        "width": 104,
+        "height": 25,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "14",
+        "rotation": 0,
+        "label": "List View",
+        "variant": "secondary",
+        "ddrArrangeOrder": 11
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to List View from Form View",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-15",
+      "position": {
+        "x": 108,
+        "y": 99,
+        "width": 252,
+        "height": 22,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "15",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name_full_lfm",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "name_full_lfm",
+        "tableOccurrence": "CM.PERSONS"
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-16",
+      "position": {
+        "x": 56,
+        "y": 102,
+        "width": 41,
+        "height": 18,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "16",
+        "rotation": 0,
+        "label": "Name",
+        "ddrArrangeOrder": 13
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-19",
+      "position": {
+        "x": 453,
+        "y": 140,
+        "width": 206,
+        "height": 25,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "19",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Street 1",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "address_01",
+        "tableOccurrence": "cm.persons_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-20",
+      "position": {
+        "x": 453,
+        "y": 167,
+        "width": 206,
+        "height": 25,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "20",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Street 2",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 15
+      },
+      "type": "field",
+      "binding": {
+        "field": "address_02",
+        "tableOccurrence": "cm.persons_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-22",
+      "position": {
+        "x": 453,
+        "y": 194,
+        "width": 104,
+        "height": 25,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "22",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "City",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 16
+      },
+      "type": "field",
+      "binding": {
+        "field": "city",
+        "tableOccurrence": "cm.persons_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-24",
+      "position": {
+        "x": 559,
+        "y": 194,
+        "width": 34,
+        "height": 25,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "24",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "state",
+        "controlType": "popup",
+        "valueList": "State",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 17
+      },
+      "type": "field",
+      "binding": {
+        "field": "state",
+        "tableOccurrence": "cm.persons_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-26",
+      "position": {
+        "x": 595,
+        "y": 194,
+        "width": 64,
+        "height": 25,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "26",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Zip Code",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "postal_code",
+        "tableOccurrence": "cm.persons_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-28",
+      "position": {
+        "x": 453,
+        "y": 221,
+        "width": 206,
+        "height": 25,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "28",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Country",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 19
+      },
+      "type": "field",
+      "binding": {
+        "field": "country",
+        "tableOccurrence": "cm.persons_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-30",
+      "position": {
+        "x": 108,
+        "y": 140,
+        "width": 252,
+        "height": 25,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "30",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_organization_ID",
+        "controlType": "popup",
+        "valueList": "Organizations",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_organization_ID",
+        "tableOccurrence": "cm.persons_CM.ORGANIZATION_PERSONS"
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-31",
+      "position": {
+        "x": 21,
+        "y": 141,
+        "width": 76,
+        "height": 18,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "31",
+        "rotation": 0,
+        "label": "Organization",
+        "ddrArrangeOrder": 21
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-32",
+      "position": {
+        "x": 108,
+        "y": 167,
+        "width": 252,
+        "height": 25,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "32",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "role",
+        "controlType": "text",
+        "valueList": "Organizations",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 22
+      },
+      "type": "field",
+      "binding": {
+        "field": "role",
+        "tableOccurrence": "cm.persons_CM.ORGANIZATION_PERSONS"
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-33",
+      "position": {
+        "x": 68,
+        "y": 169,
+        "width": 29,
+        "height": 18,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "33",
+        "rotation": 0,
+        "label": "Role",
+        "ddrArrangeOrder": 23
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-34",
+      "position": {
+        "x": 108,
+        "y": 194,
+        "width": 252,
+        "height": 25,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "34",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "type",
+        "controlType": "text",
+        "valueList": "Organizations",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 24
+      },
+      "type": "field",
+      "binding": {
+        "field": "type",
+        "tableOccurrence": "cm.persons_CM.ORGANIZATION_PERSONS"
+      }
+    },
+    {
+      "id": "ddr-fm-people-form-UHJvamVj-35",
+      "position": {
+        "x": 65,
+        "y": 196,
+        "width": 32,
+        "height": 18,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "35",
+        "rotation": 0,
+        "label": "Type",
+        "ddrArrangeOrder": 25
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

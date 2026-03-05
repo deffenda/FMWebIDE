@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Universal Touch</name>
+    <group>Universal</group>
+    <metadata>
+        <namedstyles>
+            <array-highlight-buttonbar>Feld | Hervorheben</array-highlight-buttonbar>
+            <array-inverted-buttonbar>Feld | Ausschnitt</array-inverted-buttonbar>
+            <bold-inverted-text>Betonung | Ausschnitt</bold-inverted-text>
+            <border-edit>Rahmen | Sekundär</border-edit>
+            <border-highlight-button>Rahmen | Hervorheben</border-highlight-button>
+            <border-inverted-buttonbar>Rahmen | Sekundär</border-inverted-buttonbar>
+            <border-inverted-calendar>Rahmen | Ausschnitt</border-inverted-calendar>
+            <border-inverted-checkbox>Rahmen | Invertiert</border-inverted-checkbox>
+            <border-inverted-container>Rahmen | Invertiert</border-inverted-container>
+            <border-inverted-dropdown>Rahmen | Ausschnitt</border-inverted-dropdown>
+            <border-inverted-edit>Rahmen | Invertiert</border-inverted-edit>
+            <border-inverted-popup>Rahmen | Ausschnitt</border-inverted-popup>
+            <border-inverted-portal>Rahmen | Invertiert</border-inverted-portal>
+            <border-inverted-radio>Rahmen | Ausschnitt</border-inverted-radio>
+            <border-inverted-slide>Rahmen | Invertiert</border-inverted-slide>
+            <border-inverted-tab>Rahmen | Invertiert</border-inverted-tab>
+            <border-popover>Rahmen | Ausschnitt</border-popover>
+            <border-secondary-button-bar>Rahmen | Invertiert</border-secondary-button-bar>
+            <border-secondary-calendar>Rahmen | Sekundär</border-secondary-calendar>
+            <border-secondary-dropdown>Rahmen | Sekundär</border-secondary-dropdown>
+            <border-secondary-popup>Rahmen | Sekundär</border-secondary-popup>
+            <emphasis-primary-text>Betonung | Primär</emphasis-primary-text>
+            <fill-checkbox>Füllung | Sekundär</fill-checkbox>
+            <fill-container>Füllung | Sekundär</fill-container>
+            <fill-edit>Füllung | Sekundär</fill-edit>
+            <fill-highlight-button>Füllung | Hervorheben</fill-highlight-button>
+            <fill-inverted-button>Füllung | Invertiert</fill-inverted-button>
+            <fill-inverted-calendar>Füllung | Invertiert</fill-inverted-calendar>
+            <fill-inverted-checkbox>Füllung | Invertiert</fill-inverted-checkbox>
+            <fill-inverted-container>Füllung | Invertiert</fill-inverted-container>
+            <fill-inverted-dropdown>Füllung | Invertiert</fill-inverted-dropdown>
+            <fill-inverted-edit>Füllung | Invertiert</fill-inverted-edit>
+            <fill-inverted-popover>Füllung | Invertiert</fill-inverted-popover>
+            <fill-inverted-popup>Füllung | Invertiert</fill-inverted-popup>
+            <fill-inverted-radio>Füllung | Invertiert</fill-inverted-radio>
+            <fill-knockout-container>Füllung | Ausschnitt</fill-knockout-container>
+            <fill-low-shadow-inverted-calendar>Füllung | Niedriger Schatten | Invertiert</fill-low-shadow-inverted-calendar>
+            <fill-low-shadow-inverted-container>Füllung | Niedriger Schatten | Invertiert</fill-low-shadow-inverted-container>
+            <fill-low-shadow-inverted-dropdown>Füllung | Niedriger Schatten | Invertiert</fill-low-shadow-inverted-dropdown>
+            <fill-low-shadow-inverted-edit>Füllung | Niedriger Schatten | Invertiert</fill-low-shadow-inverted-edit>
+            <fill-low-shadow-inverted-popup>Füllung | Niedriger Schatten | Invertiert</fill-low-shadow-inverted-popup>
+            <fill-secondary-calendar>Füllung | Sekundär</fill-secondary-calendar>
+            <fill-secondary-dropdown>Füllung | Sekundär</fill-secondary-dropdown>
+            <fill-secondary-popup>Füllung | Sekundär</fill-secondary-popup>
+            <fill-secondary-radio>Füllung | Sekundär</fill-secondary-radio>
+            <high-shadow-inverted-shape>Hoher Schatten | Invertiert</high-shadow-inverted-shape>
+            <high-shadow-inverted-slide>Hoher Schatten | Invertiert</high-shadow-inverted-slide>
+            <high-shadow-knockout-shape>Hoher Schatten | Ausschnitt</high-shadow-knockout-shape>
+            <high-shadow-knockout-slide>Hoher Schatten | Ausschnitt</high-shadow-knockout-slide>
+            <highlight-shape>Hervorheben</highlight-shape>
+            <highlight-text>Hervorheben</highlight-text>
+            <inverted-background>Invertiert</inverted-background>
+            <inverted-button>Ausschnitt</inverted-button>
+            <inverted-chart>Invertiert</inverted-chart>
+            <inverted-line>Ausschnitt</inverted-line>
+            <inverted-navigation>Navigation | Invertiert</inverted-navigation>
+            <inverted-part>Invertiert</inverted-part>
+            <inverted-shape>Invertiert</inverted-shape>
+            <inverted-subsummary>Zwischenergebnis | Invertiert</inverted-subsummary>
+            <inverted-text>Ausschnitt</inverted-text>
+            <inverted-web>Invertiert</inverted-web>
+            <knockout-shape>Ausschnitt</knockout-shape>
+            <large-inverted-text>Groß | Ausschnitt</large-inverted-text>
+            <large-primary-text>Groß | Primär</large-primary-text>
+            <light-secondary-part>Sekundär</light-secondary-part>
+            <light-secondary-subsummary>Zwischenergebnis | Sekundär</light-secondary-subsummary>
+            <line-inverted-portal>Linie | Invertiert</line-inverted-portal>
+            <line-secondary-portal>Linie | Sekundär</line-secondary-portal>
+            <link-button>Link</link-button>
+            <low-shadow-inverted-shape>Niedriger Schatten | Invertiert</low-shadow-inverted-shape>
+            <low-shadow-inverted-slide>Niedriger Schatten | Invertiert</low-shadow-inverted-slide>
+            <low-shadow-knockout-shape>Niedriger Schatten | Ausschnitt</low-shadow-knockout-shape>
+            <low-shadow-knockout-slide>Niedriger Schatten | Ausschnitt</low-shadow-knockout-slide>
+            <minimum-button>Minimum | Invertiert</minimum-button>
+            <minimum-highlight-button>Minimum | Hervorheben</minimum-highlight-button>
+            <minimum-inverted-button>Minimum | Ausschnitt</minimum-inverted-button>
+            <minimum-secondary-button>Minimum | Sekundär</minimum-secondary-button>
+            <minimum-secondary-highlight-button>Minimum | Sekundär Hervorheben</minimum-secondary-highlight-button>
+            <pill-highlight-button>Pille | Hervorheben</pill-highlight-button>
+            <pill-secondary-button>Pille | Sekundär</pill-secondary-button>
+            <primary-line>Invertiert</primary-line>
+            <round-green-button>Rund | Grün</round-green-button>
+            <round-highlight-button>Rund | Hervorheben</round-highlight-button>
+            <round-inverted-button>Rund | Invertiert</round-inverted-button>
+            <round-orange-button>Rund | Orange</round-orange-button>
+            <round-red-button>Rund | Rot</round-red-button>
+            <round-yellow-button>Rund | Gelb</round-yellow-button>
+            <rounded-border-highlight-button>Abgerundeter Rahmen | Hervorheben</rounded-border-highlight-button>
+            <rounded-fill-highlight-button>Abgerundete Füllung | Hervorheben</rounded-fill-highlight-button>
+            <rounded-fill-inverted-button>Abgerundete Füllung | Invertiert</rounded-fill-inverted-button>
+            <secondary-background>Sekundär</secondary-background>
+            <secondary-highlight-button>Sekundär Hervorheben</secondary-highlight-button>
+            <secondary-text>Sekundär</secondary-text>
+            <separator-highlight-buttonbar>Trennlinie | Hervorheben</separator-highlight-buttonbar>
+            <separator-inverted-buttonbar>Trennlinie | Ausschnitt</separator-inverted-buttonbar>
+            <separator-uppercase-highlight-buttonbar>Trennlinie | Großbuchstaben | Hervorheben</separator-uppercase-highlight-buttonbar>
+            <separator-uppercase-inverted-buttonbar>Trennlinie | Großbuchstaben | Ausschnitt</separator-uppercase-inverted-buttonbar>
+            <small-inverted-text>Klein | Ausschnitt</small-inverted-text>
+            <small-primary-text>Klein | Primär</small-primary-text>
+            <small-secondary-text>Klein | Sekundär</small-secondary-text>
+            <tab-bar-buttonbar>Registerleiste</tab-bar-buttonbar>
+            <underline-container>Unterstreichen | Sekundär</underline-container>
+            <underline-highlight-buttonbar>Unterstreichen | Hervorheben</underline-highlight-buttonbar>
+            <underline-inverted-buttonbar>Unterstreichen | Ausschnitt</underline-inverted-buttonbar>
+            <underline-inverted-calendar>Unterstreichen | Ausschnitt</underline-inverted-calendar>
+            <underline-inverted-container>Unterstreichen | Invertiert</underline-inverted-container>
+            <underline-inverted-dropdown>Unterstreichen | Ausschnitt</underline-inverted-dropdown>
+            <underline-inverted-edit>Unterstreichen | Invertiert</underline-inverted-edit>
+            <underline-inverted-popup>Unterstreichen | Ausschnitt</underline-inverted-popup>
+            <underline-uppercase-highlight-buttonbar>Unterstreichen | Großbuchstaben | Hervorheben</underline-uppercase-highlight-buttonbar>
+            <underline-uppercase-inverted-buttonbar>Unterstreichen | Großbuchstaben | Ausschnitt</underline-uppercase-inverted-buttonbar>
+            <uppercase-secondary-text>Großbuchstaben | Sekundär</uppercase-secondary-text>
+        </namedstyles>
+    </metadata>
+</theme>

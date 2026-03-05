@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>개선됨(터치)</name>
+    <group>열망(터치)</group>
+    <cssfile>enlightened_touch_ko.css</cssfile>
+    <metadata>
+        <namedstyles>
+            <accent_button_2>강조 버튼 2</accent_button_2>
+            <accent_button_3>강조 버튼 3</accent_button_3>
+            <column_header_region>열 머리말 영역</column_header_region>
+            <title_bar_region>제목 표시줄 영역</title_bar_region>
+            <content_region>콘텐츠 영역</content_region>
+            <accent_color_1>강조 색 1</accent_color_1>
+            <accent_color_2>강조 색 2</accent_color_2>
+            <accent_color_3>강조 색 3</accent_color_3>
+            <title_text_1>제목 텍스트 1</title_text_1>
+            <title_text_2>제목 텍스트 2</title_text_2>
+            <accent_text_1>강조 텍스트 1</accent_text_1>
+            <accent_text_2>강조 텍스트 2</accent_text_2>
+            <accent_text_3>강조 텍스트 3</accent_text_3>
+            <minimal_container>최소 컨테이너</minimal_container>
+            <minimal_edit_box>최소 편집 상자</minimal_edit_box>
+            <minimal_drop-down_calendar>최소 드롭다운 캘린더</minimal_drop-down_calendar>
+            <minimal_drop-down_list>최소 드롭다운 목록</minimal_drop-down_list>
+            <minimal_pop-up_menu>최소 팝업 메뉴</minimal_pop-up_menu>
+            <accent_button_4>강조 버튼 4</accent_button_4>
+            <slide_control_alternate>슬라이드 제어 대체</slide_control_alternate>
+            <minimal_slide_control>최소 슬라이드 제어</minimal_slide_control>
+            <column_header_text>열 머리말 텍스트</column_header_text>
+            <accent_text_4>강조 텍스트 4</accent_text_4>
+            <popover_alternate_1>팝오버 대체 1</popover_alternate_1>
+            <popover_alternate_2>팝오버 대체 2</popover_alternate_2>
+            <form_body>본문 형식</form_body>
+            <navigation_region>영역 탐색</navigation_region>
+            <navigation_part>부분 탐색</navigation_part>
+            <navigation_radio_button_set>라디오 버튼 세트 탐색</navigation_radio_button_set>
+            <navigation_checkbox_set>체크상자 세트 탐색</navigation_checkbox_set>
+            <navigation_drop-down_list>드롭다운 목록 탐색</navigation_drop-down_list>
+            <navigation_drop-down_calendar>드롭다운 캘린더 탐색</navigation_drop-down_calendar>
+            <navigation_edit_box>편집 상자 탐색</navigation_edit_box>
+            <navigation_pop-up_menu>팝업 메뉴 탐색</navigation_pop-up_menu>
+            <navigation_button>버튼 탐색</navigation_button>
+            <gradient_1>그라데이션 1</gradient_1>
+            <accent_button_1>강조 버튼 1</accent_button_1>
+            <gradient_2>그라데이션 2</gradient_2>
+            <accent_color_4>강조 색 4</accent_color_4>
+            <navigation_text>텍스트 탐색</navigation_text>
+            <title_header_text>• 제목 머리말 텍스트</title_header_text>
+            <leading_grand_summary_text>• 선행 총계 텍스트</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• 선행 소계 1 텍스트</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• 선행 소계 2 텍스트</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• 선행 소계 추가 텍스트</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• 후행 소계 추가 텍스트</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• 후행 소계 2 텍스트</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• 후행 소계 1 텍스트</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• 후행 총계 텍스트</trailing_grand_summary_text>
+            <footer_text>• 꼬리말 텍스트</footer_text>
+            <title_footer_text>• 제목 꼬리말 텍스트</title_footer_text>
+            <header_text>• 머리말 텍스트</header_text>
+            <navigation_part_text>• 탐색 부분 텍스트</navigation_part_text>
+            <body_button_bar>본문 버튼 막대</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

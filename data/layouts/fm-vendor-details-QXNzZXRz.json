@@ -1,0 +1,406 @@
+{
+  "id": "fm-vendor-details-QXNzZXRz",
+  "name": "Vendor Details",
+  "defaultTableOccurrence": "Vendor Details",
+  "canvas": {
+    "width": 1032,
+    "height": 612,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "parts": [
+    {
+      "id": "ddr-part-fm-vendor-details-QXNzZXRz-1",
+      "type": "topNavigation",
+      "label": "Top Navigation",
+      "height": 44,
+      "pageBreakBeforeEachOccurrence": false,
+      "pageBreakAfterEveryOccurrences": null,
+      "restartPageNumbersAfterEachOccurrence": false,
+      "allowPartToBreakAcrossPageBoundaries": false,
+      "discardRemainderBeforeNewPage": false,
+      "useAlternateRowState": false,
+      "useActiveRowState": false
+    },
+    {
+      "id": "ddr-part-fm-vendor-details-QXNzZXRz-2",
+      "type": "body",
+      "label": "Body",
+      "height": 528,
+      "pageBreakBeforeEachOccurrence": false,
+      "pageBreakAfterEveryOccurrences": null,
+      "restartPageNumbersAfterEachOccurrence": false,
+      "allowPartToBreakAcrossPageBoundaries": false,
+      "discardRemainderBeforeNewPage": false,
+      "useAlternateRowState": false,
+      "useActiveRowState": true
+    }
+  ],
+  "components": [
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-1-2",
+      "position": {
+        "x": 349,
+        "y": 14,
+        "width": 325,
+        "height": 21,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Separator | Uppercase | Highlight",
+        "ddrObjectPath": "1.2",
+        "label": "Vendor",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-vendor-details-QXNzZXRz-1",
+        "ddrArrangeOrder": 1
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-3",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 44,
+        "z": 2
+      },
+      "props": {
+        "tooltip": "Go to Vendors.",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "3",
+        "tabOrder": 3,
+        "label": "Vendors",
+        "variant": "secondary",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Vendor List"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-4",
+      "position": {
+        "x": 15,
+        "y": 116,
+        "width": 325,
+        "height": 441,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Knockout",
+        "ddrObjectPath": "4",
+        "label": "",
+        "shapeType": "rectangle",
+        "fillType": "solid",
+        "fillColor": "#ffffff",
+        "lineStyle": "solid",
+        "lineWidth": 1,
+        "lineColor": "#94a3b8",
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 3
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-5",
+      "position": {
+        "x": 32,
+        "y": 450,
+        "width": 291,
+        "height": 77,
+        "z": 4
+      },
+      "props": {
+        "tooltip": "Description",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "5",
+        "tabOrder": 2,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "Description",
+        "tableOccurrence": "Vendors"
+      }
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-6",
+      "position": {
+        "x": 32,
+        "y": 425,
+        "width": 291,
+        "height": 21,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Uppercase | Secondary",
+        "ddrObjectPath": "6",
+        "label": "Description",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-7",
+      "position": {
+        "x": 32,
+        "y": 370,
+        "width": 291,
+        "height": 44,
+        "z": 6
+      },
+      "props": {
+        "tooltip": "Name",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "7",
+        "tabOrder": 1,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "Name",
+        "tableOccurrence": "Vendors"
+      }
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-8",
+      "position": {
+        "x": 32,
+        "y": 345,
+        "width": 291,
+        "height": 21,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Uppercase | Secondary",
+        "ddrObjectPath": "8",
+        "label": "Name",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-9",
+      "position": {
+        "x": 15,
+        "y": 116,
+        "width": 325,
+        "height": 215,
+        "z": 8
+      },
+      "props": {
+        "tooltip": "Logo",
+        "styleTheme": "Universal Touch",
+        "styleName": "Fill | Secondary",
+        "ddrObjectPath": "9",
+        "tabOrder": 4,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Logo",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "Logo",
+        "tableOccurrence": "Vendors"
+      }
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-10",
+      "position": {
+        "x": 291,
+        "y": 133,
+        "width": 40,
+        "height": 26,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Minimum | Secondary",
+        "ddrObjectPath": "10",
+        "tabOrder": 0,
+        "label": "Button",
+        "variant": "secondary",
+        "ddrArrangeOrder": 9
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-11",
+      "position": {
+        "x": 15,
+        "y": 53,
+        "width": 993,
+        "height": 54,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Inverted",
+        "ddrObjectPath": "11",
+        "label": "",
+        "shapeType": "rectangle",
+        "fillType": "solid",
+        "fillColor": "#ffffff",
+        "lineStyle": "solid",
+        "lineWidth": 1,
+        "lineColor": "#94a3b8",
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 10
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-12",
+      "position": {
+        "x": 375,
+        "y": 79,
+        "width": 616,
+        "height": 19,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "12",
+        "label": "<<Description>>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 11
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Entry Field",
+          "parameter": "Description"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-13",
+      "position": {
+        "x": 375,
+        "y": 62,
+        "width": 616,
+        "height": 19,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Secondary",
+        "ddrObjectPath": "13",
+        "label": "Description",
+        "ddrArrangeOrder": 12
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-14",
+      "position": {
+        "x": 102,
+        "y": 79,
+        "width": 269,
+        "height": 19,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "14",
+        "label": "<<Name>>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 13
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Entry Field",
+          "parameter": "Name"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-15",
+      "position": {
+        "x": 102,
+        "y": 62,
+        "width": 269,
+        "height": 19,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Secondary",
+        "ddrObjectPath": "15",
+        "label": "Name",
+        "ddrArrangeOrder": 14
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-vendor-details-QXNzZXRz-16",
+      "position": {
+        "x": 15,
+        "y": 53,
+        "width": 80,
+        "height": 54,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Fill | Inverted",
+        "ddrObjectPath": "16",
+        "tabOrder": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Logo",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 15
+      },
+      "type": "field",
+      "binding": {
+        "field": "Logo",
+        "tableOccurrence": "Vendors"
+      }
+    }
+  ],
+  "actions": []
+}

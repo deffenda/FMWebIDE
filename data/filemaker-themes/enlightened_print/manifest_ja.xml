@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>エンライトンド印刷</name>
+    <group>アスパイア</group>
+    <cssfile>enlightened_print_ja.css</cssfile>
+    <metadata>
+        <namedstyles>
+            <title_header_text>• タイトルヘッダテキスト</title_header_text>
+            <leading_grand_summary_text>• 前部総計テキスト</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• 前部小計 1 テキスト</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• 前部小計 2 テキスト</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• 前部小計追加テキスト</leading_sub_summary_additional_text>
+            <footer_text>• フッタテキスト</footer_text>
+            <title_footer_text>• タイトルフッタテキスト</title_footer_text>
+            <header_text>• ヘッダテキスト</header_text>
+            <navigation_part_text>• ナビゲーションパートテキスト</navigation_part_text>
+            <trailing_sub_summary_additional_text>• 後部小計追加テキスト</trailing_sub_summary_additional_text>
+            <trailing_grand_summary_text>• 後部総計テキスト</trailing_grand_summary_text>
+            <trailing_sub_summary_1_text>• 後部小計 1 テキスト</trailing_sub_summary_1_text>
+            <trailing_sub_summary_2_text>• 後部小計 2 テキスト</trailing_sub_summary_2_text>
+        </namedstyles>
+    </metadata>
+</theme>

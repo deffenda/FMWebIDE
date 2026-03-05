@@ -1,0 +1,33 @@
+{
+  "id": "fm-no-access-Q29tbW9u",
+  "name": "No Access",
+  "defaultTableOccurrence": "No Access",
+  "canvas": {
+    "width": 1022,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-no-access-Q29tbW9u-8",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 942,
+        "height": 474,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "8",
+        "rotation": 0,
+        "label": "{{LayoutName}}&#13;{{AccountName}}&#13;{{UserName}}&#13;{{SystemIPAddress}}&#13;{{CurrentHostTimestamp}}&#13;{{SystemNICAddress}}&#13;{{PersistentID}}&#13;{{Device}}",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

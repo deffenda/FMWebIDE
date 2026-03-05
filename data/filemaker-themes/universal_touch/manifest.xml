@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<theme>
+    <id>com.filemaker.theme.universal_touch</id>
+    <name>Universal Touch</name>
+    <group>Universal</group>
+    <version>1</version>
+    <cssfile>universal_touch.css</cssfile>
+    <platform>Touch</platform>
+    <preview>images/universaltouchPreview.png</preview>
+    <metadata>
+        <layoutbuilder>
+            <kBaseFontSize>16</kBaseFontSize>
+            <kReportBreakFieldIndent>20</kReportBreakFieldIndent>
+            <kBackgroundPaddingTop>0</kBackgroundPaddingTop>
+            <kBackgroundPaddingBottom>0</kBackgroundPaddingBottom>
+            <kBackgroundPaddingLeft>0</kBackgroundPaddingLeft>
+            <kBackgroundPaddingRight>0</kBackgroundPaddingRight>
+            <kFirstPartPaddingTop>20</kFirstPartPaddingTop>
+            <kLastPartPaddingBottom>8</kLastPartPaddingBottom>
+            <kPartPaddingLeft>20</kPartPaddingLeft>
+            <kPartPaddingRight>20</kPartPaddingRight>
+            <kLeadingPartPaddingTop>8</kLeadingPartPaddingTop>
+            <kLeadingPartPaddingBottom>5</kLeadingPartPaddingBottom>
+            <kBodyPartPaddingTop>8</kBodyPartPaddingTop>
+            <kBodyPartPaddingBottom>5</kBodyPartPaddingBottom>
+            <kTrailingPartPaddingTop>8</kTrailingPartPaddingTop>
+            <kTrailingPartPaddingBottom>5</kTrailingPartPaddingBottom>
+            <kVerticalFieldSpacing>4</kVerticalFieldSpacing>
+            <kTitleHeaderMinSize>30</kTitleHeaderMinSize>
+            <kHeaderMinSize>60</kHeaderMinSize>
+            <kBodyMinSize>60</kBodyMinSize>
+            <kFooterMinSize>48</kFooterMinSize>
+            <kTitleFooterMinSize>30</kTitleFooterMinSize>
+            <kTopNavPartMinSize>44</kTopNavPartMinSize>
+            <kBottomNavPartMinSize>49</kBottomNavPartMinSize>
+            <kSummaryPartMinSize>30</kSummaryPartMinSize>
+            <kInitialLabelStyle>uppercase-secondary-text</kInitialLabelStyle>
+        </layoutbuilder>
+        <charting>
+            <colorScheme>Muted Rainbow</colorScheme>
+        </charting>
+        <namedstyles>
+            <array-highlight-buttonbar>Array | Highlight</array-highlight-buttonbar>
+            <array-inverted-buttonbar>Array | Knockout</array-inverted-buttonbar>
+            <bold-inverted-text>Emphasis | Knockout</bold-inverted-text>
+            <border-edit>Border | Secondary</border-edit>
+            <border-highlight-button>Border | Highlight</border-highlight-button>
+            <border-inverted-buttonbar>Border | Secondary</border-inverted-buttonbar>
+            <border-inverted-calendar>Border | Knockout</border-inverted-calendar>
+            <border-inverted-checkbox>Border | Inverted</border-inverted-checkbox>
+            <border-inverted-container>Border | Inverted</border-inverted-container>
+            <border-inverted-dropdown>Border | Knockout</border-inverted-dropdown>
+            <border-inverted-edit>Border | Inverted</border-inverted-edit>
+            <border-inverted-popup>Border | Knockout</border-inverted-popup>
+            <border-inverted-portal>Border | Inverted</border-inverted-portal>
+            <border-inverted-radio>Border | Knockout</border-inverted-radio>
+            <border-inverted-slide>Border | Inverted</border-inverted-slide>
+            <border-inverted-tab>Border | Inverted</border-inverted-tab>
+            <border-popover>Border | Knockout</border-popover>
+            <border-secondary-button-bar>Border | Inverted</border-secondary-button-bar>
+            <border-secondary-calendar>Border | Secondary</border-secondary-calendar>
+            <border-secondary-dropdown>Border | Secondary</border-secondary-dropdown>
+            <border-secondary-popup>Border | Secondary</border-secondary-popup>
+            <emphasis-primary-text>Emphasis | Primary</emphasis-primary-text>
+            <fill-checkbox>Fill | Secondary</fill-checkbox>
+            <fill-container>Fill | Secondary</fill-container>
+            <fill-edit>Fill | Secondary</fill-edit>
+            <fill-highlight-button>Fill | Highlight</fill-highlight-button>
+            <fill-inverted-button>Fill | Inverted</fill-inverted-button>
+            <fill-inverted-calendar>Fill | Inverted</fill-inverted-calendar>
+            <fill-inverted-checkbox>Fill | Inverted</fill-inverted-checkbox>
+            <fill-inverted-container>Fill | Inverted</fill-inverted-container>
+            <fill-inverted-dropdown>Fill | Inverted</fill-inverted-dropdown>
+            <fill-inverted-edit>Fill | Inverted</fill-inverted-edit>
+            <fill-inverted-popover>Fill | Inverted</fill-inverted-popover>
+            <fill-inverted-popup>Fill | Inverted</fill-inverted-popup>
+            <fill-inverted-radio>Fill | Inverted</fill-inverted-radio>
+            <fill-knockout-container>Fill | Knockout</fill-knockout-container>
+            <fill-low-shadow-inverted-calendar>Fill | Low Shadow | Inverted</fill-low-shadow-inverted-calendar>
+            <fill-low-shadow-inverted-container>Fill | Low Shadow | Inverted</fill-low-shadow-inverted-container>
+            <fill-low-shadow-inverted-dropdown>Fill | Low Shadow | Inverted</fill-low-shadow-inverted-dropdown>
+            <fill-low-shadow-inverted-edit>Fill | Low Shadow | Inverted</fill-low-shadow-inverted-edit>
+            <fill-low-shadow-inverted-popup>Fill | Low Shadow | Inverted</fill-low-shadow-inverted-popup>
+            <fill-secondary-calendar>Fill | Secondary</fill-secondary-calendar>
+            <fill-secondary-dropdown>Fill | Secondary</fill-secondary-dropdown>
+            <fill-secondary-popup>Fill | Secondary</fill-secondary-popup>
+            <fill-secondary-radio>Fill | Secondary</fill-secondary-radio>
+            <high-shadow-inverted-shape>High shadow | Inverted</high-shadow-inverted-shape>
+            <high-shadow-inverted-slide>High shadow | Inverted</high-shadow-inverted-slide>
+            <high-shadow-knockout-shape>High shadow | Knockout</high-shadow-knockout-shape>
+            <high-shadow-knockout-slide>High shadow | Knockout</high-shadow-knockout-slide>
+            <highlight-shape>Highlight</highlight-shape>
+            <highlight-text>Highlight</highlight-text>
+            <inverted-background>Inverted</inverted-background>
+            <inverted-button>Knockout</inverted-button>
+            <inverted-chart>Inverted</inverted-chart>
+            <inverted-line>Knockout</inverted-line>
+            <inverted-navigation>Navigation | Inverted</inverted-navigation>
+            <inverted-part>Inverted</inverted-part>
+            <inverted-shape>Inverted</inverted-shape>
+            <inverted-subsummary>Sub-summary | Inverted</inverted-subsummary>
+            <inverted-text>Knockout</inverted-text>
+            <inverted-web>Inverted</inverted-web>
+            <knockout-shape>Knockout</knockout-shape>
+            <large-inverted-text>Large | Knockout</large-inverted-text>
+            <large-primary-text>Large | Primary</large-primary-text>
+            <light-secondary-part>Secondary</light-secondary-part>
+            <light-secondary-subsummary>Sub-summary | Secondary</light-secondary-subsummary>
+            <line-inverted-portal>Line | Inverted</line-inverted-portal>
+            <line-secondary-portal>Line | Secondary</line-secondary-portal>
+            <link-button>Link</link-button>
+            <low-shadow-inverted-shape>Low shadow | Inverted</low-shadow-inverted-shape>
+            <low-shadow-inverted-slide>Low shadow | Inverted</low-shadow-inverted-slide>
+            <low-shadow-knockout-shape>Low shadow | Knockout</low-shadow-knockout-shape>
+            <low-shadow-knockout-slide>Low shadow | Knockout</low-shadow-knockout-slide>
+            <minimum-button>Minimum | Inverted</minimum-button>
+            <minimum-highlight-button>Minimum | Highlight</minimum-highlight-button>
+            <minimum-inverted-button>Minimum | Knockout</minimum-inverted-button>
+            <minimum-secondary-button>Minimum | Secondary</minimum-secondary-button>
+            <minimum-secondary-highlight-button>Minimum | Secondary Highlight</minimum-secondary-highlight-button>
+            <pill-highlight-button>Pill | Highlight</pill-highlight-button>
+            <pill-secondary-button>Pill | Secondary</pill-secondary-button>
+            <primary-line>Inverted</primary-line>
+            <round-green-button>Round | Green</round-green-button>
+            <round-highlight-button>Round | Highlight</round-highlight-button>
+            <round-inverted-button>Round | Inverted</round-inverted-button>
+            <round-orange-button>Round | Orange</round-orange-button>
+            <round-red-button>Round | Red</round-red-button>
+            <round-yellow-button>Round | Yellow</round-yellow-button>
+            <rounded-border-highlight-button>Rounded border | Highlight</rounded-border-highlight-button>
+            <rounded-fill-highlight-button>Rounded Fill | Highlight</rounded-fill-highlight-button>
+            <rounded-fill-inverted-button>Rounded Fill | Inverted</rounded-fill-inverted-button>
+            <secondary-background>Secondary</secondary-background>
+            <secondary-highlight-button>Secondary Highlight</secondary-highlight-button>
+            <secondary-text>Secondary</secondary-text>
+            <separator-highlight-buttonbar>Separator | Highlight</separator-highlight-buttonbar>
+            <separator-inverted-buttonbar>Separator | Knockout</separator-inverted-buttonbar>
+            <separator-uppercase-highlight-buttonbar>Separator | Uppercase | Highlight</separator-uppercase-highlight-buttonbar>
+            <separator-uppercase-inverted-buttonbar>Separator | Uppercase | Knockout</separator-uppercase-inverted-buttonbar>
+            <small-inverted-text>Small | Knockout</small-inverted-text>
+            <small-primary-text>Small | Primary</small-primary-text>
+            <small-secondary-text>Small | Secondary</small-secondary-text>
+            <tab-bar-buttonbar>Tab Bar</tab-bar-buttonbar>
+            <underline-container>Underline | Secondary</underline-container>
+            <underline-highlight-buttonbar>Underline | Highlight</underline-highlight-buttonbar>
+            <underline-inverted-buttonbar>Underline | Knockout</underline-inverted-buttonbar>
+            <underline-inverted-calendar>Underline | Knockout</underline-inverted-calendar>
+            <underline-inverted-container>Underline | Inverted</underline-inverted-container>
+            <underline-inverted-dropdown>Underline | Knockout</underline-inverted-dropdown>
+            <underline-inverted-edit>Underline | Inverted</underline-inverted-edit>
+            <underline-inverted-popup>Underline | Knockout</underline-inverted-popup>
+            <underline-uppercase-highlight-buttonbar>Underline | Uppercase | Highlight</underline-uppercase-highlight-buttonbar>
+            <underline-uppercase-inverted-buttonbar>Underline | Uppercase | Knockout</underline-uppercase-inverted-buttonbar>
+            <uppercase-secondary-text>Uppercase | Secondary</uppercase-secondary-text>
+        </namedstyles>
+        <colorpalette>
+            <swatch1>#efeff4</swatch1>
+            <swatch2>#686769</swatch2>
+            <swatch3>#007aff</swatch3>
+            <swatch4>#4bd864</swatch4>
+            <swatch5>#ff3b30</swatch5>
+            <swatch6>#ff9500</swatch6>
+            <swatch7>#ffcc00</swatch7>
+        </colorpalette>
+    </metadata>
+</theme>

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "common",
+  "name": "Common",
+  "filemaker": {
+    "database": "Common",
+    "ddrPath": "/Users/deffenda/Downloads/PJ/Common_fmp12.xml",
+    "summaryPath": "/Users/deffenda/Downloads/PJ/Summary.xml",
+    "sourceFileName": "Common.fmp12",
+    "solutionName": "PJ"
+  }
+}

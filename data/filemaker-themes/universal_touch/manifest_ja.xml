@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>ユニバーサルタッチ</name>
+    <group>ユニバーサル</group>
+    <cssfile>universal_touch_ja.css</cssfile>
+    <metadata>
+        <namedstyles>
+            <array-highlight-buttonbar>整列 | 強調表示</array-highlight-buttonbar>
+            <array-inverted-buttonbar>整列 | ノックアウト</array-inverted-buttonbar>
+            <bold-inverted-text>強調 | ノックアウト</bold-inverted-text>
+            <border-edit>枠 | セカンダリ</border-edit>
+            <border-highlight-button>枠 | 強調表示</border-highlight-button>
+            <border-inverted-buttonbar>枠 | セカンダリ</border-inverted-buttonbar>
+            <border-inverted-calendar>枠 | ノックアウト</border-inverted-calendar>
+            <border-inverted-checkbox>枠 | 反転</border-inverted-checkbox>
+            <border-inverted-container>枠 | 反転</border-inverted-container>
+            <border-inverted-dropdown>枠 | ノックアウト</border-inverted-dropdown>
+            <border-inverted-edit>枠 | 反転</border-inverted-edit>
+            <border-inverted-popup>枠 | ノックアウト</border-inverted-popup>
+            <border-inverted-portal>枠 | 反転</border-inverted-portal>
+            <border-inverted-radio>枠 | ノックアウト</border-inverted-radio>
+            <border-inverted-slide>枠 | 反転</border-inverted-slide>
+            <border-inverted-tab>枠 | 反転</border-inverted-tab>
+            <border-popover>枠 | ノックアウト</border-popover>
+            <border-secondary-button-bar>枠 | 反転</border-secondary-button-bar>
+            <border-secondary-calendar>枠 | セカンダリ</border-secondary-calendar>
+            <border-secondary-dropdown>枠 | セカンダリ</border-secondary-dropdown>
+            <border-secondary-popup>枠 | セカンダリ</border-secondary-popup>
+            <emphasis-primary-text>強調 | プライマリ</emphasis-primary-text>
+            <fill-checkbox>塗りつぶし | セカンダリ</fill-checkbox>
+            <fill-container>塗りつぶし | セカンダリ</fill-container>
+            <fill-edit>塗りつぶし | セカンダリ</fill-edit>
+            <fill-highlight-button>塗りつぶし | 強調表示</fill-highlight-button>
+            <fill-inverted-button>塗りつぶし | 反転</fill-inverted-button>
+            <fill-inverted-calendar>塗りつぶし | 反転</fill-inverted-calendar>
+            <fill-inverted-checkbox>塗りつぶし | 反転</fill-inverted-checkbox>
+            <fill-inverted-container>塗りつぶし | 反転</fill-inverted-container>
+            <fill-inverted-dropdown>塗りつぶし | 反転</fill-inverted-dropdown>
+            <fill-inverted-edit>塗りつぶし | 反転</fill-inverted-edit>
+            <fill-inverted-popover>塗りつぶし | 反転</fill-inverted-popover>
+            <fill-inverted-popup>塗りつぶし | 反転</fill-inverted-popup>
+            <fill-inverted-radio>塗りつぶし | 反転</fill-inverted-radio>
+            <fill-knockout-container>塗りつぶし | ノックアウト</fill-knockout-container>
+            <fill-low-shadow-inverted-calendar>塗りつぶし | ローシャドウ | 反転</fill-low-shadow-inverted-calendar>
+            <fill-low-shadow-inverted-container>塗りつぶし | ローシャドウ | 反転</fill-low-shadow-inverted-container>
+            <fill-low-shadow-inverted-dropdown>塗りつぶし | ローシャドウ | 反転</fill-low-shadow-inverted-dropdown>
+            <fill-low-shadow-inverted-edit>塗りつぶし | ローシャドウ | 反転</fill-low-shadow-inverted-edit>
+            <fill-low-shadow-inverted-popup>塗りつぶし | ローシャドウ | 反転</fill-low-shadow-inverted-popup>
+            <fill-secondary-calendar>塗りつぶし | セカンダリ</fill-secondary-calendar>
+            <fill-secondary-dropdown>塗りつぶし | セカンダリ</fill-secondary-dropdown>
+            <fill-secondary-popup>塗りつぶし | セカンダリ</fill-secondary-popup>
+            <fill-secondary-radio>塗りつぶし | セカンダリ</fill-secondary-radio>
+            <high-shadow-inverted-shape>ハイシャドウ | 反転</high-shadow-inverted-shape>
+            <high-shadow-inverted-slide>ハイシャドウ | 反転</high-shadow-inverted-slide>
+            <high-shadow-knockout-shape>ハイシャドウ | ノックアウト</high-shadow-knockout-shape>
+            <high-shadow-knockout-slide>ハイシャドウ | ノックアウト</high-shadow-knockout-slide>
+            <highlight-shape>強調表示</highlight-shape>
+            <highlight-text>強調表示</highlight-text>
+            <inverted-background>反転</inverted-background>
+            <inverted-button>ノックアウト</inverted-button>
+            <inverted-chart>反転</inverted-chart>
+            <inverted-line>ノックアウト</inverted-line>
+            <inverted-navigation>ナビゲーション | 反転</inverted-navigation>
+            <inverted-part>反転</inverted-part>
+            <inverted-shape>反転</inverted-shape>
+            <inverted-subsummary>小計 | 反転</inverted-subsummary>
+            <inverted-text>ノックアウト</inverted-text>
+            <inverted-web>反転</inverted-web>
+            <knockout-shape>ノックアウト</knockout-shape>
+            <large-inverted-text>大 | ノックアウト</large-inverted-text>
+            <large-primary-text>大 | プライマリ</large-primary-text>
+            <light-secondary-part>セカンダリ</light-secondary-part>
+            <light-secondary-subsummary>小計 | セカンダリ</light-secondary-subsummary>
+            <line-inverted-portal>線 | 反転</line-inverted-portal>
+            <line-secondary-portal>線 | セカンダリ</line-secondary-portal>
+            <link-button>リンク</link-button>
+            <low-shadow-inverted-shape>ローシャドウ | 反転</low-shadow-inverted-shape>
+            <low-shadow-inverted-slide>ローシャドウ | 反転</low-shadow-inverted-slide>
+            <low-shadow-knockout-shape>ローシャドウ | ノックアウト</low-shadow-knockout-shape>
+            <low-shadow-knockout-slide>ローシャドウ | ノックアウト</low-shadow-knockout-slide>
+            <minimum-button>最小 | 反転</minimum-button>
+            <minimum-highlight-button>最小 | 強調表示</minimum-highlight-button>
+            <minimum-inverted-button>最小 | ノックアウト</minimum-inverted-button>
+            <minimum-secondary-button>最小 | セカンダリ</minimum-secondary-button>
+            <minimum-secondary-highlight-button>最小 | セカンダリ強調表示</minimum-secondary-highlight-button>
+            <pill-highlight-button>ピル | 強調表示</pill-highlight-button>
+            <pill-secondary-button>ピル | セカンダリ</pill-secondary-button>
+            <primary-line>反転</primary-line>
+            <round-green-button>角丸 | 緑</round-green-button>
+            <round-highlight-button>角丸 | 強調表示</round-highlight-button>
+            <round-inverted-button>角丸 | 反転</round-inverted-button>
+            <round-orange-button>角丸 | オレンジ</round-orange-button>
+            <round-red-button>角丸 | 赤</round-red-button>
+            <round-yellow-button>角丸 | 黄</round-yellow-button>
+            <rounded-border-highlight-button>角丸枠 | 強調表示</rounded-border-highlight-button>
+            <rounded-fill-highlight-button>角丸塗りつぶし | 強調表示</rounded-fill-highlight-button>
+            <rounded-fill-inverted-button>角丸塗りつぶし | 反転</rounded-fill-inverted-button>
+            <secondary-background>セカンダリ</secondary-background>
+            <secondary-highlight-button>セカンダリ強調表示</secondary-highlight-button>
+            <secondary-text>セカンダリ</secondary-text>
+            <separator-highlight-buttonbar>区切り線 | 強調表示</separator-highlight-buttonbar>
+            <separator-inverted-buttonbar>区切り線 | ノックアウト</separator-inverted-buttonbar>
+            <separator-uppercase-highlight-buttonbar>区切り線 | 大文字 | 強調表示</separator-uppercase-highlight-buttonbar>
+            <separator-uppercase-inverted-buttonbar>区切り線 | 大文字 | ノックアウト</separator-uppercase-inverted-buttonbar>
+            <small-inverted-text>小 | ノックアウト</small-inverted-text>
+            <small-primary-text>小 | プライマリ</small-primary-text>
+            <small-secondary-text>小 | セカンダリ</small-secondary-text>
+            <tab-bar-buttonbar>タブバー</tab-bar-buttonbar>
+            <underline-container>下線 | セカンダリ</underline-container>
+            <underline-highlight-buttonbar>下線 | 強調表示</underline-highlight-buttonbar>
+            <underline-inverted-buttonbar>下線 | ノックアウト</underline-inverted-buttonbar>
+            <underline-inverted-calendar>下線 | ノックアウト</underline-inverted-calendar>
+            <underline-inverted-container>下線 | 反転</underline-inverted-container>
+            <underline-inverted-dropdown>下線 | ノックアウト</underline-inverted-dropdown>
+            <underline-inverted-edit>下線 | 反転</underline-inverted-edit>
+            <underline-inverted-popup>下線 | ノックアウト</underline-inverted-popup>
+            <underline-uppercase-highlight-buttonbar>下線 | 大文字 | 強調表示</underline-uppercase-highlight-buttonbar>
+            <underline-uppercase-inverted-buttonbar>下線 | 大文字 | ノックアウト</underline-uppercase-inverted-buttonbar>
+            <uppercase-secondary-text>大文字 | セカンダリ</uppercase-secondary-text>
+        </namedstyles>
+    </metadata>
+</theme>

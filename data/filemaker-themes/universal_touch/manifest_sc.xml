@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>通用触控</name>
+    <group>通用</group>
+    <cssfile>universal_touch_sc.css</cssfile>
+    <metadata>
+        <namedstyles>
+            <array-highlight-buttonbar>数组 | 高亮显示</array-highlight-buttonbar>
+            <array-inverted-buttonbar>数组 | 敲除</array-inverted-buttonbar>
+            <bold-inverted-text>强调 | 敲除</bold-inverted-text>
+            <border-edit>边界 | 辅助</border-edit>
+            <border-highlight-button>边界 | 高亮显示</border-highlight-button>
+            <border-inverted-buttonbar>边界 | 辅助</border-inverted-buttonbar>
+            <border-inverted-calendar>边界 | 敲除</border-inverted-calendar>
+            <border-inverted-checkbox>边界 | 反转</border-inverted-checkbox>
+            <border-inverted-container>边界 | 反转</border-inverted-container>
+            <border-inverted-dropdown>边界 | 敲除</border-inverted-dropdown>
+            <border-inverted-edit>边界 | 反转</border-inverted-edit>
+            <border-inverted-popup>边界 | 敲除</border-inverted-popup>
+            <border-inverted-portal>边界 | 反转</border-inverted-portal>
+            <border-inverted-radio>边界 | 敲除</border-inverted-radio>
+            <border-inverted-slide>边界 | 反转</border-inverted-slide>
+            <border-inverted-tab>边界 | 反转</border-inverted-tab>
+            <border-popover>边界 | 敲除</border-popover>
+            <border-secondary-button-bar>边界 | 反转</border-secondary-button-bar>
+            <border-secondary-calendar>边界 | 辅助</border-secondary-calendar>
+            <border-secondary-dropdown>边界 | 辅助</border-secondary-dropdown>
+            <border-secondary-popup>边界 | 辅助</border-secondary-popup>
+            <emphasis-primary-text>强调 | 主要</emphasis-primary-text>
+            <fill-checkbox>填充 | 辅助</fill-checkbox>
+            <fill-container>填充 | 辅助</fill-container>
+            <fill-edit>填充 | 辅助</fill-edit>
+            <fill-highlight-button>填充 | 高亮显示</fill-highlight-button>
+            <fill-inverted-button>填充 | 反转</fill-inverted-button>
+            <fill-inverted-calendar>填充 | 反转</fill-inverted-calendar>
+            <fill-inverted-checkbox>填充 | 反转</fill-inverted-checkbox>
+            <fill-inverted-container>填充 | 反转</fill-inverted-container>
+            <fill-inverted-dropdown>填充 | 反转</fill-inverted-dropdown>
+            <fill-inverted-edit>填充 | 反转</fill-inverted-edit>
+            <fill-inverted-popover>填充 | 反转</fill-inverted-popover>
+            <fill-inverted-popup>填充 | 反转</fill-inverted-popup>
+            <fill-inverted-radio>填充 | 反转</fill-inverted-radio>
+            <fill-knockout-container>填充 | 敲除</fill-knockout-container>
+            <fill-low-shadow-inverted-calendar>填充 | 低阴影 | 反转</fill-low-shadow-inverted-calendar>
+            <fill-low-shadow-inverted-container>填充 | 低阴影 | 反转</fill-low-shadow-inverted-container>
+            <fill-low-shadow-inverted-dropdown>填充 | 低阴影 | 反转</fill-low-shadow-inverted-dropdown>
+            <fill-low-shadow-inverted-edit>填充 | 低阴影 | 反转</fill-low-shadow-inverted-edit>
+            <fill-low-shadow-inverted-popup>填充 | 低阴影 | 反转</fill-low-shadow-inverted-popup>
+            <fill-secondary-calendar>填充 | 辅助</fill-secondary-calendar>
+            <fill-secondary-dropdown>填充 | 辅助</fill-secondary-dropdown>
+            <fill-secondary-popup>填充 | 辅助</fill-secondary-popup>
+            <fill-secondary-radio>填充 | 辅助</fill-secondary-radio>
+            <high-shadow-inverted-shape>高阴影 | 反转</high-shadow-inverted-shape>
+            <high-shadow-inverted-slide>高阴影 | 反转</high-shadow-inverted-slide>
+            <high-shadow-knockout-shape>高阴影 | 敲除</high-shadow-knockout-shape>
+            <high-shadow-knockout-slide>高阴影 | 敲除</high-shadow-knockout-slide>
+            <highlight-shape>高亮显示</highlight-shape>
+            <highlight-text>高亮显示</highlight-text>
+            <inverted-background>反转</inverted-background>
+            <inverted-button>敲除</inverted-button>
+            <inverted-chart>反转</inverted-chart>
+            <inverted-line>敲除</inverted-line>
+            <inverted-navigation>导航 | 反转</inverted-navigation>
+            <inverted-part>反转</inverted-part>
+            <inverted-shape>反转</inverted-shape>
+            <inverted-subsummary>小计 | 反转</inverted-subsummary>
+            <inverted-text>敲除</inverted-text>
+            <inverted-web>反转</inverted-web>
+            <knockout-shape>敲除</knockout-shape>
+            <large-inverted-text>大 | 敲除</large-inverted-text>
+            <large-primary-text>大 | 主要</large-primary-text>
+            <light-secondary-part>辅助</light-secondary-part>
+            <light-secondary-subsummary>小计 | 辅助</light-secondary-subsummary>
+            <line-inverted-portal>线 | 反转</line-inverted-portal>
+            <line-secondary-portal>线 | 辅助</line-secondary-portal>
+            <link-button>链接</link-button>
+            <low-shadow-inverted-shape>低阴影 | 反转</low-shadow-inverted-shape>
+            <low-shadow-inverted-slide>低阴影 | 反转</low-shadow-inverted-slide>
+            <low-shadow-knockout-shape>低阴影 | 敲除</low-shadow-knockout-shape>
+            <low-shadow-knockout-slide>低阴影 | 敲除</low-shadow-knockout-slide>
+            <minimum-button>最小值 | 反转</minimum-button>
+            <minimum-highlight-button>最小值 | 高亮显示</minimum-highlight-button>
+            <minimum-inverted-button>最小值 | 敲除</minimum-inverted-button>
+            <minimum-secondary-button>最小值 | 辅助</minimum-secondary-button>
+            <minimum-secondary-highlight-button>最小值 | 辅助高亮显示</minimum-secondary-highlight-button>
+            <pill-highlight-button>点 | 高亮显示</pill-highlight-button>
+            <pill-secondary-button>点 | 辅助</pill-secondary-button>
+            <primary-line>反转</primary-line>
+            <round-green-button>圆形 | 绿色</round-green-button>
+            <round-highlight-button>圆形 | 高亮显示</round-highlight-button>
+            <round-inverted-button>圆形 | 反转</round-inverted-button>
+            <round-orange-button>圆形 | 橙色</round-orange-button>
+            <round-red-button>圆形 | 红色</round-red-button>
+            <round-yellow-button>圆形 | 黄色</round-yellow-button>
+            <rounded-border-highlight-button>圆角边界 | 高亮显示</rounded-border-highlight-button>
+            <rounded-fill-highlight-button>圆角填充 | 高亮显示</rounded-fill-highlight-button>
+            <rounded-fill-inverted-button>圆角填充 | 反转</rounded-fill-inverted-button>
+            <secondary-background>辅助</secondary-background>
+            <secondary-highlight-button>辅助高亮显示</secondary-highlight-button>
+            <secondary-text>辅助</secondary-text>
+            <separator-highlight-buttonbar>分隔符 | 高亮显示</separator-highlight-buttonbar>
+            <separator-inverted-buttonbar>分隔符 | 敲除</separator-inverted-buttonbar>
+            <separator-uppercase-highlight-buttonbar>分隔符 | 大写 | 高亮显示</separator-uppercase-highlight-buttonbar>
+            <separator-uppercase-inverted-buttonbar>分隔符 | 大写 | 敲除</separator-uppercase-inverted-buttonbar>
+            <small-inverted-text>小 | 敲除</small-inverted-text>
+            <small-primary-text>小 | 主要</small-primary-text>
+            <small-secondary-text>小 | 辅助</small-secondary-text>
+            <tab-bar-buttonbar>选项卡栏</tab-bar-buttonbar>
+            <underline-container>下划线 | 辅助</underline-container>
+            <underline-highlight-buttonbar>下划线 | 高亮显示</underline-highlight-buttonbar>
+            <underline-inverted-buttonbar>下划线 | 敲除</underline-inverted-buttonbar>
+            <underline-inverted-calendar>下划线 | 敲除</underline-inverted-calendar>
+            <underline-inverted-container>下划线 | 反转</underline-inverted-container>
+            <underline-inverted-dropdown>下划线 | 敲除</underline-inverted-dropdown>
+            <underline-inverted-edit>下划线 | 反转</underline-inverted-edit>
+            <underline-inverted-popup>下划线 | 敲除</underline-inverted-popup>
+            <underline-uppercase-highlight-buttonbar>下划线 | 大写 | 高亮显示</underline-uppercase-highlight-buttonbar>
+            <underline-uppercase-inverted-buttonbar>下划线 | 大写 | 敲除</underline-uppercase-inverted-buttonbar>
+            <uppercase-secondary-text>大写 | 辅助</uppercase-secondary-text>
+        </namedstyles>
+    </metadata>
+</theme>

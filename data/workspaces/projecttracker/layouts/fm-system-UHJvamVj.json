@@ -1,0 +1,14 @@
+{
+  "id": "fm-system-UHJvamVj",
+  "name": "SYSTEM",
+  "defaultTableOccurrence": "SYSTEM",
+  "canvas": {
+    "width": 1134,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [],
+  "actions": []
+}

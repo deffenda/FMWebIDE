@@ -1,0 +1,567 @@
+{
+  "id": "fm-persons-new-01-UHJvamVj",
+  "name": "Persons|New_01",
+  "defaultTableOccurrence": "Persons|New_01",
+  "canvas": {
+    "width": 915,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-6358",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 400,
+        "height": 60,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Header Text",
+        "ddrObjectPath": "6358",
+        "rotation": 0,
+        "label": "Add Person EXAMPLE",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-6393",
+      "position": {
+        "x": 15,
+        "y": 461,
+        "width": 876,
+        "height": 18,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Navigation Part Text",
+        "ddrObjectPath": "6393",
+        "rotation": 0,
+        "label": "Created by <<zz_account_create>> on <<zz_timestamp_create>> | Last Modified by <<zz_account_modify>> on <<zz_timestamp_modify>>",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7218",
+      "position": {
+        "x": 32,
+        "y": 121,
+        "width": 844,
+        "height": 302,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7218",
+        "rotation": 0,
+        "label": "[Rect]",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7219",
+      "position": {
+        "x": 756,
+        "y": 72,
+        "width": 120,
+        "height": 30,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Accent Button 1",
+        "ddrObjectPath": "7219",
+        "rotation": 0,
+        "label": "Next >>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 4
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7220",
+      "position": {
+        "x": 631,
+        "y": 72,
+        "width": 120,
+        "height": 30,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Accent Button 3",
+        "ddrObjectPath": "7220",
+        "rotation": 0,
+        "label": "Cancel",
+        "variant": "secondary",
+        "ddrArrangeOrder": 5
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7235",
+      "position": {
+        "x": 818,
+        "y": 147,
+        "width": 23,
+        "height": 24,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "7235",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_active",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_active",
+        "tableOccurrence": "CM.PERSONS"
+      }
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7236",
+      "position": {
+        "x": 773,
+        "y": 149,
+        "width": 39,
+        "height": 19,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7236",
+        "rotation": 0,
+        "label": "Active",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7264",
+      "position": {
+        "x": 32,
+        "y": 103,
+        "width": 94,
+        "height": 18,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7264",
+        "rotation": 0,
+        "label": "Progress: 1 of 2",
+        "ddrArrangeOrder": 8
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7265",
+      "position": {
+        "x": 68,
+        "y": 151,
+        "width": 110,
+        "height": 17,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7265",
+        "rotation": 0,
+        "label": "Name (FML)",
+        "ddrArrangeOrder": 9
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7266",
+      "position": {
+        "x": 180,
+        "y": 147,
+        "width": 104,
+        "height": 23,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7266",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name_first",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "name_first",
+        "tableOccurrence": "CM.PERSONS"
+      }
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7267",
+      "position": {
+        "x": 68,
+        "y": 209,
+        "width": 110,
+        "height": 17,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7267",
+        "rotation": 0,
+        "label": "Address One",
+        "ddrArrangeOrder": 11
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7268",
+      "position": {
+        "x": 180,
+        "y": 206,
+        "width": 255,
+        "height": 23,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7268",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "address_01",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "address_01",
+        "tableOccurrence": "cm.persons_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7269",
+      "position": {
+        "x": 68,
+        "y": 235,
+        "width": 110,
+        "height": 17,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7269",
+        "rotation": 0,
+        "label": "Address Two",
+        "ddrArrangeOrder": 13
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7270",
+      "position": {
+        "x": 180,
+        "y": 232,
+        "width": 255,
+        "height": 23,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7270",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "address_02",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "address_02",
+        "tableOccurrence": "cm.persons_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7271",
+      "position": {
+        "x": 68,
+        "y": 261,
+        "width": 110,
+        "height": 17,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7271",
+        "rotation": 0,
+        "label": "City State Zip",
+        "ddrArrangeOrder": 15
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7272",
+      "position": {
+        "x": 180,
+        "y": 258,
+        "width": 148,
+        "height": 23,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7272",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "city",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 16
+      },
+      "type": "field",
+      "binding": {
+        "field": "city",
+        "tableOccurrence": "cm.persons_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7273",
+      "position": {
+        "x": 329,
+        "y": 258,
+        "width": 42,
+        "height": 23,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7273",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "state",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 17
+      },
+      "type": "field",
+      "binding": {
+        "field": "state",
+        "tableOccurrence": "cm.persons_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7274",
+      "position": {
+        "x": 373,
+        "y": 258,
+        "width": 62,
+        "height": 23,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7274",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "postal_code",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "postal_code",
+        "tableOccurrence": "cm.persons_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7275",
+      "position": {
+        "x": 68,
+        "y": 289,
+        "width": 110,
+        "height": 17,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7275",
+        "rotation": 0,
+        "label": "Country",
+        "ddrArrangeOrder": 19
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7276",
+      "position": {
+        "x": 180,
+        "y": 284,
+        "width": 255,
+        "height": 23,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7276",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "country",
+        "controlType": "dropdown",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "country",
+        "tableOccurrence": "cm.persons_CM.ADDRESSES"
+      }
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7277",
+      "position": {
+        "x": 631,
+        "y": 260,
+        "width": 156,
+        "height": 18,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7277",
+        "rotation": 0,
+        "label": "Addtional Information Here",
+        "ddrArrangeOrder": 21
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7278",
+      "position": {
+        "x": 399,
+        "y": 147,
+        "width": 159,
+        "height": 23,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7278",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name_last",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 22
+      },
+      "type": "field",
+      "binding": {
+        "field": "name_last",
+        "tableOccurrence": "CM.PERSONS"
+      }
+    },
+    {
+      "id": "ddr-fm-persons-new-01-UHJvamVj-7279",
+      "position": {
+        "x": 290,
+        "y": 147,
+        "width": 104,
+        "height": 23,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7279",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name_middle",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 23
+      },
+      "type": "field",
+      "binding": {
+        "field": "name_middle",
+        "tableOccurrence": "CM.PERSONS"
+      }
+    }
+  ],
+  "actions": []
+}

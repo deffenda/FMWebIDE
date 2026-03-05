@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Eclairé impression</name>
+    <group>Ambitieux</group>
+    <metadata>
+        <namedstyles>
+            <title_header_text>• Texte de l'en-tête initial</title_header_text>
+            <leading_grand_summary_text>• Texte du récapitulatif général d'en-tête</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Texte du sous récapitulatif d'en-tête 1</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Texte du sous récapitulatif d'en-tête 2</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Texte supplémentaire du sous récapitulatif d'en-tête</leading_sub_summary_additional_text>
+            <footer_text>• Texte de pied de page</footer_text>
+            <title_footer_text>• Texte du pied de page initial</title_footer_text>
+            <header_text>• Texte de l'en-tête</header_text>
+            <navigation_part_text>• Texte de l'élément de navigation</navigation_part_text>
+            <trailing_sub_summary_additional_text>• Texte supplémentaire du sous-récapitulatif de pied de page </trailing_sub_summary_additional_text>
+            <trailing_grand_summary_text>• Texte du récapitulatif général de pied de page</trailing_grand_summary_text>
+            <trailing_sub_summary_1_text>• Texte du sous-récapitulatif de pied de page 1</trailing_sub_summary_1_text>
+            <trailing_sub_summary_2_text>• Texte du sous-récapitulatif de pied de page 2</trailing_sub_summary_2_text>
+        </namedstyles>
+    </metadata>
+</theme>

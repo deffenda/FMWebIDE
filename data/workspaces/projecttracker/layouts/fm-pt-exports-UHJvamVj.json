@@ -1,0 +1,652 @@
+{
+  "id": "fm-pt-exports-UHJvamVj",
+  "name": "PT.EXPORTS",
+  "defaultTableOccurrence": "PT.EXPORTS",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-1",
+      "position": {
+        "x": 45,
+        "y": 55,
+        "width": 82,
+        "height": 17,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "label": "serial_number",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-2",
+      "position": {
+        "x": 138,
+        "y": 52,
+        "width": 79,
+        "height": 21,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "serial_number",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "serial_number",
+        "tableOccurrence": "PT.EXPORTS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-3",
+      "position": {
+        "x": 64,
+        "y": 78,
+        "width": 63,
+        "height": 17,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "3",
+        "rotation": 0,
+        "label": "xl_field_01",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-4",
+      "position": {
+        "x": 138,
+        "y": 75,
+        "width": 253,
+        "height": 21,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "4",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "xl_field_01",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "xl_field_01",
+        "tableOccurrence": "PT.EXPORTS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-5",
+      "position": {
+        "x": 64,
+        "y": 101,
+        "width": 63,
+        "height": 17,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "5",
+        "rotation": 0,
+        "label": "xl_field_02",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-6",
+      "position": {
+        "x": 138,
+        "y": 98,
+        "width": 253,
+        "height": 21,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "6",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "xl_field_02",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "xl_field_02",
+        "tableOccurrence": "PT.EXPORTS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-7",
+      "position": {
+        "x": 64,
+        "y": 124,
+        "width": 63,
+        "height": 17,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "7",
+        "rotation": 0,
+        "label": "xl_field_03",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-8",
+      "position": {
+        "x": 138,
+        "y": 121,
+        "width": 253,
+        "height": 21,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "8",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "xl_field_03",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "xl_field_03",
+        "tableOccurrence": "PT.EXPORTS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-9",
+      "position": {
+        "x": 64,
+        "y": 147,
+        "width": 63,
+        "height": 17,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "9",
+        "rotation": 0,
+        "label": "xl_field_04",
+        "ddrArrangeOrder": 9
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-10",
+      "position": {
+        "x": 138,
+        "y": 144,
+        "width": 253,
+        "height": 21,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "10",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "xl_field_04",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "xl_field_04",
+        "tableOccurrence": "PT.EXPORTS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-11",
+      "position": {
+        "x": 64,
+        "y": 170,
+        "width": 63,
+        "height": 17,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "11",
+        "rotation": 0,
+        "label": "xl_field_05",
+        "ddrArrangeOrder": 11
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-12",
+      "position": {
+        "x": 138,
+        "y": 167,
+        "width": 253,
+        "height": 21,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "12",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "xl_field_05",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "xl_field_05",
+        "tableOccurrence": "PT.EXPORTS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-13",
+      "position": {
+        "x": 64,
+        "y": 193,
+        "width": 63,
+        "height": 17,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "13",
+        "rotation": 0,
+        "label": "xl_field_06",
+        "ddrArrangeOrder": 13
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-14",
+      "position": {
+        "x": 138,
+        "y": 190,
+        "width": 253,
+        "height": 21,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "14",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "xl_field_06",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "xl_field_06",
+        "tableOccurrence": "PT.EXPORTS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-15",
+      "position": {
+        "x": 64,
+        "y": 216,
+        "width": 63,
+        "height": 17,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "15",
+        "rotation": 0,
+        "label": "xl_field_07",
+        "ddrArrangeOrder": 15
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-16",
+      "position": {
+        "x": 138,
+        "y": 213,
+        "width": 253,
+        "height": 21,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "16",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "xl_field_07",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 16
+      },
+      "type": "field",
+      "binding": {
+        "field": "xl_field_07",
+        "tableOccurrence": "PT.EXPORTS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-17",
+      "position": {
+        "x": 64,
+        "y": 239,
+        "width": 63,
+        "height": 17,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "17",
+        "rotation": 0,
+        "label": "xl_field_08",
+        "ddrArrangeOrder": 17
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-18",
+      "position": {
+        "x": 138,
+        "y": 236,
+        "width": 253,
+        "height": 21,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "18",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "xl_field_08",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "xl_field_08",
+        "tableOccurrence": "PT.EXPORTS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-19",
+      "position": {
+        "x": 64,
+        "y": 262,
+        "width": 63,
+        "height": 17,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "19",
+        "rotation": 0,
+        "label": "xl_field_09",
+        "ddrArrangeOrder": 19
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-20",
+      "position": {
+        "x": 138,
+        "y": 259,
+        "width": 253,
+        "height": 21,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "20",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "xl_field_09",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "xl_field_09",
+        "tableOccurrence": "PT.EXPORTS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-21",
+      "position": {
+        "x": 64,
+        "y": 285,
+        "width": 63,
+        "height": 17,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "21",
+        "rotation": 0,
+        "label": "xl_field_10",
+        "ddrArrangeOrder": 21
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-22",
+      "position": {
+        "x": 138,
+        "y": 282,
+        "width": 253,
+        "height": 21,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "22",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "xl_field_10",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 22
+      },
+      "type": "field",
+      "binding": {
+        "field": "xl_field_10",
+        "tableOccurrence": "PT.EXPORTS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-23",
+      "position": {
+        "x": 64,
+        "y": 308,
+        "width": 63,
+        "height": 17,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "23",
+        "rotation": 0,
+        "label": "xl_field_11",
+        "ddrArrangeOrder": 23
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-24",
+      "position": {
+        "x": 138,
+        "y": 305,
+        "width": 253,
+        "height": 21,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "24",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "xl_field_11",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 24
+      },
+      "type": "field",
+      "binding": {
+        "field": "xl_field_11",
+        "tableOccurrence": "PT.EXPORTS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-25",
+      "position": {
+        "x": 64,
+        "y": 331,
+        "width": 63,
+        "height": 17,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "25",
+        "rotation": 0,
+        "label": "xl_field_12",
+        "ddrArrangeOrder": 25
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-exports-UHJvamVj-26",
+      "position": {
+        "x": 138,
+        "y": 328,
+        "width": 253,
+        "height": 21,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "26",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "xl_field_12",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 26
+      },
+      "type": "field",
+      "binding": {
+        "field": "xl_field_12",
+        "tableOccurrence": "PT.EXPORTS"
+      }
+    }
+  ],
+  "actions": []
+}

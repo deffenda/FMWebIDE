@@ -1,0 +1,1096 @@
+{
+  "id": "default",
+  "name": "Asset Details",
+  "defaultTableOccurrence": "Asset Details",
+  "canvas": {
+    "width": 1032,
+    "height": 612,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "parts": [
+    {
+      "id": "ddr-part-default-1",
+      "type": "topNavigation",
+      "label": "Top Navigation",
+      "height": 44,
+      "pageBreakBeforeEachOccurrence": false,
+      "pageBreakAfterEveryOccurrences": null,
+      "restartPageNumbersAfterEachOccurrence": false,
+      "allowPartToBreakAcrossPageBoundaries": false,
+      "discardRemainderBeforeNewPage": false,
+      "useAlternateRowState": false,
+      "useActiveRowState": false
+    },
+    {
+      "id": "ddr-part-default-2",
+      "type": "body",
+      "label": "Body",
+      "height": 528,
+      "pageBreakBeforeEachOccurrence": false,
+      "pageBreakAfterEveryOccurrences": null,
+      "restartPageNumbersAfterEachOccurrence": false,
+      "allowPartToBreakAcrossPageBoundaries": false,
+      "discardRemainderBeforeNewPage": false,
+      "useAlternateRowState": false,
+      "useActiveRowState": true
+    }
+  ],
+  "components": [
+    {
+      "id": "ddr-default-1-2",
+      "position": {
+        "x": 349,
+        "y": 14,
+        "width": 325,
+        "height": 21,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Separator | Uppercase | Highlight",
+        "ddrObjectPath": "1.2",
+        "label": "Asset",
+        "variant": "secondary",
+        "groupId": "ddr-group-default-1",
+        "ddrArrangeOrder": 1
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-default-3",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 200,
+        "height": 44,
+        "z": 2
+      },
+      "props": {
+        "tooltip": "Go to Assets.",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "3",
+        "tabOrder": 15,
+        "label": "Assets",
+        "variant": "secondary",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Asset List"
+        }
+      }
+    },
+    {
+      "id": "ddr-default-4",
+      "position": {
+        "x": 683,
+        "y": 116,
+        "width": 325,
+        "height": 441,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Knockout",
+        "ddrObjectPath": "4",
+        "label": "",
+        "shapeType": "rectangle",
+        "fillType": "solid",
+        "fillColor": "#ffffff",
+        "lineStyle": "solid",
+        "lineWidth": 1,
+        "lineColor": "#94a3b8",
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 3
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-default-5",
+      "position": {
+        "x": 700,
+        "y": 491,
+        "width": 291,
+        "height": 28,
+        "z": 4
+      },
+      "props": {
+        "tooltip": "Add employee.",
+        "styleTheme": "Universal Touch",
+        "styleName": "Pill | Secondary",
+        "ddrObjectPath": "5",
+        "tabOrder": 14,
+        "label": "Add employee.",
+        "variant": "secondary",
+        "ddrArrangeOrder": 4
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add Related Record",
+          "parameter": "Add employee."
+        }
+      }
+    },
+    {
+      "id": "ddr-default-6",
+      "position": {
+        "x": 700,
+        "y": 163,
+        "width": 291,
+        "height": 320,
+        "z": 5
+      },
+      "props": {
+        "tooltip": "Note",
+        "styleTheme": "Universal Touch",
+        "styleName": "Fill | Secondary",
+        "ddrObjectPath": "6",
+        "tabOrder": 13,
+        "label": "Assigned",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 2,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "EmployeeForeignKey",
+          "Date Returned",
+          "Note"
+        ],
+        "ddrArrangeOrder": 5
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "Assignments"
+      },
+      "events": {
+        "onClick": {
+          "action": "deletePortalRow"
+        }
+      }
+    },
+    {
+      "id": "ddr-default-6-7",
+      "position": {
+        "x": 727,
+        "y": 267,
+        "width": 254,
+        "height": 44,
+        "z": 6
+      },
+      "props": {
+        "tooltip": "Note",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "6.7",
+        "portalParentComponentId": "ddr-default-6",
+        "portalParentDdrPath": "6",
+        "portalParentTableOccurrence": "Assignments",
+        "tabOrder": 13,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Note",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "Note",
+        "tableOccurrence": "Assignments"
+      }
+    },
+    {
+      "id": "ddr-default-6-8",
+      "position": {
+        "x": 727,
+        "y": 219,
+        "width": 254,
+        "height": 44,
+        "z": 7
+      },
+      "props": {
+        "tooltip": "Date Returned",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "6.8",
+        "portalParentComponentId": "ddr-default-6",
+        "portalParentDdrPath": "6",
+        "portalParentTableOccurrence": "Assignments",
+        "tabOrder": 12,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Date Returned",
+        "controlType": "date",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "Date Returned",
+        "tableOccurrence": "Assignments"
+      }
+    },
+    {
+      "id": "ddr-default-6-9",
+      "position": {
+        "x": 727,
+        "y": 171,
+        "width": 254,
+        "height": 44,
+        "z": 8
+      },
+      "props": {
+        "tooltip": "// Tooltip calculation \nIf ( \n\n//Check to see whether there is a related record.\n\tIsEmpty(Employees::Name) and IsEmpty ( Assignments::AssetForeignKey ) = 0; \n\n\n//Display this message if the related record is missing.\n\t\"Used By: \" & Assignments::Name & ¶ & ¶ &\n\t\n\t\"The employee ID is displayed in the field because the related employee record has been deleted. The deleted name is stored in the Assignment table.\" ; \n\n//Display this message if the related record is found.\n\t\"Used By\"\n\n)",
+        "styleTheme": "Universal Touch",
+        "styleName": "Fill | Secondary",
+        "ddrObjectPath": "6.9",
+        "portalParentComponentId": "ddr-default-6",
+        "portalParentDdrPath": "6",
+        "portalParentTableOccurrence": "Assignments",
+        "tabOrder": 11,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Used By",
+        "controlType": "popup",
+        "valueList": "Employee",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "EmployeeForeignKey",
+        "tableOccurrence": "Assignments"
+      }
+    },
+    {
+      "id": "ddr-default-6-10",
+      "position": {
+        "x": 704,
+        "y": 179,
+        "width": 20,
+        "height": 29,
+        "z": 9
+      },
+      "props": {
+        "tooltip": "Delete employee.",
+        "styleTheme": "Universal Touch",
+        "styleName": "Minimum | Secondary",
+        "ddrObjectPath": "6.10",
+        "portalParentComponentId": "ddr-default-6",
+        "portalParentDdrPath": "6",
+        "portalParentTableOccurrence": "Assignments",
+        "tabOrder": 10,
+        "label": "Delete employee.",
+        "variant": "secondary",
+        "ddrArrangeOrder": 9
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "deletePortalRow"
+        }
+      }
+    },
+    {
+      "id": "ddr-default-11",
+      "position": {
+        "x": 700,
+        "y": 138,
+        "width": 259,
+        "height": 21,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Uppercase | Secondary",
+        "ddrObjectPath": "11",
+        "label": "Used By",
+        "ddrArrangeOrder": 10
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-default-12",
+      "position": {
+        "x": 959,
+        "y": 133,
+        "width": 40,
+        "height": 26,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Minimum | Secondary",
+        "ddrObjectPath": "12",
+        "tabOrder": 0,
+        "label": "Button",
+        "variant": "secondary",
+        "ddrArrangeOrder": 11
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-default-13",
+      "position": {
+        "x": 349,
+        "y": 116,
+        "width": 325,
+        "height": 441,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Knockout",
+        "ddrObjectPath": "13",
+        "label": "",
+        "shapeType": "rectangle",
+        "fillType": "solid",
+        "fillColor": "#ffffff",
+        "lineStyle": "solid",
+        "lineWidth": 1,
+        "lineColor": "#94a3b8",
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 12
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-default-14",
+      "position": {
+        "x": 366,
+        "y": 483,
+        "width": 291,
+        "height": 44,
+        "z": 13
+      },
+      "props": {
+        "tooltip": "Purchase Date",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "14",
+        "tabOrder": 9,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Purchase Date",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "Purchase Date",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-default-15",
+      "position": {
+        "x": 366,
+        "y": 458,
+        "width": 291,
+        "height": 21,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Uppercase | Secondary",
+        "ddrObjectPath": "15",
+        "label": "Purchase Date",
+        "ddrArrangeOrder": 14
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-default-16",
+      "position": {
+        "x": 366,
+        "y": 403,
+        "width": 291,
+        "height": 44,
+        "z": 15
+      },
+      "props": {
+        "tooltip": "Price",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "16",
+        "tabOrder": 8,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Price",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 15
+      },
+      "type": "field",
+      "binding": {
+        "field": "Price",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-default-17",
+      "position": {
+        "x": 366,
+        "y": 378,
+        "width": 291,
+        "height": 21,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Uppercase | Secondary",
+        "ddrObjectPath": "17",
+        "label": "Price",
+        "ddrArrangeOrder": 16
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-default-18",
+      "position": {
+        "x": 366,
+        "y": 323,
+        "width": 291,
+        "height": 44,
+        "z": 17
+      },
+      "props": {
+        "tooltip": "Vendor",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "18",
+        "tabOrder": 7,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Vendor",
+        "controlType": "dropdown",
+        "valueList": "Vendor",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 17
+      },
+      "type": "field",
+      "binding": {
+        "field": "Vendor",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-default-19",
+      "position": {
+        "x": 366,
+        "y": 298,
+        "width": 291,
+        "height": 21,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Uppercase | Secondary",
+        "ddrObjectPath": "19",
+        "label": "Vendor",
+        "ddrArrangeOrder": 18
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-default-20",
+      "position": {
+        "x": 366,
+        "y": 243,
+        "width": 291,
+        "height": 44,
+        "z": 19
+      },
+      "props": {
+        "tooltip": "Type",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "20",
+        "tabOrder": 6,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Type",
+        "controlType": "dropdown",
+        "valueList": "Type",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 19
+      },
+      "type": "field",
+      "binding": {
+        "field": "Type",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-default-21",
+      "position": {
+        "x": 366,
+        "y": 218,
+        "width": 291,
+        "height": 21,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Uppercase | Secondary",
+        "ddrObjectPath": "21",
+        "label": "type",
+        "ddrArrangeOrder": 20
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-default-22",
+      "position": {
+        "x": 366,
+        "y": 163,
+        "width": 291,
+        "height": 44,
+        "z": 21
+      },
+      "props": {
+        "tooltip": "Serial Number",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "22",
+        "tabOrder": 5,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Serial Number",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 21
+      },
+      "type": "field",
+      "binding": {
+        "field": "Serial Number",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-default-23",
+      "position": {
+        "x": 366,
+        "y": 138,
+        "width": 262,
+        "height": 21,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Uppercase | Secondary",
+        "ddrObjectPath": "23",
+        "label": "Serial Number",
+        "ddrArrangeOrder": 22
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-default-24",
+      "position": {
+        "x": 628,
+        "y": 133,
+        "width": 34,
+        "height": 26,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Minimum | Secondary",
+        "ddrObjectPath": "24",
+        "tabOrder": 0,
+        "label": "Button",
+        "variant": "secondary",
+        "ddrArrangeOrder": 23
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-default-25",
+      "position": {
+        "x": 15,
+        "y": 116,
+        "width": 325,
+        "height": 441,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Knockout",
+        "ddrObjectPath": "25",
+        "label": "",
+        "shapeType": "rectangle",
+        "fillType": "solid",
+        "fillColor": "#ffffff",
+        "lineStyle": "solid",
+        "lineWidth": 1,
+        "lineColor": "#94a3b8",
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 24
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-default-26",
+      "position": {
+        "x": 32,
+        "y": 450,
+        "width": 291,
+        "height": 77,
+        "z": 25
+      },
+      "props": {
+        "tooltip": "Description",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "26",
+        "tabOrder": 4,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 25
+      },
+      "type": "field",
+      "binding": {
+        "field": "Description",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-default-27",
+      "position": {
+        "x": 32,
+        "y": 425,
+        "width": 291,
+        "height": 21,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Uppercase | Secondary",
+        "ddrObjectPath": "27",
+        "label": "Description",
+        "ddrArrangeOrder": 26
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-default-28",
+      "position": {
+        "x": 32,
+        "y": 370,
+        "width": 291,
+        "height": 44,
+        "z": 27
+      },
+      "props": {
+        "tooltip": "Name",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "28",
+        "tabOrder": 3,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 27
+      },
+      "type": "field",
+      "binding": {
+        "field": "Name",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-default-29",
+      "position": {
+        "x": 32,
+        "y": 345,
+        "width": 291,
+        "height": 21,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Uppercase | Secondary",
+        "ddrObjectPath": "29",
+        "label": "Name",
+        "ddrArrangeOrder": 28
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-default-30",
+      "position": {
+        "x": 15,
+        "y": 116,
+        "width": 325,
+        "height": 215,
+        "z": 29
+      },
+      "props": {
+        "tooltip": "Image",
+        "styleTheme": "Universal Touch",
+        "styleName": "Fill | Secondary",
+        "ddrObjectPath": "30",
+        "tabOrder": 16,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Image",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 29
+      },
+      "type": "field",
+      "binding": {
+        "field": "Image",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-default-31",
+      "position": {
+        "x": 291,
+        "y": 133,
+        "width": 40,
+        "height": 26,
+        "z": 30
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Minimum | Secondary",
+        "ddrObjectPath": "31",
+        "tabOrder": 0,
+        "label": "Button",
+        "variant": "secondary",
+        "ddrArrangeOrder": 30
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-default-32",
+      "position": {
+        "x": 15,
+        "y": 53,
+        "width": 993,
+        "height": 54,
+        "z": 31
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Inverted",
+        "ddrObjectPath": "32",
+        "label": "",
+        "shapeType": "rectangle",
+        "fillType": "solid",
+        "fillColor": "#ffffff",
+        "lineStyle": "solid",
+        "lineWidth": 1,
+        "lineColor": "#94a3b8",
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 31
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-default-33",
+      "position": {
+        "x": 792,
+        "y": 79,
+        "width": 199,
+        "height": 19,
+        "z": 32
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "33",
+        "label": "<<Assignments::Name>>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 32
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Entry Field",
+          "parameter": "Used By"
+        }
+      }
+    },
+    {
+      "id": "ddr-default-34",
+      "position": {
+        "x": 792,
+        "y": 62,
+        "width": 199,
+        "height": 19,
+        "z": 33
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Secondary",
+        "ddrObjectPath": "34",
+        "label": "Used By",
+        "ddrArrangeOrder": 33
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-default-35",
+      "position": {
+        "x": 669,
+        "y": 79,
+        "width": 116,
+        "height": 19,
+        "z": 34
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "35",
+        "label": "<<Price>>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 34
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Entry Field",
+          "parameter": "Price"
+        }
+      }
+    },
+    {
+      "id": "ddr-default-36",
+      "position": {
+        "x": 669,
+        "y": 62,
+        "width": 116,
+        "height": 19,
+        "z": 35
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Secondary",
+        "ddrObjectPath": "36",
+        "label": "Price",
+        "ddrArrangeOrder": 35
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-default-37",
+      "position": {
+        "x": 484,
+        "y": 79,
+        "width": 178,
+        "height": 19,
+        "z": 36
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "37",
+        "label": "<<Purchase Date>>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 36
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Entry Field",
+          "parameter": "Purchase Date"
+        }
+      }
+    },
+    {
+      "id": "ddr-default-38",
+      "position": {
+        "x": 484,
+        "y": 62,
+        "width": 178,
+        "height": 19,
+        "z": 37
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Secondary",
+        "ddrObjectPath": "38",
+        "label": "Purchase Date",
+        "ddrArrangeOrder": 37
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-default-39",
+      "position": {
+        "x": 287,
+        "y": 79,
+        "width": 190,
+        "height": 19,
+        "z": 38
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "39",
+        "label": "<<Type>>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 38
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Entry Field",
+          "parameter": "Type"
+        }
+      }
+    },
+    {
+      "id": "ddr-default-40",
+      "position": {
+        "x": 287,
+        "y": 62,
+        "width": 189,
+        "height": 19,
+        "z": 39
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Secondary",
+        "ddrObjectPath": "40",
+        "label": "Type",
+        "ddrArrangeOrder": 39
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-default-41",
+      "position": {
+        "x": 102,
+        "y": 79,
+        "width": 178,
+        "height": 19,
+        "z": 40
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "41",
+        "label": "<<Name>>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 40
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Entry Field",
+          "parameter": "Name"
+        }
+      }
+    },
+    {
+      "id": "ddr-default-42",
+      "position": {
+        "x": 102,
+        "y": 62,
+        "width": 178,
+        "height": 19,
+        "z": 41
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Secondary",
+        "ddrObjectPath": "42",
+        "label": "Name",
+        "ddrArrangeOrder": 41
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-default-43",
+      "position": {
+        "x": 15,
+        "y": 53,
+        "width": 80,
+        "height": 54,
+        "z": 42
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Fill | Inverted",
+        "ddrObjectPath": "43",
+        "tabOrder": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Image",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 42
+      },
+      "type": "field",
+      "binding": {
+        "field": "Image",
+        "tableOccurrence": "Assets"
+      }
+    }
+  ],
+  "actions": []
+}

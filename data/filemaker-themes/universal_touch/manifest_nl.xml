@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Universeel - Touch</name>
+    <group>Universeel</group>
+    <metadata>
+        <namedstyles>
+            <array-highlight-buttonbar>Array | Markeren</array-highlight-buttonbar>
+            <array-inverted-buttonbar>Array | Uitsparen</array-inverted-buttonbar>
+            <bold-inverted-text>Nadruk | Uitsparen</bold-inverted-text>
+            <border-edit>Rand | Secundair</border-edit>
+            <border-highlight-button>Rand | Markeren</border-highlight-button>
+            <border-inverted-buttonbar>Rand | Secundair</border-inverted-buttonbar>
+            <border-inverted-calendar>Rand | Uitsparen</border-inverted-calendar>
+            <border-inverted-checkbox>Rand | Omgekeerd</border-inverted-checkbox>
+            <border-inverted-container>Rand | Omgekeerd</border-inverted-container>
+            <border-inverted-dropdown>Rand | Uitsparen</border-inverted-dropdown>
+            <border-inverted-edit>Rand | Omgekeerd</border-inverted-edit>
+            <border-inverted-popup>Rand | Uitsparen</border-inverted-popup>
+            <border-inverted-portal>Rand | Omgekeerd</border-inverted-portal>
+            <border-inverted-radio>Rand | Uitsparen</border-inverted-radio>
+            <border-inverted-slide>Rand | Omgekeerd</border-inverted-slide>
+            <border-inverted-tab>Rand | Omgekeerd</border-inverted-tab>
+            <border-popover>Rand | Uitsparen</border-popover>
+            <border-secondary-button-bar>Rand | Omgekeerd</border-secondary-button-bar>
+            <border-secondary-calendar>Rand | Secundair</border-secondary-calendar>
+            <border-secondary-dropdown>Rand | Secundair</border-secondary-dropdown>
+            <border-secondary-popup>Rand | Secundair</border-secondary-popup>
+            <emphasis-primary-text>Nadruk | Primair</emphasis-primary-text>
+            <fill-checkbox>Opvulling | Secundair</fill-checkbox>
+            <fill-container>Opvulling | Secundair</fill-container>
+            <fill-edit>Opvulling | Secundair</fill-edit>
+            <fill-highlight-button>Opvulling | Markeren</fill-highlight-button>
+            <fill-inverted-button>Opvulling | Omgekeerd</fill-inverted-button>
+            <fill-inverted-calendar>Opvulling | Omgekeerd</fill-inverted-calendar>
+            <fill-inverted-checkbox>Opvulling | Omgekeerd</fill-inverted-checkbox>
+            <fill-inverted-container>Opvulling | Omgekeerd</fill-inverted-container>
+            <fill-inverted-dropdown>Opvulling | Omgekeerd</fill-inverted-dropdown>
+            <fill-inverted-edit>Opvulling | Omgekeerd</fill-inverted-edit>
+            <fill-inverted-popover>Opvulling | Omgekeerd</fill-inverted-popover>
+            <fill-inverted-popup>Opvulling | Omgekeerd</fill-inverted-popup>
+            <fill-inverted-radio>Opvulling | Omgekeerd</fill-inverted-radio>
+            <fill-knockout-container>Opvulling | Uitsparen</fill-knockout-container>
+            <fill-low-shadow-inverted-calendar>Opvulling | Lage schaduw | Omgekeerd</fill-low-shadow-inverted-calendar>
+            <fill-low-shadow-inverted-container>Opvulling | Lage schaduw | Omgekeerd</fill-low-shadow-inverted-container>
+            <fill-low-shadow-inverted-dropdown>Opvulling | Lage schaduw | Omgekeerd</fill-low-shadow-inverted-dropdown>
+            <fill-low-shadow-inverted-edit>Opvulling | Lage schaduw | Omgekeerd</fill-low-shadow-inverted-edit>
+            <fill-low-shadow-inverted-popup>Opvulling | Lage schaduw | Omgekeerd</fill-low-shadow-inverted-popup>
+            <fill-secondary-calendar>Opvulling | Secundair</fill-secondary-calendar>
+            <fill-secondary-dropdown>Opvulling | Secundair</fill-secondary-dropdown>
+            <fill-secondary-popup>Opvulling | Secundair</fill-secondary-popup>
+            <fill-secondary-radio>Opvulling | Secundair</fill-secondary-radio>
+            <high-shadow-inverted-shape>Hoge schaduw | Omgekeerd</high-shadow-inverted-shape>
+            <high-shadow-inverted-slide>Hoge schaduw | Omgekeerd</high-shadow-inverted-slide>
+            <high-shadow-knockout-shape>Hoge schaduw | Uitsparen</high-shadow-knockout-shape>
+            <high-shadow-knockout-slide>Hoge schaduw | Uitsparen</high-shadow-knockout-slide>
+            <highlight-shape>Markeren</highlight-shape>
+            <highlight-text>Markeren</highlight-text>
+            <inverted-background>Omgekeerd</inverted-background>
+            <inverted-button>Uitsparen</inverted-button>
+            <inverted-chart>Omgekeerd</inverted-chart>
+            <inverted-line>Uitsparen</inverted-line>
+            <inverted-navigation>Navigatie | Omgekeerd</inverted-navigation>
+            <inverted-part>Omgekeerd</inverted-part>
+            <inverted-shape>Omgekeerd</inverted-shape>
+            <inverted-subsummary>Subresumé | Omgekeerd</inverted-subsummary>
+            <inverted-text>Uitsparen</inverted-text>
+            <inverted-web>Omgekeerd</inverted-web>
+            <knockout-shape>Uitsparen</knockout-shape>
+            <large-inverted-text>Groot | Uitsparen</large-inverted-text>
+            <large-primary-text>Groot | Primair</large-primary-text>
+            <light-secondary-part>Secundair</light-secondary-part>
+            <light-secondary-subsummary>Subresumé | Secundair</light-secondary-subsummary>
+            <line-inverted-portal>Lijn | Omgekeerd</line-inverted-portal>
+            <line-secondary-portal>Lijn | Secundair</line-secondary-portal>
+            <link-button>Koppeling</link-button>
+            <low-shadow-inverted-shape>Lage schaduw | Omgekeerd</low-shadow-inverted-shape>
+            <low-shadow-inverted-slide>Lage schaduw | Omgekeerd</low-shadow-inverted-slide>
+            <low-shadow-knockout-shape>Lage schaduw | Uitsparen</low-shadow-knockout-shape>
+            <low-shadow-knockout-slide>Lage schaduw | Uitsparen</low-shadow-knockout-slide>
+            <minimum-button>Minimum | Omgekeerd</minimum-button>
+            <minimum-highlight-button>Minimum | Markeren</minimum-highlight-button>
+            <minimum-inverted-button>Minimum | Uitsparen</minimum-inverted-button>
+            <minimum-secondary-button>Minimum | Secundair</minimum-secondary-button>
+            <minimum-secondary-highlight-button>Minimum | Secundaire markering</minimum-secondary-highlight-button>
+            <pill-highlight-button>Pil | Markeren</pill-highlight-button>
+            <pill-secondary-button>Pil | Secundair</pill-secondary-button>
+            <primary-line>Omgekeerd</primary-line>
+            <round-green-button>Rond | Groen</round-green-button>
+            <round-highlight-button>Rond | Markeren</round-highlight-button>
+            <round-inverted-button>Rond | Omgekeerd</round-inverted-button>
+            <round-orange-button>Rond | Oranje</round-orange-button>
+            <round-red-button>Rond | Rood</round-red-button>
+            <round-yellow-button>Rond | Geel</round-yellow-button>
+            <rounded-border-highlight-button>Afgeronde rand | Markeren</rounded-border-highlight-button>
+            <rounded-fill-highlight-button>Afgeronde opvulling | Markeren</rounded-fill-highlight-button>
+            <rounded-fill-inverted-button>Afgeronde opvulling | Omgekeerd</rounded-fill-inverted-button>
+            <secondary-background>Secundair</secondary-background>
+            <secondary-highlight-button>Secundaire markering</secondary-highlight-button>
+            <secondary-text>Secundair</secondary-text>
+            <separator-highlight-buttonbar>Scheidingsteken | Markeren</separator-highlight-buttonbar>
+            <separator-inverted-buttonbar>Scheidingsteken | Uitsparen</separator-inverted-buttonbar>
+            <separator-uppercase-highlight-buttonbar>Scheidingsteken | Hoofdletters | Markeren</separator-uppercase-highlight-buttonbar>
+            <separator-uppercase-inverted-buttonbar>Scheidingsteken | Hoofdletters | Uitsparen</separator-uppercase-inverted-buttonbar>
+            <small-inverted-text>Klein | Uitsparen</small-inverted-text>
+            <small-primary-text>Klein | Primair</small-primary-text>
+            <small-secondary-text>Klein | Secundair</small-secondary-text>
+            <tab-bar-buttonbar>Tabbladbalk</tab-bar-buttonbar>
+            <underline-container>Onderstreept | Secundair</underline-container>
+            <underline-highlight-buttonbar>Onderstreept | Markeren</underline-highlight-buttonbar>
+            <underline-inverted-buttonbar>Onderstreept | Uitsparen</underline-inverted-buttonbar>
+            <underline-inverted-calendar>Onderstreept | Uitsparen</underline-inverted-calendar>
+            <underline-inverted-container>Onderstreept | Omgekeerd</underline-inverted-container>
+            <underline-inverted-dropdown>Onderstreept | Uitsparen</underline-inverted-dropdown>
+            <underline-inverted-edit>Onderstreept | Omgekeerd</underline-inverted-edit>
+            <underline-inverted-popup>Onderstreept | Uitsparen</underline-inverted-popup>
+            <underline-uppercase-highlight-buttonbar>Onderstreept | Hoofdletters | Markeren</underline-uppercase-highlight-buttonbar>
+            <underline-uppercase-inverted-buttonbar>Onderstreept | Hoofdletters | Uitsparen</underline-uppercase-inverted-buttonbar>
+            <uppercase-secondary-text>Hoofdletters | Secundair</uppercase-secondary-text>
+        </namedstyles>
+    </metadata>
+</theme>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Gris claro Táctil</name>
+    <group>FileMaker Millennium</group>
+    <metadata>
+        <namedstyles>
+            <minimal_drop-down_calendar>Calendario desplegable mínimo</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Lista desplegable mínima</minimal_drop-down_list>
+            <minimal_edit_box>Cuadro de edición mínimo</minimal_edit_box>
+            <minimal_pop-up_menu>Menú emergente mínimo</minimal_pop-up_menu>
+            <simple_popover>Panel flotante simple</simple_popover>
+            <dots_outside>Puntos externos</dots_outside>
+            <header_button>Botón de cabecera</header_button>
+            <header_edit_box>Cabecera cuadro edición</header_edit_box>
+            <header_drop-down_list>Cabecera lista desplegable </header_drop-down_list>
+            <header_pop-up_menu>Cabecera menú emergente </header_pop-up_menu>
+            <header_drop-down_calendar>Cabecera calendario desplegable</header_drop-down_calendar>
+            <header_checkbox_set>Cabecera juego casillas de verificación</header_checkbox_set>
+            <header_radio_button_set>Cabecera juego de botones circulares </header_radio_button_set>
+            <title_text_1>Texto del título 1</title_text_1>
+            <title_text_2>Texto del título 2</title_text_2>
+            <title_bar_rectangle>Forma de la barra de título</title_bar_rectangle>
+            <region_rectangle>Forma de región</region_rectangle>
+            <minimal_container>Contenedor mínimo</minimal_container>
+            <title_header_text>• Texto de la cabecera inicial</title_header_text>
+            <leading_grand_summary_text>• Texto del sumario general principal</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Texto del sub-sumario principal 1 </leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Texto del sub-sumario principal 2 </leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Texto adicional del sub-sumario principal</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Texto adicional del sub-sumario continuo </trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Texto del sub-sumario continuo 2</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Texto del sub-sumario continuo 1 </trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Texto del sumario general continuo</trailing_grand_summary_text>
+            <footer_text>• Texto del pie de página</footer_text>
+            <title_footer_text>• Texto del pie de página inicial</title_footer_text>
+            <header_text>• Texto de la cabecera</header_text>
+            <navigation_part_text>• Texto del área de navegación</navigation_part_text>
+            <body_button_bar>Barra de botones de cuerpo</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

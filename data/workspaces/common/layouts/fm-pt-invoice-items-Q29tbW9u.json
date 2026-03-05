@@ -1,0 +1,14 @@
+{
+  "id": "fm-pt-invoice-items-Q29tbW9u",
+  "name": "PT.INVOICE_ITEMS",
+  "defaultTableOccurrence": "PT.INVOICE_ITEMS",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [],
+  "actions": []
+}

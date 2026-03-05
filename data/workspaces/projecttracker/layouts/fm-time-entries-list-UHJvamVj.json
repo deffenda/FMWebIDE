@@ -1,0 +1,2015 @@
+{
+  "id": "fm-time-entries-list-UHJvamVj",
+  "name": "Time Entries|List",
+  "defaultTableOccurrence": "Time Entries|List",
+  "canvas": {
+    "width": 1302,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3697",
+      "position": {
+        "x": 33,
+        "y": 144,
+        "width": 114,
+        "height": 21,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3697",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "date",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3698",
+      "position": {
+        "x": 33,
+        "y": 81,
+        "width": 114,
+        "height": 18,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3698",
+        "rotation": 0,
+        "label": "Date",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3719",
+      "position": {
+        "x": 1216,
+        "y": 144,
+        "width": 30,
+        "height": 21,
+        "z": 3
+      },
+      "props": {
+        "tooltip": "Edit",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Edit Popover Blue",
+        "ddrObjectPath": "3719",
+        "rotation": 0,
+        "label": "More",
+        "variant": "secondary",
+        "ddrArrangeOrder": 3
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3719-3720",
+      "position": {
+        "x": 2131,
+        "y": 149,
+        "width": 290,
+        "height": 449,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "3719.3720",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3719-3720-3763",
+      "position": {
+        "x": 3084,
+        "y": 265,
+        "width": 222,
+        "height": 20,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3719.3720.3763",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3719-3720-3790",
+      "position": {
+        "x": 3145,
+        "y": 315,
+        "width": 64,
+        "height": 21,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "3719.3720.3790",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "rate",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "rate",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3719-3720-3791",
+      "position": {
+        "x": 3145,
+        "y": 297,
+        "width": 64,
+        "height": 18,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3719.3720.3791",
+        "rotation": 0,
+        "label": "Rate",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3719-3720-3792",
+      "position": {
+        "x": 3217,
+        "y": 315,
+        "width": 89,
+        "height": 21,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "3719.3720.3792",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "amount",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "amount",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3719-3720-3794",
+      "position": {
+        "x": 3084,
+        "y": 243,
+        "width": 222,
+        "height": 18,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3719.3720.3794",
+        "rotation": 0,
+        "label": "Project",
+        "ddrArrangeOrder": 9
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3719-3720-3795",
+      "position": {
+        "x": 3084,
+        "y": 315,
+        "width": 55,
+        "height": 21,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "3719.3720.3795",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3719-3720-3796",
+      "position": {
+        "x": 3084,
+        "y": 297,
+        "width": 55,
+        "height": 18,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3719.3720.3796",
+        "rotation": 0,
+        "label": "Hours",
+        "ddrArrangeOrder": 11
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3719-3720-3797",
+      "position": {
+        "x": 3217,
+        "y": 297,
+        "width": 89,
+        "height": 18,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3719.3720.3797",
+        "rotation": 0,
+        "label": "Amount",
+        "ddrArrangeOrder": 12
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3719-3720-3799",
+      "position": {
+        "x": 3084,
+        "y": 214,
+        "width": 222,
+        "height": 20,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3719.3720.3799",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_organization_ID",
+        "controlType": "popup",
+        "valueList": "Organizations",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_organization_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3719-3720-3800",
+      "position": {
+        "x": 3084,
+        "y": 192,
+        "width": 222,
+        "height": 18,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "3719.3720.3800",
+        "rotation": 0,
+        "label": "Organization",
+        "ddrArrangeOrder": 14
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3719-3720-3815",
+      "position": {
+        "x": 3084,
+        "y": 366,
+        "width": 222,
+        "height": 20,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3719.3720.3815",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_invoice_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 15
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_invoice_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3735",
+      "position": {
+        "x": 1186,
+        "y": 143,
+        "width": 22,
+        "height": 24,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "3735",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_billable",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 16
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_billable",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3736",
+      "position": {
+        "x": 1186,
+        "y": 81,
+        "width": 30,
+        "height": 18,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3736",
+        "rotation": 0,
+        "label": "Bill",
+        "ddrArrangeOrder": 17
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3737",
+      "position": {
+        "x": 1049,
+        "y": 144,
+        "width": 55,
+        "height": 21,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "3737",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3738",
+      "position": {
+        "x": 1049,
+        "y": 81,
+        "width": 55,
+        "height": 18,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3738",
+        "rotation": 0,
+        "label": "Hours",
+        "ddrArrangeOrder": 19
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3739",
+      "position": {
+        "x": 152,
+        "y": 144,
+        "width": 474,
+        "height": 21,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3739",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "description",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3740",
+      "position": {
+        "x": 152,
+        "y": 81,
+        "width": 404,
+        "height": 18,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3740",
+        "rotation": 0,
+        "label": "Description",
+        "ddrArrangeOrder": 21
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3741",
+      "position": {
+        "x": 751,
+        "y": 144,
+        "width": 142,
+        "height": 21,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3741",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_person_ID",
+        "controlType": "popup",
+        "valueList": "Persons__All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 22
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_person_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3742",
+      "position": {
+        "x": 751,
+        "y": 81,
+        "width": 142,
+        "height": 18,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3742",
+        "rotation": 0,
+        "label": "Person",
+        "ddrArrangeOrder": 23
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3745",
+      "position": {
+        "x": 10,
+        "y": 101,
+        "width": 666,
+        "height": 21,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3745",
+        "rotation": 0,
+        "label": "<<pt.time_entries_PT.PROJECTS::name>>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 24
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3745-3743",
+      "position": {
+        "x": 20,
+        "y": 202,
+        "width": 666,
+        "height": 21,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3745.3743",
+        "rotation": 0,
+        "label": "<<pt.time_entries_PT.PROJECTS::name>>",
+        "ddrArrangeOrder": 25
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3746",
+      "position": {
+        "x": 15,
+        "y": 120,
+        "width": 662,
+        "height": 18,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 2 Text",
+        "ddrObjectPath": "3746",
+        "rotation": 0,
+        "label": "<<pt.time_entries_CM.ORGANIZATIONS::name_display>>",
+        "variant": "secondary",
+        "ddrArrangeOrder": 26
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3746-3744",
+      "position": {
+        "x": 30,
+        "y": 240,
+        "width": 662,
+        "height": 18,
+        "z": 27
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 2 Text",
+        "ddrObjectPath": "3746.3744",
+        "rotation": 0,
+        "label": "<<pt.time_entries_CM.ORGANIZATIONS::name_display>>",
+        "ddrArrangeOrder": 27
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3747",
+      "position": {
+        "x": 895,
+        "y": 144,
+        "width": 149,
+        "height": 21,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3747",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_category_ID",
+        "controlType": "popup",
+        "valueList": "Categories__byTimeEntries",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 28
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_category_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3748",
+      "position": {
+        "x": 895,
+        "y": 81,
+        "width": 149,
+        "height": 18,
+        "z": 29
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3748",
+        "rotation": 0,
+        "label": "Category",
+        "ddrArrangeOrder": 29
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3752",
+      "position": {
+        "x": 6,
+        "y": 144,
+        "width": 21,
+        "height": 21,
+        "z": 30
+      },
+      "props": {
+        "tooltip": "Omit",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "3752",
+        "rotation": 0,
+        "label": "Omit",
+        "variant": "secondary",
+        "ddrArrangeOrder": 30
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3754",
+      "position": {
+        "x": 903,
+        "y": 34,
+        "width": 89,
+        "height": 20,
+        "z": 31
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "3754",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "time_date_low_g",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 2,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 31
+      },
+      "type": "field",
+      "binding": {
+        "field": "time_date_low_g",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3755",
+      "position": {
+        "x": 999,
+        "y": 34,
+        "width": 90,
+        "height": 20,
+        "z": 32
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "3755",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "time_date_high_g",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 2,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 32
+      },
+      "type": "field",
+      "binding": {
+        "field": "time_date_high_g",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3756",
+      "position": {
+        "x": 1096,
+        "y": 33,
+        "width": 79,
+        "height": 23,
+        "z": 33
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Accent Button 2",
+        "ddrObjectPath": "3756",
+        "rotation": 0,
+        "label": "Find",
+        "variant": "secondary",
+        "ddrArrangeOrder": 33
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Time Entries | Find Period",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\ncf_Dictionary ( \"invoiceable\" ; SYSTEM::usr_number_01 ) &\n\ncf_Dictionary ( \"org_id\" ; SYSTEM::usr_text_01 ) &\n\ncf_Dictionary ( \"date_start\" ; SYSTEM::time_date_low_c ) &\n\ncf_Dictionary ( \"date_end\" ; SYSTEM::time_date_high_c ) \n\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3761",
+      "position": {
+        "x": 903,
+        "y": 5,
+        "width": 186,
+        "height": 20,
+        "z": 34
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3761",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "time_date_selection",
+        "controlType": "popup",
+        "valueList": "DateSelection",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 2,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 34
+      },
+      "type": "field",
+      "binding": {
+        "field": "time_date_selection",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3765",
+      "position": {
+        "x": 657,
+        "y": 5,
+        "width": 186,
+        "height": 20,
+        "z": 35
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3765",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_01",
+        "controlType": "popup",
+        "valueList": "Organizations",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 35
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_01",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3766",
+      "position": {
+        "x": 821,
+        "y": 30,
+        "width": 22,
+        "height": 24,
+        "z": 36
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "3766",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_number_01",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 36
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_number_01",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3767",
+      "position": {
+        "x": 849,
+        "y": 6,
+        "width": 51,
+        "height": 18,
+        "z": 37
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3767",
+        "rotation": 0,
+        "label": "Period",
+        "ddrArrangeOrder": 37
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3768",
+      "position": {
+        "x": 522,
+        "y": 5,
+        "width": 130,
+        "height": 18,
+        "z": 38
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3768",
+        "rotation": 0,
+        "label": "Organization",
+        "ddrArrangeOrder": 38
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3769",
+      "position": {
+        "x": 611,
+        "y": 32,
+        "width": 205,
+        "height": 21,
+        "z": 39
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3769",
+        "rotation": 0,
+        "label": "Invoiceable Projects Only",
+        "ddrArrangeOrder": 39
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3770",
+      "position": {
+        "x": 849,
+        "y": 32,
+        "width": 51,
+        "height": 18,
+        "z": 40
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3770",
+        "rotation": 0,
+        "label": "Dates",
+        "ddrArrangeOrder": 40
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3776",
+      "position": {
+        "x": 1252,
+        "y": 143,
+        "width": 22,
+        "height": 24,
+        "z": 41
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3776",
+        "rotation": 0,
+        "label": "Button",
+        "variant": "secondary",
+        "ddrArrangeOrder": 41
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3776-3775",
+      "position": {
+        "x": 2504,
+        "y": 286,
+        "width": 22,
+        "height": 24,
+        "z": 42
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3776.3775",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_row_selected",
+        "controlType": "radio",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 42
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_row_selected",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3777",
+      "position": {
+        "x": 1230,
+        "y": 64,
+        "width": 43,
+        "height": 18,
+        "z": 43
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3777",
+        "rotation": 0,
+        "label": "Select",
+        "ddrArrangeOrder": 43
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3779",
+      "position": {
+        "x": 1222,
+        "y": 79,
+        "width": 22,
+        "height": 18,
+        "z": 44
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3779",
+        "rotation": 0,
+        "label": "All",
+        "variant": "secondary",
+        "ddrArrangeOrder": 44
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3779-3778",
+      "position": {
+        "x": 2444,
+        "y": 158,
+        "width": 22,
+        "height": 18,
+        "z": 45
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3779.3778",
+        "rotation": 0,
+        "label": "All",
+        "ddrArrangeOrder": 45
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3780",
+      "position": {
+        "x": 1245,
+        "y": 79,
+        "width": 33,
+        "height": 18,
+        "z": 46
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3780",
+        "rotation": 0,
+        "label": "None",
+        "variant": "secondary",
+        "ddrArrangeOrder": 46
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3780-3781",
+      "position": {
+        "x": 2490,
+        "y": 158,
+        "width": 33,
+        "height": 18,
+        "z": 47
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3780.3781",
+        "rotation": 0,
+        "label": "None",
+        "ddrArrangeOrder": 47
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3787",
+      "position": {
+        "x": 971,
+        "y": 181,
+        "width": 206,
+        "height": 20,
+        "z": 48
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3787",
+        "rotation": 0,
+        "label": "Subtotal: <<amount_sum>>",
+        "ddrArrangeOrder": 48
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3788",
+      "position": {
+        "x": 971,
+        "y": 219,
+        "width": 206,
+        "height": 20,
+        "z": 49
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3788",
+        "rotation": 0,
+        "label": "Total: <<amount_sum>>",
+        "ddrArrangeOrder": 49
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801",
+      "position": {
+        "x": 1192,
+        "y": 109,
+        "width": 79,
+        "height": 23,
+        "z": 50
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default No Edit",
+        "ddrObjectPath": "3801",
+        "rotation": 0,
+        "label": "Invoice",
+        "variant": "secondary",
+        "ddrArrangeOrder": 50
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Time Entries | Create Invoice and Line Items",
+          "parameter": "Let ( \n\n[\n\n_invoice_uuid = Get ( UUID ) \n\n];\n\ncf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; \"null\" ) ; \n\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::__kp_invoice_ID ) ; _invoice_uuid ) ;\n\n\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::_kf_organization_ID ) ; PT.TIME_ENTRIES::_kf_organization_ID ) ;\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::_kf_project_ID ) ; PT.TIME_ENTRIES::_kf_project_ID ) ;\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::period_start ) ; SYSTEM::usr_date_04 ) ;\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::period_end ) ; SYSTEM::usr_date_05 ) ;\n\n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; \"null\" ) ; \ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::_kf_invoice_ID ) ; _invoice_uuid ) ;\ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::date ) ; SYSTEM::usr_date_05 ) ;\ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::quantity ) ; PT.TIME_ENTRIES::hours_sum ) ;\ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::fee ) ; SYSTEM::usr_number_02 ) ;\ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::explanation ) ; SYSTEM::usr_text_20 ) ;\n\n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; \"null\" ) ; \n\n)\n\n) &\n\ncf_Dictionary ( \"close_pop\" ; 1 )\n\n)\n\n//cf_DictionaryNameValuePair ( cf_RepeatValue ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::date ) ; ValueCount ( _item_dates ) ) ; _item_dates  )\n\n//cf_Dictionary ( GetFieldName ( PT.SYSTEM::zz_pivot ) ; \"\" ) ;\n//cf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::date ) ; GetValue ( _item_dates ; 1 ) ) ;\n//cf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::quantity ) ; GetValue ( _item_hours ; 1 ) ) ;\n//cf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::fee ) ; GetValue ( _item_hours ; 1 ) ) ;"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802",
+      "position": {
+        "x": 2083,
+        "y": 114,
+        "width": 290,
+        "height": 321,
+        "z": 51
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default No Edit",
+        "ddrObjectPath": "3801.3802",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_number_02",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 51
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_number_02",
+        "tableOccurrence": "SYSTEM"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Time Entries | Create Invoice and Line Items",
+          "parameter": "Let ( \n\n[\n\n_invoice_uuid = Get ( UUID ) \n\n];\n\ncf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; \"null\" ) ; \n\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::__kp_invoice_ID ) ; _invoice_uuid ) ;\n\n\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::_kf_organization_ID ) ; PT.TIME_ENTRIES::_kf_organization_ID ) ;\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::_kf_project_ID ) ; PT.TIME_ENTRIES::_kf_project_ID ) ;\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::period_start ) ; SYSTEM::usr_date_04 ) ;\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::period_end ) ; SYSTEM::usr_date_05 ) ;\n\n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; \"null\" ) ; \ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::_kf_invoice_ID ) ; _invoice_uuid ) ;\ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::date ) ; SYSTEM::usr_date_05 ) ;\ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::quantity ) ; PT.TIME_ENTRIES::hours_sum ) ;\ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::fee ) ; SYSTEM::usr_number_02 ) ;\ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::explanation ) ; SYSTEM::usr_text_20 ) ;\n\n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; \"null\" ) ; \n\n)\n\n) &\n\ncf_Dictionary ( \"close_pop\" ; 1 )\n\n)\n\n//cf_DictionaryNameValuePair ( cf_RepeatValue ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::date ) ; ValueCount ( _item_dates ) ) ; _item_dates  )\n\n//cf_Dictionary ( GetFieldName ( PT.SYSTEM::zz_pivot ) ; \"\" ) ;\n//cf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::date ) ; GetValue ( _item_dates ; 1 ) ) ;\n//cf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::quantity ) ; GetValue ( _item_hours ; 1 ) ) ;\n//cf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::fee ) ; GetValue ( _item_hours ; 1 ) ) ;"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802-3803",
+      "position": {
+        "x": 3015,
+        "y": 334,
+        "width": 87,
+        "height": 20,
+        "z": 52
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3801.3802.3803",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_number_02",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 52
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_number_02",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802-3814",
+      "position": {
+        "x": 3015,
+        "y": 225,
+        "width": 218,
+        "height": 48,
+        "z": 53
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3801.3802.3814",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_20",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 53
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_20",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802-3834",
+      "position": {
+        "x": 3015,
+        "y": 293,
+        "width": 87,
+        "height": 20,
+        "z": 54
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default No Edit",
+        "ddrObjectPath": "3801.3802.3834",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_sum",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 54
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_sum",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802-3835",
+      "position": {
+        "x": 3146,
+        "y": 396,
+        "width": 87,
+        "height": 29,
+        "z": 55
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3801.3802.3835",
+        "rotation": 0,
+        "label": "Invoice",
+        "variant": "secondary",
+        "ddrArrangeOrder": 55
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Time Entries | Create Invoice and Line Items",
+          "parameter": "Let ( \n\n[\n\n_invoice_uuid = Get ( UUID ) \n\n];\n\ncf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; \"null\" ) ; \n\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::__kp_invoice_ID ) ; _invoice_uuid ) ;\n\n\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::_kf_organization_ID ) ; PT.TIME_ENTRIES::_kf_organization_ID ) ;\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::_kf_project_ID ) ; PT.TIME_ENTRIES::_kf_project_ID ) ;\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::period_start ) ; SYSTEM::usr_date_04 ) ;\ncf_Dictionary ( GetFieldName ( pt.system_PT.INVOICES__Pivot::period_end ) ; SYSTEM::usr_date_05 ) ;\n\n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; \"null\" ) ; \ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::_kf_invoice_ID ) ; _invoice_uuid ) ;\ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::date ) ; SYSTEM::usr_date_05 ) ;\ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::quantity ) ; PT.TIME_ENTRIES::hours_sum ) ;\ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::fee ) ; SYSTEM::usr_number_02 ) ;\ncf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::explanation ) ; SYSTEM::usr_text_20 ) ;\n\n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; \"null\" ) ; \n\n)\n\n) &\n\ncf_Dictionary ( \"close_pop\" ; 1 )\n\n)\n\n//cf_DictionaryNameValuePair ( cf_RepeatValue ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::date ) ; ValueCount ( _item_dates ) ) ; _item_dates  )\n\n//cf_Dictionary ( GetFieldName ( PT.SYSTEM::zz_pivot ) ; \"\" ) ;\n//cf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::date ) ; GetValue ( _item_dates ; 1 ) ) ;\n//cf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::quantity ) ; GetValue ( _item_hours ; 1 ) ) ;\n//cf_Dictionary ( GetFieldName ( pt.time_entries_PT.INVOICE_ITEMS__Pivot::fee ) ; GetValue ( _item_hours ; 1 ) ) ;"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802-3845",
+      "position": {
+        "x": 3015,
+        "y": 173,
+        "width": 101,
+        "height": 21,
+        "z": 56
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3801.3802.3845",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_date_04",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 56
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_date_04",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802-3846",
+      "position": {
+        "x": 3132,
+        "y": 173,
+        "width": 101,
+        "height": 21,
+        "z": 57
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3801.3802.3846",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_date_05",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 57
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_date_05",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802-3847",
+      "position": {
+        "x": 3015,
+        "y": 155,
+        "width": 63,
+        "height": 18,
+        "z": 58
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3801.3802.3847",
+        "rotation": 0,
+        "label": "Start Date",
+        "ddrArrangeOrder": 58
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802-3848",
+      "position": {
+        "x": 3132,
+        "y": 155,
+        "width": 56,
+        "height": 18,
+        "z": 59
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3801.3802.3848",
+        "rotation": 0,
+        "label": "End Date",
+        "ddrArrangeOrder": 59
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802-3849",
+      "position": {
+        "x": 3015,
+        "y": 205,
+        "width": 124,
+        "height": 18,
+        "z": 60
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3801.3802.3849",
+        "rotation": 0,
+        "label": "Line Item Description",
+        "ddrArrangeOrder": 60
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802-3850",
+      "position": {
+        "x": 3015,
+        "y": 273,
+        "width": 38,
+        "height": 18,
+        "z": 61
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3801.3802.3850",
+        "rotation": 0,
+        "label": "Hours",
+        "ddrArrangeOrder": 61
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802-3851",
+      "position": {
+        "x": 3015,
+        "y": 314,
+        "width": 31,
+        "height": 18,
+        "z": 62
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3801.3802.3851",
+        "rotation": 0,
+        "label": "Rate",
+        "ddrArrangeOrder": 62
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802-3852",
+      "position": {
+        "x": 3015,
+        "y": 375,
+        "width": 87,
+        "height": 20,
+        "z": 63
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default No Edit",
+        "ddrObjectPath": "3801.3802.3852",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "amount_sum",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 63
+      },
+      "type": "field",
+      "binding": {
+        "field": "amount_sum",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3801-3802-3853",
+      "position": {
+        "x": 3015,
+        "y": 355,
+        "width": 49,
+        "height": 18,
+        "z": 64
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3801.3802.3853",
+        "rotation": 0,
+        "label": "Amount",
+        "ddrArrangeOrder": 64
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3831",
+      "position": {
+        "x": 650,
+        "y": 144,
+        "width": 79,
+        "height": 20,
+        "z": 65
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3831",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "rate",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 65
+      },
+      "type": "field",
+      "binding": {
+        "field": "rate",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3832",
+      "position": {
+        "x": 738,
+        "y": 181,
+        "width": 206,
+        "height": 20,
+        "z": 66
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3832",
+        "rotation": 0,
+        "label": "Hours: <<hours_sum>>",
+        "ddrArrangeOrder": 66
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3833",
+      "position": {
+        "x": 738,
+        "y": 219,
+        "width": 206,
+        "height": 20,
+        "z": 67
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 1 Text",
+        "ddrObjectPath": "3833",
+        "rotation": 0,
+        "label": "Hours: <<hours_sum>>",
+        "ddrArrangeOrder": 67
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3836",
+      "position": {
+        "x": 1141,
+        "y": 143,
+        "width": 22,
+        "height": 24,
+        "z": 68
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "3836",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_invoiced",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 68
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_invoiced",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3837",
+      "position": {
+        "x": 1127,
+        "y": 81,
+        "width": 51,
+        "height": 18,
+        "z": 69
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3837",
+        "rotation": 0,
+        "label": "Invoiced",
+        "ddrArrangeOrder": 69
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3854",
+      "position": {
+        "x": 171,
+        "y": 6,
+        "width": 400,
+        "height": 60,
+        "z": 70
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Header Text",
+        "ddrObjectPath": "3854",
+        "rotation": 0,
+        "label": "Time Entries",
+        "ddrArrangeOrder": 70
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3855-3856",
+      "position": {
+        "x": 17,
+        "y": 21,
+        "width": 52,
+        "height": 38,
+        "z": 71
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "hideObjectWhen": "/*cf_BrowserNavigation*/",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3855.3856",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-time-entries-list-UHJvamVj-3855",
+        "ddrArrangeOrder": 71
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Backward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3855-3857",
+      "position": {
+        "x": 69,
+        "y": 21,
+        "width": 51,
+        "height": 38,
+        "z": 72
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3855.3857",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-time-entries-list-UHJvamVj-3855",
+        "ddrArrangeOrder": 72
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3855-3857-3858",
+      "position": {
+        "x": 66,
+        "y": 82,
+        "width": 241,
+        "height": 363,
+        "z": 73
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3855.3857.3858",
+        "rotation": 0,
+        "label": "[Popover]",
+        "groupId": "ddr-group-fm-time-entries-list-UHJvamVj-3855",
+        "ddrArrangeOrder": 73
+      },
+      "type": "label",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3855-3857-3858-3859-3860",
+      "position": {
+        "x": 105,
+        "y": 267,
+        "width": 195,
+        "height": 54,
+        "z": 74
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3855.3857.3858.3859.3860",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-time-entries-list-UHJvamVj-3855-3857-3858-3859",
+        "ddrArrangeOrder": 74
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3855-3857-3858-3859-3861",
+      "position": {
+        "x": 105,
+        "y": 321,
+        "width": 195,
+        "height": 53,
+        "z": 75
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3855.3857.3858.3859.3861",
+        "rotation": 0,
+        "label": "Organizations",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-time-entries-list-UHJvamVj-3855-3857-3858-3859",
+        "ddrArrangeOrder": 75
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Organizations",
+          "parameter": "Organizations"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3855-3857-3858-3859-3862",
+      "position": {
+        "x": 105,
+        "y": 374,
+        "width": 195,
+        "height": 54,
+        "z": 76
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3855.3857.3858.3859.3862",
+        "rotation": 0,
+        "label": "Invoices",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-time-entries-list-UHJvamVj-3855-3857-3858-3859",
+        "ddrArrangeOrder": 76
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Invoices",
+          "parameter": "Invoices"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3855-3857-3858-3859-3863",
+      "position": {
+        "x": 105,
+        "y": 428,
+        "width": 195,
+        "height": 53,
+        "z": 77
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3855.3857.3858.3859.3863",
+        "rotation": 0,
+        "label": "Preferences",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-time-entries-list-UHJvamVj-3855-3857-3858-3859",
+        "ddrArrangeOrder": 77
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Preferences",
+          "parameter": "Preferences"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3855-3857-3858-3864-3865",
+      "position": {
+        "x": 105,
+        "y": 765,
+        "width": 195,
+        "height": 52,
+        "z": 78
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3855.3857.3858.3864.3865",
+        "rotation": 0,
+        "label": "Exit Application",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-time-entries-list-UHJvamVj-3855-3857-3858-3864",
+        "ddrArrangeOrder": 78
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3855-3866",
+      "position": {
+        "x": 120,
+        "y": 21,
+        "width": 52,
+        "height": 38,
+        "z": 79
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3855.3866",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-time-entries-list-UHJvamVj-3855",
+        "ddrArrangeOrder": 79
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Forward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3867",
+      "position": {
+        "x": 1096,
+        "y": 4,
+        "width": 79,
+        "height": 23,
+        "z": 80
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Accent Button 2",
+        "ddrObjectPath": "3867",
+        "rotation": 0,
+        "label": "Open",
+        "variant": "secondary",
+        "ddrArrangeOrder": 80
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-time-entries-list-UHJvamVj-3868",
+      "position": {
+        "x": 1188,
+        "y": 4,
+        "width": 79,
+        "height": 23,
+        "z": 81
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Accent Button 1",
+        "ddrObjectPath": "3868",
+        "rotation": 0,
+        "label": "Print",
+        "variant": "secondary",
+        "ddrArrangeOrder": 81
+      },
+      "type": "button"
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Ônix (toque)</name>
+    <group>Vidro</group>
+    <metadata>
+        <namedstyles>
+            <minimal_drop-down_calendar>Calendário suspenso mínimo</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Lista suspensa mínima</minimal_drop-down_list>
+            <minimal_edit_box>Caixa de edição mínima</minimal_edit_box>
+            <minimal_pop-up_menu>Menu pop-up mínimo</minimal_pop-up_menu>
+            <simple_popover>Popover simples</simple_popover>
+            <dots_outside>Pontos fora</dots_outside>
+            <header_button>Botão de cabeçalho</header_button>
+            <header_edit_box>Caixa de edição de cabeçalho</header_edit_box>
+            <header_drop-down_list>Lista suspensa de cabeçalho</header_drop-down_list>
+            <header_pop-up_menu>Menu pop-up de cabeçalho</header_pop-up_menu>
+            <header_drop-down_calendar>Calendário suspenso de cabeçalho</header_drop-down_calendar>
+            <header_checkbox_set>Conjunto de caixas de seleção de cabeçalho</header_checkbox_set>
+            <header_radio_button_set>Conjunto de botões de opção de cabeçalho</header_radio_button_set>
+            <title_text_2>Texto do título 2</title_text_2>
+            <title_text_1>Texto do título 1</title_text_1>
+            <title_bar_rectangle>Forma da barra de título</title_bar_rectangle>
+            <region_rectangle>Forma da região</region_rectangle>
+            <minimal_container>Container mínimo</minimal_container>
+            <title_header_text>• Texto do cabeçalho do título</title_header_text>
+            <leading_grand_summary_text>• Texto do resumo geral inicial</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Texto do sub-resumo 1 inicial</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Texto do sub-resumo 2 inicial</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Texto adicional do sub-resumo inicial</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Texto adicional do sub-resumo final</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Texto do sub-resumo 2 final</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Texto do sub-resumo 1 final</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Texto do resumo geral final</trailing_grand_summary_text>
+            <footer_text>• Texto de espaço reservado do rodapé</footer_text>
+            <title_footer_text>• Texto do rodapé do título</title_footer_text>
+            <header_text>• Texto de espaço reservado do cabeçalho</header_text>
+            <navigation_part_text>• Texto da parte de navegação</navigation_part_text>
+            <body_button_bar>Barra de botões de corpo</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

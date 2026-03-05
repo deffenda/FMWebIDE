@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Stijlvol - Touch</name>
+    <group>Aspiratie - Touch</group>
+    <metadata>
+        <namedstyles>
+            <navigation_button>Navigatieknop</navigation_button>
+            <navigation_checkbox_set>Groep navigatieselectievakjes</navigation_checkbox_set>
+            <navigation_drop-down_calendar>Navigatiekalender-keuzelijst</navigation_drop-down_calendar>
+            <navigation_drop-down_list>Navigatiekeuzelijst</navigation_drop-down_list>
+            <navigation_radio_button_set>Navigatie keuzerondjesgroep</navigation_radio_button_set>
+            <navigation_pop-up_menu>Navigatievenstermenu</navigation_pop-up_menu>
+            <accent_button_1>Accent - Knop 1</accent_button_1>
+            <accent_button_2>Accent - Knop 2</accent_button_2>
+            <accent_button_3>Accent - Knop 3</accent_button_3>
+            <navigation_region>Navigatiegebied</navigation_region>
+            <column_header_region>Kolomkopgebied</column_header_region>
+            <column_header_text>Kolomkoptekst</column_header_text>
+            <popover_alternate_1>Popover alternatief 1</popover_alternate_1>
+            <popover_alternate_2>Popover alternatief 2</popover_alternate_2>
+            <title_bar_region>Titelbalkgebied</title_bar_region>
+            <content_region>Inhoudsgebied</content_region>
+            <slide_control_alternate>Schuifbesturingselement alternatief</slide_control_alternate>
+            <minimal_slide_control>Minimaal schuifbesturingselement</minimal_slide_control>
+            <accent_color_1>Accent - Kleur 1</accent_color_1>
+            <accent_color_2>Accent - Kleur 2</accent_color_2>
+            <accent_color_3>Accent - Kleur 3</accent_color_3>
+            <gradient_1>Verloop 1</gradient_1>
+            <gradient_2>Verloop 2</gradient_2>
+            <title_text_1>Titeltekst 1</title_text_1>
+            <title_text_2>Titeltekst 2</title_text_2>
+            <accent_text_1>Accent - Tekst 1</accent_text_1>
+            <accent_text_2>Accent - Tekst 2</accent_text_2>
+            <navigation_text>Navigatietekst</navigation_text>
+            <minimal_edit_box>Minimaal invoervak</minimal_edit_box>
+            <minimal_container>Minimale container</minimal_container>
+            <minimal_drop-down_calendar>Minimale kalender-keuzelijst</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Minimale keuzelijst</minimal_drop-down_list>
+            <minimal_pop-up_menu>Minimaal pop-upmenu</minimal_pop-up_menu>
+            <form_body>Hoofdgedeelte van formulier</form_body>
+            <navigation_part>Navigatiegedeelte</navigation_part>
+            <accent_text_3>Accent - Tekst 3</accent_text_3>
+            <title_header_text>• Tekst van titelkopgedeelte</title_header_text>
+            <leading_grand_summary_text>• Tekst van voorafgaand algemeen resumégedeelte</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Tekst van voorafgaand subresumégedeelte 1</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Tekst van voorafgaand subresumégedeelte 2</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Extra tekst van voorafgaand subresumégedeelte</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Extra tekst van navolgend subresumégedeelte</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Tekst van navolgend subresumégedeelte 2</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Tekst van navolgend subresumégedeelte 1</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Tekst van navolgend algemeen resumégedeelte</trailing_grand_summary_text>
+            <footer_text>• Tekst van voetgedeelte</footer_text>
+            <title_footer_text>• Tekst van titelvoetgedeelte</title_footer_text>
+            <header_text>• Tekst van kopgedeelte</header_text>
+            <navigation_part_text>• Tekst van navigatiegedeelte</navigation_part_text>
+            <body_button_bar>Hoofdgedeelte knoppenbalk</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

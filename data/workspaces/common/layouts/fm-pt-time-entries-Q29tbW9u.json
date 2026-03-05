@@ -1,0 +1,560 @@
+{
+  "id": "fm-pt-time-entries-Q29tbW9u",
+  "name": "PT.TIME_ENTRIES",
+  "defaultTableOccurrence": "PT.TIME_ENTRIES",
+  "canvas": {
+    "width": 2064,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-31",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 259,
+        "height": 135,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "31",
+        "rotation": 0,
+        "label": "{{LayoutName}}&#13;{{AccountName}}&#13;{{UserName}}&#13;{{SystemIPAddress}}&#13;{{CurrentHostTimestamp}}&#13;{{SystemNICAddress}}",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-21",
+      "position": {
+        "x": 0,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "21",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "__kp_time_entry_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "__kp_time_entry_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-22",
+      "position": {
+        "x": 120,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "22",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_category_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_category_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-23",
+      "position": {
+        "x": 240,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "23",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_item_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_item_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-24",
+      "position": {
+        "x": 360,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "24",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_organization_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_organization_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-25",
+      "position": {
+        "x": 480,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "25",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_person_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_person_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-26",
+      "position": {
+        "x": 600,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "26",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-28",
+      "position": {
+        "x": 720,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "28",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "amount",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "amount",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-29",
+      "position": {
+        "x": 840,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "29",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "date",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-30",
+      "position": {
+        "x": 960,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "30",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "description",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-31",
+      "position": {
+        "x": 1080,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "31",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 11
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-32",
+      "position": {
+        "x": 1200,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "32",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_billable",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_billable",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-33",
+      "position": {
+        "x": 1320,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "33",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "rate",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "rate",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-38",
+      "position": {
+        "x": 1440,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "38",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_account_create",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_account_create",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-39",
+      "position": {
+        "x": 1560,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "39",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_account_modify",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 15
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_account_modify",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-40",
+      "position": {
+        "x": 1680,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "40",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_change_log",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 16
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_change_log",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-41",
+      "position": {
+        "x": 1800,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "41",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_timestamp_create",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 17
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_timestamp_create",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-time-entries-Q29tbW9u-42",
+      "position": {
+        "x": 1920,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "42",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_timestamp_modify",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_timestamp_modify",
+        "tableOccurrence": "PT.TIME_ENTRIES"
+      }
+    }
+  ],
+  "actions": []
+}

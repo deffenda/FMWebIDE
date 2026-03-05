@@ -1,0 +1,482 @@
+{
+  "id": "fm-asset-list-QXNzZXRz",
+  "name": "Asset List",
+  "defaultTableOccurrence": "Asset List",
+  "canvas": {
+    "width": 1048,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-1-2",
+      "position": {
+        "x": 424,
+        "y": 26,
+        "width": 200,
+        "height": 21,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Separator | Uppercase | Highlight",
+        "ddrObjectPath": "1.2",
+        "rotation": 0,
+        "label": "Assets",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-asset-list-QXNzZXRz-1",
+        "ddrArrangeOrder": 1
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Asset List"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-1-3",
+      "position": {
+        "x": 624,
+        "y": 26,
+        "width": 200,
+        "height": 21,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Separator | Uppercase | Highlight",
+        "ddrObjectPath": "1.3",
+        "rotation": 0,
+        "label": "Vendors",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-asset-list-QXNzZXRz-1",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Vendor List"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-1-4",
+      "position": {
+        "x": 824,
+        "y": 26,
+        "width": 200,
+        "height": 21,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Separator | Uppercase | Highlight",
+        "ddrObjectPath": "1.4",
+        "rotation": 0,
+        "label": "Employees",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-asset-list-QXNzZXRz-1",
+        "ddrArrangeOrder": 3
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Employee List"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-5",
+      "position": {
+        "x": 791,
+        "y": 52,
+        "width": 185,
+        "height": 19,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Primary",
+        "ddrObjectPath": "5",
+        "rotation": 0,
+        "label": "Used By",
+        "ddrArrangeOrder": 4
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-6",
+      "position": {
+        "x": 671,
+        "y": 52,
+        "width": 111,
+        "height": 19,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Primary",
+        "ddrObjectPath": "6",
+        "rotation": 0,
+        "label": "Price",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-7",
+      "position": {
+        "x": 477,
+        "y": 52,
+        "width": 185,
+        "height": 19,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Primary",
+        "ddrObjectPath": "7",
+        "rotation": 0,
+        "label": "Purchase Date",
+        "ddrArrangeOrder": 6
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-8",
+      "position": {
+        "x": 283,
+        "y": 52,
+        "width": 185,
+        "height": 19,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Primary",
+        "ddrObjectPath": "8",
+        "rotation": 0,
+        "label": "Type",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-9",
+      "position": {
+        "x": 101,
+        "y": 52,
+        "width": 173,
+        "height": 19,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Primary",
+        "ddrObjectPath": "9",
+        "rotation": 0,
+        "label": "Name",
+        "ddrArrangeOrder": 8
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-10",
+      "position": {
+        "x": 980,
+        "y": 74,
+        "width": 44,
+        "height": 60,
+        "z": 9
+      },
+      "props": {
+        "tooltip": "Go to details.",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "10",
+        "rotation": 0,
+        "label": "Go to details.",
+        "variant": "secondary",
+        "ddrArrangeOrder": 9
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Asset Details"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-11",
+      "position": {
+        "x": 786,
+        "y": 82,
+        "width": 190,
+        "height": 44,
+        "z": 10
+      },
+      "props": {
+        "tooltip": "Used By",
+        "hideObjectWhen": "Get ( WindowMode )= 0",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "11",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Used By",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "Name",
+        "tableOccurrence": "Assignments"
+      }
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-12",
+      "position": {
+        "x": 666,
+        "y": 82,
+        "width": 116,
+        "height": 44,
+        "z": 11
+      },
+      "props": {
+        "tooltip": "Price",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "12",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Price",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 11
+      },
+      "type": "field",
+      "binding": {
+        "field": "Price",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-13",
+      "position": {
+        "x": 472,
+        "y": 82,
+        "width": 190,
+        "height": 44,
+        "z": 12
+      },
+      "props": {
+        "tooltip": "Purchase Date",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "13",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Purchase Date",
+        "controlType": "date",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "Purchase Date",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-14",
+      "position": {
+        "x": 278,
+        "y": 82,
+        "width": 190,
+        "height": 44,
+        "z": 13
+      },
+      "props": {
+        "tooltip": "Type",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "14",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Type",
+        "controlType": "dropdown",
+        "valueList": "Type",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "Type",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-15",
+      "position": {
+        "x": 96,
+        "y": 82,
+        "width": 178,
+        "height": 44,
+        "z": 14
+      },
+      "props": {
+        "tooltip": "Name",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "15",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "Name",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-16",
+      "position": {
+        "x": 29,
+        "y": 91,
+        "width": 40,
+        "height": 26,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Minimum | Secondary",
+        "ddrObjectPath": "16",
+        "rotation": 0,
+        "label": "Button",
+        "variant": "secondary",
+        "ddrArrangeOrder": 15
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-17",
+      "position": {
+        "x": 9,
+        "y": 82,
+        "width": 80,
+        "height": 44,
+        "z": 16
+      },
+      "props": {
+        "tooltip": "Image",
+        "hideObjectWhen": "IsEmpty ( Assets::Image ) = 0",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "17",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Image",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 16
+      },
+      "type": "field",
+      "binding": {
+        "field": "Image",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-18",
+      "position": {
+        "x": 666,
+        "y": 135,
+        "width": 116,
+        "height": 44,
+        "z": 17
+      },
+      "props": {
+        "tooltip": "Total",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "18",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Total",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 17
+      },
+      "type": "field",
+      "binding": {
+        "field": "Total",
+        "tableOccurrence": "Assets"
+      }
+    },
+    {
+      "id": "ddr-fm-asset-list-QXNzZXRz-19",
+      "position": {
+        "x": 497,
+        "y": 149,
+        "width": 158,
+        "height": 20,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "19",
+        "rotation": 0,
+        "label": "Total",
+        "ddrArrangeOrder": 18
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

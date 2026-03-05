@@ -1,0 +1,1058 @@
+{
+  "id": "fm-admin-statuses-form-UHJvamVj",
+  "name": "Admin|Statuses|Form",
+  "defaultTableOccurrence": "Admin|Statuses|Form",
+  "canvas": {
+    "width": 960,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854",
+      "position": {
+        "x": 17,
+        "y": 101,
+        "width": 919,
+        "height": 453,
+        "z": 1
+      },
+      "props": {
+        "tooltip": "Delete",
+        "hideObjectWhen": "Self≥\"\" and Self≤\"\"",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "4854",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "valueList": "Repetitions",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "pt.system_PT.STATUSES__All"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]",
+          "parameter": "Add"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044",
+      "position": {
+        "x": 65,
+        "y": 377,
+        "width": 883,
+        "height": 366,
+        "z": 2
+      },
+      "props": {
+        "tooltip": "Delete",
+        "hideObjectWhen": "Self≥\"\" and Self≤\"\"",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "4854.4856.5044",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 14,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "name",
+          "status_number",
+          "color",
+          "fore_64",
+          "back_64",
+          "is_completed",
+          "is_remaining",
+          "is_project",
+          "is_item",
+          "is_kanban_enabled"
+        ],
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 2
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "pt.system_PT.STATUSES__All"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044-5047",
+      "position": {
+        "x": 100,
+        "y": 555,
+        "width": 219,
+        "height": 21,
+        "z": 3
+      },
+      "props": {
+        "hideObjectWhen": "Self≥\"\" and Self≤\"\"",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "4854.4856.5044.5047",
+        "portalParentComponentId": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044",
+        "portalParentDdrPath": "4854.4856.5044",
+        "portalParentTableOccurrence": "pt.system_PT.STATUSES__All",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "pt.system_PT.STATUSES__All"
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044-5057",
+      "position": {
+        "x": 716,
+        "y": 555,
+        "width": 41,
+        "height": 21,
+        "z": 4
+      },
+      "props": {
+        "hideObjectWhen": "Self≥\"\" and Self≤\"\"",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "4854.4856.5044.5057",
+        "portalParentComponentId": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044",
+        "portalParentDdrPath": "4854.4856.5044",
+        "portalParentTableOccurrence": "pt.system_PT.STATUSES__All",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "status_number",
+        "controlType": "dropdown",
+        "valueList": "Repetitions",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "status_number",
+        "tableOccurrence": "pt.system_PT.STATUSES__All"
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044-5059",
+      "position": {
+        "x": 325,
+        "y": 555,
+        "width": 123,
+        "height": 21,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "4854.4856.5044.5059",
+        "portalParentComponentId": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044",
+        "portalParentDdrPath": "4854.4856.5044",
+        "portalParentTableOccurrence": "pt.system_PT.STATUSES__All",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "color",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "color",
+        "tableOccurrence": "pt.system_PT.STATUSES__All"
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044-5060",
+      "position": {
+        "x": 451,
+        "y": 555,
+        "width": 129,
+        "height": 21,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "4854.4856.5044.5060",
+        "portalParentComponentId": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044",
+        "portalParentDdrPath": "4854.4856.5044",
+        "portalParentTableOccurrence": "pt.system_PT.STATUSES__All",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "fore_64",
+        "controlType": "popup",
+        "valueList": "Colors",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "fore_64",
+        "tableOccurrence": "pt.system_PT.STATUSES__All"
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044-5061",
+      "position": {
+        "x": 584,
+        "y": 555,
+        "width": 129,
+        "height": 21,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "4854.4856.5044.5061",
+        "portalParentComponentId": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044",
+        "portalParentDdrPath": "4854.4856.5044",
+        "portalParentTableOccurrence": "pt.system_PT.STATUSES__All",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "back_64",
+        "controlType": "popup",
+        "valueList": "Colors",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "back_64",
+        "tableOccurrence": "pt.system_PT.STATUSES__All"
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044-5078",
+      "position": {
+        "x": 939,
+        "y": 556,
+        "width": 18,
+        "height": 18,
+        "z": 8
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "4854.4856.5044.5078",
+        "portalParentComponentId": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044",
+        "portalParentDdrPath": "4854.4856.5044",
+        "portalParentTableOccurrence": "pt.system_PT.STATUSES__All",
+        "rotation": 0,
+        "label": "Delete",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 8
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044-5079",
+      "position": {
+        "x": 761,
+        "y": 554,
+        "width": 23,
+        "height": 24,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "4854.4856.5044.5079",
+        "portalParentComponentId": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044",
+        "portalParentDdrPath": "4854.4856.5044",
+        "portalParentTableOccurrence": "pt.system_PT.STATUSES__All",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_completed",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_completed",
+        "tableOccurrence": "pt.system_PT.STATUSES__All"
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044-5080",
+      "position": {
+        "x": 785,
+        "y": 554,
+        "width": 23,
+        "height": 24,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "4854.4856.5044.5080",
+        "portalParentComponentId": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044",
+        "portalParentDdrPath": "4854.4856.5044",
+        "portalParentTableOccurrence": "pt.system_PT.STATUSES__All",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_remaining",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_remaining",
+        "tableOccurrence": "pt.system_PT.STATUSES__All"
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044-5084",
+      "position": {
+        "x": 809,
+        "y": 554,
+        "width": 23,
+        "height": 24,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "4854.4856.5044.5084",
+        "portalParentComponentId": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044",
+        "portalParentDdrPath": "4854.4856.5044",
+        "portalParentTableOccurrence": "pt.system_PT.STATUSES__All",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_project",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 11
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_project",
+        "tableOccurrence": "pt.system_PT.STATUSES__All"
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044-5085",
+      "position": {
+        "x": 833,
+        "y": 554,
+        "width": 23,
+        "height": 24,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "4854.4856.5044.5085",
+        "portalParentComponentId": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044",
+        "portalParentDdrPath": "4854.4856.5044",
+        "portalParentTableOccurrence": "pt.system_PT.STATUSES__All",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_item",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_item",
+        "tableOccurrence": "pt.system_PT.STATUSES__All"
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044-5096",
+      "position": {
+        "x": 857,
+        "y": 554,
+        "width": 23,
+        "height": 24,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "4854.4856.5044.5096",
+        "portalParentComponentId": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5044",
+        "portalParentDdrPath": "4854.4856.5044",
+        "portalParentTableOccurrence": "pt.system_PT.STATUSES__All",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_kanban_enabled",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_kanban_enabled",
+        "tableOccurrence": "pt.system_PT.STATUSES__All"
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5058",
+      "position": {
+        "x": 69,
+        "y": 356,
+        "width": 219,
+        "height": 18,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "4854.4856.5058",
+        "rotation": 0,
+        "label": "Status Name",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 14
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5081",
+      "position": {
+        "x": 731,
+        "y": 356,
+        "width": 18,
+        "height": 18,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "4854.4856.5081",
+        "rotation": 0,
+        "label": "C",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 15
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5082",
+      "position": {
+        "x": 755,
+        "y": 356,
+        "width": 18,
+        "height": 18,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "4854.4856.5082",
+        "rotation": 0,
+        "label": "R",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 16
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5083",
+      "position": {
+        "x": 779,
+        "y": 356,
+        "width": 18,
+        "height": 18,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "4854.4856.5083",
+        "rotation": 0,
+        "label": "P",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 17
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5086",
+      "position": {
+        "x": 804,
+        "y": 356,
+        "width": 18,
+        "height": 18,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "4854.4856.5086",
+        "rotation": 0,
+        "label": "I",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 18
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5088",
+      "position": {
+        "x": 838,
+        "y": 335,
+        "width": 110,
+        "height": 24,
+        "z": 19
+      },
+      "props": {
+        "tooltip": "Add",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "4854.4856.5088",
+        "rotation": 0,
+        "label": "Add Status",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 19
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; Get ( UUID ) ) ;\n\n\ncf_Dictionary ( GetFieldName ( pt.system_PT.STATUSES__Pivot::name ) ; SYSTEM::usr_text_01 ) ;\n\n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5088-5089",
+      "position": {
+        "x": 1335,
+        "y": 413,
+        "width": 296,
+        "height": 135,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "4854.4856.5088.5089",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_01",
+        "controlType": "text",
+        "valueList": "Persons__All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_01",
+        "tableOccurrence": "SYSTEM"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; Get ( UUID ) ) ;\n\n\ncf_Dictionary ( GetFieldName ( pt.system_PT.STATUSES__Pivot::name ) ; SYSTEM::usr_text_01 ) ;\n\n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5088-5089-5090",
+      "position": {
+        "x": 1858,
+        "y": 540,
+        "width": 240,
+        "height": 20,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "4854.4856.5088.5089.5090",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_01",
+        "controlType": "text",
+        "valueList": "Persons__All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 21
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_01",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5088-5089-5091",
+      "position": {
+        "x": 1858,
+        "y": 521,
+        "width": 240,
+        "height": 19,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "4854.4856.5088.5089.5091",
+        "rotation": 0,
+        "label": "Name",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 22
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5088-5089-5094",
+      "position": {
+        "x": 2028,
+        "y": 577,
+        "width": 70,
+        "height": 21,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "4854.4856.5088.5089.5094",
+        "rotation": 0,
+        "label": "Save",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 23
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; Get ( UUID ) ) ;\n\n\ncf_Dictionary ( GetFieldName ( pt.system_PT.STATUSES__Pivot::name ) ; SYSTEM::usr_text_01 ) ;\n\n\ncf_Dictionary ( GetFieldName ( SYSTEM::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5088-5089-5095",
+      "position": {
+        "x": 1858,
+        "y": 577,
+        "width": 70,
+        "height": 21,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "4854.4856.5088.5089.5095",
+        "rotation": 0,
+        "label": "Exit",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 24
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Close Popover (e)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-4854-4856-5097",
+      "position": {
+        "x": 828,
+        "y": 356,
+        "width": 18,
+        "height": 18,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "4854.4856.5097",
+        "rotation": 0,
+        "label": "K",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-4854-4856",
+        "ddrArrangeOrder": 25
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-5101",
+      "position": {
+        "x": 171,
+        "y": 0,
+        "width": 400,
+        "height": 60,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Header Text",
+        "ddrObjectPath": "5101",
+        "rotation": 0,
+        "label": "Statuses",
+        "ddrArrangeOrder": 26
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-5102-5103",
+      "position": {
+        "x": 17,
+        "y": 21,
+        "width": 51,
+        "height": 38,
+        "z": 27
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "hideObjectWhen": "/*cf_BrowserNavigation*/",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "5102.5103",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-5102",
+        "ddrArrangeOrder": 27
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Backward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-5102-5104",
+      "position": {
+        "x": 68,
+        "y": 21,
+        "width": 52,
+        "height": 38,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "5102.5104",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-5102",
+        "ddrArrangeOrder": 28
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-5102-5104-5105",
+      "position": {
+        "x": 65,
+        "y": 81,
+        "width": 241,
+        "height": 363,
+        "z": 29
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "5102.5104.5105",
+        "rotation": 0,
+        "label": "[Popover]",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-5102",
+        "ddrArrangeOrder": 29
+      },
+      "type": "label",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-5102-5104-5105-5106-5107",
+      "position": {
+        "x": 104,
+        "y": 264,
+        "width": 195,
+        "height": 54,
+        "z": 30
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "5102.5104.5105.5106.5107",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-5102-5104-5105-5106",
+        "ddrArrangeOrder": 30
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-5102-5104-5105-5106-5108",
+      "position": {
+        "x": 104,
+        "y": 318,
+        "width": 195,
+        "height": 53,
+        "z": 31
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "5102.5104.5105.5106.5108",
+        "rotation": 0,
+        "label": "Organizations",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-5102-5104-5105-5106",
+        "ddrArrangeOrder": 31
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Organizations",
+          "parameter": "Organizations"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-5102-5104-5105-5106-5109",
+      "position": {
+        "x": 104,
+        "y": 371,
+        "width": 195,
+        "height": 54,
+        "z": 32
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "5102.5104.5105.5106.5109",
+        "rotation": 0,
+        "label": "Invoices",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-5102-5104-5105-5106",
+        "ddrArrangeOrder": 32
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Invoices",
+          "parameter": "Invoices"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-5102-5104-5105-5106-5110",
+      "position": {
+        "x": 104,
+        "y": 425,
+        "width": 195,
+        "height": 53,
+        "z": 33
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "5102.5104.5105.5106.5110",
+        "rotation": 0,
+        "label": "Preferences",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-5102-5104-5105-5106",
+        "ddrArrangeOrder": 33
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Preferences",
+          "parameter": "Preferences"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-5102-5104-5105-5111-5112",
+      "position": {
+        "x": 104,
+        "y": 762,
+        "width": 195,
+        "height": 52,
+        "z": 34
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "5102.5104.5105.5111.5112",
+        "rotation": 0,
+        "label": "Exit Application",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-5102-5104-5105-5111",
+        "ddrArrangeOrder": 34
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-admin-statuses-form-UHJvamVj-5102-5113",
+      "position": {
+        "x": 120,
+        "y": 21,
+        "width": 51,
+        "height": 38,
+        "z": 35
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "5102.5113",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-admin-statuses-form-UHJvamVj-5102",
+        "ddrArrangeOrder": 35
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Forward"
+        }
+      }
+    }
+  ],
+  "actions": []
+}

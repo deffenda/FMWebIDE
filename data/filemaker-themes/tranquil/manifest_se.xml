@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Stilla</name>
+    <group>Längta</group>
+    <metadata>
+        <namedstyles>
+            <minimal_edit_box>Minimal redigeringsruta</minimal_edit_box>
+            <minimal_container>Oformaterad container</minimal_container>
+            <minimal_drop-down_calendar>Minimal nedrullningsbar kalender</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Minimal nedrullningsbar lista</minimal_drop-down_list>
+            <minimal_pop-up_menu>Minimal snabbmeny</minimal_pop-up_menu>
+            <accent_button_1>Accentknapp 1</accent_button_1>
+            <accent_button_2>Accentknapp 2</accent_button_2>
+            <slide_control_alternate>Glidkontrollsalternativ</slide_control_alternate>
+            <minimal_slide_control>Minimal glidkontroll</minimal_slide_control>
+            <popover_alternate_1>Flytande fönster alternativ 1</popover_alternate_1>
+            <popover_alternate_2>Flytande fönster alternativ 2</popover_alternate_2>
+            <column_header_region>Kolumnrubriksområde</column_header_region>
+            <title_bar_region>Rubrikfältsområde</title_bar_region>
+            <content_region>Innehållsområde</content_region>
+            <gradient_1>Övertoning 1</gradient_1>
+            <gradient_2>Övertoning 2</gradient_2>
+            <accent_color_1>Accentfärg 1</accent_color_1>
+            <accent_color_2>Accentfärg 2</accent_color_2>
+            <accent_color_3>Accentfärg 3</accent_color_3>
+            <accent_color_4>Accentfärg 4</accent_color_4>
+            <column_header_text>Kolumnrubrikstext</column_header_text>
+            <title_text_1>Rubriktext 1</title_text_1>
+            <title_text_2>Rubriktext 2</title_text_2>
+            <accent_text_1>Accenttext 1</accent_text_1>
+            <accent_text_2>Accenttext 2</accent_text_2>
+            <form_body>Formulärtext</form_body>
+            <title_header_text>• Text för titelhuvud</title_header_text>
+            <leading_grand_summary_text>• Text för inledande totalsumma</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Text för inledande delsumma 1</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Text för inledande delsumma 2</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Ytterligare text för inledande delsumma</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Ytterligare text för avslutande delsumma</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Text för avslutande delsumma 2</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Text för avslutande delsumma 1</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Text för avslutande totalsumma</trailing_grand_summary_text>
+            <footer_text>• Text för sidfot</footer_text>
+            <title_footer_text>• Text för titelfot</title_footer_text>
+            <header_text>• Text för sidhuvud</header_text>
+            <navigation_part_text>• Text för navigeringsdel</navigation_part_text>
+            <body_button_bar>Knapprad för huvuddel</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

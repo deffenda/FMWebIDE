@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<theme>
+    <id>com.filemaker.theme.enlightened_touch</id>
+    <name>Enlightened Touch</name>
+    <group>Aspire Touch</group>
+    <version>6</version>
+    <cssfile>enlightened_touch.css</cssfile>
+    <platform>Touch</platform>
+    <preview>images/enlightenedtouchPreview.png</preview>
+    <metadata>
+        <layoutbuilder>
+            <kBaseFontSize>16</kBaseFontSize>
+            <kReportBreakFieldIndent>20</kReportBreakFieldIndent>
+            <kBackgroundPaddingTop>20</kBackgroundPaddingTop>
+            <kBackgroundPaddingBottom>20</kBackgroundPaddingBottom>
+            <kBackgroundPaddingLeft>20</kBackgroundPaddingLeft>
+            <kBackgroundPaddingRight>20</kBackgroundPaddingRight>
+            <kFirstPartPaddingTop>20</kFirstPartPaddingTop>
+            <kLastPartPaddingBottom>8</kLastPartPaddingBottom>
+            <kPartPaddingLeft>20</kPartPaddingLeft>
+            <kPartPaddingRight>20</kPartPaddingRight>
+            <kLeadingPartPaddingTop>8</kLeadingPartPaddingTop>
+            <kLeadingPartPaddingBottom>5</kLeadingPartPaddingBottom>
+            <kBodyPartPaddingTop>8</kBodyPartPaddingTop>
+            <kBodyPartPaddingBottom>5</kBodyPartPaddingBottom>
+            <kTrailingPartPaddingTop>8</kTrailingPartPaddingTop>
+            <kTrailingPartPaddingBottom>5</kTrailingPartPaddingBottom>
+            <kVerticalFieldSpacing>4</kVerticalFieldSpacing>
+            <kTitleHeaderMinSize>30</kTitleHeaderMinSize>
+            <kHeaderMinSize>80</kHeaderMinSize>
+            <kBodyMinSize>60</kBodyMinSize>
+            <kFooterMinSize>30</kFooterMinSize>
+            <kTitleFooterMinSize>30</kTitleFooterMinSize>
+            <kTopNavPartMinSize>44</kTopNavPartMinSize>
+            <kBottomNavPartMinSize>49</kBottomNavPartMinSize>
+            <kSummaryPartMinSize>60</kSummaryPartMinSize>
+        </layoutbuilder>
+        <charting>
+            <colorScheme>Plum Tree</colorScheme>
+        </charting>
+        <namedstyles>
+            <accent_button_2>Accent Button 2</accent_button_2>
+            <accent_button_3>Accent Button 3</accent_button_3>
+            <column_header_region>Column Header Region</column_header_region>
+            <title_bar_region>Title Bar Region</title_bar_region>
+            <content_region>Content Region</content_region>
+            <accent_color_1>Accent Color 1</accent_color_1>
+            <accent_color_2>Accent Color 2</accent_color_2>
+            <accent_color_3>Accent Color 3</accent_color_3>
+            <title_text_1>Title Text 1</title_text_1>
+            <title_text_2>Title Text 2</title_text_2>
+            <accent_text_1>Accent Text 1</accent_text_1>
+            <accent_text_2>Accent Text 2</accent_text_2>
+            <accent_text_3>Accent Text 3</accent_text_3>
+            <minimal_container>Minimal Container</minimal_container>
+            <minimal_edit_box>Minimal Edit Box</minimal_edit_box>
+            <minimal_drop-down_calendar>Minimal Drop-down Calendar</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Minimal Drop-down List</minimal_drop-down_list>
+            <minimal_pop-up_menu>Minimal Pop-up Menu</minimal_pop-up_menu>
+            <accent_button_4>Accent Button 4</accent_button_4>
+            <slide_control_alternate>Slide Control Alternate</slide_control_alternate>
+            <minimal_slide_control>Minimal Slide Control</minimal_slide_control>
+            <column_header_text>Column Header Text</column_header_text>
+            <accent_text_4>Accent Text 4</accent_text_4>
+            <popover_alternate_1>Popover Alternate 1</popover_alternate_1>
+            <popover_alternate_2>Popover Alternate 2</popover_alternate_2>
+            <form_body>Form Body</form_body>
+            <navigation_region>Navigation Region</navigation_region>
+            <navigation_part>Navigation Part</navigation_part>
+            <navigation_radio_button_set>Navigation Radio Button Set</navigation_radio_button_set>
+            <navigation_checkbox_set>Navigation Checkbox Set</navigation_checkbox_set>
+            <navigation_drop-down_list>Navigation Drop-down List</navigation_drop-down_list>
+            <navigation_drop-down_calendar>Navigation Drop-down Calendar</navigation_drop-down_calendar>
+            <navigation_edit_box>Navigation Edit Box</navigation_edit_box>
+            <navigation_pop-up_menu>Navigation Pop-up Menu</navigation_pop-up_menu>
+            <navigation_button>Navigation Button</navigation_button>
+            <gradient_1>Gradient 1</gradient_1>
+            <accent_button_1>Accent Button 1</accent_button_1>
+            <gradient_2>Gradient 2</gradient_2>
+            <accent_color_4>Accent Color 4</accent_color_4>
+            <navigation_text>Navigation Text</navigation_text>
+            <title_header_text>• Title Header Text</title_header_text>
+            <leading_grand_summary_text>• Leading Grand Summary Text</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Leading Sub-summary 1 Text</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Leading Sub-summary 2 Text</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Leading Sub-summary Additional Text</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Trailing Sub-summary Additional Text</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Trailing Sub-summary 2 Text</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Trailing Sub-summary 1 Text</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Trailing Grand Summary Text</trailing_grand_summary_text>
+            <footer_text>• Footer Text</footer_text>
+            <title_footer_text>• Title Footer Text</title_footer_text>
+            <header_text>• Header Text</header_text>
+            <navigation_part_text>• Navigation Part Text</navigation_part_text>
+            <body_button_bar>Body Button Bar</body_button_bar>
+        </namedstyles>
+        <colorpalette>
+            <swatch1>#d6d6d6</swatch1>
+            <swatch2>#a2a2a2</swatch2>
+            <swatch3>#494949</swatch3>
+            <swatch4>#303030</swatch4>
+            <swatch5>#141414</swatch5>
+            <swatch6>#2982fe</swatch6>
+            <swatch7>#7d0c25</swatch7>
+            <swatch8>#81c234</swatch8>
+            <swatch9>#f8c308</swatch9>
+        </colorpalette>
+    </metadata>
+</theme>

@@ -1,0 +1,14 @@
+{
+  "id": "fm-cm-persons-UHJvamVj",
+  "name": "CM.PERSONS",
+  "defaultTableOccurrence": "CM.PERSONS",
+  "canvas": {
+    "width": 612,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [],
+  "actions": []
+}

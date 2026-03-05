@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "projecttracker",
+  "name": "ProjectTracker",
+  "filemaker": {
+    "database": "ProjectTracker",
+    "ddrPath": "/Users/deffenda/Downloads/PJ/ProjectTracker_fmp12.xml",
+    "summaryPath": "/Users/deffenda/Downloads/PJ/Summary.xml",
+    "sourceFileName": "ProjectTracker.fmp12",
+    "solutionName": "PJ",
+    "dependsOn": [
+      "common"
+    ],
+    "externalDataSources": [
+      "Common",
+      "Startup"
+    ]
+  }
+}

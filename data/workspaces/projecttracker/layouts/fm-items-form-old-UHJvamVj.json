@@ -1,0 +1,3040 @@
+{
+  "id": "fm-items-form-old-UHJvamVj",
+  "name": "Items|Form OLD",
+  "defaultTableOccurrence": "Items|Form OLD",
+  "canvas": {
+    "width": 1279,
+    "height": 732,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185",
+      "position": {
+        "x": 24,
+        "y": 268,
+        "width": 1230,
+        "height": 384,
+        "z": 1
+      },
+      "props": {
+        "tooltip": "Edit",
+        "hideObjectWhen": "not IsEmpty ( PT.PROJECTS::_kfgm_category_selected_IDs & PT.PROJECTS::_kfgm_module_selected_IDs & PT.PROJECTS::_kfgm_person_IDs & PT.PROJECTS::_kfgm_sprint_selected_IDs & PT.PROJECTS::_kfgm_status_selected_IDs )",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "6185",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "item_percent_complete_bar",
+        "controlType": "text",
+        "valueList": "PercentComplete",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "item_percent_complete_bar",
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]",
+          "parameter": "Get ( WindowMode ) = 0"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+      "position": {
+        "x": 90,
+        "y": 886,
+        "width": 1194,
+        "height": 282,
+        "z": 2
+      },
+      "props": {
+        "tooltip": "Edit",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "6185.6208.6209",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 10,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "item_percent_complete_bar",
+          "name",
+          "item_percent_complete",
+          "module",
+          "hours_estimate",
+          "date_due",
+          "hours_actual",
+          "hours_remaining",
+          "priority",
+          "_kf_status_ID",
+          "_kf_person_ID",
+          "_kfgm_status_selected_IDs",
+          "_kfgm_category_selected_IDs",
+          "_kfgm_sprint_selected_IDs",
+          "_kfgm_module_selected_IDs",
+          "_kfgm_person_IDs",
+          "_kf_category_ID",
+          "_kf_sprint_ID",
+          "date_start",
+          "description",
+          "rate",
+          "date",
+          "hours"
+        ],
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 2
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]",
+          "parameter": "Get ( WindowMode ) = 0"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6253",
+      "position": {
+        "x": 994,
+        "y": 1241,
+        "width": 216,
+        "height": 21,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "6185.6208.6209.6253",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "item_percent_complete_bar",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "item_percent_complete_bar",
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6292",
+      "position": {
+        "x": 163,
+        "y": 1241,
+        "width": 229,
+        "height": 21,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6292",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6370",
+      "position": {
+        "x": 1146,
+        "y": 1241,
+        "width": 64,
+        "height": 21,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 11 CJ",
+        "ddrObjectPath": "6185.6208.6209.6370",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "item_percent_complete",
+        "controlType": "dropdown",
+        "valueList": "PercentComplete",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "item_percent_complete",
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519",
+      "position": {
+        "x": 1248,
+        "y": 1241,
+        "width": 30,
+        "height": 21,
+        "z": 6
+      },
+      "props": {
+        "tooltip": "Edit",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Edit Popover Blue",
+        "ddrObjectPath": "6185.6208.6209.6519",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "More",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 6
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520",
+      "position": {
+        "x": 2105,
+        "y": 1382,
+        "width": 290,
+        "height": 449,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_sprint_ID",
+        "controlType": "popup",
+        "valueList": "TimeBoxes__byProject_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_sprint_ID",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6481",
+      "position": {
+        "x": 2986,
+        "y": 1613,
+        "width": 240,
+        "height": 20,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6481",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_sprint_ID",
+        "controlType": "popup",
+        "valueList": "TimeBoxes__byProject_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_sprint_ID",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6513",
+      "position": {
+        "x": 2986,
+        "y": 1570,
+        "width": 240,
+        "height": 20,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6513",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_category_ID",
+        "controlType": "popup",
+        "valueList": "Categories__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_category_ID",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6482",
+      "position": {
+        "x": 2986,
+        "y": 1594,
+        "width": 240,
+        "height": 19,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6482",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "Sprint",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 10
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6514",
+      "position": {
+        "x": 2986,
+        "y": 1551,
+        "width": 240,
+        "height": 19,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6514",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "Category",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 11
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6274",
+      "position": {
+        "x": 2986,
+        "y": 1701,
+        "width": 92,
+        "height": 20,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6274",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date_start",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "date_start",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6275",
+      "position": {
+        "x": 3134,
+        "y": 1701,
+        "width": 92,
+        "height": 20,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6275",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date_due",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "date_due",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6565",
+      "position": {
+        "x": 2989,
+        "y": 1809,
+        "width": 237,
+        "height": 141,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6565",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "description",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6566",
+      "position": {
+        "x": 2989,
+        "y": 1789,
+        "width": 240,
+        "height": 19,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6566",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "Description",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 15
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6567",
+      "position": {
+        "x": 2986,
+        "y": 1682,
+        "width": 92,
+        "height": 19,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6567",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "Start",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 16
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6568",
+      "position": {
+        "x": 3134,
+        "y": 1682,
+        "width": 92,
+        "height": 19,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6568",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "End",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 17
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6652",
+      "position": {
+        "x": 2986,
+        "y": 1656,
+        "width": 237,
+        "height": 20,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6652",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_person_ID",
+        "controlType": "popup",
+        "valueList": "Persons__byProject_Available",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_person_ID",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6653",
+      "position": {
+        "x": 2986,
+        "y": 1637,
+        "width": 240,
+        "height": 19,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6653",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "Person",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 19
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6725",
+      "position": {
+        "x": 2986,
+        "y": 1749,
+        "width": 92,
+        "height": 20,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6725",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "rate",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "rate",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6519-6520-6726",
+      "position": {
+        "x": 2986,
+        "y": 1730,
+        "width": 92,
+        "height": 19,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6726",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "Rate",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 21
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6545",
+      "position": {
+        "x": 396,
+        "y": 1241,
+        "width": 119,
+        "height": 21,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6545",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "module",
+        "controlType": "dropdown",
+        "valueList": "Modules__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 22
+      },
+      "type": "field",
+      "binding": {
+        "field": "module",
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6557",
+      "position": {
+        "x": 942,
+        "y": 1241,
+        "width": 48,
+        "height": 21,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "6185.6208.6209.6557",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_estimate",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 23
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_estimate",
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6587",
+      "position": {
+        "x": 1214,
+        "y": 1241,
+        "width": 30,
+        "height": 21,
+        "z": 24
+      },
+      "props": {
+        "tooltip": "Time",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6587",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "More",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 24
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6587-6588",
+      "position": {
+        "x": 2037,
+        "y": 1406,
+        "width": 290,
+        "height": 400,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6587.6588",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date",
+        "controlType": "date",
+        "valueList": "TimeBoxes__byProject_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 25
+      },
+      "type": "field",
+      "binding": {
+        "field": "date",
+        "tableOccurrence": "pt.projects_pt.items_PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6587-6588-6589",
+      "position": {
+        "x": 2884,
+        "y": 1655,
+        "width": 92,
+        "height": 20,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6587.6588.6589",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date",
+        "controlType": "date",
+        "valueList": "TimeBoxes__byProject_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 26
+      },
+      "type": "field",
+      "binding": {
+        "field": "date",
+        "tableOccurrence": "pt.projects_pt.items_PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6587-6588-6592",
+      "position": {
+        "x": 2884,
+        "y": 1635,
+        "width": 92,
+        "height": 19,
+        "z": 27
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6587.6588.6592",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "Date",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 27
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6587-6588-6595",
+      "position": {
+        "x": 2887,
+        "y": 1808,
+        "width": 237,
+        "height": 141,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6587.6588.6595",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 28
+      },
+      "type": "field",
+      "binding": {
+        "field": "description",
+        "tableOccurrence": "pt.projects_pt.items_PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6587-6588-6596",
+      "position": {
+        "x": 2887,
+        "y": 1788,
+        "width": 240,
+        "height": 19,
+        "z": 29
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6587.6588.6596",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "Description",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 29
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6587-6588-6786",
+      "position": {
+        "x": 2884,
+        "y": 1696,
+        "width": 240,
+        "height": 20,
+        "z": 30
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6587.6588.6786",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours",
+        "controlType": "text",
+        "valueList": "TimeBoxes__byProject_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 30
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours",
+        "tableOccurrence": "pt.projects_pt.items_PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6587-6588-6787",
+      "position": {
+        "x": 2884,
+        "y": 1676,
+        "width": 240,
+        "height": 19,
+        "z": 31
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6587.6588.6787",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "Hours",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 31
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6654",
+      "position": {
+        "x": 677,
+        "y": 1241,
+        "width": 78,
+        "height": 21,
+        "z": 32
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "6185.6208.6209.6654",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date_due",
+        "controlType": "date",
+        "valueList": "Modules__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 32
+      },
+      "type": "field",
+      "binding": {
+        "field": "date_due",
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6687",
+      "position": {
+        "x": 139,
+        "y": 1241,
+        "width": 21,
+        "height": 21,
+        "z": 33
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Blue",
+        "ddrObjectPath": "6185.6208.6209.6687",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "Go To Details",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 33
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6718",
+      "position": {
+        "x": 1282,
+        "y": 1241,
+        "width": 21,
+        "height": 21,
+        "z": 34
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6185.6208.6209.6718",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "Delete",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 34
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6721",
+      "position": {
+        "x": 891,
+        "y": 1241,
+        "width": 48,
+        "height": 21,
+        "z": 35
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default No Edit CJ",
+        "ddrObjectPath": "6185.6208.6209.6721",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_actual",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 35
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_actual",
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6727",
+      "position": {
+        "x": 839,
+        "y": 1241,
+        "width": 48,
+        "height": 21,
+        "z": 36
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "6185.6208.6209.6727",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hours_remaining",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 36
+      },
+      "type": "field",
+      "binding": {
+        "field": "hours_remaining",
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6763",
+      "position": {
+        "x": 757,
+        "y": 1241,
+        "width": 78,
+        "height": 21,
+        "z": 37
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6763",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "priority",
+        "controlType": "popup",
+        "valueList": "Priorities",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 37
+      },
+      "type": "field",
+      "binding": {
+        "field": "priority",
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6477",
+      "position": {
+        "x": 994,
+        "y": 1241,
+        "width": 154,
+        "height": 21,
+        "z": 38
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Pop-up Menu",
+        "ddrObjectPath": "6185.6208.6209.6477",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_status_ID",
+        "controlType": "popup",
+        "valueList": "Statuses",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 38
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_status_ID",
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6869",
+      "position": {
+        "x": 520,
+        "y": 1241,
+        "width": 154,
+        "height": 21,
+        "z": 39
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6869",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_person_ID",
+        "controlType": "popup",
+        "valueList": "Persons__All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 39
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_person_ID",
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209-6868",
+      "position": {
+        "x": 520,
+        "y": 1241,
+        "width": 154,
+        "height": 21,
+        "z": 40
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6868",
+        "portalParentComponentId": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.items_SJ__byProjectID",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_person_ID",
+        "controlType": "popup",
+        "valueList": "Persons__byProjectItems_Available",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 40
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_person_ID",
+        "tableOccurrence": "pt.items_SJ__byProjectID"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6273",
+      "position": {
+        "x": 121,
+        "y": 869,
+        "width": 229,
+        "height": 17,
+        "z": 41
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6208.6273",
+        "rotation": 0,
+        "label": "Item",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 41
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329",
+      "position": {
+        "x": 1191,
+        "y": 839,
+        "width": 93,
+        "height": 24,
+        "z": 42
+      },
+      "props": {
+        "tooltip": "Add Item",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Black",
+        "ddrObjectPath": "6185.6208.6329",
+        "rotation": 0,
+        "label": "Add Item",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 42
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Close Popover (e)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330",
+      "position": {
+        "x": 1980,
+        "y": 913,
+        "width": 343,
+        "height": 482,
+        "z": 43
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Black",
+        "ddrObjectPath": "6185.6208.6329.6330",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_sprint_ID",
+        "controlType": "popup",
+        "valueList": "TimeBoxes__byProject_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 43
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_sprint_ID",
+        "tableOccurrence": "pt.projects_PT.ITEMS__Pivot"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Close Popover (e)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6688",
+      "position": {
+        "x": 3080,
+        "y": 995,
+        "width": 21,
+        "height": 21,
+        "z": 44
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Black",
+        "ddrObjectPath": "6185.6208.6329.6330.6688",
+        "rotation": 0,
+        "label": "Button",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 44
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Close Popover (e)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6701",
+      "position": {
+        "x": 2819,
+        "y": 1124,
+        "width": 240,
+        "height": 20,
+        "z": 45
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6701",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_sprint_ID",
+        "controlType": "popup",
+        "valueList": "TimeBoxes__byProject_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 45
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_sprint_ID",
+        "tableOccurrence": "pt.projects_PT.ITEMS__Pivot"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6702",
+      "position": {
+        "x": 2819,
+        "y": 1081,
+        "width": 240,
+        "height": 20,
+        "z": 46
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6702",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_category_ID",
+        "controlType": "popup",
+        "valueList": "Categories__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 46
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_category_ID",
+        "tableOccurrence": "pt.projects_PT.ITEMS__Pivot"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6703",
+      "position": {
+        "x": 2819,
+        "y": 1105,
+        "width": 240,
+        "height": 19,
+        "z": 47
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6703",
+        "rotation": 0,
+        "label": "Sprint",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 47
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6704",
+      "position": {
+        "x": 2819,
+        "y": 1062,
+        "width": 240,
+        "height": 19,
+        "z": 48
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6704",
+        "rotation": 0,
+        "label": "Category",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 48
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6705",
+      "position": {
+        "x": 2819,
+        "y": 1225,
+        "width": 92,
+        "height": 20,
+        "z": 49
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6705",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date_start",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 49
+      },
+      "type": "field",
+      "binding": {
+        "field": "date_start",
+        "tableOccurrence": "pt.projects_PT.ITEMS__Pivot"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6706",
+      "position": {
+        "x": 2967,
+        "y": 1225,
+        "width": 92,
+        "height": 20,
+        "z": 50
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6706",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date_due",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 50
+      },
+      "type": "field",
+      "binding": {
+        "field": "date_due",
+        "tableOccurrence": "pt.projects_PT.ITEMS__Pivot"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6707",
+      "position": {
+        "x": 2822,
+        "y": 1271,
+        "width": 237,
+        "height": 141,
+        "z": 51
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6707",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 51
+      },
+      "type": "field",
+      "binding": {
+        "field": "description",
+        "tableOccurrence": "pt.projects_PT.ITEMS__Pivot"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6708",
+      "position": {
+        "x": 2822,
+        "y": 1251,
+        "width": 240,
+        "height": 19,
+        "z": 52
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6708",
+        "rotation": 0,
+        "label": "Description",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 52
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6709",
+      "position": {
+        "x": 2819,
+        "y": 1206,
+        "width": 92,
+        "height": 19,
+        "z": 53
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6709",
+        "rotation": 0,
+        "label": "Start",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 53
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6710",
+      "position": {
+        "x": 2967,
+        "y": 1206,
+        "width": 92,
+        "height": 19,
+        "z": 54
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6710",
+        "rotation": 0,
+        "label": "End",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 54
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6711",
+      "position": {
+        "x": 2819,
+        "y": 1167,
+        "width": 237,
+        "height": 20,
+        "z": 55
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6711",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_person_ID",
+        "controlType": "popup",
+        "valueList": "Persons__byProject_Available",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 55
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_person_ID",
+        "tableOccurrence": "pt.projects_PT.ITEMS__Pivot"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6712",
+      "position": {
+        "x": 2819,
+        "y": 1148,
+        "width": 240,
+        "height": 19,
+        "z": 56
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6712",
+        "rotation": 0,
+        "label": "Person",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 56
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6713",
+      "position": {
+        "x": 2819,
+        "y": 1039,
+        "width": 237,
+        "height": 21,
+        "z": 57
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6713",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 57
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "pt.projects_PT.ITEMS__Pivot"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6714",
+      "position": {
+        "x": 2819,
+        "y": 1019,
+        "width": 240,
+        "height": 19,
+        "z": 58
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6714",
+        "rotation": 0,
+        "label": "Item",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 58
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6329-6330-6783",
+      "position": {
+        "x": 2964,
+        "y": 1428,
+        "width": 92,
+        "height": 24,
+        "z": 59
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6783",
+        "rotation": 0,
+        "label": "Close",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 59
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Close Popover (e)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6546",
+      "position": {
+        "x": 354,
+        "y": 869,
+        "width": 119,
+        "height": 17,
+        "z": 60
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6208.6546",
+        "rotation": 0,
+        "label": "Module",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 60
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6563",
+      "position": {
+        "x": 1106,
+        "y": 869,
+        "width": 61,
+        "height": 17,
+        "z": 61
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "6185.6208.6563",
+        "rotation": 0,
+        "label": "% Done",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 61
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6649",
+      "position": {
+        "x": 900,
+        "y": 869,
+        "width": 48,
+        "height": 17,
+        "z": 62
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "6185.6208.6649",
+        "rotation": 0,
+        "label": "Estimate",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 62
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6651",
+      "position": {
+        "x": 477,
+        "y": 869,
+        "width": 154,
+        "height": 18,
+        "z": 63
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6208.6651",
+        "rotation": 0,
+        "label": "Person",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 63
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6655",
+      "position": {
+        "x": 635,
+        "y": 869,
+        "width": 78,
+        "height": 18,
+        "z": 64
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6208.6655",
+        "rotation": 0,
+        "label": "Due Date",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 64
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659",
+      "position": {
+        "x": 90,
+        "y": 837,
+        "width": 92,
+        "height": 24,
+        "z": 65
+      },
+      "props": {
+        "tooltip": "Filter",
+        "hideObjectWhen": "not IsEmpty ( PT.PROJECTS::_kfgm_category_selected_IDs & PT.PROJECTS::_kfgm_module_selected_IDs & PT.PROJECTS::_kfgm_person_IDs & PT.PROJECTS::_kfgm_sprint_selected_IDs & PT.PROJECTS::_kfgm_status_selected_IDs )",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Edit Popover Blue",
+        "ddrObjectPath": "6185.6208.6659",
+        "rotation": 0,
+        "label": "Filter",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 65
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Refresh Window and Flush Cached Joins",
+          "parameter": "Case ( IsEmpty ( PT.PROJECTS::_kfgm_status_selected_IDs ) ;\n\nList ( pt.projects_PT.ITEMS::_kf_status_ID ) ;\n\n\"\"\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660",
+      "position": {
+        "x": 95,
+        "y": 955,
+        "width": 967,
+        "height": 174,
+        "z": 66
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kfgm_status_selected_IDs",
+        "controlType": "checkbox",
+        "valueList": "Statuses_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 66
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kfgm_status_selected_IDs",
+        "tableOccurrence": "PT.PROJECTS"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Refresh Window and Flush Cached Joins",
+          "parameter": "Case ( IsEmpty ( PT.PROJECTS::_kfgm_status_selected_IDs ) ;\n\nList ( pt.projects_PT.ITEMS::_kf_status_ID ) ;\n\n\"\"\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6716",
+      "position": {
+        "x": 116,
+        "y": 1101,
+        "width": 935,
+        "height": 124,
+        "z": 67
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6716",
+        "rotation": 0,
+        "label": "[Rect]",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 67
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6570",
+      "position": {
+        "x": 178,
+        "y": 1116,
+        "width": 857,
+        "height": 20,
+        "z": 68
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6570",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kfgm_status_selected_IDs",
+        "controlType": "checkbox",
+        "valueList": "Statuses_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 68
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kfgm_status_selected_IDs",
+        "tableOccurrence": "PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6572",
+      "position": {
+        "x": 178,
+        "y": 1135,
+        "width": 857,
+        "height": 20,
+        "z": 69
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6572",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kfgm_category_selected_IDs",
+        "controlType": "checkbox",
+        "valueList": "Categories__byProject_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 69
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kfgm_category_selected_IDs",
+        "tableOccurrence": "PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6577",
+      "position": {
+        "x": 134,
+        "y": 1113,
+        "width": 40,
+        "height": 19,
+        "z": 70
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6577",
+        "rotation": 0,
+        "label": "Status",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 70
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6577-6573",
+      "position": {
+        "x": 173,
+        "y": 1271,
+        "width": 40,
+        "height": 19,
+        "z": 71
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6577.6573",
+        "rotation": 0,
+        "label": "Status",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 71
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6578",
+      "position": {
+        "x": 116,
+        "y": 1133,
+        "width": 58,
+        "height": 19,
+        "z": 72
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6578",
+        "rotation": 0,
+        "label": "Category",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 72
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6578-6574",
+      "position": {
+        "x": 137,
+        "y": 1311,
+        "width": 58,
+        "height": 19,
+        "z": 73
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6578.6574",
+        "rotation": 0,
+        "label": "Category",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 73
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6575",
+      "position": {
+        "x": 178,
+        "y": 1154,
+        "width": 857,
+        "height": 20,
+        "z": 74
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6575",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kfgm_sprint_selected_IDs",
+        "controlType": "checkbox",
+        "valueList": "TimeBoxes__byProject_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 74
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kfgm_sprint_selected_IDs",
+        "tableOccurrence": "PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6579",
+      "position": {
+        "x": 116,
+        "y": 1152,
+        "width": 58,
+        "height": 19,
+        "z": 75
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6579",
+        "rotation": 0,
+        "label": "Sprint",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 75
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6579-6576",
+      "position": {
+        "x": 137,
+        "y": 1349,
+        "width": 58,
+        "height": 19,
+        "z": 76
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6579.6576",
+        "rotation": 0,
+        "label": "Sprint",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 76
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6580",
+      "position": {
+        "x": 178,
+        "y": 1173,
+        "width": 857,
+        "height": 20,
+        "z": 77
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6580",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kfgm_module_selected_IDs",
+        "controlType": "checkbox",
+        "valueList": "Modules__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 77
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kfgm_module_selected_IDs",
+        "tableOccurrence": "PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6581",
+      "position": {
+        "x": 116,
+        "y": 1171,
+        "width": 58,
+        "height": 19,
+        "z": 78
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6581",
+        "rotation": 0,
+        "label": "Module",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 78
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6581-6582",
+      "position": {
+        "x": 137,
+        "y": 1387,
+        "width": 58,
+        "height": 19,
+        "z": 79
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6581.6582",
+        "rotation": 0,
+        "label": "Module",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 79
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6656",
+      "position": {
+        "x": 178,
+        "y": 1192,
+        "width": 857,
+        "height": 20,
+        "z": 80
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6656",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kfgm_person_IDs",
+        "controlType": "checkbox",
+        "valueList": "Persons__byProject_Actual",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 80
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kfgm_person_IDs",
+        "tableOccurrence": "PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6657",
+      "position": {
+        "x": 116,
+        "y": 1190,
+        "width": 58,
+        "height": 19,
+        "z": 81
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6657",
+        "rotation": 0,
+        "label": "Person",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 81
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6659-6660-6657-6658",
+      "position": {
+        "x": 137,
+        "y": 1425,
+        "width": 58,
+        "height": 19,
+        "z": 82
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6659.6660.6657.6658",
+        "rotation": 0,
+        "label": "Person",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 82
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6478",
+      "position": {
+        "x": 952,
+        "y": 869,
+        "width": 154,
+        "height": 17,
+        "z": 83
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6208.6478",
+        "rotation": 0,
+        "label": "Status",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 83
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6722",
+      "position": {
+        "x": 848,
+        "y": 869,
+        "width": 48,
+        "height": 17,
+        "z": 84
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "6185.6208.6722",
+        "rotation": 0,
+        "label": "Actual",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 84
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6728",
+      "position": {
+        "x": 848,
+        "y": 852,
+        "width": 48,
+        "height": 17,
+        "z": 85
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "6185.6208.6728",
+        "rotation": 0,
+        "label": "Hours",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 85
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6729",
+      "position": {
+        "x": 797,
+        "y": 870,
+        "width": 151,
+        "height": 8,
+        "z": 86
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6729",
+        "rotation": 0,
+        "label": "",
+        "shapeType": "line",
+        "fillType": "none",
+        "fillColor": "transparent",
+        "lineStyle": "solid",
+        "lineWidth": 2,
+        "lineColor": "#94a3b8",
+        "cornerRadius": 0,
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 86
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6730",
+      "position": {
+        "x": 797,
+        "y": 869,
+        "width": 48,
+        "height": 17,
+        "z": 87
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "6185.6208.6730",
+        "rotation": 0,
+        "label": "Remain",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 87
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6756",
+      "position": {
+        "x": 190,
+        "y": 839,
+        "width": 21,
+        "height": 21,
+        "z": 88
+      },
+      "props": {
+        "tooltip": "Clear",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Clear Selection",
+        "ddrObjectPath": "6185.6208.6756",
+        "rotation": 0,
+        "label": "Clear",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 88
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Projects | Clear Project Filter"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6764",
+      "position": {
+        "x": 715,
+        "y": 869,
+        "width": 78,
+        "height": 17,
+        "z": 89
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6208.6764",
+        "rotation": 0,
+        "label": "Priority",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 89
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6185-6208-6784",
+      "position": {
+        "x": 1089,
+        "y": 839,
+        "width": 92,
+        "height": 24,
+        "z": 90
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6784",
+        "rotation": 0,
+        "label": "View List",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-items-form-old-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 90
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6318",
+      "position": {
+        "x": 24,
+        "y": 86,
+        "width": 432,
+        "height": 25,
+        "z": 91
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6318",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Please Enter a Name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 91
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6358",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 400,
+        "height": 60,
+        "z": 92
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Header Text",
+        "ddrObjectPath": "6358",
+        "rotation": 0,
+        "label": "Items",
+        "ddrArrangeOrder": 92
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6393",
+      "position": {
+        "x": 270,
+        "y": 674,
+        "width": 984,
+        "height": 18,
+        "z": 93
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Navigation Part Text",
+        "ddrObjectPath": "6393",
+        "rotation": 0,
+        "label": "Created by <<zz_account_create>> on <<zz_timestamp_create>> | Last Modified by <<zz_account_modify>> on <<zz_timestamp_modify>>",
+        "ddrArrangeOrder": 93
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6391",
+      "position": {
+        "x": 426,
+        "y": 130,
+        "width": 30,
+        "height": 24,
+        "z": 94
+      },
+      "props": {
+        "tooltip": "Edit",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Edit Popover Blue",
+        "ddrObjectPath": "6391",
+        "rotation": 0,
+        "label": "Edit",
+        "variant": "secondary",
+        "ddrArrangeOrder": 94
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6391-6392",
+      "position": {
+        "x": 666,
+        "y": 295,
+        "width": 402,
+        "height": 80,
+        "z": 95
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6391.6392",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 95
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6391-6392-6719",
+      "position": {
+        "x": 933,
+        "y": 497,
+        "width": 352,
+        "height": 24,
+        "z": 96
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6391.6392.6719",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 96
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6317",
+      "position": {
+        "x": 24,
+        "y": 173,
+        "width": 432,
+        "height": 67,
+        "z": 97
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6317",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Please Enter a Description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 97
+      },
+      "type": "field",
+      "binding": {
+        "field": "description",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6486",
+      "position": {
+        "x": 24,
+        "y": 68,
+        "width": 40,
+        "height": 18,
+        "z": 98
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6486",
+        "rotation": 0,
+        "label": "Name",
+        "ddrArrangeOrder": 98
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6487",
+      "position": {
+        "x": 24,
+        "y": 111,
+        "width": 68,
+        "height": 19,
+        "z": 99
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6487",
+        "rotation": 0,
+        "label": "Project",
+        "ddrArrangeOrder": 99
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6488",
+      "position": {
+        "x": 24,
+        "y": 154,
+        "width": 63,
+        "height": 19,
+        "z": 100
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6488",
+        "rotation": 0,
+        "label": "Description",
+        "ddrArrangeOrder": 100
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6388",
+      "position": {
+        "x": 24,
+        "y": 130,
+        "width": 403,
+        "height": 24,
+        "z": 101
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6388",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Please Select an Organization >>>",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 101
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6765",
+      "position": {
+        "x": 995,
+        "y": 86,
+        "width": 256,
+        "height": 51,
+        "z": 102
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Header",
+        "ddrObjectPath": "6765",
+        "rotation": 0,
+        "label": "Item Completion (% Done)",
+        "ddrArrangeOrder": 102
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6766",
+      "position": {
+        "x": 995,
+        "y": 106,
+        "width": 256,
+        "height": 31,
+        "z": 103
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "6766",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "item_percent_complete_bar",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 103
+      },
+      "type": "field",
+      "binding": {
+        "field": "item_percent_complete_bar",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6767",
+      "position": {
+        "x": 1148,
+        "y": 107,
+        "width": 103,
+        "height": 30,
+        "z": 104
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 14",
+        "ddrObjectPath": "6767",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "No Items",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 104
+      },
+      "type": "field",
+      "binding": {
+        "field": "item_percent_complete",
+        "tableOccurrence": "PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6768",
+      "position": {
+        "x": 1148,
+        "y": 136,
+        "width": 103,
+        "height": 23,
+        "z": 105
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Header",
+        "ddrObjectPath": "6768",
+        "rotation": 0,
+        "label": "% Complete",
+        "ddrArrangeOrder": 105
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6769",
+      "position": {
+        "x": 995,
+        "y": 136,
+        "width": 154,
+        "height": 23,
+        "z": 106
+      },
+      "props": {
+        "tooltip": "Clear",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Black",
+        "ddrObjectPath": "6769",
+        "rotation": 0,
+        "label": "Status",
+        "variant": "secondary",
+        "ddrArrangeOrder": 106
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6769-6770",
+      "position": {
+        "x": 1689,
+        "y": 293,
+        "width": 226,
+        "height": 79,
+        "z": 107
+      },
+      "props": {
+        "tooltip": "Clear",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Black",
+        "ddrObjectPath": "6769.6770",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_status_ID",
+        "controlType": "popup",
+        "valueList": "Statuses",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 107
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_status_ID",
+        "tableOccurrence": "PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6769-6770-6771",
+      "position": {
+        "x": 2404,
+        "y": 486,
+        "width": 147,
+        "height": 24,
+        "z": 108
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6769.6770.6771",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_status_ID",
+        "controlType": "popup",
+        "valueList": "Statuses",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 108
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_status_ID",
+        "tableOccurrence": "PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6769-6770-6772",
+      "position": {
+        "x": 2566,
+        "y": 489,
+        "width": 18,
+        "height": 18,
+        "z": 109
+      },
+      "props": {
+        "tooltip": "Clear",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Black",
+        "ddrObjectPath": "6769.6770.6772",
+        "rotation": 0,
+        "label": "Clear",
+        "variant": "secondary",
+        "ddrArrangeOrder": 109
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-items-form-old-UHJvamVj-6878",
+      "position": {
+        "x": 2,
+        "y": 131,
+        "width": 21,
+        "height": 21,
+        "z": 110
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Blue",
+        "ddrObjectPath": "6878",
+        "rotation": 0,
+        "label": "Go To Details",
+        "variant": "secondary",
+        "ddrArrangeOrder": 110
+      },
+      "type": "button"
+    }
+  ],
+  "actions": []
+}

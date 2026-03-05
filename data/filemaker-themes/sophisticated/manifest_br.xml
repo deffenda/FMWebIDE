@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Sofisticado</name>
+    <group>Ambicioso</group>
+    <metadata>
+        <namedstyles>
+            <navigation_button>Botão de navegação</navigation_button>
+            <accent_button_1>Botão de acento 1</accent_button_1>
+            <accent_button_2>Botão de acento 2</accent_button_2>
+            <accent_button_3>Botão de acento 3</accent_button_3>
+            <navigation_checkbox_set>Conj. de caixas de seleção de navegação</navigation_checkbox_set>
+            <navigation_radio_button_set>Conj. de botões de opção de navegação</navigation_radio_button_set>
+            <slide_control_alternate>Controle de slides alternativo</slide_control_alternate>
+            <minimal_slide_control>Controle de slides mínimo</minimal_slide_control>
+            <navigation_drop-down_calendar>Calendário suspenso de navegação</navigation_drop-down_calendar>
+            <navigation_drop-down_list>Lista suspensa de navegação</navigation_drop-down_list>
+            <navigation_pop-up_menu>Menu pop-up de navegação</navigation_pop-up_menu>
+            <minimal_edit_box>Caixa de edição mínima</minimal_edit_box>
+            <popover_alternate_1>Alternativa de popover 1</popover_alternate_1>
+            <popover_alternate_2>Alternativa de popover 2</popover_alternate_2>
+            <minimal_container>Container mínimo</minimal_container>
+            <minimal_drop-down_calendar>Calendário suspenso mínimo</minimal_drop-down_calendar>
+            <navigation_region>Região de navegação</navigation_region>
+            <column_header_region>Região do cabeçalho de coluna</column_header_region>
+            <title_bar_region>Região da barra de título</title_bar_region>
+            <content_region>Região do conteúdo</content_region>
+            <accent_color_1>Cor de acento 1</accent_color_1>
+            <accent_color_2>Cor de acento 2</accent_color_2>
+            <accent_color_3>Cor de acento 3</accent_color_3>
+            <gradient_1>Gradiente 1</gradient_1>
+            <gradient_2>Gradiente 2</gradient_2>
+            <minimal_drop-down_list>Lista suspensa mínima</minimal_drop-down_list>
+            <minimal_pop-up_menu>Menu pop-up mínimo</minimal_pop-up_menu>
+            <column_header_text>Texto do cabeçalho de coluna</column_header_text>
+            <title_text_1>Texto do título 1</title_text_1>
+            <title_text_2>Texto do título 2</title_text_2>
+            <accent_text_1>Texto de acento 1</accent_text_1>
+            <accent_text_2>Texto de acento 2</accent_text_2>
+            <navigation_text>Texto de navegação</navigation_text>
+            <form_body>Corpo do formulário</form_body>
+            <navigation_part>Parte de navegação</navigation_part>
+            <accent_text_3>Texto de acento 3</accent_text_3>
+            <title_header_text>• Texto do cabeçalho do título</title_header_text>
+            <leading_grand_summary_text>• Texto do resumo geral inicial</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Texto do sub-resumo 1 inicial</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Texto do sub-resumo 2 inicial</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Texto adicional do sub-resumo inicial</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Texto adicional do sub-resumo final</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Texto do sub-resumo 2 final</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Texto do sub-resumo 1 final</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Texto do resumo geral final</trailing_grand_summary_text>
+            <footer_text>• Texto de espaço reservado do rodapé</footer_text>
+            <title_footer_text>• Texto do rodapé do título</title_footer_text>
+            <header_text>• Texto de espaço reservado do cabeçalho</header_text>
+            <navigation_part_text>• Texto da parte de navegação</navigation_part_text>
+            <body_button_bar>Barra de botões de corpo</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

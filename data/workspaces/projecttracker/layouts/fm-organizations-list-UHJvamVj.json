@@ -1,0 +1,487 @@
+{
+  "id": "fm-organizations-list-UHJvamVj",
+  "name": "Organizations|List",
+  "defaultTableOccurrence": "Organizations|List",
+  "canvas": {
+    "width": 1299,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3697",
+      "position": {
+        "x": 33,
+        "y": 104,
+        "width": 425,
+        "height": 21,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3697",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name_display",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "name_display",
+        "tableOccurrence": "CM.ORGANIZATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3698",
+      "position": {
+        "x": 33,
+        "y": 82,
+        "width": 425,
+        "height": 18,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3698",
+        "rotation": 0,
+        "label": "Name",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3699",
+      "position": {
+        "x": 6,
+        "y": 104,
+        "width": 21,
+        "height": 21,
+        "z": 3
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Blue",
+        "ddrObjectPath": "3699",
+        "rotation": 0,
+        "label": "Go To Details",
+        "variant": "secondary",
+        "ddrArrangeOrder": 3
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3719",
+      "position": {
+        "x": 1245,
+        "y": 104,
+        "width": 30,
+        "height": 21,
+        "z": 4
+      },
+      "props": {
+        "tooltip": "Edit",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Edit Popover Blue",
+        "ddrObjectPath": "3719",
+        "rotation": 0,
+        "label": "More",
+        "variant": "secondary",
+        "ddrArrangeOrder": 4
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3719-3720",
+      "position": {
+        "x": 2189,
+        "y": 109,
+        "width": 290,
+        "height": 449,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3719.3720",
+        "rotation": 0,
+        "label": "[Popover]",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3735",
+      "position": {
+        "x": 471,
+        "y": 103,
+        "width": 145,
+        "height": 21,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3735",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "acronym",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "acronym",
+        "tableOccurrence": "CM.ORGANIZATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3736",
+      "position": {
+        "x": 471,
+        "y": 81,
+        "width": 145,
+        "height": 18,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3736",
+        "rotation": 0,
+        "label": "Acronym",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3741",
+      "position": {
+        "x": 171,
+        "y": 0,
+        "width": 400,
+        "height": 60,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Header Text",
+        "ddrObjectPath": "3741",
+        "rotation": 0,
+        "label": "Organizations",
+        "ddrArrangeOrder": 8
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3754-3755",
+      "position": {
+        "x": 17,
+        "y": 21,
+        "width": 51,
+        "height": 38,
+        "z": 9
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "hideObjectWhen": "cf_BrowserNavigation",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3754.3755",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-list-UHJvamVj-3754",
+        "ddrArrangeOrder": 9
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Backward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3754-3756",
+      "position": {
+        "x": 68,
+        "y": 21,
+        "width": 52,
+        "height": 38,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3754.3756",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-list-UHJvamVj-3754",
+        "ddrArrangeOrder": 10
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3754-3756-3757",
+      "position": {
+        "x": 85,
+        "y": 74,
+        "width": 241,
+        "height": 363,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3754.3756.3757",
+        "rotation": 0,
+        "label": "[Popover]",
+        "groupId": "ddr-group-fm-organizations-list-UHJvamVj-3754",
+        "ddrArrangeOrder": 11
+      },
+      "type": "label",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3754-3756-3757-3758-3759",
+      "position": {
+        "x": 164,
+        "y": 243,
+        "width": 195,
+        "height": 54,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3754.3756.3757.3758.3759",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-list-UHJvamVj-3754-3756-3757-3758",
+        "ddrArrangeOrder": 12
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3754-3756-3757-3758-3760",
+      "position": {
+        "x": 164,
+        "y": 297,
+        "width": 195,
+        "height": 53,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3754.3756.3757.3758.3760",
+        "rotation": 0,
+        "label": "Organizations",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-list-UHJvamVj-3754-3756-3757-3758",
+        "ddrArrangeOrder": 13
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Organizations",
+          "parameter": "Organizations"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3754-3756-3757-3758-3761",
+      "position": {
+        "x": 164,
+        "y": 350,
+        "width": 195,
+        "height": 54,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3754.3756.3757.3758.3761",
+        "rotation": 0,
+        "label": "Invoices",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-list-UHJvamVj-3754-3756-3757-3758",
+        "ddrArrangeOrder": 14
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Invoices",
+          "parameter": "Invoices"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3754-3756-3757-3758-3762",
+      "position": {
+        "x": 164,
+        "y": 404,
+        "width": 195,
+        "height": 53,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3754.3756.3757.3758.3762",
+        "rotation": 0,
+        "label": "Preferences",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-list-UHJvamVj-3754-3756-3757-3758",
+        "ddrArrangeOrder": 15
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Preferences",
+          "parameter": "Preferences"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3754-3756-3757-3763-3764",
+      "position": {
+        "x": 164,
+        "y": 741,
+        "width": 195,
+        "height": 52,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3754.3756.3757.3763.3764",
+        "rotation": 0,
+        "label": "Exit Application",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-list-UHJvamVj-3754-3756-3757-3763",
+        "ddrArrangeOrder": 16
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3754-3765",
+      "position": {
+        "x": 120,
+        "y": 21,
+        "width": 51,
+        "height": 38,
+        "z": 17
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3754.3765",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-organizations-list-UHJvamVj-3754",
+        "ddrArrangeOrder": 17
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Forward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3767",
+      "position": {
+        "x": 629,
+        "y": 103,
+        "width": 318,
+        "height": 20,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3767",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "address_c",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "address_c",
+        "tableOccurrence": "CM.ORGANIZATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-organizations-list-UHJvamVj-3768",
+      "position": {
+        "x": 629,
+        "y": 81,
+        "width": 318,
+        "height": 18,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Column Header 11 White",
+        "ddrObjectPath": "3768",
+        "rotation": 0,
+        "label": "Address",
+        "ddrArrangeOrder": 19
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

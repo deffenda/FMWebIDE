@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>アイス</name>
+    <group>四角形</group>
+    <cssfile>ice_ja.css</cssfile>
+    <metadata>
+        <namedstyles>
+            <minimal_drop-down_calendar>最小ドロップダウンカレンダー</minimal_drop-down_calendar>
+            <minimal_drop-down_list>最小ドロップダウンリスト</minimal_drop-down_list>
+            <minimal_edit_box>最小編集ボックス</minimal_edit_box>
+            <minimal_pop-up_menu>最小ポップアップメニュー</minimal_pop-up_menu>
+            <minimal_container>最小オブジェクト</minimal_container>
+            <title_header_text>• タイトルヘッダテキスト</title_header_text>
+            <leading_grand_summary_text>• 前部総計テキスト</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• 前部小計 1 テキスト</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• 前部小計 2 テキスト</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• 前部小計追加テキスト</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• 後部小計追加テキスト</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• 後部小計 2 テキスト</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• 後部小計 1 テキスト</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• 後部総計テキスト</trailing_grand_summary_text>
+            <footer_text>• フッタテキスト</footer_text>
+            <title_footer_text>• タイトルフッタテキスト</title_footer_text>
+            <header_text>• ヘッダテキスト</header_text>
+            <navigation_part_text>• ナビゲーションパートテキスト</navigation_part_text>
+        </namedstyles>
+    </metadata>
+</theme>

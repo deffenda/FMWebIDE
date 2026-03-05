@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Cosmos</name>
+    <group>Arredondado</group>
+    <metadata>
+        <namedstyles>
+            <minimal_drop-down_calendar>Calendário suspenso mínimo</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Lista suspensa mínima</minimal_drop-down_list>
+            <minimal_edit_box>Caixa de edição mínima</minimal_edit_box>
+            <minimal_pop-up_menu>Menu pop-up mínimo</minimal_pop-up_menu>
+            <minimal_container>Container mínimo</minimal_container>
+            <title_header_text>• Texto do cabeçalho do título</title_header_text>
+            <leading_grand_summary_text>• Texto do resumo geral inicial</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Texto do sub-resumo 1 inicial</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Texto do sub-resumo 2 inicial</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Texto adicional do sub-resumo inicial</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Texto adicional do sub-resumo final</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Texto do sub-resumo 2 final</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Texto do sub-resumo 1 final</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Texto do resumo geral final</trailing_grand_summary_text>
+            <footer_text>• Texto de espaço reservado do rodapé</footer_text>
+            <title_footer_text>• Texto do rodapé do título</title_footer_text>
+            <header_text>• Texto de espaço reservado do cabeçalho</header_text>
+            <navigation_part_text>• Texto da parte de navegação</navigation_part_text>
+        </namedstyles>
+    </metadata>
+</theme>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<theme>
+    <id>com.filemaker.theme.minimalist_touch</id>
+    <name>Minimalist Touch</name>
+    <group>Basic</group>
+    <version>6</version>
+    <cssfile>minimalist_touch.css</cssfile>
+    <platform>Touch</platform>
+    <preview>images/minimalisttouchPreview.png</preview>
+    <metadata>
+        <layoutbuilder>
+            <kBaseFontSize>16</kBaseFontSize>
+            <kReportBreakFieldIndent>20</kReportBreakFieldIndent>
+            <kBackgroundPaddingTop>0</kBackgroundPaddingTop>
+            <kBackgroundPaddingBottom>0</kBackgroundPaddingBottom>
+            <kBackgroundPaddingLeft>0</kBackgroundPaddingLeft>
+            <kBackgroundPaddingRight>0</kBackgroundPaddingRight>
+            <kFirstPartPaddingTop>20</kFirstPartPaddingTop>
+            <kLastPartPaddingBottom>8</kLastPartPaddingBottom>
+            <kPartPaddingLeft>20</kPartPaddingLeft>
+            <kPartPaddingRight>20</kPartPaddingRight>
+            <kLeadingPartPaddingTop>8</kLeadingPartPaddingTop>
+            <kLeadingPartPaddingBottom>5</kLeadingPartPaddingBottom>
+            <kBodyPartPaddingTop>8</kBodyPartPaddingTop>
+            <kBodyPartPaddingBottom>5</kBodyPartPaddingBottom>
+            <kTrailingPartPaddingTop>8</kTrailingPartPaddingTop>
+            <kTrailingPartPaddingBottom>5</kTrailingPartPaddingBottom>
+            <kVerticalFieldSpacing>4</kVerticalFieldSpacing>
+            <kTitleHeaderMinSize>19</kTitleHeaderMinSize>
+            <kHeaderMinSize>19</kHeaderMinSize>
+            <kBodyMinSize>60</kBodyMinSize>
+            <kFooterMinSize>18</kFooterMinSize>
+            <kTitleFooterMinSize>19</kTitleFooterMinSize>
+            <kTopNavPartMinSize>19</kTopNavPartMinSize>
+            <kBottomNavPartMinSize>19</kBottomNavPartMinSize>
+            <kSummaryPartMinSize>19</kSummaryPartMinSize>
+        </layoutbuilder>
+        <charting>
+            <colorScheme>Gray</colorScheme>
+        </charting>
+    </metadata>
+</theme>

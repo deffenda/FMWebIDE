@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>夜光</name>
+    <group>向往</group>
+    <cssfile>luminous_sc.css</cssfile>
+    <metadata>
+        <namedstyles>
+            <accent_button_1>强调按钮 1</accent_button_1>
+            <accent_button_2>强调按钮 2</accent_button_2>
+            <minimal_slide_control>最小滑动控件</minimal_slide_control>
+            <slide_control_alternate>滑动控件备选</slide_control_alternate>
+            <photo_layout_background>照片布局背景</photo_layout_background>
+            <graphic_layout_background>图片布局背景</graphic_layout_background>
+            <texture_layout_background>纹理布局背景</texture_layout_background>
+            <content_region>内容区域</content_region>
+            <accent_color_1>强调色 1</accent_color_1>
+            <accent_color_2>强调色 2</accent_color_2>
+            <accent_color_3>强调色 3</accent_color_3>
+            <gradient_1>渐变 1</gradient_1>
+            <gradient_2>渐变 2</gradient_2>
+            <column_header_text>列标题文本</column_header_text>
+            <accent_text_1>强调文本 1</accent_text_1>
+            <accent_text_2>强调文本 2</accent_text_2>
+            <title_text_1>标题文本 1</title_text_1>
+            <title_text_2>标题文本 2</title_text_2>
+            <minimal_edit_box>最小编辑框</minimal_edit_box>
+            <minimal_container>最小容器</minimal_container>
+            <minimal_drop-down_calendar>最小下拉日历</minimal_drop-down_calendar>
+            <minimal_drop-down_list>最小下拉列表</minimal_drop-down_list>
+            <minimal_pop-up_menu>最小弹出菜单</minimal_pop-up_menu>
+            <column_header_region>列标题区域</column_header_region>
+            <title_header_text>• 标题页眉文本</title_header_text>
+            <leading_grand_summary_text>• 前置总计文本</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• 前置小计 1 文本</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• 前置小计 2 文本</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• 前置小计其他文本</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• 后置小计其他文本</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• 后置小计 2 文本</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• 后置小计 1 文本</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• 后置总计文本</trailing_grand_summary_text>
+            <footer_text>• 页脚文本</footer_text>
+            <title_footer_text>• 标题页脚文本</title_footer_text>
+            <header_text>• 页眉文本</header_text>
+            <navigation_part_text>• 导航部分文本</navigation_part_text>
+            <body_button_bar>正文按钮栏</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

@@ -1,0 +1,374 @@
+{
+  "id": "fm-pt-statuses-Q29tbW9u",
+  "name": "PT.STATUSES",
+  "defaultTableOccurrence": "PT.STATUSES",
+  "canvas": {
+    "width": 1344,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-pt-statuses-Q29tbW9u-42",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 259,
+        "height": 135,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "42",
+        "rotation": 0,
+        "label": "{{LayoutName}}&#13;{{AccountName}}&#13;{{UserName}}&#13;{{SystemIPAddress}}&#13;{{CurrentHostTimestamp}}&#13;{{SystemNICAddress}}",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-statuses-Q29tbW9u-46",
+      "position": {
+        "x": 408,
+        "y": 90,
+        "width": 79,
+        "height": 21,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "46",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hex",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "hex",
+        "tableOccurrence": "pt.statuses_CM.COLORS__Fore"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-statuses-Q29tbW9u-30",
+      "position": {
+        "x": 0,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "30",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "__kp_status_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "__kp_status_ID",
+        "tableOccurrence": "PT.STATUSES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-statuses-Q29tbW9u-31",
+      "position": {
+        "x": 240,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "31",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_color_back_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_color_back_ID",
+        "tableOccurrence": "PT.STATUSES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-statuses-Q29tbW9u-32",
+      "position": {
+        "x": 360,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "32",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_color_fore_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_color_fore_ID",
+        "tableOccurrence": "PT.STATUSES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-statuses-Q29tbW9u-33",
+      "position": {
+        "x": 480,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "33",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "back_64",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "back_64",
+        "tableOccurrence": "PT.STATUSES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-statuses-Q29tbW9u-34",
+      "position": {
+        "x": 600,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "34",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "color",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "color",
+        "tableOccurrence": "PT.STATUSES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-statuses-Q29tbW9u-35",
+      "position": {
+        "x": 720,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "35",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "fore_64",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "fore_64",
+        "tableOccurrence": "PT.STATUSES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-statuses-Q29tbW9u-36",
+      "position": {
+        "x": 840,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "36",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_completed",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_completed",
+        "tableOccurrence": "PT.STATUSES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-statuses-Q29tbW9u-39",
+      "position": {
+        "x": 960,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "39",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "status_number",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "status_number",
+        "tableOccurrence": "PT.STATUSES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-statuses-Q29tbW9u-65",
+      "position": {
+        "x": 1080,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "65",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_remaining",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 11
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_remaining",
+        "tableOccurrence": "PT.STATUSES"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-statuses-Q29tbW9u-70",
+      "position": {
+        "x": 1200,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "70",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "PT.STATUSES"
+      }
+    }
+  ],
+  "actions": []
+}

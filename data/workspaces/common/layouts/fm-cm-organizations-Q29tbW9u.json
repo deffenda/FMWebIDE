@@ -1,0 +1,188 @@
+{
+  "id": "fm-cm-organizations-Q29tbW9u",
+  "name": "CM.ORGANIZATIONS",
+  "defaultTableOccurrence": "CM.ORGANIZATIONS",
+  "canvas": {
+    "width": 1402,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-cm-organizations-Q29tbW9u-34",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 259,
+        "height": 135,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "34",
+        "rotation": 0,
+        "label": "{{LayoutName}}&#13;{{AccountName}}&#13;{{UserName}}&#13;{{SystemIPAddress}}&#13;{{CurrentHostTimestamp}}&#13;{{SystemNICAddress}}",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-organizations-Q29tbW9u-81",
+      "position": {
+        "x": 0,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "81",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "__kp_organization_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "__kp_organization_ID",
+        "tableOccurrence": "CM.ORGANIZATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-organizations-Q29tbW9u-83",
+      "position": {
+        "x": 120,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "83",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_organization_type_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_organization_type_ID",
+        "tableOccurrence": "CM.ORGANIZATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-organizations-Q29tbW9u-84",
+      "position": {
+        "x": 240,
+        "y": 20,
+        "width": 634,
+        "height": 17,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "84",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "CM.ORGANIZATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-organizations-Q29tbW9u-89",
+      "position": {
+        "x": 874,
+        "y": 20,
+        "width": 247,
+        "height": 17,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "89",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "acronym",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "acronym",
+        "tableOccurrence": "CM.ORGANIZATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-organizations-Q29tbW9u-99",
+      "position": {
+        "x": 1121,
+        "y": 20,
+        "width": 257,
+        "height": 17,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "99",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name_display",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "name_display",
+        "tableOccurrence": "CM.ORGANIZATIONS"
+      }
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,358 @@
+{
+  "id": "fm-template-Q29tbW9u",
+  "name": "TEMPLATE",
+  "defaultTableOccurrence": "TEMPLATE",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-template-Q29tbW9u-1",
+      "position": {
+        "x": 26,
+        "y": 55,
+        "width": 101,
+        "height": 17,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "label": "__kp_template_ID",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-template-Q29tbW9u-2",
+      "position": {
+        "x": 138,
+        "y": 52,
+        "width": 253,
+        "height": 21,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "__kp_template_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "__kp_template_ID",
+        "tableOccurrence": "TEMPLATE"
+      }
+    },
+    {
+      "id": "ddr-fm-template-Q29tbW9u-3",
+      "position": {
+        "x": 61,
+        "y": 78,
+        "width": 66,
+        "height": 17,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "3",
+        "rotation": 0,
+        "label": "_kf_key_ID",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-template-Q29tbW9u-4",
+      "position": {
+        "x": 138,
+        "y": 75,
+        "width": 253,
+        "height": 21,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "4",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_key_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_key_ID",
+        "tableOccurrence": "TEMPLATE"
+      }
+    },
+    {
+      "id": "ddr-fm-template-Q29tbW9u-5",
+      "position": {
+        "x": 93,
+        "y": 101,
+        "width": 34,
+        "height": 17,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "5",
+        "rotation": 0,
+        "label": "name",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-template-Q29tbW9u-6",
+      "position": {
+        "x": 138,
+        "y": 98,
+        "width": 253,
+        "height": 21,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "6",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "TEMPLATE"
+      }
+    },
+    {
+      "id": "ddr-fm-template-Q29tbW9u-7",
+      "position": {
+        "x": 21,
+        "y": 124,
+        "width": 106,
+        "height": 17,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "7",
+        "rotation": 0,
+        "label": "zz_account_create",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-template-Q29tbW9u-8",
+      "position": {
+        "x": 138,
+        "y": 121,
+        "width": 253,
+        "height": 21,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "8",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_account_create",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_account_create",
+        "tableOccurrence": "TEMPLATE"
+      }
+    },
+    {
+      "id": "ddr-fm-template-Q29tbW9u-9",
+      "position": {
+        "x": 19,
+        "y": 147,
+        "width": 108,
+        "height": 17,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "9",
+        "rotation": 0,
+        "label": "zz_account_modify",
+        "ddrArrangeOrder": 9
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-template-Q29tbW9u-10",
+      "position": {
+        "x": 138,
+        "y": 144,
+        "width": 253,
+        "height": 21,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "10",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_account_modify",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_account_modify",
+        "tableOccurrence": "TEMPLATE"
+      }
+    },
+    {
+      "id": "ddr-fm-template-Q29tbW9u-11",
+      "position": {
+        "x": 7,
+        "y": 170,
+        "width": 120,
+        "height": 17,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "11",
+        "rotation": 0,
+        "label": "zz_timestamp_create",
+        "ddrArrangeOrder": 11
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-template-Q29tbW9u-12",
+      "position": {
+        "x": 138,
+        "y": 167,
+        "width": 241,
+        "height": 21,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "12",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_timestamp_create",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_timestamp_create",
+        "tableOccurrence": "TEMPLATE"
+      }
+    },
+    {
+      "id": "ddr-fm-template-Q29tbW9u-13",
+      "position": {
+        "x": 5,
+        "y": 193,
+        "width": 122,
+        "height": 17,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "13",
+        "rotation": 0,
+        "label": "zz_timestamp_modify",
+        "ddrArrangeOrder": 13
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-template-Q29tbW9u-14",
+      "position": {
+        "x": 138,
+        "y": 190,
+        "width": 241,
+        "height": 21,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "14",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_timestamp_modify",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_timestamp_modify",
+        "tableOccurrence": "TEMPLATE"
+      }
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,232 @@
+{
+  "id": "fm-cm-colors-maintenance-Q29tbW9u",
+  "name": "CM.COLORS Maintenance",
+  "defaultTableOccurrence": "CM.COLORS Maintenance",
+  "canvas": {
+    "width": 1032,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-cm-colors-maintenance-Q29tbW9u-2",
+      "position": {
+        "x": 543,
+        "y": 53,
+        "width": 79,
+        "height": 21,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "b",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "b",
+        "tableOccurrence": "CM.COLORS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-colors-maintenance-Q29tbW9u-3",
+      "position": {
+        "x": 649,
+        "y": 53,
+        "width": 79,
+        "height": 21,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "3",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "g",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "g",
+        "tableOccurrence": "CM.COLORS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-colors-maintenance-Q29tbW9u-5",
+      "position": {
+        "x": 755,
+        "y": 53,
+        "width": 79,
+        "height": 21,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "5",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "r",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "r",
+        "tableOccurrence": "CM.COLORS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-colors-maintenance-Q29tbW9u-6",
+      "position": {
+        "x": 35,
+        "y": 53,
+        "width": 276,
+        "height": 21,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "6",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "CM.COLORS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-colors-maintenance-Q29tbW9u-7",
+      "position": {
+        "x": 319,
+        "y": 52,
+        "width": 211,
+        "height": 22,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "7",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "color",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "color",
+        "tableOccurrence": "CM.COLORS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-colors-maintenance-Q29tbW9u-8",
+      "position": {
+        "x": 842,
+        "y": 52,
+        "width": 79,
+        "height": 21,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "8",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "hex",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "hex",
+        "tableOccurrence": "CM.COLORS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-colors-maintenance-Q29tbW9u-9",
+      "position": {
+        "x": 929,
+        "y": 52,
+        "width": 79,
+        "height": 21,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "9",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "base64",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "base64",
+        "tableOccurrence": "CM.COLORS"
+      }
+    }
+  ],
+  "actions": []
+}

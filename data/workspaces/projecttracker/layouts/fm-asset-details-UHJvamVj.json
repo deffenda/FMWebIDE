@@ -1,0 +1,24 @@
+{
+  "id": "fm-asset-details-UHJvamVj",
+  "name": "Asset Details",
+  "defaultTableOccurrence": "Asset Details",
+  "canvas": {
+    "width": 1200,
+    "height": 900,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false,
+    "showRulers": false,
+    "showGuides": false
+  },
+  "parts": [
+    {
+      "id": "2fba0124-8428-4d33-9301-57113af299af",
+      "type": "body",
+      "label": "Body",
+      "height": 900
+    }
+  ],
+  "components": [],
+  "actions": []
+}

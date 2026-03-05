@@ -1,0 +1,14 @@
+{
+  "id": "fm-pt-statuses-UHJvamVj",
+  "name": "PT.STATUSES",
+  "defaultTableOccurrence": "PT.STATUSES",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [],
+  "actions": []
+}

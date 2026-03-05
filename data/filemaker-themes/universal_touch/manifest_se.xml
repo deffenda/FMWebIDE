@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Universell - Touch</name>
+    <group>Universell</group>
+    <metadata>
+        <namedstyles>
+            <array-highlight-buttonbar>Matris | Markera</array-highlight-buttonbar>
+            <array-inverted-buttonbar>Matris | Knockout</array-inverted-buttonbar>
+            <bold-inverted-text>Betoning | Knockout</bold-inverted-text>
+            <border-edit>Kantlinje | Sekundär</border-edit>
+            <border-highlight-button>Kantlinje | Markera</border-highlight-button>
+            <border-inverted-buttonbar>Kantlinje | Sekundär</border-inverted-buttonbar>
+            <border-inverted-calendar>Kantlinje | Knockout</border-inverted-calendar>
+            <border-inverted-checkbox>Kantlinje | Inverterad</border-inverted-checkbox>
+            <border-inverted-container>Kantlinje | Inverterad</border-inverted-container>
+            <border-inverted-dropdown>Kantlinje | Knockout</border-inverted-dropdown>
+            <border-inverted-edit>Kantlinje | Inverterad</border-inverted-edit>
+            <border-inverted-popup>Kantlinje | Knockout</border-inverted-popup>
+            <border-inverted-portal>Kantlinje | Inverterad</border-inverted-portal>
+            <border-inverted-radio>Kantlinje | Knockout</border-inverted-radio>
+            <border-inverted-slide>Kantlinje | Inverterad</border-inverted-slide>
+            <border-inverted-tab>Kantlinje | Inverterad</border-inverted-tab>
+            <border-popover>Kantlinje | Knockout</border-popover>
+            <border-secondary-button-bar>Kantlinje | Inverterad</border-secondary-button-bar>
+            <border-secondary-calendar>Kantlinje | Sekundär</border-secondary-calendar>
+            <border-secondary-dropdown>Kantlinje | Sekundär</border-secondary-dropdown>
+            <border-secondary-popup>Kantlinje | Sekundär</border-secondary-popup>
+            <emphasis-primary-text>Betoning | Primär</emphasis-primary-text>
+            <fill-checkbox>Fyllning | Sekundär</fill-checkbox>
+            <fill-container>Fyllning | Sekundär</fill-container>
+            <fill-edit>Fyllning | Sekundär</fill-edit>
+            <fill-highlight-button>Fyllning | Markera</fill-highlight-button>
+            <fill-inverted-button>Fyllning | Inverterad</fill-inverted-button>
+            <fill-inverted-calendar>Fyllning | Inverterad</fill-inverted-calendar>
+            <fill-inverted-checkbox>Fyllning | Inverterad</fill-inverted-checkbox>
+            <fill-inverted-container>Fyllning | Inverterad</fill-inverted-container>
+            <fill-inverted-dropdown>Fyllning | Inverterad</fill-inverted-dropdown>
+            <fill-inverted-edit>Fyllning | Inverterad</fill-inverted-edit>
+            <fill-inverted-popover>Fyllning | Inverterad</fill-inverted-popover>
+            <fill-inverted-popup>Fyllning | Inverterad</fill-inverted-popup>
+            <fill-inverted-radio>Fyllning | Inverterad</fill-inverted-radio>
+            <fill-knockout-container>Fyllning | Knockout</fill-knockout-container>
+            <fill-low-shadow-inverted-calendar>Fyllning | Låg skugga | Inverterad</fill-low-shadow-inverted-calendar>
+            <fill-low-shadow-inverted-container>Fyllning | Låg skugga | Inverterad</fill-low-shadow-inverted-container>
+            <fill-low-shadow-inverted-dropdown>Fyllning | Låg skugga | Inverterad</fill-low-shadow-inverted-dropdown>
+            <fill-low-shadow-inverted-edit>Fyllning | Låg skugga | Inverterad</fill-low-shadow-inverted-edit>
+            <fill-low-shadow-inverted-popup>Fyllning | Låg skugga | Inverterad</fill-low-shadow-inverted-popup>
+            <fill-secondary-calendar>Fyllning | Sekundär</fill-secondary-calendar>
+            <fill-secondary-dropdown>Fyllning | Sekundär</fill-secondary-dropdown>
+            <fill-secondary-popup>Fyllning | Sekundär</fill-secondary-popup>
+            <fill-secondary-radio>Fyllning | Sekundär</fill-secondary-radio>
+            <high-shadow-inverted-shape>Hög skugga | Inverterad</high-shadow-inverted-shape>
+            <high-shadow-inverted-slide>Hög skugga | Inverterad</high-shadow-inverted-slide>
+            <high-shadow-knockout-shape>Hög skugga | Knockout</high-shadow-knockout-shape>
+            <high-shadow-knockout-slide>Hög skugga | Knockout</high-shadow-knockout-slide>
+            <highlight-shape>Markera</highlight-shape>
+            <highlight-text>Markera</highlight-text>
+            <inverted-background>Inverterad</inverted-background>
+            <inverted-button>Knockout</inverted-button>
+            <inverted-chart>Inverterad</inverted-chart>
+            <inverted-line>Knockout</inverted-line>
+            <inverted-navigation>Navigering | Inverterad</inverted-navigation>
+            <inverted-part>Inverterad</inverted-part>
+            <inverted-shape>Inverterad</inverted-shape>
+            <inverted-subsummary>Delsumma | Inverterad</inverted-subsummary>
+            <inverted-text>Knockout</inverted-text>
+            <inverted-web>Inverterad</inverted-web>
+            <knockout-shape>Knockout</knockout-shape>
+            <large-inverted-text>Stor | Knockout</large-inverted-text>
+            <large-primary-text>Stor | Primär</large-primary-text>
+            <light-secondary-part>Sekundär</light-secondary-part>
+            <light-secondary-subsummary>Delsumma | Sekundär</light-secondary-subsummary>
+            <line-inverted-portal>Rad | Inverterad</line-inverted-portal>
+            <line-secondary-portal>Rad | Sekundär</line-secondary-portal>
+            <link-button>Länk</link-button>
+            <low-shadow-inverted-shape>Låg skugga | Inverterad</low-shadow-inverted-shape>
+            <low-shadow-inverted-slide>Låg skugga | Inverterad</low-shadow-inverted-slide>
+            <low-shadow-knockout-shape>Låg skugga | Knockout</low-shadow-knockout-shape>
+            <low-shadow-knockout-slide>Låg skugga | Knockout</low-shadow-knockout-slide>
+            <minimum-button>Minimum | Inverterad</minimum-button>
+            <minimum-highlight-button>Minimum | Markera</minimum-highlight-button>
+            <minimum-inverted-button>Minimum | Knockout</minimum-inverted-button>
+            <minimum-secondary-button>Minimum | Sekundär</minimum-secondary-button>
+            <minimum-secondary-highlight-button>Minimum | Sekundär markering</minimum-secondary-highlight-button>
+            <pill-highlight-button>Piller | Markera</pill-highlight-button>
+            <pill-secondary-button>Piller | Sekundär</pill-secondary-button>
+            <primary-line>Inverterad</primary-line>
+            <round-green-button>Rund | Grön</round-green-button>
+            <round-highlight-button>Rund | Markera</round-highlight-button>
+            <round-inverted-button>Rund | Inverterad</round-inverted-button>
+            <round-orange-button>Rund | Orange</round-orange-button>
+            <round-red-button>Rund | Röd</round-red-button>
+            <round-yellow-button>Rund | Gul</round-yellow-button>
+            <rounded-border-highlight-button>Rundad kantlinje | Markera</rounded-border-highlight-button>
+            <rounded-fill-highlight-button>Rundad fyllning | Markera</rounded-fill-highlight-button>
+            <rounded-fill-inverted-button>Rundad fyllning | Inverterad</rounded-fill-inverted-button>
+            <secondary-background>Sekundär</secondary-background>
+            <secondary-highlight-button>Sekundär markering</secondary-highlight-button>
+            <secondary-text>Sekundär</secondary-text>
+            <separator-highlight-buttonbar>Skiljetecken | Markera</separator-highlight-buttonbar>
+            <separator-inverted-buttonbar>Skiljetecken | Knockout</separator-inverted-buttonbar>
+            <separator-uppercase-highlight-buttonbar>Skiljetecken | Versal | Markera</separator-uppercase-highlight-buttonbar>
+            <separator-uppercase-inverted-buttonbar>Skiljetecken | Versal | Knockout</separator-uppercase-inverted-buttonbar>
+            <small-inverted-text>Liten | Knockout</small-inverted-text>
+            <small-primary-text>Liten | Primär</small-primary-text>
+            <small-secondary-text>Liten | Sekundär</small-secondary-text>
+            <tab-bar-buttonbar>Flikrad</tab-bar-buttonbar>
+            <underline-container>Understruken | Sekundär</underline-container>
+            <underline-highlight-buttonbar>Understruken | Markera</underline-highlight-buttonbar>
+            <underline-inverted-buttonbar>Understruken | Knockout</underline-inverted-buttonbar>
+            <underline-inverted-calendar>Understruken | Knockout</underline-inverted-calendar>
+            <underline-inverted-container>Understruken | Inverterad</underline-inverted-container>
+            <underline-inverted-dropdown>Understruken | Knockout</underline-inverted-dropdown>
+            <underline-inverted-edit>Understruken | Inverterad</underline-inverted-edit>
+            <underline-inverted-popup>Understruken | Knockout</underline-inverted-popup>
+            <underline-uppercase-highlight-buttonbar>Understruken | Versal | Markera</underline-uppercase-highlight-buttonbar>
+            <underline-uppercase-inverted-buttonbar>Understruken | Versal | Knockout</underline-uppercase-inverted-buttonbar>
+            <uppercase-secondary-text>Versal | Sekundär</uppercase-secondary-text>
+        </namedstyles>
+    </metadata>
+</theme>

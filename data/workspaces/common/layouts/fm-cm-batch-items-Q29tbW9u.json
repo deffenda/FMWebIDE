@@ -1,0 +1,715 @@
+{
+  "id": "fm-cm-batch-items-Q29tbW9u",
+  "name": "CM.BATCH_ITEMS",
+  "defaultTableOccurrence": "CM.BATCH_ITEMS",
+  "canvas": {
+    "width": 3197,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-63",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 259,
+        "height": 135,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "63",
+        "rotation": 0,
+        "label": "{{LayoutName}}&#13;{{AccountName}}&#13;{{UserName}}&#13;{{SystemIPAddress}}&#13;{{CurrentHostTimestamp}}&#13;{{SystemNICAddress}}",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-43",
+      "position": {
+        "x": 0,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "43",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "__kp_batch_item_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "__kp_batch_item_ID",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-45",
+      "position": {
+        "x": 120,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "45",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_application_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_application_ID",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-46",
+      "position": {
+        "x": 240,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "46",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_batch_update_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_batch_update_ID",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-47",
+      "position": {
+        "x": 360,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "47",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "application_namespace",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "application_namespace",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-48",
+      "position": {
+        "x": 480,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "48",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "columns_added",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "columns_added",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-49",
+      "position": {
+        "x": 600,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "49",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "columns_missing",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "columns_missing",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-50",
+      "position": {
+        "x": 720,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "50",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "context",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "context",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-51",
+      "position": {
+        "x": 840,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "51",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "destination",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "destination",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-52",
+      "position": {
+        "x": 960,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "52",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "destination_columns",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "destination_columns",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-54",
+      "position": {
+        "x": 1080,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "54",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "end_time",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 11
+      },
+      "type": "field",
+      "binding": {
+        "field": "end_time",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-55",
+      "position": {
+        "x": 1200,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "55",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "export_result",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "export_result",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-56",
+      "position": {
+        "x": 1320,
+        "y": 20,
+        "width": 653,
+        "height": 17,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "56",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "file_path",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "file_path",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-57",
+      "position": {
+        "x": 1973,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "57",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "import_result",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "import_result",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-53",
+      "position": {
+        "x": 2093,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "53",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "destination_count",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 15
+      },
+      "type": "field",
+      "binding": {
+        "field": "destination_count",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-62",
+      "position": {
+        "x": 2213,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "62",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "source_count",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 16
+      },
+      "type": "field",
+      "binding": {
+        "field": "source_count",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-58",
+      "position": {
+        "x": 2333,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "58",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_unsuccessful",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 17
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_unsuccessful",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-59",
+      "position": {
+        "x": 2453,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "59",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "script_name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "script_name",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-60",
+      "position": {
+        "x": 2573,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "60",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "source",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 19
+      },
+      "type": "field",
+      "binding": {
+        "field": "source",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-61",
+      "position": {
+        "x": 2693,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "61",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "source_columns",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "source_columns",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-63",
+      "position": {
+        "x": 2813,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "63",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "time_elapsed",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 21
+      },
+      "type": "field",
+      "binding": {
+        "field": "time_elapsed",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-64",
+      "position": {
+        "x": 2933,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "64",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "time_elapsed_sum",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 22
+      },
+      "type": "field",
+      "binding": {
+        "field": "time_elapsed_sum",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-batch-items-Q29tbW9u-65",
+      "position": {
+        "x": 3053,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "65",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "time_start",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 23
+      },
+      "type": "field",
+      "binding": {
+        "field": "time_start",
+        "tableOccurrence": "CM.BATCH_ITEMS"
+      }
+    }
+  ],
+  "actions": []
+}

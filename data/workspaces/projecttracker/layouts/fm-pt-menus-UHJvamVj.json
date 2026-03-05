@@ -1,0 +1,356 @@
+{
+  "id": "fm-pt-menus-UHJvamVj",
+  "name": "PT.MENUS",
+  "defaultTableOccurrence": "PT.MENUS",
+  "canvas": {
+    "width": 1353,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-pt-menus-UHJvamVj-33",
+      "position": {
+        "x": 0,
+        "y": 18,
+        "width": 120,
+        "height": 15,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "33",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "__kp_menu_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "__kp_menu_ID",
+        "tableOccurrence": "PT.MENUS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-menus-UHJvamVj-34",
+      "position": {
+        "x": 120,
+        "y": 18,
+        "width": 120,
+        "height": 15,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "34",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_application_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_application_ID",
+        "tableOccurrence": "PT.MENUS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-menus-UHJvamVj-35",
+      "position": {
+        "x": 0,
+        "y": 18,
+        "width": 33,
+        "height": 15,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "35",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_environment_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_environment_ID",
+        "tableOccurrence": "PT.MENUS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-menus-UHJvamVj-37",
+      "position": {
+        "x": 33,
+        "y": 18,
+        "width": 216,
+        "height": 15,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "37",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "layout_name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "layout_name",
+        "tableOccurrence": "PT.MENUS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-menus-UHJvamVj-38",
+      "position": {
+        "x": 249,
+        "y": 18,
+        "width": 120,
+        "height": 15,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "38",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "menu_label",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "menu_label",
+        "tableOccurrence": "PT.MENUS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-menus-UHJvamVj-39",
+      "position": {
+        "x": 369,
+        "y": 18,
+        "width": 120,
+        "height": 15,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "39",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "module_label",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "module_label",
+        "tableOccurrence": "PT.MENUS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-menus-UHJvamVj-41",
+      "position": {
+        "x": 489,
+        "y": 18,
+        "width": 120,
+        "height": 15,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "41",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "view_state",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "view_state",
+        "tableOccurrence": "PT.MENUS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-menus-UHJvamVj-42",
+      "position": {
+        "x": 849,
+        "y": 18,
+        "width": 120,
+        "height": 15,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "42",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_account_create",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_account_create",
+        "tableOccurrence": "PT.MENUS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-menus-UHJvamVj-43",
+      "position": {
+        "x": 969,
+        "y": 18,
+        "width": 120,
+        "height": 15,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "43",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_account_modify",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_account_modify",
+        "tableOccurrence": "PT.MENUS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-menus-UHJvamVj-53",
+      "position": {
+        "x": 1089,
+        "y": 18,
+        "width": 120,
+        "height": 15,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "53",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_timestamp_create",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_timestamp_create",
+        "tableOccurrence": "PT.MENUS"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-menus-UHJvamVj-54",
+      "position": {
+        "x": 1209,
+        "y": 18,
+        "width": 120,
+        "height": 15,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "54",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_timestamp_modify",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 11
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_timestamp_modify",
+        "tableOccurrence": "PT.MENUS"
+      }
+    }
+  ],
+  "actions": []
+}

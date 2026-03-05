@@ -1,0 +1,39 @@
+{
+  "name": "fm-web-ide",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf .next",
+    "dev": "next dev --turbopack",
+    "dev:reset": "npm run clean && next dev --turbopack",
+    "import:ddr": "node scripts/import-ddr-layouts.mjs",
+    "import:themes": "node scripts/import-filemaker-themes.mjs",
+    "import:theme-palettes": "node scripts/build-filemaker-theme-palettes.mjs",
+    "audit:ddr-inspector": "node scripts/audit-ddr-inspector-mapping.mjs",
+    "build": "next build",
+    "build:reset": "npm run clean && next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.mjs,.mts",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run test:portal && npm run test:browse-url && npm run test:menu-actions && npm run test:layout-import",
+    "test:portal": "node --experimental-strip-types --test src/lib/portal-utils.test.mts",
+    "test:browse-url": "node --experimental-strip-types --test src/lib/browse-url-state.test.mts",
+    "test:menu-actions": "node --experimental-strip-types --test src/lib/menu-action-coverage.test.mts",
+    "test:layout-import": "node --experimental-strip-types --test src/lib/layout-import-regression.test.mts",
+    "test:fm-regression": "FM_INTEGRATION_TESTS=1 node --experimental-strip-types --experimental-specifier-resolution=node --test src/server/filemaker-regression.test.mts"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "next": "^16.1.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "eslint": "^9.20.1",
+    "eslint-config-next": "^16.1.6",
+    "typescript": "^5.7.3"
+  }
+}

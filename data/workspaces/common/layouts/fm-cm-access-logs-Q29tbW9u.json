@@ -1,0 +1,1025 @@
+{
+  "id": "fm-cm-access-logs-Q29tbW9u",
+  "name": "CM.ACCESS_LOGS",
+  "defaultTableOccurrence": "CM.ACCESS_LOGS",
+  "canvas": {
+    "width": 3790,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-115",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 259,
+        "height": 135,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "115",
+        "rotation": 0,
+        "label": "{{LayoutName}}&#13;{{AccountName}}&#13;{{UserName}}&#13;{{SystemIPAddress}}&#13;{{CurrentHostTimestamp}}&#13;{{SystemNICAddress}}",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-395",
+      "position": {
+        "x": 0,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "395",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "__kp_access_log_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "__kp_access_log_ID",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-708",
+      "position": {
+        "x": 0,
+        "y": 20,
+        "width": 136,
+        "height": 17,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "708",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "AccountName",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "AccountName",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-728",
+      "position": {
+        "x": 136,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "728",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "UserName",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "UserName",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-782",
+      "position": {
+        "x": 256,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "782",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "AccountExtendedPrivileges",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "AccountExtendedPrivileges",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-783",
+      "position": {
+        "x": 376,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "783",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "AccountPrivilegeSetName",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "AccountPrivilegeSetName",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-784",
+      "position": {
+        "x": 496,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "784",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "ApplicationLanguage",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "ApplicationLanguage",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-785",
+      "position": {
+        "x": 616,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "785",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "ApplicationVersion",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "ApplicationVersion",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-786",
+      "position": {
+        "x": 736,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "786",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "ConnectionAttributes",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "ConnectionAttributes",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-787",
+      "position": {
+        "x": 856,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "787",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "ConnectionState",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "ConnectionState",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-788",
+      "position": {
+        "x": 976,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "788",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "CurrentExtendedPrivileges",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 11
+      },
+      "type": "field",
+      "binding": {
+        "field": "CurrentExtendedPrivileges",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-789",
+      "position": {
+        "x": 1096,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "789",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Device",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "Device",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-790",
+      "position": {
+        "x": 1216,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "790",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "EncryptionState",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "EncryptionState",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-791",
+      "position": {
+        "x": 1336,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "791",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "FileName",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "FileName",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-792",
+      "position": {
+        "x": 1456,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "792",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "FilePath",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 15
+      },
+      "type": "field",
+      "binding": {
+        "field": "FilePath",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-793",
+      "position": {
+        "x": 1576,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "793",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "HostApplicationVersion",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 16
+      },
+      "type": "field",
+      "binding": {
+        "field": "HostApplicationVersion",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-794",
+      "position": {
+        "x": 1696,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "794",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "HostIPAddress",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 17
+      },
+      "type": "field",
+      "binding": {
+        "field": "HostIPAddress",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-795",
+      "position": {
+        "x": 1816,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "795",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "HostName",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "HostName",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-796",
+      "position": {
+        "x": 1936,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "796",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "InstalledFMPlugins",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 19
+      },
+      "type": "field",
+      "binding": {
+        "field": "InstalledFMPlugins",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-797",
+      "position": {
+        "x": 2056,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "797",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "NetworkProtocol",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "NetworkProtocol",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-798",
+      "position": {
+        "x": 2176,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "798",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "NetworkType",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 21
+      },
+      "type": "field",
+      "binding": {
+        "field": "NetworkType",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-799",
+      "position": {
+        "x": 2296,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "799",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "PersistentID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 22
+      },
+      "type": "field",
+      "binding": {
+        "field": "PersistentID",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-800",
+      "position": {
+        "x": 2416,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "800",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "ScriptName",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 23
+      },
+      "type": "field",
+      "binding": {
+        "field": "ScriptName",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-801",
+      "position": {
+        "x": 2536,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "801",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "SystemDrive",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 24
+      },
+      "type": "field",
+      "binding": {
+        "field": "SystemDrive",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-802",
+      "position": {
+        "x": 2656,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "802",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "SystemIPAddress",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 25
+      },
+      "type": "field",
+      "binding": {
+        "field": "SystemIPAddress",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-803",
+      "position": {
+        "x": 2776,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "803",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "SystemLanguage",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 26
+      },
+      "type": "field",
+      "binding": {
+        "field": "SystemLanguage",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-804",
+      "position": {
+        "x": 2896,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 27
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "804",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "SystemNICAddress",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 27
+      },
+      "type": "field",
+      "binding": {
+        "field": "SystemNICAddress",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-805",
+      "position": {
+        "x": 3016,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "805",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "SystemPlatform",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 28
+      },
+      "type": "field",
+      "binding": {
+        "field": "SystemPlatform",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-806",
+      "position": {
+        "x": 3136,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 29
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "806",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "SystemVersion",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 29
+      },
+      "type": "field",
+      "binding": {
+        "field": "SystemVersion",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-807",
+      "position": {
+        "x": 3256,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 30
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "807",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_account_create",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 30
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_account_create",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-808",
+      "position": {
+        "x": 3376,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 31
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "808",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_account_modify",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 31
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_account_modify",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-810",
+      "position": {
+        "x": 3496,
+        "y": 20,
+        "width": 120,
+        "height": 17,
+        "z": 32
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "810",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_timestamp_modify",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 32
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_timestamp_modify",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-access-logs-Q29tbW9u-451",
+      "position": {
+        "x": 3616,
+        "y": 20,
+        "width": 150,
+        "height": 17,
+        "z": 33
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "451",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_timestamp_create",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 33
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_timestamp_create",
+        "tableOccurrence": "CM.ACCESS_LOGS"
+      }
+    }
+  ],
+  "actions": []
+}

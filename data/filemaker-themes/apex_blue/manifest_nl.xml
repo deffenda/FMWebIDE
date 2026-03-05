@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<theme>
+    <id>com.filemaker.theme.apex_blue</id>
+    <name>Apex blauw</name>
+    <group>Apex blauw</group>
+    <version>1</version>
+    <cssfile>apex_blue.css</cssfile>
+    <platform>Touch</platform>
+    <preview>images/apexbluePreview.png</preview>
+    <metadata>
+        <layoutbuilder>
+            <kBaseFontSize>16</kBaseFontSize>
+            <kReportBreakFieldIndent>20</kReportBreakFieldIndent>
+            <kBackgroundPaddingTop>0</kBackgroundPaddingTop>
+            <kBackgroundPaddingBottom>0</kBackgroundPaddingBottom>
+            <kBackgroundPaddingLeft>0</kBackgroundPaddingLeft>
+            <kBackgroundPaddingRight>0</kBackgroundPaddingRight>
+            <kFirstPartPaddingTop>20</kFirstPartPaddingTop>
+            <kLastPartPaddingBottom>11</kLastPartPaddingBottom>
+            <kPartPaddingLeft>20</kPartPaddingLeft>
+            <kPartPaddingRight>20</kPartPaddingRight>
+            <kLeadingPartPaddingTop>11</kLeadingPartPaddingTop>
+            <kLeadingPartPaddingBottom>5</kLeadingPartPaddingBottom>
+            <kBodyPartPaddingTop>11</kBodyPartPaddingTop>
+            <kBodyPartPaddingBottom>5</kBodyPartPaddingBottom>
+            <kTrailingPartPaddingTop>11</kTrailingPartPaddingTop>
+            <kTrailingPartPaddingBottom>5</kTrailingPartPaddingBottom>
+            <kVerticalFieldSpacing>4</kVerticalFieldSpacing>
+            <kTitleHeaderMinSize>22</kTitleHeaderMinSize>
+            <kHeaderMinSize>110</kHeaderMinSize>
+            <kBodyMinSize>44</kBodyMinSize>
+            <kFooterMinSize>22</kFooterMinSize>
+            <kTitleFooterMinSize>22</kTitleFooterMinSize>
+            <kTopNavPartMinSize>110</kTopNavPartMinSize>
+            <kBottomNavPartMinSize>22</kBottomNavPartMinSize>
+            <kSummaryPartMinSize>22</kSummaryPartMinSize>
+        </layoutbuilder>
+        <charting>
+            <colorScheme>Muted Rainbow</colorScheme>
+        </charting>
+        <namedstyles>
+            <background_dark>Donker</background_dark>
+            <background_black>Zwart</background_black>
+            <background_white>Wit</background_white>
+            <background_gray>Grijs</background_gray>
+            <developer_note>Ontwikkelaarsopmerking</developer_note>
+            <light_gray_part>Lichtgrijs</light_gray_part>
+            <white_part>Wit</white_part>
+            <colored_part>Blauw</colored_part>
+            <underlined_part>Onderstreept</underlined_part>
+            <alternating_part>Wisselend</alternating_part>
+            <alternating_underlined_part>Wisselend onderstreept</alternating_underlined_part>
+            <part_dark_gray>Donkergrijs</part_dark_gray>
+            <filled_header_rect>Opgevuld</filled_header_rect>
+            <filled_white_rect>Wit</filled_white_rect>
+            <tinted_black_rect>Zwart getint</tinted_black_rect>
+            <shadow_rect>Schaduwvak</shadow_rect>
+            <underlined_inverse_bar>Onderstreept omgekeerd</underlined_inverse_bar>
+            <warning_button>Waarschuwing</warning_button>
+            <hover_primary_button>Vervaagd primair</hover_primary_button>
+            <large_filled_button>Groot opgevuld</large_filled_button>
+            <tinted_black_button>Zwart getint</tinted_black_button>
+            <tinted_black_bar>Zwart getint</tinted_black_bar>
+            <tinted_black_bar_left>Zwart getint links</tinted_black_bar_left>
+            <inverse_transparent_left_bar>Omgekeerd transparant links</inverse_transparent_left_bar>
+            <tinted_black_bar_right>Zwart getint rechts</tinted_black_bar_right>
+            <filled_inverse_left_bar>Opgevulde omgekeerde linkerbalk</filled_inverse_left_bar>
+            <small_bottom_aligned_text>Klein verticaal uitgelijnd onder</small_bottom_aligned_text>
+            <small_center_aligned_text>Klein verticaal uitgelijnd boven</small_center_aligned_text>
+            <tinted_black_inverse_left_text_box>Zwart getint links</tinted_black_inverse_left_text_box>
+            <inverse_transparent_borderless_button>Omgekeerd transparant</inverse_transparent_borderless_button>
+            <inverse_transparent_borderless_bar>Omgekeerd transparant</inverse_transparent_borderless_bar>
+            <inverse_transparent_border_right_button>Omgekeerde transparante rechterrand</inverse_transparent_border_right_button>
+            <faded_gray_button>Vervaagd grijs</faded_gray_button>
+            <left_aligned_button>Links uitgelijnd</left_aligned_button>
+            <right_aligned_button>Rechts uitgelijnd</right_aligned_button>
+            <right_aligned_indented_button>Rechts uitgelijnd ingesprongen</right_aligned_indented_button>
+            <left_aligned_button_bar>Links uitgelijnd</left_aligned_button_bar>
+            <right_aligned_button_bar>Rechts uitgelijnd</right_aligned_button_bar>
+            <inverse_transparent_divided_bar>Omgekeerd verdeeld</inverse_transparent_divided_bar>
+            <large_text>Grote tekst</large_text>
+            <giant_text_bordered>Enorme tekst met rand</giant_text_bordered>
+            <transparent_bar_left>Transparant links</transparent_bar_left>
+            <transparent_left_indented_bar>Transparant links ingesprongen</transparent_left_indented_bar>
+            <bordered_top>Rand boven</bordered_top>
+            <row_lines_portal>Gelijnde rijen</row_lines_portal>
+            <filled_portal>Opgevuld</filled_portal>
+            <bordered_bottom>Rand onder</bordered_bottom>
+            <large_filled>Groot opgevuld</large_filled>
+            <large_inverted_strong_text_box>Groot omgekeerd sterk</large_inverted_strong_text_box>
+            <large_inverted_text_box>Groot omgekeerd</large_inverted_text_box>
+            <medium_bottom_primary>Normaal onder primair</medium_bottom_primary>
+            <medium_inverted_centered_text>Omgekeerd transparant</medium_inverted_centered_text>
+            <primary_button>Primair</primary_button>
+            <primary_button_bar>Primair</primary_button_bar>
+            <faded_gray_button_bar>Vervaagd grijs</faded_gray_button_bar>
+            <part_gray_top_bottom>Grijze lijnen</part_gray_top_bottom>
+            <part_gray>Grijs</part_gray>
+            <medium_strong_field>Normaal sterk</medium_strong_field>
+            <center_aligned_field>Gecentreerd</center_aligned_field>
+            <right_aligned_field>Rechts uitgelijnd</right_aligned_field>
+            <transparent_bordered>Met transparante rand</transparent_bordered>
+            <transparent_bordered_center_container>Met transparante rand</transparent_bordered_center_container>
+            <pill_edit_box_field>Pilveld</pill_edit_box_field>
+            <medium_valigned_bottom_editbox>Normaal linksonder</medium_valigned_bottom_editbox>
+            <medium_valigned_btmright_editbox>Normaal rechtsonder</medium_valigned_btmright_editbox>
+            <small_valigned_top_editbox>Klein linksboven</small_valigned_top_editbox>
+            <top_line_edit_box>Alleen bovenlijn</top_line_edit_box>
+            <top_line_popup>Alleen bovenlijn</top_line_popup>
+            <top_line_dropdown>Alleen bovenlijn</top_line_dropdown>
+            <top_line_container>Alleen bovenlijn</top_line_container>
+            <single_checkbox>Eén selectievakje</single_checkbox>
+            <single_alt_checkbox>Eén Alt-selectievakje</single_alt_checkbox>
+            <primary_line>Primair</primary_line>
+            <gray_line>Grijs</gray_line>
+            <bordered_webview>Met transparante rand</bordered_webview>
+            <colored_dot_control>Gekleurd</colored_dot_control>
+            <transparent_edit_box>Transparant</transparent_edit_box>
+            <transparent_drop_down>Transparant</transparent_drop_down>
+            <transparent_pop_up>Transparant</transparent_pop_up>
+            <transparent_calendar>Transparant</transparent_calendar>
+            <transparent_container>Transparant</transparent_container>
+            <transparent_button>Transparant</transparent_button>
+            <transparent_popover>Transparant</transparent_popover>
+            <transparent_button_bar>Transparant</transparent_button_bar>
+            <transparent_tab_panel>Transparant</transparent_tab_panel>
+            <transparent_slider>Transparant</transparent_slider>
+            <transparent_web_viewer>Transparant</transparent_web_viewer>
+            <transparent_checkbox>Transparant</transparent_checkbox>
+            <transparent_radio>Transparant</transparent_radio>
+            <transparent_right_edit_box>Transparant rechts</transparent_right_edit_box>
+            <transparent_centered_edit_box>Transparant gecentreerd</transparent_centered_edit_box>
+            <transparent_portal>Transparant</transparent_portal>
+            <transparent_footer_navigation_button_bar>Transparante navigatie voor voetgedeelte</transparent_footer_navigation_button_bar>
+        </namedstyles>
+        <colorpalette>
+            <swatch1>#181818</swatch1>
+            <swatch2>#2a2a2c</swatch2>
+            <swatch3>#cccccc</swatch3>
+            <swatch4>#0091CE</swatch4>
+            <swatch5>#006690</swatch5>
+        </colorpalette>
+    </metadata>
+</theme>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Toque universal</name>
+    <group>Universal</group>
+    <metadata>
+        <namedstyles>
+            <array-highlight-buttonbar>Array | Realçar</array-highlight-buttonbar>
+            <array-inverted-buttonbar>Array | Knockout</array-inverted-buttonbar>
+            <bold-inverted-text>Ênfase | Knockout</bold-inverted-text>
+            <border-edit>Borda | Secundário</border-edit>
+            <border-highlight-button>Borda | Realçar</border-highlight-button>
+            <border-inverted-buttonbar>Borda | Secundário</border-inverted-buttonbar>
+            <border-inverted-calendar>Borda | Knockout</border-inverted-calendar>
+            <border-inverted-checkbox>Borda | Invertido</border-inverted-checkbox>
+            <border-inverted-container>Borda | Invertido</border-inverted-container>
+            <border-inverted-dropdown>Borda | Knockout</border-inverted-dropdown>
+            <border-inverted-edit>Borda | Invertido</border-inverted-edit>
+            <border-inverted-popup>Borda | Knockout</border-inverted-popup>
+            <border-inverted-portal>Borda | Invertido</border-inverted-portal>
+            <border-inverted-radio>Borda | Knockout</border-inverted-radio>
+            <border-inverted-slide>Borda | Invertido</border-inverted-slide>
+            <border-inverted-tab>Borda | Invertido</border-inverted-tab>
+            <border-popover>Borda | Knockout</border-popover>
+            <border-secondary-button-bar>Borda | Invertido</border-secondary-button-bar>
+            <border-secondary-calendar>Borda | Secundário</border-secondary-calendar>
+            <border-secondary-dropdown>Borda | Secundário</border-secondary-dropdown>
+            <border-secondary-popup>Borda | Secundário</border-secondary-popup>
+            <emphasis-primary-text>Ênfase | Primário</emphasis-primary-text>
+            <fill-checkbox>Preenchimento | Secundário</fill-checkbox>
+            <fill-container>Preenchimento | Secundário</fill-container>
+            <fill-edit>Preenchimento | Secundário</fill-edit>
+            <fill-highlight-button>Preenchimento | Realçar</fill-highlight-button>
+            <fill-inverted-button>Preenchimento | Invertido</fill-inverted-button>
+            <fill-inverted-calendar>Preenchimento | Invertido</fill-inverted-calendar>
+            <fill-inverted-checkbox>Preenchimento | Invertido</fill-inverted-checkbox>
+            <fill-inverted-container>Preenchimento | Invertido</fill-inverted-container>
+            <fill-inverted-dropdown>Preenchimento | Invertido</fill-inverted-dropdown>
+            <fill-inverted-edit>Preenchimento | Invertido</fill-inverted-edit>
+            <fill-inverted-popover>Preenchimento | Invertido</fill-inverted-popover>
+            <fill-inverted-popup>Preenchimento | Invertido</fill-inverted-popup>
+            <fill-inverted-radio>Preenchimento | Invertido</fill-inverted-radio>
+            <fill-knockout-container>Preenchimento | Knockout</fill-knockout-container>
+            <fill-low-shadow-inverted-calendar>Preenchimento |  Sombreamento baixo | Invertido</fill-low-shadow-inverted-calendar>
+            <fill-low-shadow-inverted-container>Preenchimento |  Sombreamento baixo | Invertido</fill-low-shadow-inverted-container>
+            <fill-low-shadow-inverted-dropdown>Preenchimento |  Sombreamento baixo | Invertido</fill-low-shadow-inverted-dropdown>
+            <fill-low-shadow-inverted-edit>Preenchimento |  Sombreamento baixo | Invertido</fill-low-shadow-inverted-edit>
+            <fill-low-shadow-inverted-popup>Preenchimento |  Sombreamento baixo | Invertido</fill-low-shadow-inverted-popup>
+            <fill-secondary-calendar>Preenchimento | Secundário</fill-secondary-calendar>
+            <fill-secondary-dropdown>Preenchimento | Secundário</fill-secondary-dropdown>
+            <fill-secondary-popup>Preenchimento | Secundário</fill-secondary-popup>
+            <fill-secondary-radio>Preenchimento | Secundário</fill-secondary-radio>
+            <high-shadow-inverted-shape>Sombreamento alto | Invertido</high-shadow-inverted-shape>
+            <high-shadow-inverted-slide>Sombreamento alto | Invertido</high-shadow-inverted-slide>
+            <high-shadow-knockout-shape>Sombreamento alto | Knockout</high-shadow-knockout-shape>
+            <high-shadow-knockout-slide>Sombreamento alto | Knockout</high-shadow-knockout-slide>
+            <highlight-shape>Realçar</highlight-shape>
+            <highlight-text>Realçar</highlight-text>
+            <inverted-background>Invertido</inverted-background>
+            <inverted-button>Knockout</inverted-button>
+            <inverted-chart>Invertido</inverted-chart>
+            <inverted-line>Knockout</inverted-line>
+            <inverted-navigation>Navegação | Invertido</inverted-navigation>
+            <inverted-part>Invertido</inverted-part>
+            <inverted-shape>Invertido</inverted-shape>
+            <inverted-subsummary>Sub-resumo | Invertido</inverted-subsummary>
+            <inverted-text>Knockout</inverted-text>
+            <inverted-web>Invertido</inverted-web>
+            <knockout-shape>Knockout</knockout-shape>
+            <large-inverted-text>Grande | Knockout</large-inverted-text>
+            <large-primary-text>Grande | Primário</large-primary-text>
+            <light-secondary-part>Secundário</light-secondary-part>
+            <light-secondary-subsummary>Sub-resumo | Secundário</light-secondary-subsummary>
+            <line-inverted-portal>Line | Invertido</line-inverted-portal>
+            <line-secondary-portal>Line | Secundário</line-secondary-portal>
+            <link-button>Link</link-button>
+            <low-shadow-inverted-shape>Sombreamento baixo | Invertido</low-shadow-inverted-shape>
+            <low-shadow-inverted-slide>Sombreamento baixo | Invertido</low-shadow-inverted-slide>
+            <low-shadow-knockout-shape>Sombreamento baixo | Knockout</low-shadow-knockout-shape>
+            <low-shadow-knockout-slide>Sombreamento baixo | Knockout</low-shadow-knockout-slide>
+            <minimum-button>Mínimo | Invertido</minimum-button>
+            <minimum-highlight-button>Mínimo | Realçar</minimum-highlight-button>
+            <minimum-inverted-button>Mínimo | Knockout</minimum-inverted-button>
+            <minimum-secondary-button>Mínimo | Secundário</minimum-secondary-button>
+            <minimum-secondary-highlight-button>Mínimo | Segundo realce</minimum-secondary-highlight-button>
+            <pill-highlight-button>Pílula | Realçar</pill-highlight-button>
+            <pill-secondary-button>Pílula | Secundário</pill-secondary-button>
+            <primary-line>Invertido</primary-line>
+            <round-green-button>Redondo | Verde</round-green-button>
+            <round-highlight-button>Redondo | Realçar</round-highlight-button>
+            <round-inverted-button>Redondo | Invertido</round-inverted-button>
+            <round-orange-button>Redondo | Laranja</round-orange-button>
+            <round-red-button>Redondo | Vermelho</round-red-button>
+            <round-yellow-button>Redondo | Amarelo</round-yellow-button>
+            <rounded-border-highlight-button>Borda arredondada | Realçar</rounded-border-highlight-button>
+            <rounded-fill-highlight-button>Preenchimento arredondado | Realçar</rounded-fill-highlight-button>
+            <rounded-fill-inverted-button>Preenchimento arredondado | Invertido</rounded-fill-inverted-button>
+            <secondary-background>Secundário</secondary-background>
+            <secondary-highlight-button>Realce secundário</secondary-highlight-button>
+            <secondary-text>Secundário</secondary-text>
+            <separator-highlight-buttonbar>Separador | Realçar</separator-highlight-buttonbar>
+            <separator-inverted-buttonbar>Separador | Knockout</separator-inverted-buttonbar>
+            <separator-uppercase-highlight-buttonbar>Separador | Maiúscula | Realçar </separator-uppercase-highlight-buttonbar>
+            <separator-uppercase-inverted-buttonbar>Separador | Maiúscula | Knockout </separator-uppercase-inverted-buttonbar>
+            <small-inverted-text>Pequeno | Knockout</small-inverted-text>
+            <small-primary-text>Pequeno | Primário</small-primary-text>
+            <small-secondary-text>Pequeno | Secundário</small-secondary-text>
+            <tab-bar-buttonbar>Barra de guias</tab-bar-buttonbar>
+            <underline-container>Underline | Secundário</underline-container>
+            <underline-highlight-buttonbar>Underline | Realçar</underline-highlight-buttonbar>
+            <underline-inverted-buttonbar>Underline | Knockout</underline-inverted-buttonbar>
+            <underline-inverted-calendar>Underline | Knockout</underline-inverted-calendar>
+            <underline-inverted-container>Underline | Invertido</underline-inverted-container>
+            <underline-inverted-dropdown>Underline | Knockout</underline-inverted-dropdown>
+            <underline-inverted-edit>Underline | Invertido</underline-inverted-edit>
+            <underline-inverted-popup>Underline | Knockout</underline-inverted-popup>
+            <underline-uppercase-highlight-buttonbar>Underline | Maiúscula | Realçar</underline-uppercase-highlight-buttonbar>
+            <underline-uppercase-inverted-buttonbar>Underline | Maiúscula | Knockout</underline-uppercase-inverted-buttonbar>
+            <uppercase-secondary-text>Maiúscula | Secundário</uppercase-secondary-text>
+        </namedstyles>
+    </metadata>
+</theme>

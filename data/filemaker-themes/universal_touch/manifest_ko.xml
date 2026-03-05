@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>범용(터치)</name>
+    <group>범용</group>
+    <cssfile>universal_touch_ko.css</cssfile>
+    <metadata>
+        <namedstyles>
+            <array-highlight-buttonbar>배열 | 강조 표시</array-highlight-buttonbar>
+            <array-inverted-buttonbar>배열 | 녹아웃</array-inverted-buttonbar>
+            <bold-inverted-text>강조 | 녹아웃</bold-inverted-text>
+            <border-edit>테두리 | 보조</border-edit>
+            <border-highlight-button>테두리 | 강조 표시</border-highlight-button>
+            <border-inverted-buttonbar>테두리 | 보조</border-inverted-buttonbar>
+            <border-inverted-calendar>테두리 | 녹아웃</border-inverted-calendar>
+            <border-inverted-checkbox>테두리 | 반전</border-inverted-checkbox>
+            <border-inverted-container>테두리 | 반전</border-inverted-container>
+            <border-inverted-dropdown>테두리 | 녹아웃</border-inverted-dropdown>
+            <border-inverted-edit>테두리 | 반전</border-inverted-edit>
+            <border-inverted-popup>테두리 | 녹아웃</border-inverted-popup>
+            <border-inverted-portal>테두리 | 반전</border-inverted-portal>
+            <border-inverted-radio>테두리 | 녹아웃</border-inverted-radio>
+            <border-inverted-slide>테두리 | 반전</border-inverted-slide>
+            <border-inverted-tab>테두리 | 반전</border-inverted-tab>
+            <border-popover>테두리 | 녹아웃</border-popover>
+            <border-secondary-button-bar>테두리 | 반전</border-secondary-button-bar>
+            <border-secondary-calendar>테두리 | 보조</border-secondary-calendar>
+            <border-secondary-dropdown>테두리 | 보조</border-secondary-dropdown>
+            <border-secondary-popup>테두리 | 보조</border-secondary-popup>
+            <emphasis-primary-text>강조 | 기본</emphasis-primary-text>
+            <fill-checkbox>채우기 | 보조</fill-checkbox>
+            <fill-container>채우기 | 보조</fill-container>
+            <fill-edit>채우기 | 보조</fill-edit>
+            <fill-highlight-button>채우기 | 강조 표시</fill-highlight-button>
+            <fill-inverted-button>채우기 | 반전</fill-inverted-button>
+            <fill-inverted-calendar>채우기 | 반전</fill-inverted-calendar>
+            <fill-inverted-checkbox>채우기 | 반전</fill-inverted-checkbox>
+            <fill-inverted-container>채우기 | 반전</fill-inverted-container>
+            <fill-inverted-dropdown>채우기 | 반전</fill-inverted-dropdown>
+            <fill-inverted-edit>채우기 | 반전</fill-inverted-edit>
+            <fill-inverted-popover>채우기 | 반전</fill-inverted-popover>
+            <fill-inverted-popup>채우기 | 반전</fill-inverted-popup>
+            <fill-inverted-radio>채우기 | 반전</fill-inverted-radio>
+            <fill-knockout-container>채우기 | 녹아웃</fill-knockout-container>
+            <fill-low-shadow-inverted-calendar>채우기 | 저음영 | 반전</fill-low-shadow-inverted-calendar>
+            <fill-low-shadow-inverted-container>채우기 | 저음영 | 반전</fill-low-shadow-inverted-container>
+            <fill-low-shadow-inverted-dropdown>채우기 | 저음영 | 반전</fill-low-shadow-inverted-dropdown>
+            <fill-low-shadow-inverted-edit>채우기 | 저음영 | 반전</fill-low-shadow-inverted-edit>
+            <fill-low-shadow-inverted-popup>채우기 | 저음영 | 반전</fill-low-shadow-inverted-popup>
+            <fill-secondary-calendar>채우기 | 보조</fill-secondary-calendar>
+            <fill-secondary-dropdown>채우기 | 보조</fill-secondary-dropdown>
+            <fill-secondary-popup>채우기 | 보조</fill-secondary-popup>
+            <fill-secondary-radio>채우기 | 보조</fill-secondary-radio>
+            <high-shadow-inverted-shape>고음영 | 반전</high-shadow-inverted-shape>
+            <high-shadow-inverted-slide>고음영 | 반전</high-shadow-inverted-slide>
+            <high-shadow-knockout-shape>고음영 | 녹아웃</high-shadow-knockout-shape>
+            <high-shadow-knockout-slide>고음영 | 녹아웃</high-shadow-knockout-slide>
+            <highlight-shape>강조 표시</highlight-shape>
+            <highlight-text>강조 표시</highlight-text>
+            <inverted-background>반전</inverted-background>
+            <inverted-button>녹아웃</inverted-button>
+            <inverted-chart>반전</inverted-chart>
+            <inverted-line>녹아웃</inverted-line>
+            <inverted-navigation>탐색 | 반전</inverted-navigation>
+            <inverted-part>반전</inverted-part>
+            <inverted-shape>반전</inverted-shape>
+            <inverted-subsummary>소계 | 반전</inverted-subsummary>
+            <inverted-text>녹아웃</inverted-text>
+            <inverted-web>반전</inverted-web>
+            <knockout-shape>녹아웃</knockout-shape>
+            <large-inverted-text>크게 | 녹아웃</large-inverted-text>
+            <large-primary-text>크게 | 기본</large-primary-text>
+            <light-secondary-part>보조</light-secondary-part>
+            <light-secondary-subsummary>소계 | 보조</light-secondary-subsummary>
+            <line-inverted-portal>선 | 반전</line-inverted-portal>
+            <line-secondary-portal>선 | 보조</line-secondary-portal>
+            <link-button>링크</link-button>
+            <low-shadow-inverted-shape>저음영 | 반전</low-shadow-inverted-shape>
+            <low-shadow-inverted-slide>저음영 | 반전</low-shadow-inverted-slide>
+            <low-shadow-knockout-shape>저음영 | 녹아웃</low-shadow-knockout-shape>
+            <low-shadow-knockout-slide>저음영 | 녹아웃</low-shadow-knockout-slide>
+            <minimum-button>최소 | 반전</minimum-button>
+            <minimum-highlight-button>최소 | 강조 표시</minimum-highlight-button>
+            <minimum-inverted-button>최소 | 녹아웃</minimum-inverted-button>
+            <minimum-secondary-button>최소 | 보조</minimum-secondary-button>
+            <minimum-secondary-highlight-button>최소 | 보조 강조 표시</minimum-secondary-highlight-button>
+            <pill-highlight-button>원 | 강조 표시</pill-highlight-button>
+            <pill-secondary-button>원 | 보조</pill-secondary-button>
+            <primary-line>반전</primary-line>
+            <round-green-button>둥근 | 녹색</round-green-button>
+            <round-highlight-button>둥근 | 강조 표시</round-highlight-button>
+            <round-inverted-button>둥근 | 반전</round-inverted-button>
+            <round-orange-button>둥근 | 주황색</round-orange-button>
+            <round-red-button>둥근 | 빨간색</round-red-button>
+            <round-yellow-button>둥근 | 노란색</round-yellow-button>
+            <rounded-border-highlight-button>둥근 테두리 | 강조 표시</rounded-border-highlight-button>
+            <rounded-fill-highlight-button>둥근 채우기 | 강조 표시</rounded-fill-highlight-button>
+            <rounded-fill-inverted-button>둥근 채우기 | 반전</rounded-fill-inverted-button>
+            <secondary-background>보조</secondary-background>
+            <secondary-highlight-button>보조 강조 표시</secondary-highlight-button>
+            <secondary-text>보조</secondary-text>
+            <separator-highlight-buttonbar>구분 기호 | 강조 표시</separator-highlight-buttonbar>
+            <separator-inverted-buttonbar>구분 기호 | 녹아웃</separator-inverted-buttonbar>
+            <separator-uppercase-highlight-buttonbar>구분 기호 | 대문자 | 강조 표시</separator-uppercase-highlight-buttonbar>
+            <separator-uppercase-inverted-buttonbar>구분 기호 | 대문자 | 녹아웃</separator-uppercase-inverted-buttonbar>
+            <small-inverted-text>작게 | 녹아웃</small-inverted-text>
+            <small-primary-text>작게 | 기본</small-primary-text>
+            <small-secondary-text>작게 | 보조</small-secondary-text>
+            <tab-bar-buttonbar>탭 바</tab-bar-buttonbar>
+            <underline-container>밑줄체 | 보조</underline-container>
+            <underline-highlight-buttonbar>밑줄체 | 강조 표시</underline-highlight-buttonbar>
+            <underline-inverted-buttonbar>밑줄체 | 녹아웃</underline-inverted-buttonbar>
+            <underline-inverted-calendar>밑줄체 | 녹아웃</underline-inverted-calendar>
+            <underline-inverted-container>밑줄체 | 반전</underline-inverted-container>
+            <underline-inverted-dropdown>밑줄체 | 녹아웃</underline-inverted-dropdown>
+            <underline-inverted-edit>밑줄체 | 반전</underline-inverted-edit>
+            <underline-inverted-popup>밑줄체 | 녹아웃</underline-inverted-popup>
+            <underline-uppercase-highlight-buttonbar>밑줄체 | 대문자 | 강조 표시</underline-uppercase-highlight-buttonbar>
+            <underline-uppercase-inverted-buttonbar>밑줄체 | 대문자 | 녹아웃</underline-uppercase-inverted-buttonbar>
+            <uppercase-secondary-text>대문자 | 보조</uppercase-secondary-text>
+        </namedstyles>
+    </metadata>
+</theme>

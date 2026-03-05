@@ -1,0 +1,14 @@
+{
+  "id": "fm-no-access-UHJvamVj",
+  "name": "No Access",
+  "defaultTableOccurrence": "No Access",
+  "canvas": {
+    "width": 1023,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [],
+  "actions": []
+}

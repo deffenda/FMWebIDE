@@ -1,0 +1,681 @@
+{
+  "id": "fm-home-old-UHJvamVj",
+  "name": "Home OLD",
+  "defaultTableOccurrence": "Home OLD",
+  "canvas": {
+    "width": 961,
+    "height": 628,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-412",
+      "position": {
+        "x": 148,
+        "y": 573,
+        "width": 200,
+        "height": 15,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "412",
+        "rotation": 0,
+        "label": "{{ApplicationVersion}}",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-413",
+      "position": {
+        "x": 148,
+        "y": 557,
+        "width": 200,
+        "height": 15,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "413",
+        "rotation": 0,
+        "label": "{{UserName}}",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-414",
+      "position": {
+        "x": 443,
+        "y": 573,
+        "width": 200,
+        "height": 15,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "414",
+        "rotation": 0,
+        "label": "{{NetworkProtocol}}",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-415",
+      "position": {
+        "x": 443,
+        "y": 557,
+        "width": 200,
+        "height": 15,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "415",
+        "rotation": 0,
+        "label": "{{AccountPrivilegeSetName}}",
+        "ddrArrangeOrder": 4
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-416",
+      "position": {
+        "x": 63,
+        "y": 557,
+        "width": 85,
+        "height": 15,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "416",
+        "rotation": 0,
+        "label": "Account:",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-417",
+      "position": {
+        "x": 63,
+        "y": 573,
+        "width": 85,
+        "height": 15,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "417",
+        "rotation": 0,
+        "label": "Version:",
+        "ddrArrangeOrder": 6
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-418",
+      "position": {
+        "x": 356,
+        "y": 557,
+        "width": 85,
+        "height": 15,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "418",
+        "rotation": 0,
+        "label": "Privilege Set:",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-419",
+      "position": {
+        "x": 356,
+        "y": 573,
+        "width": 85,
+        "height": 15,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "419",
+        "rotation": 0,
+        "label": "Protocol:",
+        "ddrArrangeOrder": 8
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-420",
+      "position": {
+        "x": 737,
+        "y": 573,
+        "width": 200,
+        "height": 15,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "420",
+        "rotation": 0,
+        "label": "{{SystemIPAddress}}",
+        "ddrArrangeOrder": 9
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-423",
+      "position": {
+        "x": 650,
+        "y": 573,
+        "width": 85,
+        "height": 15,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "423",
+        "rotation": 0,
+        "label": "IP Address:",
+        "ddrArrangeOrder": 10
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-426",
+      "position": {
+        "x": 24,
+        "y": 115,
+        "width": 417,
+        "height": 426,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "426",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "items_percent_complete_bar_c",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 11
+      },
+      "type": "field",
+      "binding": {
+        "field": "items_percent_complete_bar_c",
+        "tableOccurrence": "pt.system_PT.PROJECTS__Active"
+      }
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-426-427-591",
+      "position": {
+        "x": 94,
+        "y": 417,
+        "width": 381,
+        "height": 330,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "426.427.591",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 8,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "items_percent_complete_bar_c",
+          "name",
+          "status_display",
+          "date_end"
+        ],
+        "groupId": "ddr-group-fm-home-old-UHJvamVj-426-427",
+        "ddrArrangeOrder": 12
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "pt.system_PT.PROJECTS__Active"
+      }
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-426-427-591-605",
+      "position": {
+        "x": 140,
+        "y": 604,
+        "width": 364,
+        "height": 42,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "426.427.591.605",
+        "portalParentComponentId": "ddr-fm-home-old-UHJvamVj-426-427-591",
+        "portalParentDdrPath": "426.427.591",
+        "portalParentTableOccurrence": "pt.system_PT.PROJECTS__Active",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "items_percent_complete_bar_c",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-home-old-UHJvamVj-426-427",
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "items_percent_complete_bar_c",
+        "tableOccurrence": "pt.system_PT.PROJECTS__Active"
+      }
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-426-427-591-635",
+      "position": {
+        "x": 141,
+        "y": 605,
+        "width": 362,
+        "height": 20,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 11 LJ",
+        "ddrObjectPath": "426.427.591.635",
+        "portalParentComponentId": "ddr-fm-home-old-UHJvamVj-426-427-591",
+        "portalParentDdrPath": "426.427.591",
+        "portalParentTableOccurrence": "pt.system_PT.PROJECTS__Active",
+        "rotation": 0,
+        "label": "Button",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-home-old-UHJvamVj-426-427",
+        "ddrArrangeOrder": 14
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-426-427-591-635-632",
+      "position": {
+        "x": 188,
+        "y": 793,
+        "width": 362,
+        "height": 20,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 11 LJ",
+        "ddrObjectPath": "426.427.591.635.632",
+        "portalParentComponentId": "ddr-fm-home-old-UHJvamVj-426-427-591",
+        "portalParentDdrPath": "426.427.591",
+        "portalParentTableOccurrence": "pt.system_PT.PROJECTS__Active",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-home-old-UHJvamVj-426-427",
+        "ddrArrangeOrder": 15
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "pt.system_PT.PROJECTS__Active"
+      }
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-426-427-591-631",
+      "position": {
+        "x": 368,
+        "y": 625,
+        "width": 135,
+        "height": 20,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 11 LJ",
+        "ddrObjectPath": "426.427.591.631",
+        "portalParentComponentId": "ddr-fm-home-old-UHJvamVj-426-427-591",
+        "portalParentDdrPath": "426.427.591",
+        "portalParentTableOccurrence": "pt.system_PT.PROJECTS__Active",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "status_display",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-home-old-UHJvamVj-426-427",
+        "ddrArrangeOrder": 16
+      },
+      "type": "field",
+      "binding": {
+        "field": "status_display",
+        "tableOccurrence": "pt.system_PT.PROJECTS__Active"
+      }
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-426-427-591-634",
+      "position": {
+        "x": 146,
+        "y": 628,
+        "width": 37,
+        "height": 15,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "426.427.591.634",
+        "portalParentComponentId": "ddr-fm-home-old-UHJvamVj-426-427-591",
+        "portalParentDdrPath": "426.427.591",
+        "portalParentTableOccurrence": "pt.system_PT.PROJECTS__Active",
+        "rotation": 0,
+        "label": "Due",
+        "groupId": "ddr-group-fm-home-old-UHJvamVj-426-427",
+        "ddrArrangeOrder": 17
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-426-427-591-633",
+      "position": {
+        "x": 181,
+        "y": 625,
+        "width": 116,
+        "height": 20,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 11 LJ",
+        "ddrObjectPath": "426.427.591.633",
+        "portalParentComponentId": "ddr-fm-home-old-UHJvamVj-426-427-591",
+        "portalParentDdrPath": "426.427.591",
+        "portalParentTableOccurrence": "pt.system_PT.PROJECTS__Active",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date_end",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-home-old-UHJvamVj-426-427",
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "date_end",
+        "tableOccurrence": "pt.system_PT.PROJECTS__Active"
+      }
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-583",
+      "position": {
+        "x": 832,
+        "y": 13,
+        "width": 105,
+        "height": 24,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Accent Button 1",
+        "ddrObjectPath": "583",
+        "rotation": 0,
+        "label": "Exit",
+        "variant": "secondary",
+        "ddrArrangeOrder": 19
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Exit TEST"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-589",
+      "position": {
+        "x": 458,
+        "y": 115,
+        "width": 479,
+        "height": 426,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 11 LJ",
+        "ddrObjectPath": "589",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "pt.system_PT.ITEMS__All"
+      }
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-589-590-601",
+      "position": {
+        "x": 1385,
+        "y": 414,
+        "width": 447,
+        "height": 338,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 11 LJ",
+        "ddrObjectPath": "589.590.601",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 14,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "name"
+        ],
+        "groupId": "ddr-group-fm-home-old-UHJvamVj-589-590",
+        "ddrArrangeOrder": 21
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "pt.system_PT.ITEMS__All"
+      }
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-589-590-601-686",
+      "position": {
+        "x": 1859,
+        "y": 601,
+        "width": 277,
+        "height": 20,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 11 LJ",
+        "ddrObjectPath": "589.590.601.686",
+        "portalParentComponentId": "ddr-fm-home-old-UHJvamVj-589-590-601",
+        "portalParentDdrPath": "589.590.601",
+        "portalParentTableOccurrence": "pt.system_PT.ITEMS__All",
+        "rotation": 0,
+        "label": "Button",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-home-old-UHJvamVj-589-590",
+        "ddrArrangeOrder": 22
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-589-590-601-686-602",
+      "position": {
+        "x": 2333,
+        "y": 788,
+        "width": 277,
+        "height": 20,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Minimal Edit Box 11 LJ",
+        "ddrObjectPath": "589.590.601.686.602",
+        "portalParentComponentId": "ddr-fm-home-old-UHJvamVj-589-590-601",
+        "portalParentDdrPath": "589.590.601",
+        "portalParentTableOccurrence": "pt.system_PT.ITEMS__All",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-home-old-UHJvamVj-589-590",
+        "ddrArrangeOrder": 23
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "pt.system_PT.ITEMS__All"
+      }
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-688",
+      "position": {
+        "x": 737,
+        "y": 557,
+        "width": 200,
+        "height": 15,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "688",
+        "rotation": 0,
+        "label": "{{ApplicationArchitecture}}",
+        "ddrArrangeOrder": 24
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-689",
+      "position": {
+        "x": 650,
+        "y": 557,
+        "width": 85,
+        "height": 15,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "689",
+        "rotation": 0,
+        "label": "Architecture:",
+        "ddrArrangeOrder": 25
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-old-UHJvamVj-691",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 400,
+        "height": 60,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Header Text",
+        "ddrObjectPath": "691",
+        "rotation": 0,
+        "label": "Home",
+        "ddrArrangeOrder": 26
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

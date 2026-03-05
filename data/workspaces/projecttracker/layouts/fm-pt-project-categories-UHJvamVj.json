@@ -1,0 +1,14 @@
+{
+  "id": "fm-pt-project-categories-UHJvamVj",
+  "name": "PT.PROJECT_CATEGORIES",
+  "defaultTableOccurrence": "PT.PROJECT_CATEGORIES",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [],
+  "actions": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "fm-pt-presets-UHJvamVj",
+  "name": "PT.PRESETS",
+  "defaultTableOccurrence": "PT.PRESETS",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [],
+  "actions": []
+}

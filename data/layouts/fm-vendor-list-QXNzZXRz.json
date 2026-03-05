@@ -1,0 +1,310 @@
+{
+  "id": "fm-vendor-list-QXNzZXRz",
+  "name": "Vendor List",
+  "defaultTableOccurrence": "Vendor List",
+  "canvas": {
+    "width": 1048,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "parts": [
+    {
+      "id": "ddr-part-fm-vendor-list-QXNzZXRz-1",
+      "type": "topNavigation",
+      "label": "Top Navigation",
+      "height": 44,
+      "pageBreakBeforeEachOccurrence": false,
+      "pageBreakAfterEveryOccurrences": null,
+      "restartPageNumbersAfterEachOccurrence": false,
+      "allowPartToBreakAcrossPageBoundaries": false,
+      "discardRemainderBeforeNewPage": false,
+      "useAlternateRowState": false,
+      "useActiveRowState": false
+    },
+    {
+      "id": "ddr-part-fm-vendor-list-QXNzZXRz-2",
+      "type": "header",
+      "label": "Header",
+      "height": 30,
+      "pageBreakBeforeEachOccurrence": false,
+      "pageBreakAfterEveryOccurrences": null,
+      "restartPageNumbersAfterEachOccurrence": false,
+      "allowPartToBreakAcrossPageBoundaries": false,
+      "discardRemainderBeforeNewPage": false,
+      "useAlternateRowState": false,
+      "useActiveRowState": false
+    },
+    {
+      "id": "ddr-part-fm-vendor-list-QXNzZXRz-3",
+      "type": "body",
+      "label": "Body",
+      "height": 60,
+      "pageBreakBeforeEachOccurrence": false,
+      "pageBreakAfterEveryOccurrences": null,
+      "restartPageNumbersAfterEachOccurrence": false,
+      "allowPartToBreakAcrossPageBoundaries": false,
+      "discardRemainderBeforeNewPage": false,
+      "useAlternateRowState": false,
+      "useActiveRowState": true
+    }
+  ],
+  "components": [
+    {
+      "id": "ddr-fm-vendor-list-QXNzZXRz-1-2",
+      "position": {
+        "x": 212,
+        "y": 13,
+        "width": 200,
+        "height": 21,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Separator | Uppercase | Highlight",
+        "ddrObjectPath": "1.2",
+        "label": "Assets",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-vendor-list-QXNzZXRz-1",
+        "ddrArrangeOrder": 1
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Asset List"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-vendor-list-QXNzZXRz-1-3",
+      "position": {
+        "x": 412,
+        "y": 13,
+        "width": 200,
+        "height": 21,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Separator | Uppercase | Highlight",
+        "ddrObjectPath": "1.3",
+        "label": "Vendors",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-vendor-list-QXNzZXRz-1",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Vendor List"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-vendor-list-QXNzZXRz-1-4",
+      "position": {
+        "x": 612,
+        "y": 13,
+        "width": 200,
+        "height": 21,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Separator | Uppercase | Highlight",
+        "ddrObjectPath": "1.4",
+        "label": "Employees",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-vendor-list-QXNzZXRz-1",
+        "ddrArrangeOrder": 3
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Employee List"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-vendor-list-QXNzZXRz-5",
+      "position": {
+        "x": 374,
+        "y": 52,
+        "width": 600,
+        "height": 19,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Primary",
+        "ddrObjectPath": "5",
+        "label": "Description",
+        "ddrArrangeOrder": 4
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-vendor-list-QXNzZXRz-6",
+      "position": {
+        "x": 101,
+        "y": 52,
+        "width": 264,
+        "height": 19,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Small | Primary",
+        "ddrObjectPath": "6",
+        "label": "Name",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-vendor-list-QXNzZXRz-7",
+      "position": {
+        "x": 980,
+        "y": 74,
+        "width": 44,
+        "height": 60,
+        "z": 6
+      },
+      "props": {
+        "tooltip": "Go to details.",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "7",
+        "tabOrder": 3,
+        "label": "Go to details.",
+        "variant": "secondary",
+        "ddrArrangeOrder": 6
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Vendor Details"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-vendor-list-QXNzZXRz-8",
+      "position": {
+        "x": 369,
+        "y": 82,
+        "width": 607,
+        "height": 44,
+        "z": 7
+      },
+      "props": {
+        "tooltip": "Description",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "8",
+        "tabOrder": 2,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "Description",
+        "tableOccurrence": "Vendors"
+      }
+    },
+    {
+      "id": "ddr-fm-vendor-list-QXNzZXRz-9",
+      "position": {
+        "x": 96,
+        "y": 82,
+        "width": 269,
+        "height": 44,
+        "z": 8
+      },
+      "props": {
+        "tooltip": "Name",
+        "styleTheme": "Universal Touch",
+        "ddrObjectPath": "9",
+        "tabOrder": 1,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "Name",
+        "tableOccurrence": "Vendors"
+      }
+    },
+    {
+      "id": "ddr-fm-vendor-list-QXNzZXRz-10",
+      "position": {
+        "x": 29,
+        "y": 91,
+        "width": 40,
+        "height": 26,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Universal Touch",
+        "styleName": "Minimum | Secondary",
+        "ddrObjectPath": "10",
+        "label": "Button",
+        "variant": "secondary",
+        "ddrArrangeOrder": 9
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-vendor-list-QXNzZXRz-11",
+      "position": {
+        "x": 9,
+        "y": 82,
+        "width": 80,
+        "height": 44,
+        "z": 10
+      },
+      "props": {
+        "tooltip": "Logo",
+        "hideObjectWhen": "IsEmpty ( Vendors::Logo ) = 0",
+        "styleTheme": "Universal Touch",
+        "styleName": "Fill | Secondary",
+        "ddrObjectPath": "11",
+        "tabOrder": 5,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Logo",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "Logo",
+        "tableOccurrence": "Vendors"
+      }
+    }
+  ],
+  "actions": []
+}

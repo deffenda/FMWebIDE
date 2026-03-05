@@ -1,0 +1,46 @@
+{
+  "id": "fm-pt-priorities-UHJvamVj",
+  "name": "PT.PRIORITIES",
+  "defaultTableOccurrence": "PT.PRIORITIES",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-pt-priorities-UHJvamVj-1",
+      "position": {
+        "x": 21,
+        "y": 10,
+        "width": 384,
+        "height": 20,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "PT.PRIORITIES"
+      }
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,113 @@
+{
+  "id": "customer-form",
+  "name": "Untitled Layout",
+  "defaultTableOccurrence": "Asset Details",
+  "canvas": {
+    "width": 1200,
+    "height": 900,
+    "gridSize": 8
+  },
+  "components": [
+    {
+      "id": "5be601ed-9c6a-41df-b6ee-fbee54274dbf",
+      "type": "field",
+      "position": {
+        "x": 56,
+        "y": 176,
+        "width": 872,
+        "height": 40,
+        "z": 1
+      },
+      "binding": {
+        "field": "Description"
+      },
+      "props": {
+        "label": "",
+        "placeholder": "Description",
+        "controlType": "text",
+        "variant": "primary"
+      }
+    },
+    {
+      "id": "4c0b2c70-16f3-46a6-a529-0fefc1372660",
+      "type": "field",
+      "position": {
+        "x": 56,
+        "y": 224,
+        "width": 220,
+        "height": 40,
+        "z": 2
+      },
+      "binding": {
+        "field": "Image"
+      },
+      "props": {
+        "label": "",
+        "placeholder": "Image",
+        "controlType": "text",
+        "variant": "primary"
+      }
+    },
+    {
+      "id": "69030777-f9a3-4f88-aa92-6c21d0d9f46e",
+      "type": "field",
+      "position": {
+        "x": 56,
+        "y": 128,
+        "width": 220,
+        "height": 40,
+        "z": 3
+      },
+      "binding": {
+        "field": "Name"
+      },
+      "props": {
+        "label": "",
+        "placeholder": "Name",
+        "controlType": "text",
+        "variant": "primary"
+      }
+    },
+    {
+      "id": "3f302eef-7b46-4414-be87-b8d80a46e238",
+      "type": "field",
+      "position": {
+        "x": 56,
+        "y": 280,
+        "width": 220,
+        "height": 40,
+        "z": 4
+      },
+      "binding": {
+        "field": "Type"
+      },
+      "props": {
+        "label": "",
+        "placeholder": "Type",
+        "controlType": "text",
+        "variant": "primary"
+      }
+    },
+    {
+      "id": "ecda9172-55b9-4de0-a6f8-f787bed10a16",
+      "type": "field",
+      "position": {
+        "x": 56,
+        "y": 336,
+        "width": 220,
+        "height": 40,
+        "z": 5
+      },
+      "binding": {
+        "field": "Purchase Date"
+      },
+      "props": {
+        "label": "",
+        "placeholder": "Purchase Date",
+        "controlType": "text",
+        "variant": "primary"
+      }
+    }
+  ],
+  "actions": []
+}

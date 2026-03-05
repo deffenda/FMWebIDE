@@ -1,0 +1,365 @@
+{
+  "id": "fm-pt-item-edit-UHJvamVj",
+  "name": "PT.ITEM_Edit",
+  "defaultTableOccurrence": "PT.ITEM_Edit",
+  "canvas": {
+    "width": 480,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-1",
+      "position": {
+        "x": 20,
+        "y": 169,
+        "width": 240,
+        "height": 20,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_02",
+        "controlType": "popup",
+        "valueList": "Categories__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_02",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-2",
+      "position": {
+        "x": 20,
+        "y": 126,
+        "width": 240,
+        "height": 20,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_01",
+        "controlType": "popup",
+        "valueList": "Persons__byProject_Available",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_01",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-3",
+      "position": {
+        "x": 20,
+        "y": 150,
+        "width": 240,
+        "height": 19,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3",
+        "rotation": 0,
+        "label": "Category",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-4",
+      "position": {
+        "x": 20,
+        "y": 107,
+        "width": 240,
+        "height": 19,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "4",
+        "rotation": 0,
+        "label": "Person",
+        "ddrArrangeOrder": 4
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-5",
+      "position": {
+        "x": 20,
+        "y": 265,
+        "width": 240,
+        "height": 141,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "5",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_04",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_04",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-6",
+      "position": {
+        "x": 20,
+        "y": 245,
+        "width": 240,
+        "height": 19,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6",
+        "rotation": 0,
+        "label": "Description",
+        "ddrArrangeOrder": 6
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-7",
+      "position": {
+        "x": 20,
+        "y": 212,
+        "width": 188,
+        "height": 20,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_03",
+        "controlType": "popup",
+        "valueList": "TimeBoxes__byProject_Available",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_03",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-8",
+      "position": {
+        "x": 20,
+        "y": 193,
+        "width": 188,
+        "height": 19,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "8",
+        "rotation": 0,
+        "label": "Time Box",
+        "ddrArrangeOrder": 8
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-9",
+      "position": {
+        "x": 190,
+        "y": 420,
+        "width": 70,
+        "height": 21,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "9",
+        "rotation": 0,
+        "label": "Save",
+        "variant": "secondary",
+        "ddrArrangeOrder": 9
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; Get ( UUID ) ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_project_ID ) ; PT.PROJECTS::__kp_project_ID ) ;\n\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_person_ID ) ; SYSTEM::usr_text_01 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_category_ID ) ; SYSTEM::usr_text_02 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_sprint_ID ) ; SYSTEM::usr_text_03 ) ;\n\n\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::description ) ; SYSTEM::usr_text_04 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::name ) ; SYSTEM::usr_text_05 ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::is_milestone ) ; SYSTEM::usr_number_01 ) ;\n\n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-10",
+      "position": {
+        "x": 20,
+        "y": 420,
+        "width": 70,
+        "height": 21,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "10",
+        "rotation": 0,
+        "label": "Exit",
+        "variant": "secondary",
+        "ddrArrangeOrder": 10
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Close Popover (e)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-11",
+      "position": {
+        "x": 20,
+        "y": 86,
+        "width": 240,
+        "height": 21,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "11",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_05",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 11
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_05",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-12",
+      "position": {
+        "x": 20,
+        "y": 66,
+        "width": 240,
+        "height": 19,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "12",
+        "rotation": 0,
+        "label": "Item",
+        "ddrArrangeOrder": 12
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-13",
+      "position": {
+        "x": 239,
+        "y": 212,
+        "width": 21,
+        "height": 24,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "13",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_number_02",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_number_02",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-pt-item-edit-UHJvamVj-14",
+      "position": {
+        "x": 208,
+        "y": 193,
+        "width": 59,
+        "height": 19,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "14",
+        "rotation": 0,
+        "label": "Milestone",
+        "ddrArrangeOrder": 14
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

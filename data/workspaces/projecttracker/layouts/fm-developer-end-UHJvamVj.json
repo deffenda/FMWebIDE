@@ -1,0 +1,51 @@
+{
+  "id": "fm-developer-end-UHJvamVj",
+  "name": "DEVELOPER_END",
+  "defaultTableOccurrence": "DEVELOPER_END",
+  "canvas": {
+    "width": 1023,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-developer-end-UHJvamVj-1",
+      "position": {
+        "x": 20,
+        "y": 34,
+        "width": 288,
+        "height": 19,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "label": "Do not delete or rename this layout!",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-developer-end-UHJvamVj-2",
+      "position": {
+        "x": 9,
+        "y": 108,
+        "width": 827,
+        "height": 302,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "label": "This solution uses a naming convention for the layouts to drive the navigation matrix.  &#13;&#13;The layout delimiter is a dash -&#13;&#13;The naming convention is as follows: Module-Tab Name (No Spaces Around Dash)&#13;&#13;The default view state is used to store the view state in the navigation system.&#13;&#13;The system is designed to allow up to 16 modules.  &#13;&#13;Each module may have up to 16 tabs for each of the three view states: Form / List / Table&#13;&#13;",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,125 @@
+{
+  "customMenus": [
+    {
+      "id": "menu-filemaker",
+      "name": "FileMaker Pro",
+      "menuKey": "filemaker",
+      "creationOrder": 1,
+      "locked": true
+    },
+    {
+      "id": "menu-file",
+      "name": "File",
+      "menuKey": "file",
+      "creationOrder": 2,
+      "locked": true
+    },
+    {
+      "id": "menu-edit",
+      "name": "Edit",
+      "menuKey": "edit",
+      "creationOrder": 3,
+      "locked": true
+    },
+    {
+      "id": "menu-view",
+      "name": "View",
+      "menuKey": "view",
+      "creationOrder": 4,
+      "locked": true
+    },
+    {
+      "id": "menu-insert",
+      "name": "Insert",
+      "menuKey": "insert",
+      "creationOrder": 5,
+      "locked": true
+    },
+    {
+      "id": "menu-format",
+      "name": "Format",
+      "menuKey": "format",
+      "creationOrder": 6,
+      "locked": true
+    },
+    {
+      "id": "menu-layouts",
+      "name": "Layouts",
+      "menuKey": "layouts",
+      "creationOrder": 7,
+      "locked": true
+    },
+    {
+      "id": "menu-arrange",
+      "name": "Arrange",
+      "menuKey": "arrange",
+      "creationOrder": 8,
+      "locked": true
+    },
+    {
+      "id": "menu-scripts",
+      "name": "Scripts",
+      "menuKey": "scripts",
+      "creationOrder": 9,
+      "locked": true
+    },
+    {
+      "id": "menu-tools",
+      "name": "Tools",
+      "menuKey": "tools",
+      "creationOrder": 10,
+      "locked": true
+    },
+    {
+      "id": "menu-window",
+      "name": "Window",
+      "menuKey": "window",
+      "creationOrder": 11,
+      "locked": true
+    },
+    {
+      "id": "menu-help",
+      "name": "Help",
+      "menuKey": "help",
+      "creationOrder": 12,
+      "locked": true
+    }
+  ],
+  "menuSets": [
+    {
+      "id": "standard-filemaker-menus",
+      "name": "[Standard FileMaker Menus]",
+      "menuIds": [
+        "menu-filemaker",
+        "menu-file",
+        "menu-edit",
+        "menu-view",
+        "menu-insert",
+        "menu-format",
+        "menu-layouts",
+        "menu-arrange",
+        "menu-scripts",
+        "menu-tools",
+        "menu-window",
+        "menu-help"
+      ],
+      "creationOrder": 1,
+      "locked": true
+    },
+    {
+      "id": "minimal",
+      "name": "Minimal",
+      "menuIds": [
+        "menu-filemaker",
+        "menu-file",
+        "menu-edit",
+        "menu-format",
+        "menu-scripts",
+        "menu-window",
+        "menu-help"
+      ],
+      "creationOrder": 2
+    }
+  ],
+  "defaultMenuSetId": "standard-filemaker-menus"
+}

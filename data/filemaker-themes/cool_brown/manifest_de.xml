@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Kühl braun</name>
+    <group>FileMaker Millennium</group>
+    <metadata>
+        <namedstyles>
+            <minimal_edit_box>Minimales Bearbeitungsfeld</minimal_edit_box>
+            <minimal_pop-up_menu>Minimales Einblendmenü</minimal_pop-up_menu>
+            <minimal_drop-down_calendar>Minimaler Einblendkalender</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Minimale Einblendliste</minimal_drop-down_list>
+            <minimal_container>Minimaler Container</minimal_container>
+            <title_header_text>• Kopf 1. Seite - Text</title_header_text>
+            <leading_grand_summary_text>• Vorangestelltes Gesamtergebnis - Text</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Vorangestelltes Zwischenergebnis 1 - Text</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Vorangestelltes Zwischenergebnis 2 - Text</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Vorangestelltes Zwischenergebnis - Zusatztext</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Nachgestelltes Zwischenergebnis - Zusatztext</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Nachgestelltes Zwischenergebnis 2 - Text</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Nachgestelltes Zwischenergebnis 1 - Text</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Nachgestelltes Gesamtergebnis - Text</trailing_grand_summary_text>
+            <footer_text>• Fußbereich - Text</footer_text>
+            <title_footer_text>• Fuß 1. Seite - Text</title_footer_text>
+            <header_text>• Kopfbereich - Text</header_text>
+            <navigation_part_text>• Navigationsbereich - Text</navigation_part_text>
+        </namedstyles>
+    </metadata>
+</theme>

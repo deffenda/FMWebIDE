@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<theme>
+    <id>com.filemaker.theme.classic</id>
+    <name>Classic</name>
+    <group>Basic</group>
+    <version>6</version>
+    <cssfile>classic.css</cssfile>
+    <platform>Desktop</platform>
+    <preview>images/classicPreview.png</preview>
+    <metadata>
+        <layoutbuilder>
+            <kBaseFontSize>12</kBaseFontSize>
+            <kReportBreakFieldIndent>10</kReportBreakFieldIndent>
+            <kFirstPartPaddingTop>1</kFirstPartPaddingTop>
+            <kLastPartPaddingBottom>3</kLastPartPaddingBottom>
+            <kPartPaddingLeft>0</kPartPaddingLeft>
+            <kPartPaddingRight>0</kPartPaddingRight>
+            <kLeadingPartPaddingTop>1</kLeadingPartPaddingTop>
+            <kLeadingPartPaddingBottom>2</kLeadingPartPaddingBottom>
+            <kBodyPartPaddingTop>4</kBodyPartPaddingTop>
+            <kBodyPartPaddingBottom>4</kBodyPartPaddingBottom>
+            <kTrailingPartPaddingTop>1</kTrailingPartPaddingTop>
+            <kTrailingPartPaddingBottom>2</kTrailingPartPaddingBottom>
+            <kVerticalFieldSpacing>4</kVerticalFieldSpacing>
+            <kTitleHeaderMinSize>19</kTitleHeaderMinSize>
+            <kHeaderMinSize>19</kHeaderMinSize>
+            <kBodyMinSize>19</kBodyMinSize>
+            <kFooterMinSize>18</kFooterMinSize>
+            <kTitleFooterMinSize>19</kTitleFooterMinSize>
+            <kTopNavPartMinSize>19</kTopNavPartMinSize>
+            <kBottomNavPartMinSize>19</kBottomNavPartMinSize>
+            <kSummaryPartMinSize>19</kSummaryPartMinSize>
+        </layoutbuilder>
+        <charting>
+            <colorScheme>Earth</colorScheme>
+        </charting>
+        <colorpalette>
+            <swatch1>#d6d6d6</swatch1>
+            <swatch2>#b2b2b2</swatch2>
+            <swatch3>#7e7e7e</swatch3>
+            <swatch4>#d78935</swatch4>
+            <swatch5>#ad8b6b</swatch5>
+            <swatch6>#406a85</swatch6>
+            <swatch7>#bc9256</swatch7>
+        </colorpalette>
+    </metadata>
+</theme>

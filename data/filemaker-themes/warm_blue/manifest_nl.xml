@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Warm blauw</name>
+    <group>FileMaker Millennium</group>
+    <metadata>
+        <namedstyles>
+            <minimal_edit_box>Minimaal invoervak</minimal_edit_box>
+            <minimal_drop-down_calendar>Minimale kalender-keuzelijst</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Minimale keuzelijst</minimal_drop-down_list>
+            <minimal_pop-up_menu>Minimaal pop-upmenu</minimal_pop-up_menu>
+            <minimal_container>Minimale container</minimal_container>
+            <title_header_text>• Tekst van titelkopgedeelte</title_header_text>
+            <leading_grand_summary_text>• Tekst van voorafgaand algemeen resumégedeelte</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Tekst van voorafgaand subresumégedeelte 1</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Tekst van voorafgaand subresumégedeelte 2</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Extra tekst van voorafgaand subresumégedeelte</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Extra tekst van navolgend subresumégedeelte</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Tekst van navolgend subresumégedeelte 2</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Tekst van navolgend subresumégedeelte 1</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Tekst van navolgend algemeen resumégedeelte</trailing_grand_summary_text>
+            <footer_text>• Tekst van voetgedeelte</footer_text>
+            <title_footer_text>• Tekst van titelvoetgedeelte</title_footer_text>
+            <header_text>• Tekst van kopgedeelte</header_text>
+            <navigation_part_text>• Tekst van navigatiegedeelte</navigation_part_text>
+        </namedstyles>
+    </metadata>
+</theme>

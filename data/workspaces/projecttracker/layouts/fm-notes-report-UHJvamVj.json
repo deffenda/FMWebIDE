@@ -1,0 +1,461 @@
+{
+  "id": "fm-notes-report-UHJvamVj",
+  "name": "Notes|Report",
+  "defaultTableOccurrence": "Notes|Report",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-23",
+      "position": {
+        "x": 13,
+        "y": 227,
+        "width": 116,
+        "height": 20,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Pop-up Menu",
+        "ddrObjectPath": "23",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-1",
+      "position": {
+        "x": 16,
+        "y": 16,
+        "width": 90,
+        "height": 60,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "label": "[Graphic]",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-2",
+      "position": {
+        "x": 16,
+        "y": 125,
+        "width": 325,
+        "height": 20,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-3",
+      "position": {
+        "x": 27,
+        "y": 154,
+        "width": 206,
+        "height": 20,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "3",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_item_ID",
+        "controlType": "popup",
+        "valueList": "Items_All",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_item_ID",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-11",
+      "position": {
+        "x": 47,
+        "y": 204,
+        "width": 89,
+        "height": 20,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Invisible",
+        "ddrObjectPath": "11",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "date",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-13",
+      "position": {
+        "x": 140,
+        "y": 203,
+        "width": 26,
+        "height": 24,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "13",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_done",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_done",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-15",
+      "position": {
+        "x": 168,
+        "y": 203,
+        "width": 393,
+        "height": 125,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Invisible",
+        "ddrObjectPath": "15",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "note",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "note",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-16",
+      "position": {
+        "x": 16,
+        "y": 344,
+        "width": 144,
+        "height": 18,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "16",
+        "rotation": 0,
+        "label": "Page: {{PageNumber}}",
+        "ddrArrangeOrder": 8
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-17",
+      "position": {
+        "x": 417,
+        "y": 344,
+        "width": 144,
+        "height": 16,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Footer Text",
+        "ddrObjectPath": "17",
+        "rotation": 0,
+        "label": "{{CurrentDate}}",
+        "ddrArrangeOrder": 9
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-21",
+      "position": {
+        "x": 119,
+        "y": 29,
+        "width": 256,
+        "height": 34,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Title Text 1",
+        "ddrObjectPath": "21",
+        "rotation": 0,
+        "label": "Item Notes Report",
+        "ddrArrangeOrder": 10
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-27",
+      "position": {
+        "x": 428,
+        "y": 157,
+        "width": 132,
+        "height": 18,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 2 Text",
+        "ddrObjectPath": "27",
+        "rotation": 0,
+        "label": "Count: <<zz_count>>",
+        "ddrArrangeOrder": 11
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-33",
+      "position": {
+        "x": 50,
+        "y": 95,
+        "width": 31,
+        "height": 18,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 2 Text",
+        "ddrObjectPath": "33",
+        "rotation": 0,
+        "label": "Date",
+        "ddrArrangeOrder": 12
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-34",
+      "position": {
+        "x": 135,
+        "y": 95,
+        "width": 34,
+        "height": 18,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 2 Text",
+        "ddrObjectPath": "34",
+        "rotation": 0,
+        "label": "Done",
+        "ddrArrangeOrder": 13
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-35",
+      "position": {
+        "x": 168,
+        "y": 95,
+        "width": 61,
+        "height": 18,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 2 Text",
+        "ddrObjectPath": "35",
+        "rotation": 0,
+        "label": "Item Note",
+        "ddrArrangeOrder": 14
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-36",
+      "position": {
+        "x": 86,
+        "y": 177,
+        "width": 141,
+        "height": 20,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Invisible",
+        "ddrObjectPath": "36",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "module",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 15
+      },
+      "type": "field",
+      "binding": {
+        "field": "module",
+        "tableOccurrence": "cm.notes_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-37",
+      "position": {
+        "x": 36,
+        "y": 179,
+        "width": 48,
+        "height": 15,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Leading Sub-summary 2 Text",
+        "ddrObjectPath": "37",
+        "rotation": 0,
+        "label": "Module:",
+        "ddrArrangeOrder": 16
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-39",
+      "position": {
+        "x": 14,
+        "y": 204,
+        "width": 34,
+        "height": 20,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Invisible",
+        "ddrObjectPath": "39",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_record_number",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 17
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_record_number",
+        "tableOccurrence": "CM.NOTES"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-report-UHJvamVj-40",
+      "position": {
+        "x": 2,
+        "y": 206,
+        "width": 13,
+        "height": 15,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "40",
+        "rotation": 0,
+        "label": "#",
+        "ddrArrangeOrder": 18
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

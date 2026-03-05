@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<theme>
+    <id>com.filemaker.theme.wave_touch</id>
+    <name>Wave Touch</name>
+    <group>Specialty</group>
+    <version>6</version>
+    <cssfile>wave_touch.css</cssfile>
+    <platform>Touch</platform>
+    <preview>images/wavetouchPreview.png</preview>
+    <metadata>
+        <layoutbuilder>
+            <kBaseFontSize>12</kBaseFontSize>
+            <kReportBreakFieldIndent>16</kReportBreakFieldIndent>
+            <kBackgroundPaddingTop>16</kBackgroundPaddingTop>
+            <kBackgroundPaddingBottom>16</kBackgroundPaddingBottom>
+            <kBackgroundPaddingLeft>16</kBackgroundPaddingLeft>
+            <kBackgroundPaddingRight>16</kBackgroundPaddingRight>
+            <kFirstPartPaddingTop>12</kFirstPartPaddingTop>
+            <kLastPartPaddingBottom>16</kLastPartPaddingBottom>
+            <kPartPaddingLeft>16</kPartPaddingLeft>
+            <kPartPaddingRight>16</kPartPaddingRight>
+            <kLeadingPartPaddingTop>7</kLeadingPartPaddingTop>
+            <kLeadingPartPaddingBottom>6</kLeadingPartPaddingBottom>
+            <kBodyPartPaddingTop>2</kBodyPartPaddingTop>
+            <kBodyPartPaddingBottom>2</kBodyPartPaddingBottom>
+            <kTrailingPartPaddingTop>6</kTrailingPartPaddingTop>
+            <kTrailingPartPaddingBottom>7</kTrailingPartPaddingBottom>
+            <kVerticalFieldSpacing>4</kVerticalFieldSpacing>
+            <kTitleHeaderMinSize>27</kTitleHeaderMinSize>
+            <kHeaderMinSize>42</kHeaderMinSize>
+            <kBodyMinSize>33</kBodyMinSize>
+            <kFooterMinSize>27</kFooterMinSize>
+            <kTitleFooterMinSize>21</kTitleFooterMinSize>
+            <kTopNavPartMinSize>20</kTopNavPartMinSize>
+            <kBottomNavPartMinSize>20</kBottomNavPartMinSize>
+            <kSummaryPartMinSize>33</kSummaryPartMinSize>
+        </layoutbuilder>
+        <charting>
+            <colorScheme>Sea Glass</colorScheme>
+        </charting>
+        <namedstyles>
+            <minimal_drop-down_calendar>Minimal Drop-down Calendar</minimal_drop-down_calendar>
+            <minimal_edit_box>Minimal Edit Box</minimal_edit_box>
+            <minimal_pop-up_menu>Minimal Pop-up Menu</minimal_pop-up_menu>
+            <minimal_drop-down_list>Minimal Drop-down List</minimal_drop-down_list>
+            <simple_popover>Simple Popover</simple_popover>
+            <dots_outside>Dots Outside</dots_outside>
+            <header_button>Header Button</header_button>
+            <header_edit_box>Header Edit Box</header_edit_box>
+            <header_drop-down_list>Header Drop-down List</header_drop-down_list>
+            <header_pop-up_menu>Header Pop-up Menu</header_pop-up_menu>
+            <header_drop-down_calendar>Header Drop-down Calendar</header_drop-down_calendar>
+            <header_checkbox_set>Header Checkbox Set</header_checkbox_set>
+            <header_radio_button_set>Header Radio Button Set</header_radio_button_set>
+            <title_text_1>Title Text 1</title_text_1>
+            <title_text_2>Title Text 2</title_text_2>
+            <title_bar_rectangle>Title Bar Shape</title_bar_rectangle>
+            <region_rectangle>Region Shape</region_rectangle>
+            <minimal_container>Minimal Container</minimal_container>
+            <title_header_text>• Title Header Text</title_header_text>
+            <leading_grand_summary_text>• Leading Grand Summary Text</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Leading Sub-summary 1 Text</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Leading Sub-summary 2 Text</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Leading Sub-summary Additional Text</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Trailing Sub-summary Additional Text</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Trailing Sub-summary 2 Text</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Trailing Sub-summary 1 Text</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Trailing Grand Summary Text</trailing_grand_summary_text>
+            <footer_text>• Footer Text</footer_text>
+            <title_footer_text>• Title Footer Text</title_footer_text>
+            <header_text>• Header Text</header_text>
+            <navigation_part_text>• Navigation Part Text</navigation_part_text>
+            <body_button_bar>Body Button Bar</body_button_bar>
+        </namedstyles>
+        <colorpalette>
+            <swatch1>#E8F5F6</swatch1>
+            <swatch2>#DDE4E9</swatch2>
+            <swatch3>#B6CEDD</swatch3>
+            <swatch4>#BEEEEC</swatch4>
+            <swatch5>#88C9DC</swatch5>
+            <swatch6>#4F7581</swatch6>
+            <swatch7>#16415A</swatch7>
+            <swatch8>#6FA350</swatch8>
+        </colorpalette>
+    </metadata>
+</theme>

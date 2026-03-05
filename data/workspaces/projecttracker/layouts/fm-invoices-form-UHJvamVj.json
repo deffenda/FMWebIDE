@@ -1,0 +1,2950 @@
+{
+  "id": "fm-invoices-form-UHJvamVj",
+  "name": "Invoices|Form",
+  "defaultTableOccurrence": "Invoices|Form",
+  "canvas": {
+    "width": 1305,
+    "height": 732,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6648",
+      "position": {
+        "x": 995,
+        "y": 86,
+        "width": 256,
+        "height": 51,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Header",
+        "ddrObjectPath": "6648",
+        "rotation": 0,
+        "label": "Invoice Period",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185",
+      "position": {
+        "x": 24,
+        "y": 268,
+        "width": 1230,
+        "height": 384,
+        "z": 2
+      },
+      "props": {
+        "tooltip": "Edit Item",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Edit Popover Blue",
+        "ddrObjectPath": "6185",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "explanation",
+        "controlType": "text",
+        "valueList": "TimeBoxes__byProject_Available",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "explanation",
+        "tableOccurrence": "pt.invoices_PT.INVOICE_ITEMS"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]",
+          "parameter": "Add Item"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+      "position": {
+        "x": 90,
+        "y": 886,
+        "width": 1194,
+        "height": 226,
+        "z": 3
+      },
+      "props": {
+        "tooltip": "Edit Item",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Edit Popover Blue",
+        "ddrObjectPath": "6185.6208.6209",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 8,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "explanation",
+          "total",
+          "date",
+          "fee",
+          "quantity",
+          "_kfgm_status_selected_IDs",
+          "_kfgm_category_selected_IDs",
+          "_kfgm_sprint_selected_IDs",
+          "_kfgm_module_selected_IDs",
+          "_kfgm_person_IDs",
+          "_kf_status_ID",
+          "_kf_category_ID",
+          "_kf_sprint_ID",
+          "module",
+          "_kf_person_ID",
+          "name",
+          "date_start",
+          "date_due",
+          "description",
+          "rate",
+          "is_milestone"
+        ],
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 3
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "pt.invoices_PT.INVOICE_ITEMS"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6292",
+      "position": {
+        "x": 163,
+        "y": 1241,
+        "width": 592,
+        "height": 21,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6292",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "explanation",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "explanation",
+        "tableOccurrence": "pt.invoices_PT.INVOICE_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519",
+      "position": {
+        "x": 1248,
+        "y": 1241,
+        "width": 30,
+        "height": 21,
+        "z": 5
+      },
+      "props": {
+        "tooltip": "Edit Item",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Edit Popover Blue",
+        "ddrObjectPath": "6185.6208.6209.6519",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "More",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 5
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520",
+      "position": {
+        "x": 2105,
+        "y": 1382,
+        "width": 290,
+        "height": 449,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "6185.6208.6209.6519.6520",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_sprint_ID",
+        "controlType": "popup",
+        "valueList": "TimeBoxes__byProject_Available",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_sprint_ID",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6481",
+      "position": {
+        "x": 2986,
+        "y": 1613,
+        "width": 240,
+        "height": 20,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6481",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_sprint_ID",
+        "controlType": "popup",
+        "valueList": "TimeBoxes__byProject_Available",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_sprint_ID",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6513",
+      "position": {
+        "x": 2986,
+        "y": 1570,
+        "width": 240,
+        "height": 20,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6513",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_category_ID",
+        "controlType": "popup",
+        "valueList": "Categories__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_category_ID",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6482",
+      "position": {
+        "x": 2986,
+        "y": 1594,
+        "width": 240,
+        "height": 19,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6482",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "Sprint",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 9
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6514",
+      "position": {
+        "x": 2986,
+        "y": 1551,
+        "width": 240,
+        "height": 19,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6514",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "Category",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 10
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6274",
+      "position": {
+        "x": 2986,
+        "y": 1701,
+        "width": 92,
+        "height": 20,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6274",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date_start",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 11
+      },
+      "type": "field",
+      "binding": {
+        "field": "date_start",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6275",
+      "position": {
+        "x": 3134,
+        "y": 1701,
+        "width": 92,
+        "height": 20,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6275",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date_due",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "date_due",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6565",
+      "position": {
+        "x": 2989,
+        "y": 1809,
+        "width": 237,
+        "height": 141,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6565",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "description",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6566",
+      "position": {
+        "x": 2989,
+        "y": 1789,
+        "width": 240,
+        "height": 19,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6566",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "Description",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 14
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6567",
+      "position": {
+        "x": 2986,
+        "y": 1682,
+        "width": 92,
+        "height": 19,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6567",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "Start",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 15
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6568",
+      "position": {
+        "x": 3134,
+        "y": 1682,
+        "width": 92,
+        "height": 19,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6568",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "End",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 16
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6652",
+      "position": {
+        "x": 2986,
+        "y": 1656,
+        "width": 237,
+        "height": 20,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6652",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_person_ID",
+        "controlType": "popup",
+        "valueList": "Persons__byProject_Available",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 17
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_person_ID",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6653",
+      "position": {
+        "x": 2986,
+        "y": 1637,
+        "width": 240,
+        "height": 19,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6653",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "Person",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 18
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6725",
+      "position": {
+        "x": 2986,
+        "y": 1749,
+        "width": 92,
+        "height": 20,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6725",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "rate",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 19
+      },
+      "type": "field",
+      "binding": {
+        "field": "rate",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-6726",
+      "position": {
+        "x": 2986,
+        "y": 1730,
+        "width": 92,
+        "height": 19,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.6726",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "Rate",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 20
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-7109",
+      "position": {
+        "x": 3143,
+        "y": 1749,
+        "width": 21,
+        "height": 24,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.7109",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "is_milestone",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 21
+      },
+      "type": "field",
+      "binding": {
+        "field": "is_milestone",
+        "tableOccurrence": "pt.projects_PT.ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6519-6520-7110",
+      "position": {
+        "x": 3134,
+        "y": 1730,
+        "width": 92,
+        "height": 19,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6209.6519.6520.7110",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "Milestone",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 22
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6557",
+      "position": {
+        "x": 1143,
+        "y": 1241,
+        "width": 102,
+        "height": 21,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "6185.6208.6209.6557",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "total",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 23
+      },
+      "type": "field",
+      "binding": {
+        "field": "total",
+        "tableOccurrence": "pt.invoices_PT.INVOICE_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6654",
+      "position": {
+        "x": 872,
+        "y": 1241,
+        "width": 87,
+        "height": 21,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "6185.6208.6209.6654",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date",
+        "controlType": "date",
+        "valueList": "Modules__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 24
+      },
+      "type": "field",
+      "binding": {
+        "field": "date",
+        "tableOccurrence": "pt.invoices_PT.INVOICE_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6718",
+      "position": {
+        "x": 1282,
+        "y": 1241,
+        "width": 21,
+        "height": 21,
+        "z": 25
+      },
+      "props": {
+        "tooltip": "Delete",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Delete Portal Row",
+        "ddrObjectPath": "6185.6208.6209.6718",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "Delete",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 25
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row [params]"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-6727",
+      "position": {
+        "x": 1031,
+        "y": 1241,
+        "width": 108,
+        "height": 21,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "6185.6208.6209.6727",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "fee",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 26
+      },
+      "type": "field",
+      "binding": {
+        "field": "fee",
+        "tableOccurrence": "pt.invoices_PT.INVOICE_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209-7222",
+      "position": {
+        "x": 963,
+        "y": 1241,
+        "width": 61,
+        "height": 21,
+        "z": 27
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default CJ",
+        "ddrObjectPath": "6185.6208.6209.7222",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6209",
+        "portalParentDdrPath": "6185.6208.6209",
+        "portalParentTableOccurrence": "pt.invoices_PT.INVOICE_ITEMS",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "quantity",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 27
+      },
+      "type": "field",
+      "binding": {
+        "field": "quantity",
+        "tableOccurrence": "pt.invoices_PT.INVOICE_ITEMS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6273",
+      "position": {
+        "x": 121,
+        "y": 869,
+        "width": 340,
+        "height": 17,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6208.6273",
+        "rotation": 0,
+        "label": "Description",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 28
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329",
+      "position": {
+        "x": 1162,
+        "y": 839,
+        "width": 122,
+        "height": 24,
+        "z": 29
+      },
+      "props": {
+        "tooltip": "Add Item",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "6185.6208.6329",
+        "rotation": 0,
+        "label": "Add Item",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 29
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; Get ( UUID ) ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_project_ID ) ; PT.PROJECTS::__kp_project_ID ) ;\n\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_person_ID ) ; SYSTEM::usr_text_01 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_category_ID ) ; SYSTEM::usr_text_02 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_sprint_ID ) ; SYSTEM::usr_text_03 ) ;\n\n\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::description ) ; SYSTEM::usr_text_04 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::name ) ; SYSTEM::usr_text_05 ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::is_milestone ) ; SYSTEM::usr_number_01 ) ;\n\n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330",
+      "position": {
+        "x": 1998,
+        "y": 934,
+        "width": 296,
+        "height": 440,
+        "z": 30
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "6185.6208.6329.6330",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_02",
+        "controlType": "popup",
+        "valueList": "Categories__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 30
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_02",
+        "tableOccurrence": "SYSTEM"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; Get ( UUID ) ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_project_ID ) ; PT.PROJECTS::__kp_project_ID ) ;\n\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_person_ID ) ; SYSTEM::usr_text_01 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_category_ID ) ; SYSTEM::usr_text_02 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_sprint_ID ) ; SYSTEM::usr_text_03 ) ;\n\n\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::description ) ; SYSTEM::usr_text_04 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::name ) ; SYSTEM::usr_text_05 ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::is_milestone ) ; SYSTEM::usr_number_01 ) ;\n\n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-6948",
+      "position": {
+        "x": 2860,
+        "y": 1172,
+        "width": 240,
+        "height": 20,
+        "z": 31
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6948",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_02",
+        "controlType": "popup",
+        "valueList": "Categories__byProject",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 31
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_02",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-6949",
+      "position": {
+        "x": 2860,
+        "y": 1129,
+        "width": 240,
+        "height": 20,
+        "z": 32
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6949",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_01",
+        "controlType": "popup",
+        "valueList": "Persons__byProject_Available",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 32
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_01",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-6950",
+      "position": {
+        "x": 2860,
+        "y": 1153,
+        "width": 240,
+        "height": 19,
+        "z": 33
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6950",
+        "rotation": 0,
+        "label": "Category",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 33
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-6951",
+      "position": {
+        "x": 2860,
+        "y": 1110,
+        "width": 240,
+        "height": 19,
+        "z": 34
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6951",
+        "rotation": 0,
+        "label": "Person",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 34
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-6952",
+      "position": {
+        "x": 2860,
+        "y": 1268,
+        "width": 240,
+        "height": 141,
+        "z": 35
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6952",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_04",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 35
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_04",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-6953",
+      "position": {
+        "x": 2860,
+        "y": 1248,
+        "width": 240,
+        "height": 19,
+        "z": 36
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6953",
+        "rotation": 0,
+        "label": "Description",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 36
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-6954",
+      "position": {
+        "x": 2860,
+        "y": 1215,
+        "width": 188,
+        "height": 20,
+        "z": 37
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6954",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_03",
+        "controlType": "popup",
+        "valueList": "TimeBoxes__byProject_Available",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 37
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_03",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-6955",
+      "position": {
+        "x": 2860,
+        "y": 1196,
+        "width": 188,
+        "height": 19,
+        "z": 38
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6955",
+        "rotation": 0,
+        "label": "Sprint",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 38
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-6956",
+      "position": {
+        "x": 3030,
+        "y": 1423,
+        "width": 70,
+        "height": 21,
+        "z": 39
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6956",
+        "rotation": 0,
+        "label": "Save",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 39
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Set Fields [dictionary] CONTROLLER",
+          "parameter": "cf_Dictionary ( \"dictionary\" ; \n\nList ( \n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; Get ( UUID ) ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_project_ID ) ; PT.PROJECTS::__kp_project_ID ) ;\n\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_person_ID ) ; SYSTEM::usr_text_01 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_category_ID ) ; SYSTEM::usr_text_02 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::_kf_sprint_ID ) ; SYSTEM::usr_text_03 ) ;\n\n\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::description ) ; SYSTEM::usr_text_04 ) ;\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::name ) ; SYSTEM::usr_text_05 ) ;\n\ncf_Dictionary ( GetFieldName ( pt.projects_PT.ITEMS__Pivot::is_milestone ) ; SYSTEM::usr_number_01 ) ;\n\n\ncf_Dictionary ( GetFieldName ( PT.PROJECTS::zz_pivot ) ; \"\" )\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-6957",
+      "position": {
+        "x": 2860,
+        "y": 1423,
+        "width": 70,
+        "height": 21,
+        "z": 40
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6957",
+        "rotation": 0,
+        "label": "Exit",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 40
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Close Popover (e)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-6958",
+      "position": {
+        "x": 2860,
+        "y": 1089,
+        "width": 240,
+        "height": 21,
+        "z": 41
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6958",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_text_05",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 41
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_text_05",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-6959",
+      "position": {
+        "x": 2860,
+        "y": 1069,
+        "width": 240,
+        "height": 19,
+        "z": 42
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.6959",
+        "rotation": 0,
+        "label": "Item",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 42
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-7111",
+      "position": {
+        "x": 3079,
+        "y": 1215,
+        "width": 21,
+        "height": 24,
+        "z": 43
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Checkbox18",
+        "ddrObjectPath": "6185.6208.6329.6330.7111",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_number_02",
+        "controlType": "checkbox",
+        "valueList": "CheckBox_1",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 43
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_number_02",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6329-6330-7113",
+      "position": {
+        "x": 3048,
+        "y": 1196,
+        "width": 59,
+        "height": 19,
+        "z": 44
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.6329.6330.7113",
+        "rotation": 0,
+        "label": "Milestone",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 44
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6649",
+      "position": {
+        "x": 1101,
+        "y": 869,
+        "width": 102,
+        "height": 17,
+        "z": 45
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "6185.6208.6649",
+        "rotation": 0,
+        "label": "Total",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 45
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6655",
+      "position": {
+        "x": 830,
+        "y": 869,
+        "width": 87,
+        "height": 18,
+        "z": 46
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.6208.6655",
+        "rotation": 0,
+        "label": "Date",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 46
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-6730",
+      "position": {
+        "x": 967,
+        "y": 1123,
+        "width": 131,
+        "height": 17,
+        "z": 47
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "6185.6208.6730",
+        "rotation": 0,
+        "label": "Subtotal",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 47
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-7223",
+      "position": {
+        "x": 921,
+        "y": 869,
+        "width": 63,
+        "height": 17,
+        "z": 48
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "6185.6208.7223",
+        "rotation": 0,
+        "label": "Quantity",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 48
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-7229",
+      "position": {
+        "x": 1101,
+        "y": 1121,
+        "width": 102,
+        "height": 20,
+        "z": 49
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.7229",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "subtotal",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 49
+      },
+      "type": "field",
+      "binding": {
+        "field": "subtotal",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-7230",
+      "position": {
+        "x": 1101,
+        "y": 1150,
+        "width": 102,
+        "height": 20,
+        "z": 50
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.7230",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "grand_total",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 50
+      },
+      "type": "field",
+      "binding": {
+        "field": "grand_total",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-7231",
+      "position": {
+        "x": 967,
+        "y": 1152,
+        "width": 131,
+        "height": 17,
+        "z": 51
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "6185.6208.7231",
+        "rotation": 0,
+        "label": "Grand Total",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 51
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-7234",
+      "position": {
+        "x": 1032,
+        "y": 839,
+        "width": 122,
+        "height": 23,
+        "z": 52
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.7234",
+        "rotation": 0,
+        "label": "Print",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 52
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Invoices | Print Invoice"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-7246",
+      "position": {
+        "x": 989,
+        "y": 869,
+        "width": 111,
+        "height": 17,
+        "z": 53
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 CJ",
+        "ddrObjectPath": "6185.6208.7246",
+        "rotation": 0,
+        "label": "Price",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 53
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-6208-7300",
+      "position": {
+        "x": 917,
+        "y": 1150,
+        "width": 102,
+        "height": 20,
+        "z": 54
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.6208.7300",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "convenience_fee",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-6208",
+        "ddrArrangeOrder": 54
+      },
+      "type": "field",
+      "binding": {
+        "field": "convenience_fee",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-7248-7249",
+      "position": {
+        "x": 91,
+        "y": 887,
+        "width": 1194,
+        "height": 226,
+        "z": 55
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.7248.7249",
+        "rotation": 0,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 8,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "description",
+          "_kfgm_status_selected_IDs",
+          "_kfgm_category_selected_IDs",
+          "_kfgm_sprint_selected_IDs",
+          "_kfgm_module_selected_IDs",
+          "_kfgm_person_IDs",
+          "_kf_status_ID",
+          "_kf_category_ID",
+          "_kf_sprint_ID",
+          "module",
+          "_kf_person_ID"
+        ],
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-7248",
+        "ddrArrangeOrder": 55
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "pt.invoices_PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-7248-7249-7250",
+      "position": {
+        "x": 165,
+        "y": 1243,
+        "width": 340,
+        "height": 21,
+        "z": 56
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.7248.7249.7250",
+        "portalParentComponentId": "ddr-fm-invoices-form-UHJvamVj-6185-7248-7249",
+        "portalParentDdrPath": "6185.7248.7249",
+        "portalParentTableOccurrence": "pt.invoices_PT.TIME_ENTRIES",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-7248",
+        "ddrArrangeOrder": 56
+      },
+      "type": "field",
+      "binding": {
+        "field": "description",
+        "tableOccurrence": "pt.invoices_PT.TIME_ENTRIES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-7248-7274",
+      "position": {
+        "x": 122,
+        "y": 870,
+        "width": 340,
+        "height": 17,
+        "z": 57
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6185.7248.7274",
+        "rotation": 0,
+        "label": "Description",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-7248",
+        "ddrArrangeOrder": 57
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-7241-7232",
+      "position": {
+        "x": 90,
+        "y": 852,
+        "width": 311,
+        "height": 20,
+        "z": 58
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.7241.7232",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "__kp_invoice_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-7241",
+        "ddrArrangeOrder": 58
+      },
+      "type": "field",
+      "binding": {
+        "field": "__kp_invoice_ID",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6185-7241-7235",
+      "position": {
+        "x": 90,
+        "y": 885,
+        "width": 311,
+        "height": 20,
+        "z": 59
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6185.7241.7235",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "record_number",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-6185-7241",
+        "ddrArrangeOrder": 59
+      },
+      "type": "field",
+      "binding": {
+        "field": "record_number",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6318",
+      "position": {
+        "x": 24,
+        "y": 86,
+        "width": 403,
+        "height": 25,
+        "z": 60
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6318",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Please Enter a Name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 60
+      },
+      "type": "field",
+      "binding": {
+        "field": "name_display",
+        "tableOccurrence": "pt.invoices_PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6358",
+      "position": {
+        "x": 164,
+        "y": 0,
+        "width": 400,
+        "height": 60,
+        "z": 61
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Header Text",
+        "ddrObjectPath": "6358",
+        "rotation": 0,
+        "label": "Invoices",
+        "ddrArrangeOrder": 61
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6393",
+      "position": {
+        "x": 270,
+        "y": 674,
+        "width": 984,
+        "height": 18,
+        "z": 62
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Navigation Part Text",
+        "ddrObjectPath": "6393",
+        "rotation": 0,
+        "label": "Created by <<zz_account_create>> on <<zz_timestamp_create>> | Last Modified by <<zz_account_modify>> on <<zz_timestamp_modify>>",
+        "ddrArrangeOrder": 62
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6391",
+      "position": {
+        "x": 426,
+        "y": 130,
+        "width": 30,
+        "height": 24,
+        "z": 63
+      },
+      "props": {
+        "tooltip": "Edit",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Edit Popover Blue",
+        "ddrObjectPath": "6391",
+        "rotation": 0,
+        "label": "Edit",
+        "variant": "secondary",
+        "ddrArrangeOrder": 63
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6391-6392",
+      "position": {
+        "x": 666,
+        "y": 295,
+        "width": 402,
+        "height": 80,
+        "z": 64
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6391.6392",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_organization_ID",
+        "controlType": "popup",
+        "valueList": "Organizations",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 64
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_organization_ID",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6391-6392-6719",
+      "position": {
+        "x": 933,
+        "y": 497,
+        "width": 352,
+        "height": 20,
+        "z": 65
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6391.6392.6719",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_organization_ID",
+        "controlType": "popup",
+        "valueList": "Organizations",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 65
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_organization_ID",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6486",
+      "position": {
+        "x": 24,
+        "y": 68,
+        "width": 40,
+        "height": 18,
+        "z": 66
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6486",
+        "rotation": 0,
+        "label": "Name",
+        "ddrArrangeOrder": 66
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6487",
+      "position": {
+        "x": 24,
+        "y": 111,
+        "width": 68,
+        "height": 19,
+        "z": 67
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6487",
+        "rotation": 0,
+        "label": "Organization",
+        "ddrArrangeOrder": 67
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6488",
+      "position": {
+        "x": 24,
+        "y": 154,
+        "width": 63,
+        "height": 19,
+        "z": 68
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "6488",
+        "rotation": 0,
+        "label": "Summary",
+        "ddrArrangeOrder": 68
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6388",
+      "position": {
+        "x": 24,
+        "y": 130,
+        "width": 403,
+        "height": 24,
+        "z": 69
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default No Edit",
+        "ddrObjectPath": "6388",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Please Select an Organization >>>",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 69
+      },
+      "type": "field",
+      "binding": {
+        "field": "name_display",
+        "tableOccurrence": "pt.invoices_CM.ORGANIZATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6424",
+      "position": {
+        "x": 995,
+        "y": 136,
+        "width": 78,
+        "height": 23,
+        "z": 70
+      },
+      "props": {
+        "tooltip": "Clear",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Black",
+        "ddrObjectPath": "6424",
+        "rotation": 0,
+        "label": "Start",
+        "variant": "secondary",
+        "ddrArrangeOrder": 70
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6424-6425",
+      "position": {
+        "x": 1977,
+        "y": 374,
+        "width": 161,
+        "height": 79,
+        "z": 71
+      },
+      "props": {
+        "tooltip": "Clear",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Black",
+        "ddrObjectPath": "6424.6425",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date_start",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 71
+      },
+      "type": "field",
+      "binding": {
+        "field": "date_start",
+        "tableOccurrence": "PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6424-6425-6426",
+      "position": {
+        "x": 2980,
+        "y": 648,
+        "width": 99,
+        "height": 24,
+        "z": 72
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6424.6425.6426",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date_start",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 72
+      },
+      "type": "field",
+      "binding": {
+        "field": "date_start",
+        "tableOccurrence": "PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6424-6425-6427",
+      "position": {
+        "x": 3090,
+        "y": 651,
+        "width": 18,
+        "height": 18,
+        "z": 73
+      },
+      "props": {
+        "tooltip": "Clear",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Black",
+        "ddrObjectPath": "6424.6425.6427",
+        "rotation": 0,
+        "label": "Clear",
+        "variant": "secondary",
+        "ddrArrangeOrder": 73
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6428",
+      "position": {
+        "x": 1071,
+        "y": 136,
+        "width": 79,
+        "height": 23,
+        "z": 74
+      },
+      "props": {
+        "tooltip": "Clear",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Black",
+        "ddrObjectPath": "6428",
+        "rotation": 0,
+        "label": "End",
+        "variant": "secondary",
+        "ddrArrangeOrder": 74
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6428-6429",
+      "position": {
+        "x": 2101,
+        "y": 306,
+        "width": 161,
+        "height": 79,
+        "z": 75
+      },
+      "props": {
+        "tooltip": "Clear",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Black",
+        "ddrObjectPath": "6428.6429",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date_end",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 75
+      },
+      "type": "field",
+      "binding": {
+        "field": "date_end",
+        "tableOccurrence": "PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6428-6429-6431",
+      "position": {
+        "x": 3148,
+        "y": 512,
+        "width": 99,
+        "height": 24,
+        "z": 76
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6428.6429.6431",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date_end",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 76
+      },
+      "type": "field",
+      "binding": {
+        "field": "date_end",
+        "tableOccurrence": "PT.PROJECTS"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6428-6429-6432",
+      "position": {
+        "x": 3258,
+        "y": 515,
+        "width": 18,
+        "height": 18,
+        "z": 77
+      },
+      "props": {
+        "tooltip": "Clear",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Black",
+        "ddrObjectPath": "6428.6429.6432",
+        "rotation": 0,
+        "label": "Clear",
+        "variant": "secondary",
+        "ddrArrangeOrder": 77
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6155",
+      "position": {
+        "x": 995,
+        "y": 106,
+        "width": 78,
+        "height": 31,
+        "z": 78
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default NR 12",
+        "ddrObjectPath": "6155",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "period_start",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 78
+      },
+      "type": "field",
+      "binding": {
+        "field": "period_start",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6156",
+      "position": {
+        "x": 1071,
+        "y": 106,
+        "width": 79,
+        "height": 31,
+        "z": 79
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default NR 12",
+        "ddrObjectPath": "6156",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "period_end",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 79
+      },
+      "type": "field",
+      "binding": {
+        "field": "period_end",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6778",
+      "position": {
+        "x": 1149,
+        "y": 106,
+        "width": 102,
+        "height": 31,
+        "z": 80
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Default NR 12",
+        "ddrObjectPath": "6778",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "invoice_date",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 80
+      },
+      "type": "field",
+      "binding": {
+        "field": "invoice_date",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6779",
+      "position": {
+        "x": 1149,
+        "y": 136,
+        "width": 102,
+        "height": 23,
+        "z": 81
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6779",
+        "rotation": 0,
+        "label": "Invoiced On",
+        "variant": "secondary",
+        "ddrArrangeOrder": 81
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6779-6780",
+      "position": {
+        "x": 2269,
+        "y": 306,
+        "width": 161,
+        "height": 79,
+        "z": 82
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "6779.6780",
+        "rotation": 0,
+        "label": "[Popover]",
+        "ddrArrangeOrder": 82
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-6878",
+      "position": {
+        "x": 2,
+        "y": 131,
+        "width": 21,
+        "height": 21,
+        "z": 83
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Blue",
+        "ddrObjectPath": "6878",
+        "rotation": 0,
+        "label": "Go To Details",
+        "variant": "secondary",
+        "ddrArrangeOrder": 83
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7218",
+      "position": {
+        "x": 2,
+        "y": 87,
+        "width": 21,
+        "height": 21,
+        "z": 84
+      },
+      "props": {
+        "tooltip": "Go To Details",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Navigation Blue",
+        "ddrObjectPath": "7218",
+        "rotation": 0,
+        "label": "Go To Details",
+        "variant": "secondary",
+        "ddrArrangeOrder": 84
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7219",
+      "position": {
+        "x": 426,
+        "y": 86,
+        "width": 30,
+        "height": 24,
+        "z": 85
+      },
+      "props": {
+        "tooltip": "Edit",
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Edit Popover Blue",
+        "ddrObjectPath": "7219",
+        "rotation": 0,
+        "label": "Edit",
+        "variant": "secondary",
+        "ddrArrangeOrder": 85
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7219-7220",
+      "position": {
+        "x": 666,
+        "y": 207,
+        "width": 402,
+        "height": 80,
+        "z": 86
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7219.7220",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 86
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7219-7220-7221",
+      "position": {
+        "x": 933,
+        "y": 365,
+        "width": 352,
+        "height": 20,
+        "z": 87
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7219.7220.7221",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_project_ID",
+        "controlType": "popup",
+        "valueList": "Projects",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 87
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_project_ID",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7227",
+      "position": {
+        "x": 23,
+        "y": 174,
+        "width": 432,
+        "height": 67,
+        "z": 88
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7227",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Please Enter a Description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 88
+      },
+      "type": "field",
+      "binding": {
+        "field": "summary",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7239",
+      "position": {
+        "x": 471,
+        "y": 87,
+        "width": 122,
+        "height": 20,
+        "z": 89
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7239",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "status",
+        "controlType": "popup",
+        "valueList": "InvoiceStatuses",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 89
+      },
+      "type": "field",
+      "binding": {
+        "field": "status",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7240",
+      "position": {
+        "x": 471,
+        "y": 68,
+        "width": 40,
+        "height": 18,
+        "z": 90
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "7240",
+        "rotation": 0,
+        "label": "Status",
+        "ddrArrangeOrder": 90
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7242",
+      "position": {
+        "x": 471,
+        "y": 134,
+        "width": 308,
+        "height": 20,
+        "z": 91
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7242",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_waveapp_ID",
+        "controlType": "text",
+        "valueList": "InvoiceStatuses",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 91
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_waveapp_ID",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7243",
+      "position": {
+        "x": 471,
+        "y": 115,
+        "width": 87,
+        "height": 19,
+        "z": 92
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "7243",
+        "rotation": 0,
+        "label": "Wave Invoice",
+        "ddrArrangeOrder": 92
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7244",
+      "position": {
+        "x": 615,
+        "y": 86,
+        "width": 79,
+        "height": 20,
+        "z": 93
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7244",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "record_number",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 93
+      },
+      "type": "field",
+      "binding": {
+        "field": "record_number",
+        "tableOccurrence": "PT.INVOICES"
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7247",
+      "position": {
+        "x": 615,
+        "y": 68,
+        "width": 78,
+        "height": 20,
+        "z": 94
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Field Label 10 LJ",
+        "ddrObjectPath": "7247",
+        "rotation": 0,
+        "label": "Invoice #",
+        "ddrArrangeOrder": 94
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7301-7302",
+      "position": {
+        "x": 17,
+        "y": 21,
+        "width": 51,
+        "height": 38,
+        "z": 95
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "hideObjectWhen": "/*cf_BrowserNavigation*/",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7301.7302",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-7301",
+        "ddrArrangeOrder": 95
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Backward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7301-7303",
+      "position": {
+        "x": 68,
+        "y": 21,
+        "width": 52,
+        "height": 38,
+        "z": 96
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7301.7303",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-7301",
+        "ddrArrangeOrder": 96
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7301-7303-7304",
+      "position": {
+        "x": 57,
+        "y": 77,
+        "width": 241,
+        "height": 363,
+        "z": 97
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7301.7303.7304",
+        "rotation": 0,
+        "label": "[Popover]",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-7301",
+        "ddrArrangeOrder": 97
+      },
+      "type": "label",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7301-7303-7304-7305-7306",
+      "position": {
+        "x": 80,
+        "y": 252,
+        "width": 195,
+        "height": 54,
+        "z": 98
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7301.7303.7304.7305.7306",
+        "rotation": 0,
+        "label": "Projects",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-7301-7303-7304-7305",
+        "ddrArrangeOrder": 98
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7301-7303-7304-7305-7307",
+      "position": {
+        "x": 80,
+        "y": 306,
+        "width": 195,
+        "height": 53,
+        "z": 99
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7301.7303.7304.7305.7307",
+        "rotation": 0,
+        "label": "Organizations",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-7301-7303-7304-7305",
+        "ddrArrangeOrder": 99
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Organizations",
+          "parameter": "Organizations"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7301-7303-7304-7305-7308",
+      "position": {
+        "x": 80,
+        "y": 359,
+        "width": 195,
+        "height": 54,
+        "z": 100
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7301.7303.7304.7305.7308",
+        "rotation": 0,
+        "label": "Invoices",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-7301-7303-7304-7305",
+        "ddrArrangeOrder": 100
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Invoices",
+          "parameter": "Invoices"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7301-7303-7304-7305-7309",
+      "position": {
+        "x": 80,
+        "y": 413,
+        "width": 195,
+        "height": 53,
+        "z": 101
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7301.7303.7304.7305.7309",
+        "rotation": 0,
+        "label": "Preferences",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-7301-7303-7304-7305",
+        "ddrArrangeOrder": 101
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to Preferences",
+          "parameter": "Preferences"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7301-7303-7304-7310-7311",
+      "position": {
+        "x": 80,
+        "y": 750,
+        "width": 195,
+        "height": 52,
+        "z": 102
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7301.7303.7304.7310.7311",
+        "rotation": 0,
+        "label": "Exit Application",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-7301-7303-7304-7310",
+        "ddrArrangeOrder": 102
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7301-7312",
+      "position": {
+        "x": 120,
+        "y": 21,
+        "width": 51,
+        "height": 38,
+        "z": 103
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7301.7312",
+        "rotation": 0,
+        "label": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "variant": "secondary",
+        "groupId": "ddr-group-fm-invoices-form-UHJvamVj-7301",
+        "ddrArrangeOrder": 103
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Forward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7313",
+      "position": {
+        "x": 1147,
+        "y": 17,
+        "width": 104,
+        "height": 25,
+        "z": 104
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7313",
+        "rotation": 0,
+        "label": "List View",
+        "variant": "secondary",
+        "ddrArrangeOrder": 104
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to List View from Form View",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7314",
+      "position": {
+        "x": 615,
+        "y": 198,
+        "width": 122,
+        "height": 25,
+        "z": 105
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7314",
+        "rotation": 0,
+        "label": "End Meeting",
+        "variant": "secondary",
+        "ddrArrangeOrder": 105
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to List View from Form View",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-invoices-form-UHJvamVj-7315",
+      "position": {
+        "x": 747,
+        "y": 198,
+        "width": 122,
+        "height": 25,
+        "z": 106
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7315",
+        "rotation": 0,
+        "label": "I\"m Feeling Lucky",
+        "variant": "secondary",
+        "ddrArrangeOrder": 106
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Go to List View from Form View",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    }
+  ],
+  "actions": []
+}

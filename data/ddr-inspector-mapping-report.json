@@ -1,0 +1,835 @@
+{
+  "generatedAt": "2026-03-01T09:57:09.254Z",
+  "ddrPath": "/Users/deffenda/Downloads/Assets.xml",
+  "totals": {
+    "layoutObjectCount": 108,
+    "semanticKeysDetected": 33,
+    "semanticKeysMapped": 33,
+    "semanticKeysMissing": 0
+  },
+  "semanticCoverage": [
+    {
+      "semanticKey": "action.Calculation.Text",
+      "count": 21,
+      "samples": [
+        "\"Vendors\"",
+        "\"Go to details.\"",
+        "\"Go to Assets.\"",
+        "\"Add employee.\"",
+        "\"Delete employee.\""
+      ],
+      "mappedTo": [
+        {
+          "prop": "events.onClick.parameter",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "action.Step.LayoutReference.name",
+      "count": 9,
+      "samples": [
+        "Asset List",
+        "Asset Details",
+        "Vendor Details",
+        "Vendor List",
+        "Employee Details"
+      ],
+      "mappedTo": [
+        {
+          "prop": "events.onClick.layoutName",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "action.Step.name",
+      "count": 10,
+      "samples": [
+        "Go to Layout",
+        "Delete Portal Row"
+      ],
+      "mappedTo": [
+        {
+          "prop": "events.onClick.action",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Bounds.bottom",
+      "count": 108,
+      "samples": [
+        "34",
+        "71",
+        "134",
+        "126",
+        "117"
+      ],
+      "mappedTo": [
+        {
+          "prop": "position.height",
+          "tab": "position"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Bounds.left",
+      "count": 108,
+      "samples": [
+        "212",
+        "791",
+        "671",
+        "477",
+        "283"
+      ],
+      "mappedTo": [
+        {
+          "prop": "position.x",
+          "tab": "position"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Bounds.right",
+      "count": 108,
+      "samples": [
+        "812",
+        "976",
+        "782",
+        "662",
+        "468"
+      ],
+      "mappedTo": [
+        {
+          "prop": "position.width",
+          "tab": "position"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Bounds.top",
+      "count": 108,
+      "samples": [
+        "13",
+        "52",
+        "74",
+        "82",
+        "91"
+      ],
+      "mappedTo": [
+        {
+          "prop": "position.y",
+          "tab": "position"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Condition.Options=5.Calculation.Text",
+      "count": 4,
+      "samples": [
+        "Get ( WindowMode )= 0",
+        "IsEmpty ( Assets::Image ) = 0",
+        "IsEmpty ( Vendors::Logo ) = 0",
+        "IsEmpty ( Employees::Photo ) = 0"
+      ],
+      "mappedTo": [
+        {
+          "prop": "hideObjectWhen",
+          "tab": "position"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Display.show",
+      "count": 33,
+      "samples": [
+        "1"
+      ],
+      "mappedTo": [
+        {
+          "prop": "repetitionsTo",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Display.Style",
+      "count": 33,
+      "samples": [
+        "0",
+        "6",
+        "1"
+      ],
+      "mappedTo": [
+        {
+          "prop": "controlType",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "FieldReference.name",
+      "count": 33,
+      "samples": [
+        "Name",
+        "Price",
+        "Purchase Date",
+        "Type",
+        "Image"
+      ],
+      "mappedTo": [
+        {
+          "prop": "binding.field",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "FieldReference.repetition",
+      "count": 33,
+      "samples": [
+        "1"
+      ],
+      "mappedTo": [
+        {
+          "prop": "repetitionsFrom",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "FieldReference.TableOccurrenceReference.name",
+      "count": 33,
+      "samples": [
+        "Assignments",
+        "Assets",
+        "Vendors",
+        "Employees"
+      ],
+      "mappedTo": [
+        {
+          "prop": "binding.tableOccurrence",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "LayoutObject.name",
+      "count": 108,
+      "samples": [
+        "Go to details.",
+        "Go to Assets.",
+        "Assigned",
+        "Purchase Date",
+        "Price"
+      ],
+      "mappedTo": [
+        {
+          "prop": "label",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "LayoutObject.type",
+      "count": 108,
+      "samples": [
+        "Button Bar",
+        "Text",
+        "Button",
+        "Edit Box",
+        "Drop-down Calendar"
+      ],
+      "mappedTo": [
+        {
+          "prop": "type",
+          "tab": "system"
+        }
+      ]
+    },
+    {
+      "semanticKey": "LocalCSS.displayName",
+      "count": 68,
+      "samples": [
+        "Separator | Uppercase | Highlight",
+        "Small | Primary",
+        "Minimum | Secondary",
+        "Fill | Secondary",
+        "Knockout"
+      ],
+      "mappedTo": [
+        {
+          "prop": "styleName",
+          "tab": "styles"
+        }
+      ]
+    },
+    {
+      "semanticKey": "LocalCSS.name",
+      "count": 68,
+      "samples": [
+        "Separator | Uppercase | Highlight",
+        "Small | Primary",
+        "Minimum | Secondary",
+        "Fill | Secondary",
+        "Knockout"
+      ],
+      "mappedTo": [
+        {
+          "prop": "styleName",
+          "tab": "styles"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Part.Definition.absolute",
+      "count": 16,
+      "samples": [
+        "0",
+        "44",
+        "74",
+        "134"
+      ],
+      "mappedTo": [
+        {
+          "prop": "parts[].absolute",
+          "tab": "layout"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Part.Definition.FieldReference.name",
+      "count": 7,
+      "samples": [
+        "Name",
+        "Total",
+        "Note",
+        "Description"
+      ],
+      "mappedTo": [
+        {
+          "prop": "parts[].sortByField",
+          "tab": "layout"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Part.Definition.size",
+      "count": 16,
+      "samples": [
+        "44",
+        "30",
+        "60",
+        "48",
+        "528"
+      ],
+      "mappedTo": [
+        {
+          "prop": "parts[].height",
+          "tab": "layout"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Part.type",
+      "count": 16,
+      "samples": [
+        "Top Navigation",
+        "Header",
+        "Body",
+        "Footer"
+      ],
+      "mappedTo": [
+        {
+          "prop": "parts[].type",
+          "tab": "layout"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Placeholder.findMode",
+      "count": 14,
+      "samples": [
+        "True"
+      ],
+      "mappedTo": [
+        {
+          "prop": "showPlaceholderInFindMode",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Placeholder.Text",
+      "count": 14,
+      "samples": [
+        "\"Used By\"",
+        "\"Price\"",
+        "\"Purchase Date\"",
+        "\"Type\"",
+        "\"Name\""
+      ],
+      "mappedTo": [
+        {
+          "prop": "placeholder",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Portal.FieldReference.name",
+      "count": 1,
+      "samples": [
+        "Note"
+      ],
+      "mappedTo": [
+        {
+          "prop": "portalRowFields",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Portal.Options.index",
+      "count": 1,
+      "samples": [
+        "1"
+      ],
+      "mappedTo": [
+        {
+          "prop": "portalInitialRow",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Portal.Options.show",
+      "count": 1,
+      "samples": [
+        "2"
+      ],
+      "mappedTo": [
+        {
+          "prop": "repetitionsTo",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Portal.TableOccurrenceReference.name",
+      "count": 1,
+      "samples": [
+        "Assignments"
+      ],
+      "mappedTo": [
+        {
+          "prop": "binding.tableOccurrence",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "ScriptReference.name",
+      "count": 11,
+      "samples": [
+        "Add Related Record",
+        "Go to Entry Field"
+      ],
+      "mappedTo": [
+        {
+          "prop": "events.onClick.script",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "TabOrder.Location",
+      "count": 52,
+      "samples": [
+        "7",
+        "6",
+        "5",
+        "4",
+        "3"
+      ],
+      "mappedTo": [
+        {
+          "prop": "tabOrder",
+          "tab": "position"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Tooltip.Calculation.Text",
+      "count": 40,
+      "samples": [
+        "\"Navigation\"",
+        "\"Go to details.\"",
+        "\"Used By\"",
+        "\"Price\"",
+        "\"Purchase Date\""
+      ],
+      "mappedTo": [
+        {
+          "prop": "tooltip",
+          "tab": "position"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Usage.inputMode",
+      "count": 33,
+      "samples": [
+        "0"
+      ],
+      "mappedTo": [
+        {
+          "prop": "inputMethod",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "Usage.type",
+      "count": 33,
+      "samples": [
+        "1"
+      ],
+      "mappedTo": [
+        {
+          "prop": "keyboardType",
+          "tab": "data"
+        }
+      ]
+    },
+    {
+      "semanticKey": "ValueListReference.name",
+      "count": 4,
+      "samples": [
+        "Type",
+        "Employee",
+        "Vendor"
+      ],
+      "mappedTo": [
+        {
+          "prop": "valueList",
+          "tab": "data"
+        }
+      ]
+    }
+  ],
+  "missingSemantics": [],
+  "observedLayoutObjectAttributes": [
+    {
+      "attribute": "LayoutObject.hash",
+      "count": 108,
+      "samples": [
+        "5E9E89473C32952E920E329791570F0E",
+        "313A6ABE3E47CF3E3B0830F7594BFE2A",
+        "1EB42319275D6A316B3F41C5F86DA051",
+        "2EA7A61A98E349025492A4D1EE425C13",
+        "A6509E4CFBC00BF84C63B96B80F27C36"
+      ]
+    },
+    {
+      "attribute": "LayoutObject.id",
+      "count": 108,
+      "samples": [
+        "1",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "attribute": "LayoutObject.kind",
+      "count": 108,
+      "samples": [
+        "18",
+        "2",
+        "10",
+        "1",
+        "5"
+      ]
+    },
+    {
+      "attribute": "LayoutObject.name",
+      "count": 108,
+      "samples": [
+        "Go to details.",
+        "Go to Assets.",
+        "Assigned",
+        "Purchase Date",
+        "Price"
+      ]
+    },
+    {
+      "attribute": "LayoutObject.type",
+      "count": 108,
+      "samples": [
+        "Button Bar",
+        "Text",
+        "Button",
+        "Edit Box",
+        "Drop-down Calendar"
+      ]
+    }
+  ],
+  "observedNestedAttributes": [
+    {
+      "attribute": "Bounds.bottom",
+      "count": 124,
+      "samples": [
+        "34",
+        "21",
+        "71",
+        "134",
+        "126"
+      ]
+    },
+    {
+      "attribute": "Bounds.left",
+      "count": 124,
+      "samples": [
+        "212",
+        "0",
+        "200",
+        "400",
+        "791"
+      ]
+    },
+    {
+      "attribute": "Bounds.right",
+      "count": 124,
+      "samples": [
+        "812",
+        "200",
+        "400",
+        "600",
+        "976"
+      ]
+    },
+    {
+      "attribute": "Bounds.top",
+      "count": 124,
+      "samples": [
+        "13",
+        "0",
+        "52",
+        "74",
+        "82"
+      ]
+    },
+    {
+      "attribute": "Display.show",
+      "count": 35,
+      "samples": [
+        "1"
+      ]
+    },
+    {
+      "attribute": "Display.Style",
+      "count": 35,
+      "samples": [
+        "0",
+        "6",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "attribute": "FieldReference.id",
+      "count": 35,
+      "samples": [
+        "9",
+        "5",
+        "7",
+        "8",
+        "1"
+      ]
+    },
+    {
+      "attribute": "FieldReference.name",
+      "count": 35,
+      "samples": [
+        "Name",
+        "Price",
+        "Purchase Date",
+        "Type",
+        "Image"
+      ]
+    },
+    {
+      "attribute": "FieldReference.repetition",
+      "count": 35,
+      "samples": [
+        "1"
+      ]
+    },
+    {
+      "attribute": "FieldReference.TableOccurrenceReference.id",
+      "count": 36,
+      "samples": [
+        "1065093",
+        "1065090",
+        "1065091",
+        "1065092"
+      ]
+    },
+    {
+      "attribute": "FieldReference.TableOccurrenceReference.name",
+      "count": 36,
+      "samples": [
+        "Assignments",
+        "Assets",
+        "Vendors",
+        "Employees"
+      ]
+    },
+    {
+      "attribute": "FieldReference.TableOccurrenceReference.UUID",
+      "count": 36,
+      "samples": [
+        "828274D2-7394-4D0D-A5A8-11C8295C2663",
+        "FCBB4700-F780-414D-A5A8-64F0DADAA8F6",
+        "6269E89F-253A-420F-B18D-9C3276402CF3",
+        "BE152A20-BC43-4142-8F54-2AE34B424D50"
+      ]
+    },
+    {
+      "attribute": "FieldReference.UUID",
+      "count": 35,
+      "samples": [
+        "B607E8B5-021A-41C0-816C-89D7F2498B75",
+        "98E5A067-10F6-4E10-BED3-A404690496EA",
+        "5939E2B4-1AA8-4094-81C4-5C15D0C1878C",
+        "58239B62-6BF6-422D-9087-944EADE0301B",
+        "61139936-EC2F-435A-81C4-883F2F8D40F2"
+      ]
+    },
+    {
+      "attribute": "LocalCSS.displayName",
+      "count": 111,
+      "samples": [
+        "Separator | Uppercase | Highlight",
+        "Small | Primary",
+        "Minimum | Secondary",
+        "Fill | Secondary",
+        "Knockout"
+      ]
+    },
+    {
+      "attribute": "LocalCSS.name",
+      "count": 111,
+      "samples": [
+        "separator-uppercase-highlight-buttonbar",
+        "small-primary-text",
+        "minimum-secondary-button",
+        "fill-container",
+        "knockout-shape"
+      ]
+    },
+    {
+      "attribute": "Options.index",
+      "count": 1,
+      "samples": [
+        "1"
+      ]
+    },
+    {
+      "attribute": "Options.show",
+      "count": 1,
+      "samples": [
+        "2"
+      ]
+    },
+    {
+      "attribute": "Placeholder.findMode",
+      "count": 16,
+      "samples": [
+        "True"
+      ]
+    },
+    {
+      "attribute": "ScriptReference.id",
+      "count": 11,
+      "samples": [
+        "3",
+        "2"
+      ]
+    },
+    {
+      "attribute": "ScriptReference.name",
+      "count": 11,
+      "samples": [
+        "Add Related Record",
+        "Go to Entry Field"
+      ]
+    },
+    {
+      "attribute": "ScriptReference.UUID",
+      "count": 11,
+      "samples": [
+        "12892278-9DAE-4241-8B88-59C4566C4F08",
+        "03445474-B597-4FD1-8FBD-5A99DD802DC4"
+      ]
+    },
+    {
+      "attribute": "TabOrder.Location.id",
+      "count": 55,
+      "samples": [
+        "0"
+      ]
+    },
+    {
+      "attribute": "TabOrder.membercount",
+      "count": 55,
+      "samples": [
+        "1"
+      ]
+    },
+    {
+      "attribute": "Usage.inputMode",
+      "count": 35,
+      "samples": [
+        "0"
+      ]
+    },
+    {
+      "attribute": "Usage.type",
+      "count": 35,
+      "samples": [
+        "1"
+      ]
+    },
+    {
+      "attribute": "ValueListReference.id",
+      "count": 4,
+      "samples": [
+        "3",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "attribute": "ValueListReference.name",
+      "count": 4,
+      "samples": [
+        "Type",
+        "Employee",
+        "Vendor"
+      ]
+    },
+    {
+      "attribute": "ValueListReference.UUID",
+      "count": 4,
+      "samples": [
+        "E587412C-75C4-43CE-86DD-FFC15884AA89",
+        "C92C61C2-951C-40B0-A24A-C97F6F502BEA",
+        "D4DD6267-DE1A-4575-AB24-1CD582843058"
+      ]
+    }
+  ]
+}

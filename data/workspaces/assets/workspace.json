@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "assets",
+  "name": "Assets",
+  "filemaker": {
+    "database": "Assets",
+    "ddrPath": "/Users/deffenda/Downloads/PJ/Assets_fmp12.xml",
+    "summaryPath": "/Users/deffenda/Downloads/PJ/Summary.xml",
+    "sourceFileName": "Assets.fmp12",
+    "solutionName": "PJ"
+  }
+}

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<theme>
+    <id>com.filemaker.theme.apex_blue</id>
+    <name>Vértice azul</name>
+    <group>Vértice azul</group>
+    <version>1</version>
+    <cssfile>apex_blue.css</cssfile>
+    <platform>Touch</platform>
+    <preview>images/apexbluePreview.png</preview>
+    <metadata>
+        <layoutbuilder>
+            <kBaseFontSize>16</kBaseFontSize>
+            <kReportBreakFieldIndent>20</kReportBreakFieldIndent>
+            <kBackgroundPaddingTop>0</kBackgroundPaddingTop>
+            <kBackgroundPaddingBottom>0</kBackgroundPaddingBottom>
+            <kBackgroundPaddingLeft>0</kBackgroundPaddingLeft>
+            <kBackgroundPaddingRight>0</kBackgroundPaddingRight>
+            <kFirstPartPaddingTop>20</kFirstPartPaddingTop>
+            <kLastPartPaddingBottom>11</kLastPartPaddingBottom>
+            <kPartPaddingLeft>20</kPartPaddingLeft>
+            <kPartPaddingRight>20</kPartPaddingRight>
+            <kLeadingPartPaddingTop>11</kLeadingPartPaddingTop>
+            <kLeadingPartPaddingBottom>5</kLeadingPartPaddingBottom>
+            <kBodyPartPaddingTop>11</kBodyPartPaddingTop>
+            <kBodyPartPaddingBottom>5</kBodyPartPaddingBottom>
+            <kTrailingPartPaddingTop>11</kTrailingPartPaddingTop>
+            <kTrailingPartPaddingBottom>5</kTrailingPartPaddingBottom>
+            <kVerticalFieldSpacing>4</kVerticalFieldSpacing>
+            <kTitleHeaderMinSize>22</kTitleHeaderMinSize>
+            <kHeaderMinSize>110</kHeaderMinSize>
+            <kBodyMinSize>44</kBodyMinSize>
+            <kFooterMinSize>22</kFooterMinSize>
+            <kTitleFooterMinSize>22</kTitleFooterMinSize>
+            <kTopNavPartMinSize>110</kTopNavPartMinSize>
+            <kBottomNavPartMinSize>22</kBottomNavPartMinSize>
+            <kSummaryPartMinSize>22</kSummaryPartMinSize>
+        </layoutbuilder>
+        <charting>
+            <colorScheme>Muted Rainbow</colorScheme>
+        </charting>
+        <namedstyles>
+            <background_dark>Oscuro</background_dark>
+            <background_black>Negro</background_black>
+            <background_white>Blanco</background_white>
+            <background_gray>Gris</background_gray>
+            <developer_note>Nota del desarrollador</developer_note>
+            <light_gray_part>Gris claro</light_gray_part>
+            <white_part>Blanco</white_part>
+            <colored_part>Azul</colored_part>
+            <underlined_part>Subrayado</underlined_part>
+            <alternating_part>Alterno</alternating_part>
+            <alternating_underlined_part>Subrayado alterno</alternating_underlined_part>
+            <part_dark_gray>Gris oscuro</part_dark_gray>
+            <filled_header_rect>Relleno</filled_header_rect>
+            <filled_white_rect>Blanco</filled_white_rect>
+            <tinted_black_rect>Negro tintado</tinted_black_rect>
+            <shadow_rect>Caja de sombra</shadow_rect>
+            <underlined_inverse_bar>Subrayado inverso</underlined_inverse_bar>
+            <warning_button>Advertencia</warning_button>
+            <hover_primary_button>Principal atenuado</hover_primary_button>
+            <large_filled_button>Grande con relleno</large_filled_button>
+            <tinted_black_button>Negro tintado</tinted_black_button>
+            <tinted_black_bar>Negro tintado</tinted_black_bar>
+            <tinted_black_bar_left>Negro tintado izquierdo</tinted_black_bar_left>
+            <inverse_transparent_left_bar>Transparente invertido izquierda</inverse_transparent_left_bar>
+            <tinted_black_bar_right>Negro tintado derecha</tinted_black_bar_right>
+            <filled_inverse_left_bar>Barra izquierda inversa rellena</filled_inverse_left_bar>
+            <small_bottom_aligned_text>Inferior pequeño alineado en V</small_bottom_aligned_text>
+            <small_center_aligned_text>Centro pequeño alineado en V</small_center_aligned_text>
+            <tinted_black_inverse_left_text_box>Negro tintado izquierda</tinted_black_inverse_left_text_box>
+            <inverse_transparent_borderless_button>Transparente invertido</inverse_transparent_borderless_button>
+            <inverse_transparent_borderless_bar>Transparente invertido</inverse_transparent_borderless_bar>
+            <inverse_transparent_border_right_button>Borde transparente invertido derecha</inverse_transparent_border_right_button>
+            <faded_gray_button>Gris atenuado</faded_gray_button>
+            <left_aligned_button>Alineado a la izquierda</left_aligned_button>
+            <right_aligned_button>Alineado a la derecha</right_aligned_button>
+            <right_aligned_indented_button>Alineado a la derecha con sangría</right_aligned_indented_button>
+            <left_aligned_button_bar>Alineado a la izquierda</left_aligned_button_bar>
+            <right_aligned_button_bar>Alineado a la derecha</right_aligned_button_bar>
+            <inverse_transparent_divided_bar>Dividido invertido</inverse_transparent_divided_bar>
+            <large_text>Texto grande</large_text>
+            <giant_text_bordered>Texto gigante con bordes</giant_text_bordered>
+            <transparent_bar_left>Transparente izquierda</transparent_bar_left>
+            <transparent_left_indented_bar>Transparente izquierda con sangría</transparent_left_indented_bar>
+            <bordered_top>Superior con bordes</bordered_top>
+            <row_lines_portal>Filas de líneas</row_lines_portal>
+            <filled_portal>Relleno</filled_portal>
+            <bordered_bottom>Inferior con bordes</bordered_bottom>
+            <large_filled>Grande con relleno</large_filled>
+            <large_inverted_strong_text_box>Grande invertido intenso</large_inverted_strong_text_box>
+            <large_inverted_text_box>Grande invertido</large_inverted_text_box>
+            <medium_bottom_primary>Inferior medio principal</medium_bottom_primary>
+            <medium_inverted_centered_text>Transparente invertido</medium_inverted_centered_text>
+            <primary_button>Principal</primary_button>
+            <primary_button_bar>Principal</primary_button_bar>
+            <faded_gray_button_bar>Gris atenuado</faded_gray_button_bar>
+            <part_gray_top_bottom>Gris con líneas</part_gray_top_bottom>
+            <part_gray>Gris</part_gray>
+            <medium_strong_field>Medio intenso</medium_strong_field>
+            <center_aligned_field>Alineado en el centro</center_aligned_field>
+            <right_aligned_field>Alineado a la derecha</right_aligned_field>
+            <transparent_bordered>Transparente con bordes</transparent_bordered>
+            <transparent_bordered_center_container>Transparente con bordes</transparent_bordered_center_container>
+            <pill_edit_box_field>Campo de pastilla</pill_edit_box_field>
+            <medium_valigned_bottom_editbox>Inferior medio izquierda</medium_valigned_bottom_editbox>
+            <medium_valigned_btmright_editbox>Inferior medio derecha</medium_valigned_btmright_editbox>
+            <small_valigned_top_editbox>Superior pequeño izquierda</small_valigned_top_editbox>
+            <top_line_edit_box>Solo línea superior</top_line_edit_box>
+            <top_line_popup>Solo línea superior</top_line_popup>
+            <top_line_dropdown>Solo línea superior</top_line_dropdown>
+            <top_line_container>Solo línea superior</top_line_container>
+            <single_checkbox>Casilla de verificación única</single_checkbox>
+            <single_alt_checkbox>Casilla de verificación alt. única</single_alt_checkbox>
+            <primary_line>Principal</primary_line>
+            <gray_line>Gris</gray_line>
+            <bordered_webview>Transparente con bordes</bordered_webview>
+            <colored_dot_control>Coloreado</colored_dot_control>
+            <transparent_edit_box>Transparente</transparent_edit_box>
+            <transparent_drop_down>Transparente</transparent_drop_down>
+            <transparent_pop_up>Transparente</transparent_pop_up>
+            <transparent_calendar>Transparente</transparent_calendar>
+            <transparent_container>Transparente</transparent_container>
+            <transparent_button>Transparente</transparent_button>
+            <transparent_popover>Transparente</transparent_popover>
+            <transparent_button_bar>Transparente</transparent_button_bar>
+            <transparent_tab_panel>Transparente</transparent_tab_panel>
+            <transparent_slider>Transparente</transparent_slider>
+            <transparent_web_viewer>Transparente</transparent_web_viewer>
+            <transparent_checkbox>Transparente</transparent_checkbox>
+            <transparent_radio>Transparente</transparent_radio>
+            <transparent_right_edit_box>Transparente derecha</transparent_right_edit_box>
+            <transparent_centered_edit_box>Transparente centrado</transparent_centered_edit_box>
+            <transparent_portal>Transparente</transparent_portal>
+            <transparent_footer_navigation_button_bar>Navegación con pie de página transparente</transparent_footer_navigation_button_bar>
+        </namedstyles>
+        <colorpalette>
+            <swatch1>#181818</swatch1>
+            <swatch2>#2a2a2c</swatch2>
+            <swatch3>#cccccc</swatch3>
+            <swatch4>#0091CE</swatch4>
+            <swatch5>#006690</swatch5>
+        </colorpalette>
+    </metadata>
+</theme>

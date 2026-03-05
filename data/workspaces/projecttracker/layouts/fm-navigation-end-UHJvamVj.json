@@ -1,0 +1,14 @@
+{
+  "id": "fm-navigation-end-UHJvamVj",
+  "name": "NAVIGATION_END",
+  "defaultTableOccurrence": "NAVIGATION_END",
+  "canvas": {
+    "width": 737,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [],
+  "actions": []
+}

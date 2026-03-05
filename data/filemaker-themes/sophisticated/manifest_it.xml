@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Sofisticato</name>
+    <group>Aspire</group>
+    <metadata>
+        <namedstyles>
+            <navigation_button>Pulsante navigazione</navigation_button>
+            <accent_button_1>Accento - Pulsante 1</accent_button_1>
+            <accent_button_2>Accento - Pulsante 2</accent_button_2>
+            <accent_button_3>Accento - Pulsante 3</accent_button_3>
+            <navigation_checkbox_set>Gruppo caselle di controllo navigazione</navigation_checkbox_set>
+            <navigation_radio_button_set>Gruppo pulsanti di opzione navigazione</navigation_radio_button_set>
+            <slide_control_alternate>Controllo slide - Alternato</slide_control_alternate>
+            <minimal_slide_control>Controllo slide minimo</minimal_slide_control>
+            <navigation_drop-down_calendar>Calendario a discesa navigazione</navigation_drop-down_calendar>
+            <navigation_drop-down_list>Elenco a discesa navigazione</navigation_drop-down_list>
+            <navigation_pop-up_menu>Menu a comparsa navigazione</navigation_pop-up_menu>
+            <minimal_edit_box>Casella modifica minimo</minimal_edit_box>
+            <popover_alternate_1>Popover - Alternato 1</popover_alternate_1>
+            <popover_alternate_2>Popover - Alternato 2</popover_alternate_2>
+            <minimal_container>Contenitore minimo</minimal_container>
+            <minimal_drop-down_calendar>Calendario a discesa minimo</minimal_drop-down_calendar>
+            <navigation_region>Area navigazione</navigation_region>
+            <column_header_region>Area intestazione colonna</column_header_region>
+            <title_bar_region>Area barra del titolo</title_bar_region>
+            <content_region>Area contenuto</content_region>
+            <accent_color_1>Accento - Colore 1</accent_color_1>
+            <accent_color_2>Accento - Colore 2</accent_color_2>
+            <accent_color_3>Accento - Colore 3</accent_color_3>
+            <gradient_1>Gradiente 1</gradient_1>
+            <gradient_2>Gradiente 2</gradient_2>
+            <minimal_drop-down_list>Elenco a discesa minimo</minimal_drop-down_list>
+            <minimal_pop-up_menu>Menu a comparsa minimo</minimal_pop-up_menu>
+            <column_header_text>Testo intestazione colonna</column_header_text>
+            <title_text_1>Testo titolo 1</title_text_1>
+            <title_text_2>Testo titolo 2</title_text_2>
+            <accent_text_1>Accento - Testo 1</accent_text_1>
+            <accent_text_2>Accento - Testo 2</accent_text_2>
+            <navigation_text>Testo navigazione</navigation_text>
+            <form_body>Corpo modulo</form_body>
+            <navigation_part>Sezione navigazione</navigation_part>
+            <accent_text_3>Accento - Testo 3</accent_text_3>
+            <title_header_text>• Testo Titolo nell'intestazione</title_header_text>
+            <leading_grand_summary_text>• Testo Riassunto iniziale</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Testo Riassunto parziale iniziale 1</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• Testo Riassunto parziale iniziale 2</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• Testo aggiuntivo Riassunto parziale iniziale</leading_sub_summary_additional_text>
+            <trailing_sub_summary_additional_text>• Testo aggiuntivo Riassunto parziale finale</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_2_text>• Testo Riassunto parziale finale 2</trailing_sub_summary_2_text>
+            <trailing_sub_summary_1_text>• Testo Riassunto parziale finale 1</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Testo Riassunto finale</trailing_grand_summary_text>
+            <footer_text>• Testo Piè di pagina</footer_text>
+            <title_footer_text>• Testo Titolo nel piè di pagina</title_footer_text>
+            <header_text>• Testo Intestazione</header_text>
+            <navigation_part_text>• Testo sezione Navigazione</navigation_part_text>
+            <body_button_bar>Barra pulsanti Corpo</body_button_bar>
+        </namedstyles>
+    </metadata>
+</theme>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<theme>
+    <id>com.filemaker.theme.minimalist</id>
+    <name>Minimalist</name>
+    <group>Basic</group>
+    <version>6</version>
+    <cssfile>minimalist.css</cssfile>
+    <platform>Desktop</platform>
+    <preview>images/minimalistPreview.png</preview>
+    <metadata>
+        <layoutbuilder>
+            <kBaseFontSize>12</kBaseFontSize>
+            <kReportBreakFieldIndent>16</kReportBreakFieldIndent>
+            <kBackgroundPaddingTop>0</kBackgroundPaddingTop>
+            <kBackgroundPaddingBottom>0</kBackgroundPaddingBottom>
+            <kBackgroundPaddingLeft>0</kBackgroundPaddingLeft>
+            <kBackgroundPaddingRight>0</kBackgroundPaddingRight>
+            <kFirstPartPaddingTop>16</kFirstPartPaddingTop>
+            <kLastPartPaddingBottom>9</kLastPartPaddingBottom>
+            <kPartPaddingLeft>16</kPartPaddingLeft>
+            <kPartPaddingRight>16</kPartPaddingRight>
+            <kLeadingPartPaddingTop>11</kLeadingPartPaddingTop>
+            <kLeadingPartPaddingBottom>5</kLeadingPartPaddingBottom>
+            <kBodyPartPaddingTop>11</kBodyPartPaddingTop>
+            <kBodyPartPaddingBottom>5</kBodyPartPaddingBottom>
+            <kTrailingPartPaddingTop>11</kTrailingPartPaddingTop>
+            <kTrailingPartPaddingBottom>5</kTrailingPartPaddingBottom>
+            <kVerticalFieldSpacing>4</kVerticalFieldSpacing>
+            <kTitleHeaderMinSize>19</kTitleHeaderMinSize>
+            <kHeaderMinSize>19</kHeaderMinSize>
+            <kBodyMinSize>40</kBodyMinSize>
+            <kFooterMinSize>18</kFooterMinSize>
+            <kTitleFooterMinSize>19</kTitleFooterMinSize>
+            <kTopNavPartMinSize>19</kTopNavPartMinSize>
+            <kBottomNavPartMinSize>19</kBottomNavPartMinSize>
+            <kSummaryPartMinSize>19</kSummaryPartMinSize>
+        </layoutbuilder>
+        <charting>
+            <colorScheme>Gray</colorScheme>
+        </charting>
+    </metadata>
+</theme>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>暖色</name>
+    <group>重塑经典</group>
+    <cssfile>warm_sc.css</cssfile>
+    <metadata>
+        <namedstyles>
+            <minimal_edit_box>最小编辑框</minimal_edit_box>
+            <minimal_drop-down_calendar>最小下拉日历</minimal_drop-down_calendar>
+            <minimal_drop-down_list>最小下拉列表</minimal_drop-down_list>
+            <minimal_pop-up_menu>最小弹出菜单</minimal_pop-up_menu>
+            <minimal_container>最小容器</minimal_container>
+            <title_header_text>• 标题页眉文本</title_header_text>
+            <leading_grand_summary_text>• 前置总计文本</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• 前置小计 1 文本</leading_sub_summary_1_text>
+            <leading_sub_summary_2_text>• 前置小计 2 文本</leading_sub_summary_2_text>
+            <leading_sub_summary_additional_text>• 前置小计其他文本</leading_sub_summary_additional_text>
+            <trailing_grand_summary_text>• 后置总计文本</trailing_grand_summary_text>
+            <footer_text>• 页脚文本</footer_text>
+            <title_footer_text>• 标题页脚文本</title_footer_text>
+            <header_text>• 页眉文本</header_text>
+            <navigation_part_text>• 导航部分文本</navigation_part_text>
+            <trailing_sub_summary_additional_text>• 后置小计其他文本</trailing_sub_summary_additional_text>
+            <trailing_sub_summary_1_text>• 后置小计 1 文本</trailing_sub_summary_1_text>
+            <trailing_sub_summary_2_text>• 后置小计 2 文本</trailing_sub_summary_2_text>
+        </namedstyles>
+    </metadata>
+</theme>

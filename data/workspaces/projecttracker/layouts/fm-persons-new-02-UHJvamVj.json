@@ -1,0 +1,147 @@
+{
+  "id": "fm-persons-new-02-UHJvamVj",
+  "name": "Persons|New_02",
+  "defaultTableOccurrence": "Persons|New_02",
+  "canvas": {
+    "width": 915,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-persons-new-02-UHJvamVj-6358",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 400,
+        "height": 60,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Header Text",
+        "ddrObjectPath": "6358",
+        "rotation": 0,
+        "label": "Add Person EXAMPLE",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-02-UHJvamVj-6393",
+      "position": {
+        "x": 15,
+        "y": 461,
+        "width": 876,
+        "height": 18,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "• Navigation Part Text",
+        "ddrObjectPath": "6393",
+        "rotation": 0,
+        "label": "Created by <<zz_account_create>> on <<zz_timestamp_create>> | Last Modified by <<zz_account_modify>> on <<zz_timestamp_modify>>",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-02-UHJvamVj-7218",
+      "position": {
+        "x": 32,
+        "y": 121,
+        "width": 844,
+        "height": 302,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7218",
+        "rotation": 0,
+        "label": "[Rect]",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-02-UHJvamVj-7219",
+      "position": {
+        "x": 756,
+        "y": 72,
+        "width": 120,
+        "height": 30,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Accent Button 2",
+        "ddrObjectPath": "7219",
+        "rotation": 0,
+        "label": "Save",
+        "variant": "secondary",
+        "ddrArrangeOrder": 4
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-persons-new-02-UHJvamVj-7220",
+      "position": {
+        "x": 631,
+        "y": 72,
+        "width": 120,
+        "height": 30,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "styleName": "Accent Button 1",
+        "ddrObjectPath": "7220",
+        "rotation": 0,
+        "label": "<< Back",
+        "variant": "secondary",
+        "ddrArrangeOrder": 5
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-persons-new-02-UHJvamVj-7263",
+      "position": {
+        "x": 97,
+        "y": 160,
+        "width": 490,
+        "height": 192,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7263",
+        "rotation": 0,
+        "label": "Addtional Information Here",
+        "ddrArrangeOrder": 6
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-persons-new-02-UHJvamVj-7264",
+      "position": {
+        "x": 32,
+        "y": 103,
+        "width": 94,
+        "height": 18,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "ABD Vibrant",
+        "ddrObjectPath": "7264",
+        "rotation": 0,
+        "label": "Progress: 2 of 2",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

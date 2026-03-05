@@ -1,0 +1,33 @@
+{
+  "id": "fm-cm-batch-updates-Q29tbW9u",
+  "name": "CM.BATCH_UPDATES",
+  "defaultTableOccurrence": "CM.BATCH_UPDATES",
+  "canvas": {
+    "width": 960,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-cm-batch-updates-Q29tbW9u-33",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 259,
+        "height": 135,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "33",
+        "rotation": 0,
+        "label": "{{LayoutName}}&#13;{{AccountName}}&#13;{{UserName}}&#13;{{SystemIPAddress}}&#13;{{CurrentHostTimestamp}}&#13;{{SystemNICAddress}}",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

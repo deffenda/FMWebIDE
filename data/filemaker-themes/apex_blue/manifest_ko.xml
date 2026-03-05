@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<theme>
+    <id>com.filemaker.theme.apex_blue</id>
+    <name>에이팩스 블루</name>
+    <group>에이팩스 블루</group>
+    <version>1</version>
+    <cssfile>apex_blue_ko.css</cssfile>
+    <platform>Touch</platform>
+    <preview>images/apexbluePreview.png</preview>
+    <metadata>
+        <layoutbuilder>
+            <kBaseFontSize>16</kBaseFontSize>
+            <kReportBreakFieldIndent>20</kReportBreakFieldIndent>
+            <kBackgroundPaddingTop>0</kBackgroundPaddingTop>
+            <kBackgroundPaddingBottom>0</kBackgroundPaddingBottom>
+            <kBackgroundPaddingLeft>0</kBackgroundPaddingLeft>
+            <kBackgroundPaddingRight>0</kBackgroundPaddingRight>
+            <kFirstPartPaddingTop>20</kFirstPartPaddingTop>
+            <kLastPartPaddingBottom>11</kLastPartPaddingBottom>
+            <kPartPaddingLeft>20</kPartPaddingLeft>
+            <kPartPaddingRight>20</kPartPaddingRight>
+            <kLeadingPartPaddingTop>11</kLeadingPartPaddingTop>
+            <kLeadingPartPaddingBottom>5</kLeadingPartPaddingBottom>
+            <kBodyPartPaddingTop>11</kBodyPartPaddingTop>
+            <kBodyPartPaddingBottom>5</kBodyPartPaddingBottom>
+            <kTrailingPartPaddingTop>11</kTrailingPartPaddingTop>
+            <kTrailingPartPaddingBottom>5</kTrailingPartPaddingBottom>
+            <kVerticalFieldSpacing>4</kVerticalFieldSpacing>
+            <kTitleHeaderMinSize>22</kTitleHeaderMinSize>
+            <kHeaderMinSize>110</kHeaderMinSize>
+            <kBodyMinSize>44</kBodyMinSize>
+            <kFooterMinSize>22</kFooterMinSize>
+            <kTitleFooterMinSize>22</kTitleFooterMinSize>
+            <kTopNavPartMinSize>110</kTopNavPartMinSize>
+            <kBottomNavPartMinSize>22</kBottomNavPartMinSize>
+            <kSummaryPartMinSize>22</kSummaryPartMinSize>
+        </layoutbuilder>
+        <charting>
+            <colorScheme>Muted Rainbow</colorScheme>
+        </charting>
+        <namedstyles>
+            <background_dark>어둡게</background_dark>
+            <background_black>검은색</background_black>
+            <background_white>흰색</background_white>
+            <background_gray>회색</background_gray>
+            <developer_note>개발자 메모</developer_note>
+            <light_gray_part>연한 회색</light_gray_part>
+            <white_part>흰색</white_part>
+            <colored_part>파란색</colored_part>
+            <underlined_part>밑줄 표시함</underlined_part>
+            <alternating_part>대체</alternating_part>
+            <alternating_underlined_part>대체 밑줄 표시함</alternating_underlined_part>
+            <part_dark_gray>어두운 회색</part_dark_gray>
+            <filled_header_rect>채움</filled_header_rect>
+            <filled_white_rect>흰색</filled_white_rect>
+            <tinted_black_rect>엷은 검은색</tinted_black_rect>
+            <shadow_rect>음영 상자</shadow_rect>
+            <underlined_inverse_bar>역방향 밑줄 표시함</underlined_inverse_bar>
+            <warning_button>경고</warning_button>
+            <hover_primary_button>희미한 프라이머리</hover_primary_button>
+            <large_filled_button>크게 채움</large_filled_button>
+            <tinted_black_button>엷은 검은색</tinted_black_button>
+            <tinted_black_bar>엷은 검은색</tinted_black_bar>
+            <tinted_black_bar_left>엷은 검은색 왼쪽</tinted_black_bar_left>
+            <inverse_transparent_left_bar>투명 왼쪽 반전</inverse_transparent_left_bar>
+            <tinted_black_bar_right>엷은 검은색 오른쪽</tinted_black_bar_right>
+            <filled_inverse_left_bar>채워진 역방향 왼쪽 막대</filled_inverse_left_bar>
+            <small_bottom_aligned_text>작게 V자 정렬된 하단</small_bottom_aligned_text>
+            <small_center_aligned_text>작게 V자 정렬된 중앙</small_center_aligned_text>
+            <tinted_black_inverse_left_text_box>엷은 검은색 왼쪽</tinted_black_inverse_left_text_box>
+            <inverse_transparent_borderless_button>투명 반전</inverse_transparent_borderless_button>
+            <inverse_transparent_borderless_bar>투명 반전</inverse_transparent_borderless_bar>
+            <inverse_transparent_border_right_button>투명 오른쪽 테두리 반전</inverse_transparent_border_right_button>
+            <faded_gray_button>희미한 회색</faded_gray_button>
+            <left_aligned_button>왼쪽 정렬</left_aligned_button>
+            <right_aligned_button>오른쪽 정렬</right_aligned_button>
+            <right_aligned_indented_button>오른쪽 정렬 들여쓰기</right_aligned_indented_button>
+            <left_aligned_button_bar>왼쪽 정렬</left_aligned_button_bar>
+            <right_aligned_button_bar>오른쪽 정렬</right_aligned_button_bar>
+            <inverse_transparent_divided_bar>분할 반전</inverse_transparent_divided_bar>
+            <large_text>큰 텍스트</large_text>
+            <giant_text_bordered>테두리가 있는 대형 텍스트</giant_text_bordered>
+            <transparent_bar_left>왼쪽 투명</transparent_bar_left>
+            <transparent_left_indented_bar>왼쪽 들여쓰기 투명</transparent_left_indented_bar>
+            <bordered_top>테두리가 있는 상단</bordered_top>
+            <row_lines_portal>선이 그어진 행</row_lines_portal>
+            <filled_portal>채움</filled_portal>
+            <bordered_bottom>테두리가 있는 하단</bordered_bottom>
+            <large_filled>크게 채움</large_filled>
+            <large_inverted_strong_text_box>크게 반전 강조</large_inverted_strong_text_box>
+            <large_inverted_text_box>크게 반전</large_inverted_text_box>
+            <medium_bottom_primary>중간 프라이머리 하단</medium_bottom_primary>
+            <medium_inverted_centered_text>투명 반전</medium_inverted_centered_text>
+            <primary_button>프라이머리</primary_button>
+            <primary_button_bar>프라이머리</primary_button_bar>
+            <faded_gray_button_bar>희미한 회색</faded_gray_button_bar>
+            <part_gray_top_bottom>회색 선 표시함</part_gray_top_bottom>
+            <part_gray>회색</part_gray>
+            <medium_strong_field>중간 강조</medium_strong_field>
+            <center_aligned_field>가운데 정렬</center_aligned_field>
+            <right_aligned_field>오른쪽 정렬</right_aligned_field>
+            <transparent_bordered>테두리가 있는 투명</transparent_bordered>
+            <transparent_bordered_center_container>테두리가 있는 투명</transparent_bordered_center_container>
+            <pill_edit_box_field>타원형 필드</pill_edit_box_field>
+            <medium_valigned_bottom_editbox>중간 왼쪽 하단</medium_valigned_bottom_editbox>
+            <medium_valigned_btmright_editbox>중간 오른쪽 하단</medium_valigned_btmright_editbox>
+            <small_valigned_top_editbox>작은 왼쪽 상단</small_valigned_top_editbox>
+            <top_line_edit_box>윗줄만</top_line_edit_box>
+            <top_line_popup>윗줄만</top_line_popup>
+            <top_line_dropdown>윗줄만</top_line_dropdown>
+            <top_line_container>윗줄만</top_line_container>
+            <single_checkbox>단일 체크상자</single_checkbox>
+            <single_alt_checkbox>단일 Alt 체크상자</single_alt_checkbox>
+            <primary_line>프라이머리</primary_line>
+            <gray_line>회색</gray_line>
+            <bordered_webview>테두리가 있는 투명</bordered_webview>
+            <colored_dot_control>색상 표시됨</colored_dot_control>
+            <transparent_edit_box>투명</transparent_edit_box>
+            <transparent_drop_down>투명</transparent_drop_down>
+            <transparent_pop_up>투명</transparent_pop_up>
+            <transparent_calendar>투명</transparent_calendar>
+            <transparent_container>투명</transparent_container>
+            <transparent_button>투명</transparent_button>
+            <transparent_popover>투명</transparent_popover>
+            <transparent_button_bar>투명</transparent_button_bar>
+            <transparent_tab_panel>투명</transparent_tab_panel>
+            <transparent_slider>투명</transparent_slider>
+            <transparent_web_viewer>투명</transparent_web_viewer>
+            <transparent_checkbox>투명</transparent_checkbox>
+            <transparent_radio>투명</transparent_radio>
+            <transparent_right_edit_box>오른쪽 투명</transparent_right_edit_box>
+            <transparent_centered_edit_box>가운데 맞춤 투명</transparent_centered_edit_box>
+            <transparent_portal>투명</transparent_portal>
+            <transparent_footer_navigation_button_bar>투명한 꼬리말 탐색</transparent_footer_navigation_button_bar>
+        </namedstyles>
+        <colorpalette>
+            <swatch1>#181818</swatch1>
+            <swatch2>#2a2a2c</swatch2>
+            <swatch3>#cccccc</swatch3>
+            <swatch4>#0091CE</swatch4>
+            <swatch5>#006690</swatch5>
+        </colorpalette>
+    </metadata>
+</theme>

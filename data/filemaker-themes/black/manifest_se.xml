@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Svart</name>
+    <group>Kontrast</group>
+    <metadata>
+        <namedstyles>
+            <minimal_drop-down_calendar>Minimal nedrullningsbar kalender</minimal_drop-down_calendar>
+            <minimal_drop-down_list>Minimal nedrullningsbar lista</minimal_drop-down_list>
+            <minimal_edit_box>Minimal redigeringsruta</minimal_edit_box>
+            <minimal_pop-up_menu>Minimal snabbmeny</minimal_pop-up_menu>
+            <minimal_container>Oformaterad container</minimal_container>
+            <title_header_text>• Text för titelhuvud</title_header_text>
+            <leading_grand_summary_text>• Text för inledande totalsumma</leading_grand_summary_text>
+            <leading_sub_summary_1_text>• Text för inledande delsumma 1</leading_sub_summary_1_text>
+            <leading_sub_summary_additional_text>• Ytterligare text för inledande delsumma</leading_sub_summary_additional_text>
+            <trailing_sub_summary_1_text>• Text för avslutande delsumma 1</trailing_sub_summary_1_text>
+            <trailing_grand_summary_text>• Text för avslutande totalsumma</trailing_grand_summary_text>
+            <footer_text>• Text för sidfot</footer_text>
+            <title_footer_text>• Text för titelfot</title_footer_text>
+            <header_text>• Text för sidhuvud</header_text>
+            <navigation_part_text>• Text för navigeringsdel</navigation_part_text>
+            <trailing_sub_summary_additional_text>• Ytterligare text för avslutande delsumma</trailing_sub_summary_additional_text>
+            <leading_sub_summary_2_text>• Text för inledande delsumma 2</leading_sub_summary_2_text>
+            <trailing_sub_summary_2_text>• Text för avslutande delsumma 2</trailing_sub_summary_2_text>
+        </namedstyles>
+    </metadata>
+</theme>

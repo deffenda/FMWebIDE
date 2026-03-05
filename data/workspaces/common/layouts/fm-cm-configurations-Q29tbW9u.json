@@ -1,0 +1,505 @@
+{
+  "id": "fm-cm-configurations-Q29tbW9u",
+  "name": "CM.CONFIGURATIONS",
+  "defaultTableOccurrence": "CM.CONFIGURATIONS",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-1",
+      "position": {
+        "x": 1,
+        "y": 55,
+        "width": 126,
+        "height": 17,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "label": "__kp_configuration_ID",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-2",
+      "position": {
+        "x": 138,
+        "y": 52,
+        "width": 253,
+        "height": 21,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "__kp_configuration_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "__kp_configuration_ID",
+        "tableOccurrence": "CM.CONFIGURATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-3",
+      "position": {
+        "x": 15,
+        "y": 78,
+        "width": 112,
+        "height": 17,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "3",
+        "rotation": 0,
+        "label": "_kf_organization_ID",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-4",
+      "position": {
+        "x": 138,
+        "y": 75,
+        "width": 253,
+        "height": 21,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "4",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "_kf_organization_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "_kf_organization_ID",
+        "tableOccurrence": "CM.CONFIGURATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-5",
+      "position": {
+        "x": 72,
+        "y": 101,
+        "width": 55,
+        "height": 17,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "5",
+        "rotation": 0,
+        "label": "comment",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-6",
+      "position": {
+        "x": 138,
+        "y": 98,
+        "width": 253,
+        "height": 21,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "6",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "comment",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "comment",
+        "tableOccurrence": "CM.CONFIGURATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-7",
+      "position": {
+        "x": 99,
+        "y": 124,
+        "width": 28,
+        "height": 17,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "7",
+        "rotation": 0,
+        "label": "type",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-8",
+      "position": {
+        "x": 138,
+        "y": 121,
+        "width": 253,
+        "height": 21,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "8",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "type",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "type",
+        "tableOccurrence": "CM.CONFIGURATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-9",
+      "position": {
+        "x": 93,
+        "y": 147,
+        "width": 34,
+        "height": 17,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "9",
+        "rotation": 0,
+        "label": "value",
+        "ddrArrangeOrder": 9
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-10",
+      "position": {
+        "x": 138,
+        "y": 144,
+        "width": 253,
+        "height": 21,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "10",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "value",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "value",
+        "tableOccurrence": "CM.CONFIGURATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-11",
+      "position": {
+        "x": 21,
+        "y": 170,
+        "width": 106,
+        "height": 17,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "11",
+        "rotation": 0,
+        "label": "zz_account_create",
+        "ddrArrangeOrder": 11
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-12",
+      "position": {
+        "x": 138,
+        "y": 167,
+        "width": 253,
+        "height": 21,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "12",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_account_create",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_account_create",
+        "tableOccurrence": "CM.CONFIGURATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-13",
+      "position": {
+        "x": 19,
+        "y": 193,
+        "width": 108,
+        "height": 17,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "13",
+        "rotation": 0,
+        "label": "zz_account_modify",
+        "ddrArrangeOrder": 13
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-14",
+      "position": {
+        "x": 138,
+        "y": 190,
+        "width": 253,
+        "height": 21,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "14",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_account_modify",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_account_modify",
+        "tableOccurrence": "CM.CONFIGURATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-15",
+      "position": {
+        "x": 41,
+        "y": 216,
+        "width": 86,
+        "height": 17,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "15",
+        "rotation": 0,
+        "label": "zz_change_log",
+        "ddrArrangeOrder": 15
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-16",
+      "position": {
+        "x": 138,
+        "y": 213,
+        "width": 253,
+        "height": 21,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "16",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_change_log",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 16
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_change_log",
+        "tableOccurrence": "CM.CONFIGURATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-17",
+      "position": {
+        "x": 7,
+        "y": 239,
+        "width": 120,
+        "height": 17,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "17",
+        "rotation": 0,
+        "label": "zz_timestamp_create",
+        "ddrArrangeOrder": 17
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-18",
+      "position": {
+        "x": 138,
+        "y": 236,
+        "width": 241,
+        "height": 21,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "18",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_timestamp_create",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 18
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_timestamp_create",
+        "tableOccurrence": "CM.CONFIGURATIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-19",
+      "position": {
+        "x": 5,
+        "y": 262,
+        "width": 122,
+        "height": 17,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "19",
+        "rotation": 0,
+        "label": "zz_timestamp_modify",
+        "ddrArrangeOrder": 19
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-cm-configurations-Q29tbW9u-20",
+      "position": {
+        "x": 138,
+        "y": 259,
+        "width": 241,
+        "height": 21,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "20",
+        "rotation": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_timestamp_modify",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_timestamp_modify",
+        "tableOccurrence": "CM.CONFIGURATIONS"
+      }
+    }
+  ],
+  "actions": []
+}

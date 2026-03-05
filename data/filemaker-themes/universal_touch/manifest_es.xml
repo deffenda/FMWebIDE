@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Universal Táctil</name>
+    <group>Universal</group>
+    <metadata>
+        <namedstyles>
+            <array-highlight-buttonbar>Matriz | Resaltado</array-highlight-buttonbar>
+            <array-inverted-buttonbar>Matriz | Sobreimpresión</array-inverted-buttonbar>
+            <bold-inverted-text>Énfasis | Sobreimpresión</bold-inverted-text>
+            <border-edit>Borde | Secundario</border-edit>
+            <border-highlight-button>Borde | Resaltado</border-highlight-button>
+            <border-inverted-buttonbar>Borde | Secundario</border-inverted-buttonbar>
+            <border-inverted-calendar>Borde | Sobreimpresión</border-inverted-calendar>
+            <border-inverted-checkbox>Borde | Invertido</border-inverted-checkbox>
+            <border-inverted-container>Borde | Invertido</border-inverted-container>
+            <border-inverted-dropdown>Borde | Sobreimpresión</border-inverted-dropdown>
+            <border-inverted-edit>Borde | Invertido</border-inverted-edit>
+            <border-inverted-popup>Borde | Sobreimpresión</border-inverted-popup>
+            <border-inverted-portal>Borde | Invertido</border-inverted-portal>
+            <border-inverted-radio>Borde | Sobreimpresión</border-inverted-radio>
+            <border-inverted-slide>Borde | Invertido</border-inverted-slide>
+            <border-inverted-tab>Borde | Invertido</border-inverted-tab>
+            <border-popover>Borde | Sobreimpresión</border-popover>
+            <border-secondary-button-bar>Borde | Invertido</border-secondary-button-bar>
+            <border-secondary-calendar>Borde | Secundario</border-secondary-calendar>
+            <border-secondary-dropdown>Borde | Secundario</border-secondary-dropdown>
+            <border-secondary-popup>Borde | Secundario</border-secondary-popup>
+            <emphasis-primary-text>Énfasis | Principal</emphasis-primary-text>
+            <fill-checkbox>Relleno | Secundario</fill-checkbox>
+            <fill-container>Relleno | Secundario</fill-container>
+            <fill-edit>Relleno | Secundario</fill-edit>
+            <fill-highlight-button>Relleno | Resaltado</fill-highlight-button>
+            <fill-inverted-button>Relleno | Invertido</fill-inverted-button>
+            <fill-inverted-calendar>Relleno | Invertido</fill-inverted-calendar>
+            <fill-inverted-checkbox>Relleno | Invertido</fill-inverted-checkbox>
+            <fill-inverted-container>Relleno | Invertido</fill-inverted-container>
+            <fill-inverted-dropdown>Relleno | Invertido</fill-inverted-dropdown>
+            <fill-inverted-edit>Relleno | Invertido</fill-inverted-edit>
+            <fill-inverted-popover>Relleno | Invertido</fill-inverted-popover>
+            <fill-inverted-popup>Relleno | Invertido</fill-inverted-popup>
+            <fill-inverted-radio>Relleno | Invertido</fill-inverted-radio>
+            <fill-knockout-container>Relleno | Sobreimpresión</fill-knockout-container>
+            <fill-low-shadow-inverted-calendar>Relleno | Sombra baja | Invertido</fill-low-shadow-inverted-calendar>
+            <fill-low-shadow-inverted-container>Relleno | Sombra baja | Invertido</fill-low-shadow-inverted-container>
+            <fill-low-shadow-inverted-dropdown>Relleno | Sombra baja | Invertido</fill-low-shadow-inverted-dropdown>
+            <fill-low-shadow-inverted-edit>Relleno | Sombra baja | Invertido</fill-low-shadow-inverted-edit>
+            <fill-low-shadow-inverted-popup>Relleno | Sombra baja | Invertido</fill-low-shadow-inverted-popup>
+            <fill-secondary-calendar>Relleno | Secundario</fill-secondary-calendar>
+            <fill-secondary-dropdown>Relleno | Secundario</fill-secondary-dropdown>
+            <fill-secondary-popup>Relleno | Secundario</fill-secondary-popup>
+            <fill-secondary-radio>Relleno | Secundario</fill-secondary-radio>
+            <high-shadow-inverted-shape>Sombra alta | Invertido</high-shadow-inverted-shape>
+            <high-shadow-inverted-slide>Sombra alta | Invertido</high-shadow-inverted-slide>
+            <high-shadow-knockout-shape>Sombra alta | Sobreimpresión</high-shadow-knockout-shape>
+            <high-shadow-knockout-slide>Sombra alta | Sobreimpresión</high-shadow-knockout-slide>
+            <highlight-shape>Resaltado</highlight-shape>
+            <highlight-text>Resaltado</highlight-text>
+            <inverted-background>Invertido</inverted-background>
+            <inverted-button>Sobreimpresión</inverted-button>
+            <inverted-chart>Invertido</inverted-chart>
+            <inverted-line>Sobreimpresión</inverted-line>
+            <inverted-navigation>Navegación | Invertido</inverted-navigation>
+            <inverted-part>Invertido</inverted-part>
+            <inverted-shape>Invertido</inverted-shape>
+            <inverted-subsummary>Subsumario | Invertido</inverted-subsummary>
+            <inverted-text>Sobreimpresión</inverted-text>
+            <inverted-web>Invertido</inverted-web>
+            <knockout-shape>Sobreimpresión</knockout-shape>
+            <large-inverted-text>Grande | Sobreimpresión</large-inverted-text>
+            <large-primary-text>Grande | Principal</large-primary-text>
+            <light-secondary-part>Secundario</light-secondary-part>
+            <light-secondary-subsummary>Subsumario | Secundario</light-secondary-subsummary>
+            <line-inverted-portal>Línea | Invertido</line-inverted-portal>
+            <line-secondary-portal>Línea | Secundario</line-secondary-portal>
+            <link-button>Enlace</link-button>
+            <low-shadow-inverted-shape>Sombra baja | Invertido</low-shadow-inverted-shape>
+            <low-shadow-inverted-slide>Sombra baja | Invertido</low-shadow-inverted-slide>
+            <low-shadow-knockout-shape>Sombra baja | Sobreimpresión</low-shadow-knockout-shape>
+            <low-shadow-knockout-slide>Sombra baja | Sobreimpresión</low-shadow-knockout-slide>
+            <minimum-button>Mínimo | Invertido</minimum-button>
+            <minimum-highlight-button>Mínimo | Resaltado</minimum-highlight-button>
+            <minimum-inverted-button>Mínimo | Sobreimpresión</minimum-inverted-button>
+            <minimum-secondary-button>Mínimo | Secundario</minimum-secondary-button>
+            <minimum-secondary-highlight-button>Mínimo | Resaltado secundario</minimum-secondary-highlight-button>
+            <pill-highlight-button>Píldora | Resaltado</pill-highlight-button>
+            <pill-secondary-button>Píldora | Secundario</pill-secondary-button>
+            <primary-line>Invertido</primary-line>
+            <round-green-button>Redondo | Verde</round-green-button>
+            <round-highlight-button>Redondo | Resaltado</round-highlight-button>
+            <round-inverted-button>Redondo | Invertido</round-inverted-button>
+            <round-orange-button>Redondo | Naranja</round-orange-button>
+            <round-red-button>Redondo | Rojo</round-red-button>
+            <round-yellow-button>Redondo | Amarillo</round-yellow-button>
+            <rounded-border-highlight-button>Borde redondeado | Resaltado</rounded-border-highlight-button>
+            <rounded-fill-highlight-button>Relleno redondeado | Resaltado</rounded-fill-highlight-button>
+            <rounded-fill-inverted-button>Relleno redondeado | Invertido</rounded-fill-inverted-button>
+            <secondary-background>Secundario</secondary-background>
+            <secondary-highlight-button>Resaltado secundario</secondary-highlight-button>
+            <secondary-text>Secundario</secondary-text>
+            <separator-highlight-buttonbar>Separador | Resaltado</separator-highlight-buttonbar>
+            <separator-inverted-buttonbar>Separador | Sobreimpresión</separator-inverted-buttonbar>
+            <separator-uppercase-highlight-buttonbar>Separador | Mayúsculas | Resaltado</separator-uppercase-highlight-buttonbar>
+            <separator-uppercase-inverted-buttonbar>Separador | Mayúsculas | Sobreimpresión</separator-uppercase-inverted-buttonbar>
+            <small-inverted-text>Pequeño | Sobreimpresión</small-inverted-text>
+            <small-primary-text>Pequeño | Principal</small-primary-text>
+            <small-secondary-text>Pequeño | Secundario</small-secondary-text>
+            <tab-bar-buttonbar>Barra de pestañas</tab-bar-buttonbar>
+            <underline-container>Subrayado | Secundario</underline-container>
+            <underline-highlight-buttonbar>Subrayado | Resaltado</underline-highlight-buttonbar>
+            <underline-inverted-buttonbar>Subrayado | Sobreimpresión</underline-inverted-buttonbar>
+            <underline-inverted-calendar>Subrayado | Sobreimpresión</underline-inverted-calendar>
+            <underline-inverted-container>Subrayado | Invertido</underline-inverted-container>
+            <underline-inverted-dropdown>Subrayado | Sobreimpresión</underline-inverted-dropdown>
+            <underline-inverted-edit>Subrayado | Invertido</underline-inverted-edit>
+            <underline-inverted-popup>Subrayado | Sobreimpresión</underline-inverted-popup>
+            <underline-uppercase-highlight-buttonbar>Subrayado | Mayúsculas | Resaltado</underline-uppercase-highlight-buttonbar>
+            <underline-uppercase-inverted-buttonbar>Subrayado | Mayúsculas | Sobreimpresión</underline-uppercase-inverted-buttonbar>
+            <uppercase-secondary-text>Mayúsculas | Secundario</uppercase-secondary-text>
+        </namedstyles>
+    </metadata>
+</theme>

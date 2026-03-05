@@ -1,0 +1,14 @@
+{
+  "id": "fm-pt-items-UHJvamVj",
+  "name": "PT.ITEMS",
+  "defaultTableOccurrence": "PT.ITEMS",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [],
+  "actions": []
+}
